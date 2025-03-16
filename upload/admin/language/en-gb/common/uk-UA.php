@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Панель керування';
 
 // Text
-$_['text_order']             = 'Замовлення';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Завершено';
-$_['text_customer']          = 'Клієнти';
-$_['text_online']            = 'Клієнти онлайн';
-$_['text_approval']          = 'Очікує підтвердження';
-$_['text_product']           = 'Товари';
-$_['text_stock']             = 'Немає в наявності';
-$_['text_review']            = 'Відгуки';
-$_['text_return']            = 'Повернення';
-$_['text_affiliate']         = 'Партнери';
-$_['text_store']             = 'Магазини';
-$_['text_front']             = 'Вигляд магазину';
-$_['text_help']              = 'Довідка';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Форум підтримки';
-$_['text_documentation']     = 'Документація';
-$_['text_logout']            = 'Вихід';
+$_['text_heading']   = 'Панель керування';
+$_['text_login']     = 'Будь ласка, введіть свої логін та пароль.';
+$_['text_forgotten'] = 'Нагадати пароль';
+
+// Entry
+$_['entry_username'] = 'Користувач';
+$_['entry_password'] = 'Пароль';
+
+// Button
+$_['button_login']   = 'Вхід';
+
+// Error
+$_['error_login']    = 'Ім\'я користувача та пароль не збігаються.';
+$_['error_token']    = 'Термін сесії закінчився. Залогіньтесь будь-ласка знову.';
