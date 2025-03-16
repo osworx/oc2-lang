@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Recensioni';
+$_['heading_title']          = 'Attributi';
 
 // Text
-$_['text_success']      = 'Hai modificato le recensioni con successo!';
-$_['text_list']         = 'Elenco recensioni';
-$_['text_add']          = 'Aggiungi una recensione';
-$_['text_edit']         = 'Modifica la recensione';
+$_['text_success']           = 'Hai modificato gli attributi con successo!';
+$_['text_list']              = 'Elenco attributi';
+$_['text_add']               = 'Aggiungi attributo';
+$_['text_edit']              = 'Modifica attributo';
 
 // Column
-$_['column_product']    = 'Prodotto';
-$_['column_author']     = 'Autore';
-$_['column_rating']     = 'Voto';
-$_['column_status']     = 'Stato';
-$_['column_date_added'] = 'Data inserimento';
-$_['column_action']     = 'Azione';
+$_['column_name']            = 'Nome attributo';
+$_['column_attribute_group'] = 'Gruppo attributi';
+$_['column_sort_order']      = 'Ordinamento';
+$_['column_action']          = 'Azione';
 
 // Entry
-$_['entry_product']     = 'Prodotto';
-$_['entry_author']      = 'Autore';
-$_['entry_rating']      = 'Voto';
-$_['entry_status']      = 'Stato';
-$_['entry_text']        = 'Testo';
-$_['entry_date_added']  = 'Data inserimento';
-
-// Help
-$_['help_product']      = '(Completamento automatico)';
+$_['entry_name']             = 'Nome attributo';
+$_['entry_attribute_group']  = 'Gruppo attributi';
+$_['entry_sort_order']       = 'Ordinamento';
 
 // Error
-$_['error_warning']     = 'Attenzione: Si prega di controllare attentamente gli errori del modulo!';
-$_['error_permission']  = 'Attenzione: Non hai il permesso peri modificare le recensioni!';
-$_['error_product']     = 'Prodotto richiesto!';
-$_['error_author']      = 'L\'Autore deve essere compreso tra 3 e 64 caratteri!';
-$_['error_text']        = 'Il Testo della recensione deve avere almeno 1 carattere!';
-$_['error_rating']      = 'Punteggio della recensione richiesto!';
+$_['error_warning']          = 'Attenzione: Si prega di controllare attentamente gli errori del modulo!';
+$_['error_permission']       = 'Attenzione: Non hai il permesso per modificare gli attributi!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Il nome dell\'attributo deve avere tra 3 e 64 caratteri!';
+$_['error_product']          = 'Attenzione: questo attributo non può essere cancellato poiché è assegnato a %s prodotti!';
