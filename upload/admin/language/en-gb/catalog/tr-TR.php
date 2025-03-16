@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Yorumlar';
+$_['heading_title']          = 'Özellikler';
 
 // Text
-$_['text_success']      = 'Başarılı:Yorumları düzenlediniz!';
-$_['text_list']         = 'Yorum Listesi';
-$_['text_add']          = 'Yorum Ekle';
-$_['text_edit']         = 'Yorumu düzenle';
+$_['text_success']           = 'Başarılı: Öznitelikleri düzenlediniz!';
+$_['text_list']              = 'Öznitelik Listesi';
+$_['text_add']               = 'Öznitelik Ekle';
+$_['text_edit']              = 'Öznitelik Düzenle';
 
 // Column
-$_['column_product']    = 'Ürün';
-$_['column_author']     = 'Yazar';
-$_['column_rating']     = 'Derecelendirme';
-$_['column_status']     = 'Durum';
-$_['column_date_added'] = 'Eklenme Tarihi';
-$_['column_action']     = 'Eylem';
+$_['column_name']            = 'Öznitelik Adı';
+$_['column_attribute_group'] = 'Öznitelik Grubu';
+$_['column_sort_order']      = 'Sıralama Düzeni';
+$_['column_action']          = 'Eylem';
 
 // Entry
-$_['entry_product']     = 'Ürün';
-$_['entry_author']      = 'Yazar';
-$_['entry_rating']      = 'Derecelendirme';
-$_['entry_status']      = 'Durum';
-$_['entry_text']        = 'Yazı';
-$_['entry_date_added']  = 'Eklenme Tarihi';
-
-// Help
-$_['help_product']      = '(Otomatik Tamamla)';
+$_['entry_name']             = 'Öznitelik Adı';
+$_['entry_attribute_group']  = 'Öznitelik Grubu';
+$_['entry_sort_order']       = 'Sıralama Düzeni';
 
 // Error
-$_['error_warning']     = 'Uyarı: Lütfen formu gösterilen hatalar nedeniyle dikkatlice kontrol edin!';
-$_['error_permission']  = 'Uyarı: Yorumları değiştirme yetkiniz yok!';
-$_['error_product']     = 'Zorunlu Ürün!';
-$_['error_author']      = 'Yazar Adı 3 ile 64 karakter arasında olmalıdır!';
-$_['error_text']        = 'Yorum Metni en az 1 karakter olmalıdır!';
-$_['error_rating']      = 'Yorum derecelendirme zorunludur!';
+$_['error_warning']          = 'Uyarı: Lütfen formu gösterilen hatalar nedeniyle dikkatlice kontrol edin!';
+$_['error_permission']       = 'Uyarı: Öznitelikleri değiştirme izniniz yok!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Öznitelik adı 3 ile 64 karakter arasında olmalıdır!';
+$_['error_product']          = 'Uyarı: Bu öznitelik halen %s ürününe atandığından silinemez!';
