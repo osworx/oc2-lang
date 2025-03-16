@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Διαχείριση';
 
 // Text
-$_['text_order']             = 'Παραγγελίες';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Ολοκληρώθηκε';
-$_['text_customer']          = 'Πελάτες';
-$_['text_online']            = 'Πελάτες online';
-$_['text_approval']          = 'Αναμένουν έγκριση';
-$_['text_product']           = 'Προϊόντα';
-$_['text_stock']             = 'Χωρίς απόθεμα';
-$_['text_review']            = 'Κριτικές';
-$_['text_return']            = 'Επιστροφές';
-$_['text_affiliate']         = 'Συνεργάτες';
-$_['text_store']             = 'Καταστήματα';
-$_['text_front']             = 'Βιτρίνα';
-$_['text_help']              = 'Βοήθεια';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Φόρουμ υποστήριξης';
-$_['text_documentation']     = 'Τεκμηρίωση';
-$_['text_logout']            = 'Έξοδος';
+$_['text_heading']   = 'Διαχείριση';
+$_['text_login']     = 'Παρακαλούμε εισάγετε τα στοιχεία σύνδεσής σας.';
+$_['text_forgotten'] = 'Ξεχασμένος κωδικός πρόσβασης';
+
+// Entry
+$_['entry_username'] = 'Όνομα χρήστη';
+$_['entry_password'] = 'Κωδικός';
+
+// Button
+$_['button_login']   = 'Σύνδεση';
+
+// Error
+$_['error_login']    = 'Καμία αντιστοιχία για το όνομα χρήστη ή/και τον κωδικό πρόσβασης.';
+$_['error_token']    = 'Μη έγκυρο session token. Παρακαλούμε συνδεθείτε πάλι.';
