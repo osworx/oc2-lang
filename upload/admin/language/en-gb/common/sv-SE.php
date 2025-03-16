@@ -1,19 +1,34 @@
 <?php
-// header
-$_['heading_title']   = 'Glömt ditt lösenord?';
+// Heading
+$_['heading_title']          = '$_[\'text_checkout\'] = \'Till kassan\';?>
+
+<? php
+// Text
+$_[\'text_hem\'] = \'Hem\';
+$_[\'text_önskelistan\'] = \'önskelistan (%s)\';
+$_[\'text_Kundvagn\'] = \'Shopping Cart\';
+$_[\'text_Sök\'] = \'Search\';
+$_[\'text_Välkommen\'] = \'Välkommen besökare du kan <a href="%s">login</a> or <a href="%s">Registrera Konto</a>.\';
+$_[\'text_loggas\'] = \'Du är inloggad som <a href="%s">%s</a> <b>(</b> <a href="%s">Logout</a> <b>)</b>\';
+$_[\'text_konto\'] = \'Mitt konto\';
+$_[\'text_checka ut\'] = \'checka ut\';?>';
 
 // Text
-$_['text_forgotten']  = 'Glömt lösenordet';
-$_['text_your_email'] = 'Din e-postadress';
-$_['text_email']      = 'Ange e-postadressen för ditt konto. Klicka därefter på "Fortsätt" så skickas en återställningslänk för ditt lösenord till din adress.';
-$_['text_success']    = 'Ett e-postmeddelande med en återställningslänk har skickats till din e-postadress.';
-
-// Entry
-$_['entry_email']     = 'E-postadress';
-$_['entry_password']  = 'Nytt lösenord';
-$_['entry_confirm']   = 'Bekräfta lösenordet';
-
-// Error
-$_['error_email']     = 'Fel: E-postadressen kunde inte hittas i registret, försök igen!';
-$_['error_password']  = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']   = 'Lösenordet och bekräftelsen överensstämmer inte!';
+$_['text_order']             = 'Order';
+$_['text_processing_status'] = 'Bearbetar';
+$_['text_complete_status']   = 'Slutförd';
+$_['text_customer']          = 'Kunder';
+$_['text_online']            = 'Kunder on-line';
+$_['text_approval']          = 'Väntar på godkännande';
+$_['text_product']           = 'Produkter';
+$_['text_stock']             = 'Ej i lager';
+$_['text_review']            = 'Omdömen';
+$_['text_return']            = 'Returer';
+$_['text_affiliate']         = 'Dotterbolag';
+$_['text_store']             = 'Butiker';
+$_['text_front']             = 'Butikens framsida';
+$_['text_help']              = 'Hjälp';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Supportforum';
+$_['text_documentation']     = 'Dokumentation';
+$_['text_logout']            = 'Logga ut';
