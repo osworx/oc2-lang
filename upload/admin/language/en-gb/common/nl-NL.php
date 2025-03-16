@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administratie';
+$_['heading_title']  = 'Uw wachtwoord opnieuw instellen';
 
 // Text
-$_['text_heading']   = 'Administratie';
-$_['text_login']     = 'Voer uw inloggegevens in.';
-$_['text_forgotten'] = 'Vergeten wachtwoord';
+$_['text_password']  = 'Vul het nieuwe wachtwoord in dat u wenst te gebruiken.';
+$_['text_success']   = 'Gefeliciteerd: Uw wachtwoord is met succes geupdate .';
 
 // Entry
-$_['entry_username'] = 'Gebruikersnaam';
 $_['entry_password'] = 'Wachtwoord';
-
-// Button
-$_['button_login']   = 'Inloggen';
+$_['entry_confirm']  = 'Bevestigen';
 
 // Error
-$_['error_login']    = 'Geen gegevens gevonden voor gebruikers en/of Wachtwoord.';
-$_['error_token']    = 'Ongeldige sessie-token.Log opnieuw in.';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'Wachtwoorden komen niet overeen.';
