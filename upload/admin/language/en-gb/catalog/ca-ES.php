@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'Recurring Profiles';
+$_['heading_title']     = 'Opinions';
 
 // Text
-$_['text_success']          = 'Success: You have modified recurring profiles!';
-$_['text_list']             = 'Recurring Profile List';
-$_['text_add']              = 'Add Recurring Profile';
-$_['text_edit']             = 'Edit Recurring Profile';
-$_['text_day']				= 'Day';
-$_['text_week']				= 'Week';
-$_['text_semi_month']		= 'Semi Month';
-$_['text_month']			= 'Month';
-$_['text_year']				= 'Year';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Recurring amounts are calculated by the frequency and cycles.</p><p>For example if you use a frequency of "week" and a cycle of "2", then the user will be billed every 2 weeks.</p><p>The duration is the number of times the user will make a payment, set this to 0 if you want payments until they are cancelled.</p>';
-$_['text_profile']			= 'Recurring Profile';
-$_['text_trial']			= 'Trial Profile';
-
-// Entry
-$_['entry_name']		    = 'Name';
-$_['entry_price']			= 'Price';
-$_['entry_duration']		= 'Duration';
-$_['entry_cycle']			= 'Cycle';
-$_['entry_frequency']		= 'Frequency';
-$_['entry_trial_price']		= 'Trial price';
-$_['entry_trial_duration']	= 'Trial duration';
-$_['entry_trial_status']	= 'Trial status';
-$_['entry_trial_cycle']	    = 'Trial cycle';
-$_['entry_trial_frequency'] = 'Trial frequency';
-$_['entry_status']			= 'Estat';
-$_['entry_sort_order']		= 'Ordre de classificació';
+$_['text_success']      = 'Èxit: Heu modificat les opinions!';
+$_['text_list']         = 'Review List';
+$_['text_add']          = 'Add Review';
+$_['text_edit']         = 'Edit Review';
 
 // Column
-$_['column_name']			= 'Name';
-$_['column_sort_order']	    = 'Ordre de classificació';
-$_['column_action']         = 'Acció';
+$_['column_product']    = 'Producte';
+$_['column_author']     = 'Autor';
+$_['column_rating']     = 'Valoració';
+$_['column_status']     = 'Estat';
+$_['column_date_added'] = 'Date Added';
+$_['column_action']     = 'Acció';
+
+// Entry
+$_['entry_product']     = 'Producte';
+$_['entry_author']      = 'Autor';
+$_['entry_rating']      = 'Valoració';
+$_['entry_status']      = 'Estat';
+$_['entry_text']        = 'Text';
+$_['entry_date_added']  = 'Date Added';
+
+// Help
+$_['help_product']      = '(Emplenar automàticament)';
 
 // Error
-$_['error_warning']         = 'Advertència: Si us plau reviseu acuradament el formulari pels errors!';
-$_['error_permission']		= 'Warning: You do not have permission to modify recurring profiles!';
-$_['error_name']			= 'Profile Name must be greater than 3 and less than 255 characters!';
-$_['error_product']			= 'Warning: This recurring profile cannot be deleted as it is currently assigned to %s products!';
+$_['error_warning']     = 'Advertència: Si us plau reviseu acuradament el formulari pels errors!';
+$_['error_permission']  = 'Advertència: No teniu permís per a modificar opinions!';
+$_['error_product']     = 'És requereix especificar Producte!';
+$_['error_author']      = 'Author ha de tenir entre 3 i 64 caràcters!';
+$_['error_text']        = 'L\'Opinió ha de tenir almenys 1 caràcter!';
+$_['error_rating']      = 'És requereix valoració de l\'opinió!';
