@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administration';
 
 // Text
-$_['text_order']             = 'Ordrer';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Gennemført';
-$_['text_customer']          = 'Kunder';
-$_['text_online']            = 'Kunder online';
-$_['text_approval']          = 'Afventer godkendelse';
-$_['text_product']           = 'Produkter';
-$_['text_stock']             = 'Udgåede produkter';
-$_['text_review']            = 'Anmeldelser';
-$_['text_return']            = 'Returvarer';
-$_['text_affiliate']         = 'Partnere';
-$_['text_store']             = 'Butikker';
-$_['text_front']             = 'Butiksforside';
-$_['text_help']              = 'Hjælp';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Supportforum';
-$_['text_documentation']     = 'Dokumentation';
-$_['text_logout']            = 'Log ud';
+$_['text_heading']   = 'Administration';
+$_['text_login']     = 'Indtast dine login-oplysninger.';
+$_['text_forgotten'] = 'Glemt adgangskode';
+
+// Entry
+$_['entry_username'] = 'Brugernavn';
+$_['entry_password'] = 'Adgangskode';
+
+// Button
+$_['button_login']   = 'Log ind';
+
+// Error
+$_['error_login']    = 'Brugernavn og/eller adgangskode findes ikke.';
+$_['error_token']    = 'Ugyldig token session. Log ind igen.';
