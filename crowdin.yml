@@ -1,3 +1,4 @@
+preserve_hierarchy: true,
 files:
   - source: upload/admin/?
     translation: /%original_path%/%locale%.php
