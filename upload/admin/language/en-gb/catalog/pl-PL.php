@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Opinie';
+$_['heading_title']          = 'Atrybuty';
 
 // Text
-$_['text_success']      = 'Sukces: Zmodyfikowałeś opinie!';
-$_['text_list']         = 'Lista opinii';
-$_['text_add']          = 'Dodaj opinię';
-$_['text_edit']         = 'Edytuj opinię';
+$_['text_success']           = 'Sukces: Zmodyfikowano atrybuty!';
+$_['text_list']              = 'Lista atrybutów';
+$_['text_add']               = 'Dodaj atrybut';
+$_['text_edit']              = 'Edytuj atrybut';
 
 // Column
-$_['column_product']    = 'Produkt';
-$_['column_author']     = 'Autor';
-$_['column_rating']     = 'Ocena';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Data Dodania';
-$_['column_action']     = 'Akcja';
+$_['column_name']            = 'Nazwa atrybutu';
+$_['column_attribute_group'] = 'Grupa atrybutów';
+$_['column_sort_order']      = 'Kolejność sortowania';
+$_['column_action']          = 'Akcja';
 
 // Entry
-$_['entry_product']     = 'Produkt';
-$_['entry_author']      = 'Autor';
-$_['entry_rating']      = 'Ocena';
-$_['entry_status']      = 'Status';
-$_['entry_text']        = 'Tekst';
-$_['entry_date_added']  = 'Data Dodania';
-
-// Help
-$_['help_product']      = '(Autouzupełnianie)';
+$_['entry_name']             = 'Nazwa atrybutu';
+$_['entry_attribute_group']  = 'Grupa atrybutów';
+$_['entry_sort_order']       = 'Kolejność sortowania';
 
 // Error
-$_['error_warning']     = 'Uwaga: Sprawdź dokładnie formularz pod kątem błędów!';
-$_['error_permission']  = 'Uwaga: Nie masz uprawnień do modyfikowania opinii!';
-$_['error_product']     = 'Uwaga: Produkt jest wymagany!';
-$_['error_author']      = 'Uwaga: Autor musi zawierać od 3 do 64 znaków!';
-$_['error_text']        = 'Uwaga: Tekst opinii musi zawierać przynajmniej 1 znak!';
-$_['error_rating']      = 'Uwaga: Ocena jest wymagana!';
+$_['error_warning']          = 'Uwaga: Sprawdź dokładnie formularz pod kątem błędów!';
+$_['error_permission']       = 'Ostrzeżenie: Nie masz uprawnień do modyfikowania atrybutów!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Nazwa atrybutu musi zawierać od 3 do 64 znaków!';
+$_['error_product']          = 'Ostrzeżenie: Ten atrybut nie może być usunięty, ponieważ jest aktualnie przypisany do %s produktów!';
