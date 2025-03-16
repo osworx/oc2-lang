@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = '忘記密碼？';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = '忘記密碼';
-$_['text_your_email'] = '您的電子郵件地址';
-$_['text_email']      = '請輸入與您帳號連結的電子郵件地址。';
-$_['text_success']    = '系統已經將確認信發送到您的電子信箱';
-
-// Entry
-$_['entry_email']     = '電子郵件地址';
-$_['entry_password']  = '新密碼';
-$_['entry_confirm']   = '確認';
-
-// Error
-$_['error_email']     = '警告： 在我們的記錄中找不到您的電子郵件地址，請再試一次！';
-$_['error_password']  = '密碼必須介於 4 到 20 個字元之間！';
-$_['error_confirm']   = '密碼與確認密碼結果不符！';
+$_['text_order']             = '訂單';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = '已完成';
+$_['text_customer']          = '顧客';
+$_['text_online']            = '線上客戶';
+$_['text_approval']          = '等待核准';
+$_['text_product']           = '商品';
+$_['text_stock']             = '缺貨';
+$_['text_review']            = '評論';
+$_['text_return']            = '退換貨';
+$_['text_affiliate']         = '聯盟會員';
+$_['text_store']             = '商店';
+$_['text_front']             = '商店前台';
+$_['text_help']              = '說明';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = '支援論壇';
+$_['text_documentation']     = '文件集';
+$_['text_logout']            = '登出';
