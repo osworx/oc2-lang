@@ -1,45 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Informação';
+$_['heading_title']     = 'Fabricantes';
 
 // Text
-$_['text_success']           = 'Concluído: Modificou as Informações com sucesso!';
-$_['text_list']              = 'Lista de Informação';
-$_['text_add']               = 'Adicionar Informação';
-$_['text_edit']              = 'Editar Informação';
-$_['text_default']           = 'Predefinição';
+$_['text_success']      = 'Concluído: Modificou os Fabricantes com sucesso!';
+$_['text_list']         = 'Lista de Fabricantes';
+$_['text_add']          = 'Adicionar Fabricante';
+$_['text_edit']         = 'Editar Fabricante';
+$_['text_default']      = 'Predefinição';
+$_['text_percent']      = 'Percentagem';
+$_['text_amount']       = 'Valor Fixo';
 
 // Column
-$_['column_title']           = 'Título da Informação';
-$_['column_sort_order']	     = 'Posição';
-$_['column_action']          = 'Ação';
+$_['column_name']       = 'Nome do Fabricante';
+$_['column_sort_order'] = 'Posição';
+$_['column_action']     = 'Ação';
 
 // Entry
-$_['entry_title']            = 'Título da Informação';
-$_['entry_description']      = 'Descrição';
-$_['entry_store']            = 'Lojas';
-$_['entry_meta_title'] 	     = 'Titulo Meta Tag';
-$_['entry_meta_keyword'] 	 = 'Palavras-Chave Meta Tag';
-$_['entry_meta_description'] = 'Descrição Meta Tag';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_bottom']           = 'Inferior';
-$_['entry_status']           = 'Estado';
-$_['entry_sort_order']       = 'Posição';
-$_['entry_layout']           = 'Substituição de Layout';
+$_['entry_name']        = 'Nome do Fabricante';
+$_['entry_store']       = 'Lojas';
+$_['entry_keyword']     = 'SEO URL';
+$_['entry_image']       = 'Imagem';
+$_['entry_sort_order']  = 'Posição';
+$_['entry_type']        = 'Tipo';
 
 // Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_bottom']            = 'Mostrar no rodapé inferior.';
+$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
 
 // Error
-$_['error_warning']          = 'Aviso: Por favor, verifique o formulário cuidadosamente para evitar erros!';
-$_['error_permission']       = 'Atenção: Não tem permissões para alterar as informações!';
-$_['error_title']            = 'Título das Informações deve conter entre 3 e 64 caracteres !';
-$_['error_description']      = 'A Descrição deve conter mais de 3 caracteres!';
-$_['error_meta_title']       = 'O Meta Título deve ser conter mais de 3 e menos de 255 caracteres!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_account']          = 'Atenção: Esta página de informações não pode ser excluída, pois está a ser actualmente utilizada como os termos utilização das contas da loja!';
-$_['error_checkout']         = 'Atenção: Esta página de informações não pode ser excluída, pois está a ser actualmente utilizada como os termos checkout da loja!';
-$_['error_affiliate']        = 'Atenção: Esta página de informações não pode ser excluída , pois está a ser actualmente utilizada como os termos utilização das contas de affiliados da loja!';
-$_['error_return']           = 'Atenção: Esta página de informações não pode ser excluída, pois está a ser actualmente utilizada como os termos devoluções da loja!';
-$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
+$_['error_warning']     = 'Aviso: Por favor, verifique o formulário cuidadosamente para evitar erros!';
+$_['error_permission']  = 'Aviso: Não tem permissões para modificar os Fabricantes!';
+$_['error_name']        = 'Nome do Fabricante deve conter entre 2 e 64 caracteres!';
+$_['error_keyword']     = 'SEO URL already in use!';
+$_['error_product']     = 'Aviso: O Fabricante não pode ser excluído pois está atualmente atribuído a %s produtos!';
