@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'Perfis Recorrentes';
+$_['heading_title']     = 'Comentários';
 
 // Text
-$_['text_success']          = 'Concluído: Modificou os Perfis Recorrentes com sucesso!';
-$_['text_list']             = 'Lista de Perfis Recorrente';
-$_['text_add']              = 'Adicionar Perfil Recorrente';
-$_['text_edit']             = 'Editar Perfil Recorrente';
-$_['text_day']				= 'Dia';
-$_['text_week']				= 'Semana';
-$_['text_semi_month']		= 'Semi Mês';
-$_['text_month']			= 'Mês ';
-$_['text_year']				= 'Ano';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Valores Recorrentes são calculados pela frequência e ciclos.</p><p>Por exemplo, se usar uma frequência de "semana" e um ciclo de "2",  o utilizador será cobrado a cada duas semanas.</p><p>A duração é o número de vezes que o utilizador vai ser combrado. Defina 0 se quer manter pagamentos até que estes sejam cancelados pelo utilizador.</p>';
-$_['text_profile']			= 'Perfis Recorrentes';
-$_['text_trial']			= 'Perfil de Teste';
-
-// Entry
-$_['entry_name']		    = 'Nome';
-$_['entry_price']			= 'Preço';
-$_['entry_duration']		= 'Duração';
-$_['entry_cycle']			= 'Ciclo';
-$_['entry_frequency']		= 'Frequência';
-$_['entry_trial_price']		= 'Preço Teste';
-$_['entry_trial_duration']	= 'Duração Teste';
-$_['entry_trial_status']	= 'Estado de Teste';
-$_['entry_trial_cycle']	    = 'Ciclo de Teste';
-$_['entry_trial_frequency'] = 'Frequência de Teste';
-$_['entry_status']			= 'Estado';
-$_['entry_sort_order']		= 'Posição';
+$_['text_success']      = 'Concluído: Modiviou os Comentários com sucesso!';
+$_['text_list']         = 'Lista de Comentários';
+$_['text_add']          = 'Adicionar Comentário';
+$_['text_edit']         = 'Editar Comentário';
 
 // Column
-$_['column_name']			= 'Nome';
-$_['column_sort_order']	    = 'Posição';
-$_['column_action']         = 'Ação';
+$_['column_product']    = 'Produto';
+$_['column_author']     = 'Autor';
+$_['column_rating']     = 'Avaliação';
+$_['column_status']     = 'Estado';
+$_['column_date_added'] = 'Data de Adição';
+$_['column_action']     = 'Ação';
+
+// Entry
+$_['entry_product']     = 'Produto';
+$_['entry_author']      = 'Autor';
+$_['entry_rating']      = 'Avaliação';
+$_['entry_status']      = 'Estado';
+$_['entry_text']        = 'Texto';
+$_['entry_date_added']  = 'Data de Adição';
+
+// Help
+$_['help_product']      = '(Autocompletar)';
 
 // Error
-$_['error_warning']         = 'Aviso: Por favor, verifique o formulário cuidadosamente para evitar erros!';
-$_['error_permission']		= 'Aviso: Não tem permissões para modificar Perfis Recorrentes!';
-$_['error_name']			= 'Nome do Perfil deve conter entre 3 e 255 caracteres!';
-$_['error_product']			= 'Aviso: Este Perfil Recorrente não pode ser excluído pois está atualmente atribuído a %s produtos!';
+$_['error_warning']     = 'Aviso: Por favor, verifique o formulário cuidadosamente para evitar erros!';
+$_['error_permission']  = 'Aviso: Não tem permissões para modificar os Comentários!';
+$_['error_product']     = 'Produto obrigatório!';
+$_['error_author']      = 'Nome do Autor deve ser conter entre 3 e 64 caracteres!';
+$_['error_text']        = 'Texto de Comentário deve conter pelo menos 1 caractere!';
+$_['error_rating']      = 'Avaliação no Comentário abrigatória!';
