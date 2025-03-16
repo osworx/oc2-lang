@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Manufacturers';
+$_['heading_title']      = 'Options';
 
 // Text
-$_['text_success']      = 'Success: You have modified manufacturers!';
-$_['text_list']         = 'Manufacturer List';
-$_['text_add']          = 'Add Manufacturer';
-$_['text_edit']         = 'Edit Manufacturer';
-$_['text_default']      = 'Parapërzgjedhur';
-$_['text_percent']      = 'Percentage';
-$_['text_amount']       = 'Fixed Amount';
+$_['text_success']       = 'Success: You have modified options!';
+$_['text_list']          = 'Option List';
+$_['text_add']           = 'Add Option';
+$_['text_edit']          = 'Edit Option';
+$_['text_choose']        = 'Choose';
+$_['text_select']        = 'Select';
+$_['text_radio']         = 'Radio';
+$_['text_checkbox']      = 'Checkbox';
+$_['text_input']         = 'Input';
+$_['text_text']          = 'Text';
+$_['text_textarea']      = 'Textarea';
+$_['text_file']          = 'File';
+$_['text_date']          = 'Date';
+$_['text_datetime']      = 'Date &amp; Time';
+$_['text_time']          = 'Time';
 
 // Column
-$_['column_name']       = 'Manufacturer Name';
-$_['column_sort_order'] = 'Radhitja';
-$_['column_action']     = 'Veprimi';
+$_['column_name']        = 'Option Name';
+$_['column_sort_order']  = 'Radhitja';
+$_['column_action']      = 'Veprimi';
 
 // Entry
-$_['entry_name']        = 'Manufacturer Name';
-$_['entry_store']       = 'Dyqanet';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Fotografia';
-$_['entry_sort_order']  = 'Radhitja';
-$_['entry_type']        = 'Type';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Option Name';
+$_['entry_type']         = 'Type';
+$_['entry_option_value'] = 'Option Value Name';
+$_['entry_image']        = 'Fotografia';
+$_['entry_sort_order']   = 'Radhitja';
 
 // Error
-$_['error_warning']     = 'Vërejtje: Ju lutem kontrolloni formën me kujdes për ndonjë gabim!';
-$_['error_permission']  = 'Warning: You do not have permission to modify manufacturers!';
-$_['error_name']        = 'Manufacturer Name must be between 2 and 64 characters!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Warning: This manufacturer cannot be deleted as it is currently assigned to %s products!';
+$_['error_warning']      = 'Vërejtje: Ju lutem kontrolloni formën me kujdes për ndonjë gabim!';
+$_['error_permission']   = 'Warning: You do not have permission to modify options!';
+$_['error_name']         = 'Option Name must be between 1 and 128 characters!';
+$_['error_type']         = 'Warning: Option Values required!';
+$_['error_option_value'] = 'Option Value Name must be between 1 and 128 characters!';
+$_['error_product']      = 'Warning: This option cannot be deleted as it is currently assigned to %s products!';
