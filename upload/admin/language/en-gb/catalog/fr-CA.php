@@ -1,25 +1,45 @@
 <?php
 // Heading
-$_['heading_title']     = 'Filtres';
+$_['heading_title']          = 'Information';
 
 // Text
-$_['text_success']      = 'Bravo: Vous avez modifié le filtre!';
-$_['text_list']         = 'Filter la liste';
-$_['text_add']          = 'Ajouter un filtre';
-$_['text_edit']         = 'Modifier un filtre';
+$_['text_success']           = 'Vous avez modifié les informations avec succès!';
+$_['text_list']              = 'Liste des information';
+$_['text_add']               = 'Ajouter une information';
+$_['text_edit']              = 'Modifier une information';
+$_['text_default']           = 'Par défaut';
 
 // Column
-$_['column_group']      = 'Groupe de filtres';
-$_['column_sort_order'] = 'Ordre de présentation';
-$_['column_action']     = 'Action';
+$_['column_title']           = 'Titre de l’information';
+$_['column_sort_order']	     = 'Ordre de présentation';
+$_['column_action']          = 'Action';
 
 // Entry
-$_['entry_group']       = 'Nom de groupe de filtres';
-$_['entry_name']        = 'Nom de filtre';
-$_['entry_sort_order']  = 'Ordre de présentation';
+$_['entry_title']            = 'Titre de l’information';
+$_['entry_description']      = 'Description';
+$_['entry_store']            = 'Magasins';
+$_['entry_meta_title'] 	     = 'Titre de métaélément';
+$_['entry_meta_keyword'] 	 = 'Mots-clef de métaélément';
+$_['entry_meta_description'] = 'Description de métaélément';
+$_['entry_keyword']          = 'SEO URL';
+$_['entry_bottom']           = 'Pied de page';
+$_['entry_status']           = 'État';
+$_['entry_sort_order']       = 'Ordre de présentation';
+$_['entry_layout']           = 'Outrepasser la mise en page';
+
+// Help
+$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['help_bottom']            = 'Afficher dans le pied de page.';
 
 // Error
-$_['error_warning']     = 'Attention: Veuillez vérifier que le formulaire ne contient pas d\'erreur !';
-$_['error_permission']  = 'Attention: vous n’êtes pas autorisé à modifier les filtres!';
-$_['error_group']       = 'Le nom du groupe de filtres doit contenir entre 1 et 64 caractères!';
-$_['error_name']        = 'Le nom du filtre doit contenir entre 1 et 64 caractères!';
+$_['error_warning']          = 'Attention: Veuillez vérifier que le formulaire ne contient pas d\'erreur !';
+$_['error_permission']       = 'Attention : vous n’êtes pas autorisé à modifier les Informations !';
+$_['error_title']            = 'Le titre de l’information doit contenir entre 3 et 64 caractères !';
+$_['error_description']      = 'La description de l’information doit contenir plus de 3 caractères !';
+$_['error_meta_title']       = 'Le titre méta doit contenir plus de 3 et moins de 255 caractères !';
+$_['error_keyword']          = 'SEO URL already in use!';
+$_['error_account']          = 'Attention : cette page d’information ne peut être supprimée car elle contient actuellement les modalités de compte du magasin !';
+$_['error_checkout']         = 'Attention : cette page d’information ne peut être supprimée car elle contient actuellement les modalités de passage en caisse du magasin !';
+$_['error_affiliate']        = 'Attention : cette page d’information ne peut être supprimée car il est actuellement assigné comme les conditions d’affiliation du magasin !';
+$_['error_return']           = 'Attention : cette page d’information ne peut être supprimée car il est actuellement assigné comme les conditions de retour de magasin !';
+$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
