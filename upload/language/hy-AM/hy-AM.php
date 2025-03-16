@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Ադմինիստարցիա';
+$_['heading_title']  = 'Գաղտնաբառի վերականգնում';
 
 // Text
-$_['text_heading']   = 'Ադմինիստարցիա';
-$_['text_login']     = 'Մուտքագրեք օգտվողի անունը ու գաղտնաբառը.';
-$_['text_forgotten'] = 'Մոռացված Գաղտանբառը';
+$_['text_password']  = 'Մուտքագրեք նոր գաղտնաբառը.';
+$_['text_success']   = 'Ձեր գաղտնաբառը հաջողությամբ թարմացված է.';
 
 // Entry
-$_['entry_username'] = 'Օգտվողի Անուն';
 $_['entry_password'] = 'Գաղտնաբառ';
-
-// Button
-$_['button_login']   = 'Մտնել';
+$_['entry_confirm']  = 'Կրկնել գաղտնաբառը';
 
 // Error
-$_['error_login']    = 'Այդպիսի անունով օգտվող եւ/կամ գաղտնաբառ գոյություն չունի.';
-$_['error_token']    = 'Կրկին մուտք գործել համակարգ.';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'Գաղտնաբառերը չեն համընկնում!';
