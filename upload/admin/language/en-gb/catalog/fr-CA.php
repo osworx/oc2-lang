@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Évaluations';
+$_['heading_title']          = 'Attributs';
 
 // Text
-$_['text_success']      = 'Modification d’évaluation réussie !';
-$_['text_list']         = 'Liste des évaluations';
-$_['text_add']          = 'Ajouter une évaluation';
-$_['text_edit']         = 'Modifier une évaluation';
+$_['text_success']           = 'Félicitation: Vous avez modifié un attribut!';
+$_['text_list']              = 'Liste des attributs';
+$_['text_add']               = 'Ajoutez un attribut';
+$_['text_edit']              = 'Modifiez un attribut';
 
 // Column
-$_['column_product']    = 'Produit';
-$_['column_author']     = 'Auteur';
-$_['column_rating']     = 'Note';
-$_['column_status']     = 'État';
-$_['column_date_added'] = 'Date d\'ajout';
-$_['column_action']     = 'Action';
+$_['column_name']            = 'Nom de l\'attribut';
+$_['column_attribute_group'] = 'Groupe d\'attributs';
+$_['column_sort_order']      = 'Ordre de présentation';
+$_['column_action']          = 'Action';
 
 // Entry
-$_['entry_product']     = 'Produit';
-$_['entry_author']      = 'Auteur';
-$_['entry_rating']      = 'Note';
-$_['entry_status']      = 'État';
-$_['entry_text']        = 'Texte';
-$_['entry_date_added']  = 'Date d\'ajout';
-
-// Help
-$_['help_product']      = '(Autocomplétion)';
+$_['entry_name']             = 'Nom de l\'attribut';
+$_['entry_attribute_group']  = 'Groupe d\'attributs';
+$_['entry_sort_order']       = 'Ordre de présentation';
 
 // Error
-$_['error_warning']     = 'Attention: Veuillez vérifier que le formulaire ne contient pas d\'erreur !';
-$_['error_permission']  = 'Attention : vous n’êtes pas autorisé à modifier les avis !';
-$_['error_product']     = 'Le produit est requis !';
-$_['error_author']      = 'Le nom de l’auteur doit contenir entre 3 et 64 caractères !';
-$_['error_text']        = 'L’avis doit contenir au moins un caractère !';
-$_['error_rating']      = 'La note est requise !';
+$_['error_warning']          = 'Attention: Veuillez vérifier que le formulaire ne contient pas d\'erreur !';
+$_['error_permission']       = 'AVERTISSEMENT : Vous n\'êtes pas autorisé à modifier les attributs !';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Nom de l\'attribut doit être entre 3 et 64 caractères !';
+$_['error_product']          = 'AVERTISSEMENT : Cet attribut ne peut être supprimé car il est actuellement affecté a certains produits %s!';
