@@ -1,35 +1,25 @@
 <?php
 // Heading
-$_['heading_title']     = 'Downloads';
+$_['heading_title']     = 'Filter';
 
 // Text
-$_['text_success']      = 'Download erfolgreich bearbeitet';
+$_['text_success']      = 'Einstellungen erfolgreich bearbeitet';
 $_['text_list']         = 'Übersicht';
 $_['text_add']          = 'Neu';
 $_['text_edit']         = 'Bearbeiten';
-$_['text_upload']       = 'Datei erfolgreich geladen';
 
 // Column
-$_['column_name']       = 'Bezeichnung';
-$_['column_date_added'] = 'Erstellt';
+$_['column_group']      = 'Filtergruppe';
+$_['column_sort_order'] = 'Reihenfolge';
 $_['column_action']     = 'Aktion';
 
 // Entry
-$_['entry_name']        = 'Bezeichnung';
-$_['entry_filename']    = 'Dateiname';
-$_['entry_mask']        = 'Aliasname';
-
-// Help
-$_['help_filename']     = 'Datei kann entweder über den Downloadbutton geladen werden oder per FTP (in Ordner download). Wenn per FTP, dann Details unten angeben.<br /><br /><strong>Hinweis</strong>:<br />es wird empfohlen dass Dateiname und Aliasname verschieden sind. Damit kann eine Direktverlinkung verhindert werden.';
-$_['help_mask']         = 'Es wird empfohlen dass Dateiname und Aliasname verschieden sind!<br />Damit kann verhindert werden dass Uploads von aussen direkt verlinkt werden';
+$_['entry_group']       = 'Gruppenname';
+$_['entry_name']        = 'Filtername';
+$_['entry_sort_order']  = 'Reihenfolge';
 
 // Error
 $_['error_warning']     = 'Erforderliche Daten fehlen, bitte Felder überprüfen.';
-$_['error_permission']  = 'Hinweis: zuwenig Rechte für diese Aktion';
-$_['error_name']        = 'Name muss zwischen 3 und 64 Zeichen lang sein!';
-$_['error_upload']      = 'Upload erforderlich!';
-$_['error_filename']    = 'Der Dateiname muss zwischen 3 und 128 Zeichen umfassen!';
-$_['error_exists']      = 'Datei nicht vorhanden!';
-$_['error_mask']        = 'Aliasname muss zwischen 3 und 128 Zeichen lang sein!';
-$_['error_filetype']    = 'Ungültiger Dateityp!';
-$_['error_product']     = 'Download ist mit %s Produkten verbunden und kann daher nicht gelöscht werden!';
+$_['error_permission']  = 'Hinweis: keine Rechte für diese Aktion';
+$_['error_group']       = 'Gruppenname muss zwischen 1 und 64 Zeichen lang sein!!';
+$_['error_name']        = 'Filtername muss zwischen 1 und 64 Zeichen lang sein!';
