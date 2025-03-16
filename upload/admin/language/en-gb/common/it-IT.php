@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Amministrazione';
+$_['heading_title']  = 'Reimposta la Tua password';
 
 // Text
-$_['text_heading']   = 'Amministrazione';
-$_['text_login']     = 'Inserisci i tuoi dati di accesso.';
-$_['text_forgotten'] = 'Password dimenticata';
+$_['text_password']  = 'Immettere la nuova password che si desidera utilizzare.';
+$_['text_success']   = 'La password è stata aggiornata con successo.';
 
 // Entry
-$_['entry_username'] = 'Nome utente';
 $_['entry_password'] = 'Password';
-
-// Button
-$_['button_login']   = 'Effettuate L\'Accesso';
+$_['entry_confirm']  = 'Conferma';
 
 // Error
-$_['error_login']    = 'Nessuna corrispondenza per Username e/o Password.';
-$_['error_token']    = 'Sessione token non valido. Effettua nuovamente il login.';
+$_['error_password'] = 'La password deve essere compresa tra 3 e 20 caratteri!';
+$_['error_confirm']  = 'La Password e La conferma Della password non corrispondono!';
