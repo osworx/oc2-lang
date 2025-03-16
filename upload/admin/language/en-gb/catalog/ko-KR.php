@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = '상품분류';
+$_['heading_title']     = '다운로드';
 
 // Text
-$_['text_success']           = '완료: 상품분류를 수정했습니다.';
-$_['text_list']              = '상품분류 목록';
-$_['text_add']               = '상품분류 추가';
-$_['text_edit']              = '상품분류 수정';
-$_['text_default']           = '기본값';
+$_['text_success']      = '완료: 다운로드를 수정했습니다.';
+$_['text_list']         = '다운로드 목록';
+$_['text_add']          = '다운로드 추가';
+$_['text_edit']         = '다운로드 수정';
+$_['text_upload']       = '파일 업로드를 완료했습니다.';
 
 // Column
-$_['column_name']            = '상품분류명';
-$_['column_sort_order']      = '정렬순서';
-$_['column_action']          = '작업';
+$_['column_name']       = '다운로드 이름';
+$_['column_date_added'] = '작성일';
+$_['column_action']     = '작업';
 
 // Entry
-$_['entry_name']             = '상품분류명';
-$_['entry_description']      = '상세설명';
-$_['entry_meta_title'] 	     = '메타 태그 제목';
-$_['entry_meta_keyword']     = '메타 태그 키워드';
-$_['entry_meta_description'] = '메타 태그 설명';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = '상위';
-$_['entry_filter']           = '필터';
-$_['entry_store']            = '쇼핑몰';
-$_['entry_image']            = '이미지';
-$_['entry_top']              = '상단 메뉴바에 표시';
-$_['entry_column']           = '컬럼 수';
-$_['entry_sort_order']       = '정렬순서';
-$_['entry_status']           = '상태';
-$_['entry_layout']           = '레이아웃 재정의';
+$_['entry_name']        = '다운로드 이름';
+$_['entry_filename']    = '파일이름';
+$_['entry_mask']        = '마스크';
 
 // Help
-$_['help_filter']            = '(자동완성)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = '상단 메뉴바에 표시합니다. 최상위 카테고리에만 적용됩니다.';
-$_['help_column']            = '하위 3개 카테고리를 위한 컬럼 수. 최상위 카테고리에만 적용됩니다.';
+$_['help_filename']     = '업로드 버튼으로 업로드 하시거나, FTP로 다운로드 디렉토리에 업로드 하신 후 파일정보를 직접 입력하실 수도 있습니다.';
+$_['help_mask']         = '외부에서 다운로드를 직접 링크하는 행위를 방지하려면 파일이름과 마스크를 다르게 설정하는 것이 좋습니다.';
 
 // Error
-$_['error_warning']          = '주의: 오류가 발생했습니다. 입력 항목을 다시 확인해주세요.';
-$_['error_permission']       = '주의: 상품분류를 수정할 수 있는 권한이 없습니다.';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = '메타 태그 제목은 3~255 글자 이내로 입력해주세요.';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = '주의: 오류가 발생했습니다. 입력 항목을 다시 확인해주세요.';
+$_['error_permission']  = '주의: 다운로드를 수정할 수 있는 권한이 없습니다.';
+$_['error_name']        = '다운로드 이름은 3~64 글자 이내로 입력해주세요.';
+$_['error_upload']      = '업로드는 필수입니다.';
+$_['error_filename']    = '파일이름은 3~128 글자 이내로 입력해주세요.';
+$_['error_exists']      = '파일이 존재하지 않습니다.';
+$_['error_mask']        = '마스크는 3~128 글자 이내로 입력해주세요.';
+$_['error_filetype']    = '잘못된 파일형식입니다.';
+$_['error_product']     = '주의: 현재 %s개의 상품에 이 다운로드가 설정되어 있으므로 삭제할 수 없습니다.';
