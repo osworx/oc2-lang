@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'פרופילי החזרות';
+$_['heading_title']     = 'ביקורות';
 
 // Text
-$_['text_success']          = 'הצלחה: שינית פרופילי החזרות!';
-$_['text_list']             = 'רשימת פרופילי החזרות';
-$_['text_add']              = 'הוסף פרופיל החזרה';
-$_['text_edit']             = 'ערוך פרופיל החזרה';
-$_['text_day']				= 'יום';
-$_['text_week']				= 'שבוע';
-$_['text_semi_month']		= 'חצי חודש';
-$_['text_month']			= 'חודש';
-$_['text_year']				= 'שנה';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> הסכומים מחושבים עפי "תדירות" ו "מחזוריות".</p><p>לדוגמה אם אתה משתמש ב "תדירות" של "שבוע" וב "מחזוריות" של "2", המשתמש יחויב כל 2 שבועות.</p><p>משך הזמן הוא מספר הפעמים שהמשתמש יבצע תשלום. עליך להגדיר את זה כ- 0, אם אתה רוצה שתשלומים ימשיכו עד שהם יתבטלו.</p>';
-$_['text_profile']			= 'פרופילי החזרות';
-$_['text_trial']			= 'פרופיל ניסיוני';
-
-// Entry
-$_['entry_name']		    = 'שם';
-$_['entry_price']			= 'מחיר';
-$_['entry_duration']		= 'משך זמן';
-$_['entry_cycle']			= 'מחזוריות';
-$_['entry_frequency']		= 'תדירות';
-$_['entry_trial_price']		= 'מחיר ניסיוני';
-$_['entry_trial_duration']	= 'משך זמן ניסיוני';
-$_['entry_trial_status']	= 'מצב ניסיוני';
-$_['entry_trial_cycle']	    = 'מחזוריות ניסיוני';
-$_['entry_trial_frequency'] = 'תדירות ניסיוני';
-$_['entry_status']			= 'סטטוס';
-$_['entry_sort_order']		= 'סדר מיון';
+$_['text_success']      = 'הצלחה: שינית ביקורות!';
+$_['text_list']         = 'רשימת ביקורות';
+$_['text_add']          = 'הוסף ביקורת';
+$_['text_edit']         = 'ערוך ביקורת';
 
 // Column
-$_['column_name']			= 'שם';
-$_['column_sort_order']	    = 'סדר מיון';
-$_['column_action']         = 'פעולה';
+$_['column_product']    = 'מוצר';
+$_['column_author']     = 'מחבר';
+$_['column_rating']     = 'דירוג';
+$_['column_status']     = 'סטטוס';
+$_['column_date_added'] = 'תאריך שנוסף';
+$_['column_action']     = 'פעולה';
+
+// Entry
+$_['entry_product']     = 'מוצר';
+$_['entry_author']      = 'מחבר';
+$_['entry_rating']      = 'דירוג';
+$_['entry_status']      = 'סטטוס';
+$_['entry_text']        = 'טקסט';
+$_['entry_date_added']  = 'תאריך שנוסף';
+
+// Help
+$_['help_product']      = '(השלמה אוטומטית)';
 
 // Error
-$_['error_warning']         = 'אזהרה: אנא בדוק בקפידה אם יש שגיאות בטופס!';
-$_['error_permission']		= 'אזהרה: אין לך הרשאה לשנות פרופילי החזרות!';
-$_['error_name']			= 'שם פרופיל חייב להיות גדול מ- 3 לפחות מ- 255 תווים!';
-$_['error_product']			= 'אזהרה: לא ניתן למחוק פרופילי החזרות מאחר והם מוקצים כרגע ל %s מוצרים!';
+$_['error_warning']     = 'אזהרה: אנא בדוק בקפידה אם יש שגיאות בטופס!';
+$_['error_permission']  = 'אזהרה: אין לך הרשאה לשינוי ביקורות!';
+$_['error_product']     = 'מוצר נדרש!';
+$_['error_author']      = 'מחבר חייב להיות בין 3 ל 64 תווים!';
+$_['error_text']        = 'טקסט ביקורת חייב להיות לפחות תו אחד!';
+$_['error_rating']      = 'דירוג ביקורת נדרש!';
