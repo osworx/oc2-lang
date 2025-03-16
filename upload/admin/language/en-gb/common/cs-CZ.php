@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Zapomněli jste své heslo?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Zapomenuté heslo';
-$_['text_your_email'] = 'Vaše e-mailová adresa';
-$_['text_email']      = 'Zadejte e-mailovou adresu spojenou s Vašm účtem. Klepněte na tlačítko Odeslat a e-mailem obdržíte odkaz pro resetování hesla.';
-$_['text_success']    = 'E-mail s potvrzujícím odkazem byl odeslán na vaši e-mailovou adresu správce.';
-
-// Entry
-$_['entry_email']     = 'E-mailová adresa';
-$_['entry_password']  = 'Nové heslo';
-$_['entry_confirm']   = 'Potvrdit';
-
-// Error
-$_['error_email']     = 'Upozornění: E-mailová adresa nebyla nalezena v našich záznamech, prosím zkuste znovu!';
-$_['error_password']  = 'Heslo musí být delší než 4 znaky a kratší než 20 znaků!';
-$_['error_confirm']   = 'Heslo a potvrzení hesla se neshodují!';
+$_['text_order']             = 'Objednávky';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'Dokončeno';
+$_['text_customer']          = 'Zákazníci';
+$_['text_online']            = 'Zákazníci Online';
+$_['text_approval']          = 'Čeká na schválení';
+$_['text_product']           = 'Produkty';
+$_['text_stock']             = 'Není skladem';
+$_['text_review']            = 'Recenze';
+$_['text_return']            = 'Vrácenky';
+$_['text_affiliate']         = 'Partneři';
+$_['text_store']             = 'Obchody';
+$_['text_front']             = 'Průčelí Obchodu';
+$_['text_help']              = 'Pomoc';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Fórum podpory';
+$_['text_documentation']     = 'Dokumentace';
+$_['text_logout']            = 'Odhlášení';
