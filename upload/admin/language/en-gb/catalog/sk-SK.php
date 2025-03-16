@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Výrobcovia';
+$_['heading_title']      = 'Možnosti';
 
 // Text
-$_['text_success']      = 'Úspech: Zmenili ste výrobcov!';
-$_['text_list']         = 'Zoznam výrobcov';
-$_['text_add']          = 'Pridaj výrobcu';
-$_['text_edit']         = 'Upraviť výrobcu';
-$_['text_default']      = 'Pôvodné';
-$_['text_percent']      = 'Percento';
-$_['text_amount']       = 'Stanovená hodnota';
+$_['text_success']       = 'Úspech: Zmenili ste možnosti!';
+$_['text_list']          = 'Zoznam možností';
+$_['text_add']           = 'Pridaj možnosť';
+$_['text_edit']          = 'Upraviť možnosť';
+$_['text_choose']        = 'Vybrať';
+$_['text_select']        = 'Vybrať';
+$_['text_radio']         = 'Rádio';
+$_['text_checkbox']      = 'Checkbox';
+$_['text_input']         = 'Vstup';
+$_['text_text']          = 'Text';
+$_['text_textarea']      = 'Textové pole';
+$_['text_file']          = 'Súbor';
+$_['text_date']          = 'Dátum';
+$_['text_datetime']      = 'Dátum &amp; Čas';
+$_['text_time']          = 'Čas';
 
 // Column
-$_['column_name']       = 'Názov výrobcu';
-$_['column_sort_order'] = 'Poradie';
-$_['column_action']     = 'Akcia';
+$_['column_name']        = 'Názov možnosti';
+$_['column_sort_order']  = 'Poradie';
+$_['column_action']      = 'Akcia';
 
 // Entry
-$_['entry_name']        = 'Názov výrobcu';
-$_['entry_store']       = 'Obchody';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Obrázok';
-$_['entry_sort_order']  = 'Poradie';
-$_['entry_type']        = 'Typ';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Názov možnosti';
+$_['entry_type']         = 'Typ';
+$_['entry_option_value'] = 'Názov hodnoty ';
+$_['entry_image']        = 'Obrázok';
+$_['entry_sort_order']   = 'Poradie';
 
 // Error
-$_['error_warning']     = 'Varovanie: Skontrolujte formulár starostlivo kvôli chybám!';
-$_['error_permission']  = 'Upozornenie: Nemáte oprávnenie k zmene výrobcov!';
-$_['error_name']        = 'Názov výrobcu musí mať medzi 2-64 znakov!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Upozornenie: Tento výrobca nemôže byť zmazaný pretože sa momentálne používa vo %s produktov!';
+$_['error_warning']      = 'Varovanie: Skontrolujte formulár starostlivo kvôli chybám!';
+$_['error_permission']   = 'Upozornenie: Nemáte oprávnenie k zmene možností!';
+$_['error_name']         = 'Názov možnosti musí mať medzi 1 a 128 znakov!';
+$_['error_type']         = 'Upozornenie: Hodnoty možnosti sú nutné!';
+$_['error_option_value'] = 'Názov hodnoty možnosti musí mať medzi 1-128 znakov!';
+$_['error_product']      = 'Upozornenie: Možnost nemôže byt zmazaná pretože sa momentálne používa v %s produktoch!';
