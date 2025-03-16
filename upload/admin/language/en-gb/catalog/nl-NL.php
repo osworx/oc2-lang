@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Merken';
+$_['heading_title']      = 'Opties';
 
 // Text
-$_['text_success']      = 'Succes: Instellingen gewijzigd!';
-$_['text_list']         = 'Lijst';
-$_['text_add']          = 'Toevoegen';
-$_['text_edit']         = 'Wijzigen';
-$_['text_default']      = 'Hoofdwinkel';
-$_['text_percent']      = 'Percentage';
-$_['text_amount']       = 'Vast bedrag';
+$_['text_success']       = 'Succes: Instellingen gewijzigd!';
+$_['text_list']          = 'Lijst';
+$_['text_add']           = 'Toevoegen';
+$_['text_edit']          = 'Wijzigen';
+$_['text_choose']        = 'Kiezen';
+$_['text_select']        = 'Selecteer';
+$_['text_radio']         = 'Radio';
+$_['text_checkbox']      = 'Checkbox';
+$_['text_input']         = 'Invoer';
+$_['text_text']          = 'Tekst';
+$_['text_textarea']      = 'Tesktveld';
+$_['text_file']          = 'Bestand';
+$_['text_date']          = 'Datum';
+$_['text_datetime']      = 'Datum &amp; tijd';
+$_['text_time']          = 'Tijd';
 
 // Column
-$_['column_name']       = 'Fabrikantnaam';
-$_['column_sort_order'] = 'Sorteervolgorde';
-$_['column_action']     = 'Aktie';
+$_['column_name']        = 'Optienaam';
+$_['column_sort_order']  = 'Sorteervolgorde';
+$_['column_action']      = 'Aktie';
 
 // Entry
-$_['entry_name']        = 'Fabrikantnaam';
-$_['entry_store']       = 'Winkel(s)';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Afbeelding';
-$_['entry_sort_order']  = 'Sorteervolgorde';
-$_['entry_type']        = 'Type';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Optienaam';
+$_['entry_type']         = 'Type';
+$_['entry_option_value'] = 'Optie waarde naam';
+$_['entry_image']        = 'Afbeelding';
+$_['entry_sort_order']   = 'Sorteervolgorde';
 
 // Error
-$_['error_warning']     = 'Waarschuwing: Controlleer of alle verplichte velden volledig zijn ingevuld!';
-$_['error_permission']  = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
-$_['error_name']        = 'Waarschuwing: Merknaam dient tussen de 3 en 64 tekens lang te zijn!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Waarschuwing: Dit merk kan niet worden verwijderd omdat deze is gekoppeld aan %s product(en)!';
+$_['error_warning']      = 'Waarschuwing: Controlleer of alle verplichte velden volledig zijn ingevuld!';
+$_['error_permission']   = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
+$_['error_name']         = 'Waarschuwing: Optie-naam dient tussen de 1 en 128 tekens lang te zijn!';
+$_['error_type']         = 'Waarschuwing: Optie waarde verplicht!';
+$_['error_option_value'] = 'Waarschuwing: Naam optie waarde naam dient tussen de 1 en 128 tekens lang te zijn!';
+$_['error_product']      = 'Waarschuwing: Deze optie kan niet worden verwijderd want hij is gekoppeld aan %s product(en)!';
