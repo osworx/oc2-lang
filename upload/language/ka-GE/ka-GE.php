@@ -1,36 +1,103 @@
 <?php
-// Heading
-$_['heading_title']     = 'შეფასებები';
-
 // Text
-$_['text_success']      = 'წარმატება: თქვენ მიმოხილვა შეცვლილია!';
-$_['text_list']         = 'მიმოხილვის სია';
-$_['text_add']          = 'მიმოხილვის დამატება';
-$_['text_edit']         = 'მიმოხილვის რედაქტირება';
-
-// Column
-$_['column_product']    = 'პროდუქტი';
-$_['column_author']     = 'ავტორი';
-$_['column_rating']     = 'რეიტინგი';
-$_['column_status']     = 'სტატუსი';
-$_['column_date_added'] = 'თარიღის დამატება';
-$_['column_action']     = 'მოქმედება';
-
-// Entry
-$_['entry_product']     = 'პროდუქტი';
-$_['entry_author']      = 'ავტორი';
-$_['entry_rating']      = 'რეიტინგი';
-$_['entry_status']      = 'სტატუსი';
-$_['entry_text']        = 'ტექსტი';
-$_['entry_date_added']  = 'თარიღის დამატება';
-
-// Help
-$_['help_product']      = 'ავტოშესრულება';
-
-// Error
-$_['error_warning']     = 'გაფრთხილება: გთხოვთ ყურადღებით შეამოწმოთ შეცდომების ფორმები!';
-$_['error_permission']  = 'გაფრთხილება: თქვენ არ გაქვთ უფლება შეცვალოთ მიმოხილვა!';
-$_['error_product']     = 'პროდუქტი სავალდებულოა!';
-$_['error_author']      = 'ავტორი უნდა იყოს 3-დან 64 სიმბოლოს!';
-$_['error_text']        = 'მიმოხილვა ტექსტი უნდა იყოს მინიმუმ 1 სიმბოლო!';
-$_['error_rating']      = 'მიმოხილვის რეიტინგი სავალდებულოა!';
+$_['text_affiliate']                 = 'პარტნიორული პროგრამა';
+$_['text_api']                       = 'API';
+$_['text_attribute']                 = 'ატრიბუტები';
+$_['text_attribute_group']           = 'ატრიბუტის ჯგუფი';
+$_['text_backup']                    = 'სარეზერვო / აღდგენა';
+$_['text_banner']                    = 'ბანერები';
+$_['text_catalog']                   = 'კატალოგი';
+$_['text_category']                  = 'კატეგორიები';
+$_['text_country']                   = 'ქვეყნები';
+$_['text_coupon']                    = 'კუპონები';
+$_['text_currency']                  = 'ვალუტები';
+$_['text_customer']                  = 'დამკვეთები';
+$_['text_customer_group']            = 'დამკვეთების ჯგუფი';
+$_['text_custom_field']              = 'კონფიგურირებადი ველები';
+$_['text_dashboard']                 = 'მთავარი პანელი';
+$_['text_design']                    = 'დიზაინი';
+$_['text_download']                  = 'ჩამოტვირთვები';
+$_['text_log']                       = 'შეცდომის აღრიცხვები';
+$_['text_event']                     = 'Events';
+$_['text_extension']                 = 'გაფართოებები';
+$_['text_filter']                    = 'ფილტრები';
+$_['text_geo_zone']                  = 'გეო ზონები';
+$_['text_information']               = 'ინფორმაცია';
+$_['text_installer']                 = 'გაფართოვების ინსტალაცია';
+$_['text_language']                  = 'ენები';
+$_['text_layout']                    = 'მაკეტები';
+$_['text_localisation']              = 'ლოკალიზაცია';
+$_['text_location']                  = 'მაღაზიის ლოკაცია';
+$_['text_contact']                   = 'ფოსტა';
+$_['text_marketing']                 = 'მარკეტინგი';
+$_['text_menu']                      = 'Menu Manager';
+$_['text_modification']              = 'მოდიფიკაცია';
+$_['text_manufacturer']              = 'მწარმოებლები';
+$_['text_option']                    = 'ოპციები';
+$_['text_order']                     = 'შეკვეთები';
+$_['text_order_status']              = 'შეკვეთის სტატუსები';
+$_['text_product']                   = 'პროდუქცია';
+$_['text_reports']                   = 'რეპორტები';
+$_['text_report_sale']               = 'გაყიდვები';
+$_['text_report_sale_order']         = 'შეკვეთები';
+$_['text_report_sale_tax']           = 'ბაჟი';
+$_['text_report_sale_shipping']      = 'გადაზიდვა';
+$_['text_report_sale_return']        = 'დაბრუნებები';
+$_['text_report_sale_coupon']        = 'კუპონები';
+$_['text_report_product']            = 'პროდუქცია';
+$_['text_report_product_viewed']     = 'ნანახი';
+$_['text_report_product_purchased']  = 'შეძენილი';
+$_['text_report_customer']           = 'დამკვეთები';
+$_['text_report_customer_activity']  = 'დამკვეთების აქტიურობა';
+$_['text_report_customer_search']    = 'Customer Searches';
+$_['text_report_customer_online']    = 'დამკვეთები ონლაინში';
+$_['text_report_customer_order']     = 'შეკვეთები';
+$_['text_report_customer_reward']    = 'საჩუქრების პუნქტი';
+$_['text_report_customer_credit']    = 'კრედიტი';
+$_['text_report_marketing']          = 'მარკეტინგი';
+$_['text_report_affiliate']          = 'პარტნიორული პროგრამა';
+$_['text_report_affiliate_activity'] = 'პარტნიორების აქტიურობა';
+$_['text_review']                    = 'შეფასებები';
+$_['text_return']                    = 'დაბრუნებები';
+$_['text_return_action']             = 'დაბრუნების აქტიურობა';
+$_['text_return_reason']             = 'დაბრუნების მიზეზი';
+$_['text_return_status']             = 'დაბრუნების სტატუსი ';
+$_['text_sale']                      = 'გაყიდვები';
+$_['text_setting']                   = 'პარამეტრები';
+$_['text_store']                     = 'Extension Store';
+$_['text_stock_status']              = 'საწყობის სტატუსი';
+$_['text_system']                    = 'სისტემა';
+$_['text_tax']                       = 'საგადასახადო';
+$_['text_tax_class']                 = 'საგადასახადოს კლასები';
+$_['text_tax_rate']                  = 'საგადასახადო განაკვეთები';
+$_['text_translation']               = 'Language Editor';
+$_['text_theme']                     = 'Theme Editor';
+$_['text_tools']                     = 'ინსტრუმენტები';
+$_['text_upload']                    = 'ატვირთვა';
+$_['text_user']                      = 'მომხმარებლები';
+$_['text_users']                     = 'მომხმარებლები';
+$_['text_user_group']                = 'მომხმარებლების ჯგუფები';
+$_['text_voucher']                   = 'სასაჩუქრე ვაუჩერები';
+$_['text_voucher_theme']             = 'ვაუჩერის თემები ';
+$_['text_weight_class']              = 'წონის კლასები';
+$_['text_length_class']              = 'სიგრძის კლასები ';
+$_['text_zone']                      = 'ზონები';
+$_['text_recurring']                 = 'განმეორებადი პროფილები';
+$_['text_order_recurring']           = 'განმეორებადი შეკვეთები';
+$_['text_openbay_extension']         = 'OpenBay Pro';
+$_['text_openbay_dashboard']         = 'მთავარი პანელი';
+$_['text_openbay_orders']            = 'მასსა შეკვეთა განახლება';
+$_['text_openbay_items']             = 'ელემენტების მართვა';
+$_['text_openbay_ebay']              = 'eBay';
+$_['text_openbay_amazon']            = 'Amazon (EU)';
+$_['text_openbay_amazonus']          = 'Amazon (US)';
+$_['text_openbay_etsy']            	 = 'Etsy';
+$_['text_openbay_settings']          = 'პარამეტრები';
+$_['text_openbay_links']             = 'საქონლის ბმულები';
+$_['text_openbay_report_price']      = 'ფასების ანგარიში';
+$_['text_openbay_order_import']      = 'შეკვეთის იმპორტი';
+$_['text_paypal']                    = 'ფეიფალი';
+$_['text_paypal_search']             = 'ძებნა';
+$_['text_complete_status']           = 'შეკვეთა შესრულებულია'; 
+$_['text_processing_status']         = 'შეკვეთა პროცესშია'; 
+$_['text_other_status']              = 'სხვა სტატუსები'; 
