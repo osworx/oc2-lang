@@ -1,36 +1,103 @@
 <?php
-// Heading
-$_['heading_title']     = 'Arvostelut';
-
 // Text
-$_['text_success']      = 'Onnistui: Olet muokannut arvosteluja!';
-$_['text_list']         = 'Arvostelut';
-$_['text_add']          = 'Lisää arvostelu';
-$_['text_edit']         = 'Muokkaa arvostelua';
-
-// Column
-$_['column_product']    = 'Tuote';
-$_['column_author']     = 'Tekijä';
-$_['column_rating']     = 'Arvostelu';
-$_['column_status']     = 'Tila';
-$_['column_date_added'] = 'Lisäyspäivämäärä';
-$_['column_action']     = 'Toiminto';
-
-// Entry
-$_['entry_product']     = 'Tuote';
-$_['entry_author']      = 'Tekijä';
-$_['entry_rating']      = 'Arvostelu';
-$_['entry_status']      = 'Tila';
-$_['entry_text']        = 'Teksti';
-$_['entry_date_added']  = 'Lisäyspäivämäärä';
-
-// Help
-$_['help_product']      = '(Automaattinen täydennys)';
-
-// Error
-$_['error_warning']     = 'Varoitus: tarkista lomake virheiden varalta!';
-$_['error_permission']  = 'Varoitus: sinulla ei ole oikeuksia muokata arvosteluja!';
-$_['error_product']     = 'Tuote on pakollinen!';
-$_['error_author']      = 'Kirjoittajan tulee olla 3 - 64 merkkiä pitkä!';
-$_['error_text']        = 'Arvostelutekstin tulee sisältää ainakin 1 merkki!';
-$_['error_rating']      = 'Arvosana on pakollinen!';
+$_['text_affiliate']                 = 'Kumppanit';
+$_['text_api']                       = 'API';
+$_['text_attribute']                 = 'Ominaisuudet';
+$_['text_attribute_group']           = 'Ominaisuusryhmät';
+$_['text_backup']                    = 'Varmuuskopiointi';
+$_['text_banner']                    = 'Bannerit';
+$_['text_catalog']                   = 'Katalogi';
+$_['text_category']                  = 'Kategoriat';
+$_['text_country']                   = 'Maat';
+$_['text_coupon']                    = 'Kupongit';
+$_['text_currency']                  = 'Valuutat';
+$_['text_customer']                  = 'Asiakkaat';
+$_['text_customer_group']            = 'Asiakasryhmät';
+$_['text_custom_field']              = 'Mukautetut kentät';
+$_['text_dashboard']                 = 'Hallintasivu';
+$_['text_design']                    = 'Ulkoasu';
+$_['text_download']                  = 'Lataukset';
+$_['text_log']                       = 'Virheloki';
+$_['text_event']                     = 'Events';
+$_['text_extension']                 = 'Laajennukset';
+$_['text_filter']                    = 'Suodattimet';
+$_['text_geo_zone']                  = 'Maantieteelliset alueet';
+$_['text_information']               = 'Tiedotteet';
+$_['text_installer']                 = 'Laajennuksen asennus';
+$_['text_language']                  = 'Kielet';
+$_['text_layout']                    = 'Asettelut';
+$_['text_localisation']              = 'Paikalliset asetukset';
+$_['text_location']                  = 'Kaupan sijainti';
+$_['text_contact']                   = 'Posti';
+$_['text_marketing']                 = 'Markkinointi';
+$_['text_menu']                      = 'Menu Manager';
+$_['text_modification']              = 'Muutokset';
+$_['text_manufacturer']              = 'Valmistajat';
+$_['text_option']                    = 'Valinnat';
+$_['text_order']                     = 'Tilaukset';
+$_['text_order_status']              = 'Tilausten tilat';
+$_['text_product']                   = 'Tuotteet';
+$_['text_reports']                   = 'Raportit';
+$_['text_report_sale']               = 'Myynti';
+$_['text_report_sale_order']         = 'Tilaukset';
+$_['text_report_sale_tax']           = 'Vero';
+$_['text_report_sale_shipping']      = 'Toimitustavat';
+$_['text_report_sale_return']        = 'Palaututetaan';
+$_['text_report_sale_coupon']        = 'Kupongit';
+$_['text_report_product']            = 'Tuotteet';
+$_['text_report_product_viewed']     = 'Näytetty';
+$_['text_report_product_purchased']  = 'Ostettu';
+$_['text_report_customer']           = 'Asiakkaat';
+$_['text_report_customer_activity']  = 'Asiakkaiden Toiminta';
+$_['text_report_customer_search']    = 'Customer Searches';
+$_['text_report_customer_online']    = 'Asiakkaita verkossa';
+$_['text_report_customer_order']     = 'Tilaukset';
+$_['text_report_customer_reward']    = 'Palkitsemispisteet';
+$_['text_report_customer_credit']    = 'Saldo';
+$_['text_report_marketing']          = 'Markkinointi';
+$_['text_report_affiliate']          = 'Kumppanit';
+$_['text_report_affiliate_activity'] = 'Kumppanuustoiminta';
+$_['text_review']                    = 'Arvostelut';
+$_['text_return']                    = 'Palaututetaan';
+$_['text_return_action']             = 'Palautustoimet';
+$_['text_return_reason']             = 'Palautusten syyt';
+$_['text_return_status']             = 'Palautusten tilat';
+$_['text_sale']                      = 'Myynti';
+$_['text_setting']                   = 'Asetukset';
+$_['text_store']                     = 'Extension Store';
+$_['text_stock_status']              = 'Varaston tila';
+$_['text_system']                    = 'Järjestelmä';
+$_['text_tax']                       = 'Verot';
+$_['text_tax_class']                 = 'Veroluokat';
+$_['text_tax_rate']                  = 'Veroprosentit';
+$_['text_translation']               = 'Language Editor';
+$_['text_theme']                     = 'Theme Editor';
+$_['text_tools']                     = 'Työkalut';
+$_['text_upload']                    = 'Lataukset';
+$_['text_user']                      = 'Käyttäjät';
+$_['text_users']                     = 'Käyttäjät';
+$_['text_user_group']                = 'Käyttäjäryhmät';
+$_['text_voucher']                   = 'Lahjakortit';
+$_['text_voucher_theme']             = 'Lahjakorttien teemat';
+$_['text_weight_class']              = 'Painoyksiköt';
+$_['text_length_class']              = 'Pituusyksiköt';
+$_['text_zone']                      = 'Vyöhykkeet';
+$_['text_recurring']                 = 'Toistuvat profiilit';
+$_['text_order_recurring']           = 'Toistuvat tilaukset';
+$_['text_openbay_extension']         = 'OpenBay Pro';
+$_['text_openbay_dashboard']         = 'Hallintasivu';
+$_['text_openbay_orders']            = 'Tilauserän päivitys';
+$_['text_openbay_items']             = 'Hallitse kohteita';
+$_['text_openbay_ebay']              = 'eBay';
+$_['text_openbay_amazon']            = 'Amazon (EU)';
+$_['text_openbay_amazonus']          = 'Amazon (US)';
+$_['text_openbay_etsy']            	 = 'Etsy';
+$_['text_openbay_settings']          = 'Asetukset';
+$_['text_openbay_links']             = 'Linkit';
+$_['text_openbay_report_price']      = 'Hinnoittelu';
+$_['text_openbay_order_import']      = 'Tuontijärjestys';
+$_['text_paypal']                    = 'PayPal';
+$_['text_paypal_search']             = 'Etsi';
+$_['text_complete_status']           = 'Valmistuneet tilaukset'; 
+$_['text_processing_status']         = 'Tilausten käsittely'; 
+$_['text_other_status']              = 'Muut tilat'; 
