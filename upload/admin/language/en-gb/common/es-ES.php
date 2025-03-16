@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administración';
 
 // Text
-$_['text_order']             = 'Pedidos';
-$_['text_processing_status'] = 'Procesando';
-$_['text_complete_status']   = 'Terminado';
-$_['text_customer']          = 'Clientes';
-$_['text_online']            = 'Clientes en línea';
-$_['text_approval']          = 'Pendiente de aprobación';
-$_['text_product']           = 'Productos';
-$_['text_stock']             = 'Sin existencias';
-$_['text_review']            = 'Comentarios';
-$_['text_return']            = 'Devoluciones';
-$_['text_affiliate']         = 'Afiliados';
-$_['text_store']             = 'Tiendas';
-$_['text_front']             = 'Tienda';
-$_['text_help']              = 'Ayuda';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Foro de asistencia';
-$_['text_documentation']     = 'Documentación';
-$_['text_logout']            = 'Desconexión';
+$_['text_heading']   = 'Administración';
+$_['text_login']     = 'Por favor ingrese sus datos de inicio de sesión.';
+$_['text_forgotten'] = 'Contraseña olvidada';
+
+// Entry
+$_['entry_username'] = 'Usuario';
+$_['entry_password'] = 'Contraseña';
+
+// Button
+$_['button_login']   = 'Acceder';
+
+// Error
+$_['error_login']    = 'El usuario y/o contraseña no coinciden.';
+$_['error_token']    = 'Sesión de token no válido. Por favor ingresa nuevamente.';
