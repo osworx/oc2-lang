@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'الأقسام';
+$_['heading_title']     = 'التنزيلات';
 
 // Text
-$_['text_success']           = 'تم حفظ تعديلاتك على الأقسام بنجاح!';
-$_['text_list']              = 'قائمة الأقسام';
-$_['text_add']               = 'اضافة قسم';
-$_['text_edit']              = 'تحرير القسم';
-$_['text_default']           = 'الافتراضي';
+$_['text_success']      = 'تم بنجاح: لقد قمت بتعديل التنزيلات!';
+$_['text_list']         = 'قائمة التنزيلات';
+$_['text_add']          = 'اضافة ملف للتنزيلات';
+$_['text_edit']         = 'تعديل ملف من التنزيلات';
+$_['text_upload']       = 'تم رفع الملف بنجاح!';
 
 // Column
-$_['column_name']            = 'اسم القسم';
-$_['column_sort_order']      = 'الترتيب';
-$_['column_action']          = 'عمل';
+$_['column_name']       = 'اسم التنزيل';
+$_['column_date_added'] = 'تاريخ اضافة الملف';
+$_['column_action']     = 'عمل';
 
 // Entry
-$_['entry_name']             = 'اسم القسم';
-$_['entry_description']      = 'الوصف';
-$_['entry_meta_title'] 	     = 'عنوان Meta-Tag';
-$_['entry_meta_keyword']     = 'الكلمات الوصفية "Meta Tag Keywords"';
-$_['entry_meta_description'] = 'وصف العلامة الوصفية "Meta Tag Description"';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'الرئيسي';
-$_['entry_filter']           = 'ترشيحات/تصفيات';
-$_['entry_store']            = 'المتاجر';
-$_['entry_image']            = 'صورة';
-$_['entry_top']              = 'أعلى';
-$_['entry_column']           = 'الأعمدة';
-$_['entry_sort_order']       = 'الترتيب';
-$_['entry_status']           = 'الحالة';
-$_['entry_layout']           = 'تجاوز التخطيط';
+$_['entry_name']        = 'اسم التنزيل';
+$_['entry_filename']    = 'اسم الملف';
+$_['entry_mask']        = 'الاسم الوهمي للملف';
 
 // Help
-$_['help_filter']            = '(إكمال تلقائي)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'عرض في القائمة العلوية . تعمل فقط في الأقسام الرئيسية وليس الفرعيه منها .';
-$_['help_column']            = 'عدد الاعمدة الممكن استخدامها في الأسفل هو 3 أقسام. تعمل فقط في الأقسام الرئيسة.';
+$_['help_filename']     = 'بإمكانك رفع الملفات عبر زر "رفع ملف"  أو عن طريق الـ FTP لمجلد التنزيلات ووضع التفاصيل أدناه.';
+$_['help_mask']         = 'من المستحسن أن يكون اسم الملف والاسم الوهمي مختلفان لوقف المستخدمين من محاولة الربط المباشرة للتنزيلات الخاصة بك.';
 
 // Error
-$_['error_warning']          = 'تحذير: الرجاء التحقق من النموذج واصلاح الأخطاء!';
-$_['error_permission']       = 'تحذير: ليس لديك الصلاحيات لتعديل الأقسام!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'يجب أن لا يقل عدد حروف العنوان عن 3حروف ولا يزيد عن 255 حرف!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'تحذير: الرجاء التحقق من النموذج واصلاح الأخطاء!';
+$_['error_permission']  = 'تحذير: لا تمتلك الصلاحيات لتعديل التنزيلات!';
+$_['error_name']        = 'يجب أن يكون اسم التنزيل أكثر من  3حروف وأقل من 64حرف!';
+$_['error_upload']      = 'لا توجد مرفقات !! أضف ملف!';
+$_['error_filename']    = 'يجب أن يكون اسم الملف بين 3حروف و128حرف!';
+$_['error_exists']      = 'الملف غير موجود!';
+$_['error_mask']        = 'الاسم الوهمي للتحميل يجب أن يكون بين 3حروف و128حرف!';
+$_['error_filetype']    = 'امتداد الملف غير صالح!';
+$_['error_product']     = 'تحذير: لا يمكن حذف هذا الملف بسبب تعيينه إلى المنتج %s!';
