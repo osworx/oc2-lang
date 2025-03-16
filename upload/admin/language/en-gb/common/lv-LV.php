@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administrēšana';
 
 // Text
-$_['text_order']             = 'Pasūtījumi';
-$_['text_processing_status'] = 'Apstrādā';
-$_['text_complete_status']   = 'Pabeigts';
-$_['text_customer']          = 'Klienti';
-$_['text_online']            = 'Klienti tiešsaistē';
-$_['text_approval']          = 'Gaida apstiprinājumu';
-$_['text_product']           = 'Produkti';
-$_['text_stock']             = 'Nav pieejams';
-$_['text_review']            = 'Apraksti';
-$_['text_return']            = 'Atgriezšanas';
-$_['text_affiliate']         = 'Saistītie uzņēmumi';
-$_['text_store']             = 'Veikali';
-$_['text_front']             = 'Veikala priekšā';
-$_['text_help']              = 'Palīdzība';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Atbalsta forums';
-$_['text_documentation']     = 'Dokumentācija';
-$_['text_logout']            = 'Iziet';
+$_['text_heading']   = 'Administrēšana';
+$_['text_login']     = 'Lūdzu, ievadiet savu pieteikšanās informāciju.';
+$_['text_forgotten'] = 'Aizmirstā parole';
+
+// Entry
+$_['entry_username'] = 'Lietotāja vārds';
+$_['entry_password'] = 'Parole';
+
+// Button
+$_['button_login']   = 'Pieteikties';
+
+// Error
+$_['error_login']    = 'Nevar atrast lietotājvārdu un/vai paroli.';
+$_['error_token']    = 'Nederīga sesija. Lūdzu, piesakieties vēlreiz.';
