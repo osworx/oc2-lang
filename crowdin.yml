@@ -1,0 +1,3 @@
+files:
+  - source: upload/admin/?
+    translation: /upload/language/%locale%/%locale%.php
