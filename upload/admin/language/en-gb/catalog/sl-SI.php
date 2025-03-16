@@ -1,27 +1,25 @@
 <?php
 // Heading
-$_['heading_title']          = 'Lastnosti';
+$_['heading_title']     = 'Skupine lastnosti';
 
 // Text
-$_['text_success']           = 'USPEŠNO: Ste uredili lastnosti!';
-$_['text_list']              = 'Seznam lastnosti';
-$_['text_add']               = 'Dodaj lastnost';
-$_['text_edit']              = 'Uredi lastnost';
+$_['text_success']      = 'USPEŠNO: Ste uredili skupine lastnosti!';
+$_['text_list']         = 'Seznam skupin lastnosti';
+$_['text_add']          = 'Dodaj skupino lastnosti';
+$_['text_edit']         = 'Uredi skupino lastnosti';
 
 // Column
-$_['column_name']            = 'Ime lastnosti';
-$_['column_attribute_group'] = 'Skupina lastnosti';
-$_['column_sort_order']      = 'Vrstni red';
-$_['column_action']          = 'Dejanje';
+$_['column_name']       = 'Ime skupine lastnosti';
+$_['column_sort_order'] = 'Vrstni red';
+$_['column_action']     = 'Dejanje';
 
 // Entry
-$_['entry_name']             = 'Ime lastnosti';
-$_['entry_attribute_group']  = 'Skupina lastnosti';
-$_['entry_sort_order']       = 'Vrstni red';
+$_['entry_name']        = 'Ime skupine lastnosti';
+$_['entry_sort_order']  = 'Vrstni red';
 
 // Error
-$_['error_warning']          = 'POZOR: Prosimo, pazljivo preverite polja za morebitne napake!';
-$_['error_permission']       = 'POZOR: Nimate dovoljenja za urejanje lastnosti!';
-$_['error_attribute_group']  = 'Attribute Group Required!';
-$_['error_name']             = 'Ime lastnosti mora vsebovati med 3 in 64 znakov!';
-$_['error_product']          = 'POZOR: Te lastnosti ne morete izbrisati, ker je trenutno vezana na %s izdelke!';
+$_['error_warning']     = 'POZOR: Prosimo, pazljivo preverite polja za morebitne napake!';
+$_['error_permission']  = 'POZOR: Nimate dovoljenja za urejanje skupine lastnosti!';
+$_['error_name']        = 'Ime skupine lastnosti mora vsebovati med 3 in 64 znakov!';
+$_['error_attribute']   = 'POZOR: Te skupine lastnosti ne morete izbrisati, ker je trenutno vezana na %s lastnosti!';
+$_['error_product']     = 'POZOR: Te skupine lastnosti ne morete izbrisati, ker je trenutno vezana na %s izdelke!';
