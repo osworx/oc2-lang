@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Fabricantes';
+$_['heading_title']      = 'Opções';
 
 // Text
-$_['text_success']      = 'Concluído: Modificou os Fabricantes com sucesso!';
-$_['text_list']         = 'Lista de Fabricantes';
-$_['text_add']          = 'Adicionar Fabricante';
-$_['text_edit']         = 'Editar Fabricante';
-$_['text_default']      = 'Predefinição';
-$_['text_percent']      = 'Percentagem';
-$_['text_amount']       = 'Valor Fixo';
+$_['text_success']       = 'Concluído: Modificou as Opções com Sucesso!';
+$_['text_list']          = 'Lista de Opções';
+$_['text_add']           = 'Adicionar Opção';
+$_['text_edit']          = 'Editar a Opção';
+$_['text_choose']        = 'Escolher';
+$_['text_select']        = 'Selecionar';
+$_['text_radio']         = 'RadioBox';
+$_['text_checkbox']      = 'CheckBox';
+$_['text_input']         = 'Caixa de Texto';
+$_['text_text']          = 'Texto';
+$_['text_textarea']      = 'Área de Texto';
+$_['text_file']          = 'Ficheiro';
+$_['text_date']          = 'Data';
+$_['text_datetime']      = 'Data &amp; Hora';
+$_['text_time']          = 'Hora';
 
 // Column
-$_['column_name']       = 'Nome do Fabricante';
-$_['column_sort_order'] = 'Posição';
-$_['column_action']     = 'Ação';
+$_['column_name']        = 'Nome da Opção';
+$_['column_sort_order']  = 'Posição';
+$_['column_action']      = 'Ação';
 
 // Entry
-$_['entry_name']        = 'Nome do Fabricante';
-$_['entry_store']       = 'Lojas';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Imagem';
-$_['entry_sort_order']  = 'Posição';
-$_['entry_type']        = 'Tipo';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Nome da Opção';
+$_['entry_type']         = 'Tipo';
+$_['entry_option_value'] = 'Nome do Valor de Opção';
+$_['entry_image']        = 'Imagem';
+$_['entry_sort_order']   = 'Posição';
 
 // Error
-$_['error_warning']     = 'Aviso: Por favor, verifique o formulário cuidadosamente para evitar erros!';
-$_['error_permission']  = 'Aviso: Não tem permissões para modificar os Fabricantes!';
-$_['error_name']        = 'Nome do Fabricante deve conter entre 2 e 64 caracteres!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Aviso: O Fabricante não pode ser excluído pois está atualmente atribuído a %s produtos!';
+$_['error_warning']      = 'Aviso: Por favor, verifique o formulário cuidadosamente para evitar erros!';
+$_['error_permission']   = 'Aviso: Não tem permissões para modificar as Opções!';
+$_['error_name']         = 'Nome da Opção deve conter entre 1 e 128 caracteres!';
+$_['error_type']         = 'Aviso: Valores de Opção obrigatórios!';
+$_['error_option_value'] = 'O Nome do Valor da Opção ser conter 1 e 128 caracteres!';
+$_['error_product']      = 'Aviso: Esta Opção não pode ser excluída pois está atualmente atribuída a %s produtos!';
