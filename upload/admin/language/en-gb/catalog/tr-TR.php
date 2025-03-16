@@ -1,35 +1,25 @@
 <?php
 // Heading
-$_['heading_title']     = 'İndirmeler';
+$_['heading_title']     = 'Filtreler';
 
 // Text
-$_['text_success']      = 'Başarılı: Yüklemeleri düzenlediniz!';
-$_['text_list']         = 'İndirme Listesi';
-$_['text_add']          = 'İndirileceklere Ekle';
-$_['text_edit']         = 'İndirmeyi Düzenle';
-$_['text_upload']       = 'Dosya başarıyla yüklendi!';
+$_['text_success']      = 'BAŞARILI: Filtreleri düzenlediniz !';
+$_['text_list']         = 'Filtre Listesi';
+$_['text_add']          = 'Filtre Ekle';
+$_['text_edit']         = 'Filtreyi Değiştir';
 
 // Column
-$_['column_name']       = 'Dosya Adı';
-$_['column_date_added'] = 'Eklenme Tarihi';
+$_['column_group']      = 'Filtre Grubu';
+$_['column_sort_order'] = 'Sıralama Düzeni';
 $_['column_action']     = 'Eylem';
 
 // Entry
-$_['entry_name']        = 'Dosya Adı';
-$_['entry_filename']    = 'Dosya Adı';
-$_['entry_mask']        = 'Gizle';
-
-// Help
-$_['help_filename']     = 'Yükle(me) butonunu kullanarak yükleme yapabilir ya da FTP ile indirme dizinine yükleyebilir ve aşağıdaki detayları girebilirsiniz.';
-$_['help_mask']         = 'Dosya adı ve maskenin farklı olması, doğrudan indirme dosyalarınıza bağlantı verilmesini durdurmak için  önerilir.';
+$_['entry_group']       = 'Filtre Grup Adı';
+$_['entry_name']        = 'Filtre Adı';
+$_['entry_sort_order']  = 'Sıralama Düzeni';
 
 // Error
 $_['error_warning']     = 'Uyarı: Lütfen formu gösterilen hatalar nedeniyle dikkatlice kontrol edin!';
-$_['error_permission']  = 'Uyarı: Karşıdan Yüklenenleri değiştirme iznine sahip değilsiniz!';
-$_['error_name']        = 'İndirme adı 3 ile 64 karakter arasında olmalıdır!';
-$_['error_upload']      = 'Yükleme yapmanız gerekmektedir!';
-$_['error_filename']    = 'Dosya adı 3 ile 128 karakter arasında olmalıdır!';
-$_['error_exists']      = 'Dosya bulunamadı!';
-$_['error_mask']        = 'Maske 3 ile 128 karakter arasında olmalıdır!';
-$_['error_filetype']    = 'Geçersiz dosya türü!';
-$_['error_product']     = 'UYARI: Şu an için %s ürünle bağlantılı olan bu indirme dosyası silinemez!';
+$_['error_permission']  = 'UYARI: Filtreleri değiştirme yetkiniz yok!';
+$_['error_group']       = 'Filtre Grup Adı 1 ile 64 karakter arasında olmalıdır!';
+$_['error_name']        = 'Filtre Adı 1 ile 64 karakter arasında olmalıdır!';
