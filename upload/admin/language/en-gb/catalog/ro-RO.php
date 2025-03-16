@@ -1,27 +1,25 @@
 <?php
 // Heading
-$_['heading_title']          = 'Atribute';
+$_['heading_title']     = 'Grupuri de atribute';
 
 // Text
-$_['text_success']           = 'Succes: Ai modificat atributele!';
-$_['text_list']              = 'Lista de atribute';
-$_['text_add']               = 'Adaugă atribut';
-$_['text_edit']              = 'Modifică atribut';
+$_['text_success']      = 'Succes: Ai modificat grupuri de atribute!';
+$_['text_list']         = 'Lista grupurilor de atribute';
+$_['text_add']          = 'Adaugă grup de atribute';
+$_['text_edit']         = 'Modifică grup de atribute';
 
 // Column
-$_['column_name']            = 'Denumire atribut';
-$_['column_attribute_group'] = 'Grup atribut';
-$_['column_sort_order']      = 'Ordinea de sortare';
-$_['column_action']          = 'Acțiune';
+$_['column_name']       = 'Denumirea grupului de atribute';
+$_['column_sort_order'] = 'Ordinea de sortare';
+$_['column_action']     = 'Acțiune';
 
 // Entry
-$_['entry_name']             = 'Denumire atribut';
-$_['entry_attribute_group']  = 'Grup atribut';
-$_['entry_sort_order']       = 'Ordinea de sortare';
+$_['entry_name']        = 'Denumirea grupului de atribute';
+$_['entry_sort_order']  = 'Ordinea de sortare';
 
 // Error
-$_['error_warning']          = 'Avertisment: Vă rugăm să verificaţi formularul pentru erori!';
-$_['error_permission']       = 'Avertisment: Nu aveţi permisiunile necesare pentru a modifica atributele!';
-$_['error_attribute_group']  = 'Attribute Group Required!';
-$_['error_name']             = 'Denumirea atributului trebuie să fie aibă între 3 şi 64 de caractere!';
-$_['error_product']          = 'Avertisment: Acest atribut nu poate fi șters deoarece este asociat la %s produse!';
+$_['error_warning']     = 'Avertisment: Vă rugăm să verificaţi formularul pentru erori!';
+$_['error_permission']  = 'Avertisment: Nu aveţi permisiunile necesare pentru a modifica grupurile de atribute!';
+$_['error_name']        = 'Denumirea grupului de atribute trebuie să aibă între 3 şi 64 de caractere!';
+$_['error_attribute']   = 'Avertisment: Acest grup de atribute nu poate fi șters deoarece este asociat la %s atribute!';
+$_['error_product']     = 'Avertisment: Acest grup de atribute nu poate fi șters deoarece este asociat la %s produse!';
