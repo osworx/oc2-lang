@@ -1,25 +1,45 @@
 <?php
 // Heading
-$_['heading_title']     = 'Filter';
+$_['heading_title']          = 'Informasi';
 
 // Text
-$_['text_success']      = 'Sukses: Anda telah memodifikasi filter!';
-$_['text_list']         = 'Daftar Filter';
-$_['text_add']          = 'Tambah Filter';
-$_['text_edit']         = 'Ubah Filter';
+$_['text_success']           = 'Sukses: Anda telah mengubah informasi!';
+$_['text_list']              = 'Daftar informasi';
+$_['text_add']               = 'Tambahkan Informasi';
+$_['text_edit']              = 'Edit Informasi';
+$_['text_default']           = 'Standar';
 
 // Column
-$_['column_group']      = 'Grup Filter';
-$_['column_sort_order'] = 'Urutan';
-$_['column_action']     = 'Tindakan';
+$_['column_title']           = 'Judul Informasi';
+$_['column_sort_order']	     = 'Urutan';
+$_['column_action']          = 'Tindakan';
 
 // Entry
-$_['entry_group']       = 'Filter Nama Grup';
-$_['entry_name']        = 'Nama Filter';
-$_['entry_sort_order']  = 'Urutan';
+$_['entry_title']            = 'Judul Informasi';
+$_['entry_description']      = 'Deskripsi';
+$_['entry_store']            = 'Toko';
+$_['entry_meta_title'] 	     = 'Judul Tag Meta';
+$_['entry_meta_keyword'] 	 = 'Kata Kunci Tag Meta';
+$_['entry_meta_description'] = 'Deskripsi Tag Meta';
+$_['entry_keyword']          = 'SEO URL';
+$_['entry_bottom']           = 'Bawah';
+$_['entry_status']           = 'Status';
+$_['entry_sort_order']       = 'Urutan';
+$_['entry_layout']           = 'Penimpaan Tata Letak';
+
+// Help
+$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['help_bottom']            = 'Tampilan di bawah footer.';
 
 // Error
-$_['error_warning']     = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
-$_['error_permission']  = 'Peringatan: Anda tidak memiliki izin untuk mengubah filter!';
-$_['error_group']       = 'Nama Filter Grup harus terdiri dari 1 sampai 64 karakter!';
-$_['error_name']        = 'Nama Filter harus antara 1sampai 64 karakter!';
+$_['error_warning']          = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
+$_['error_permission']       = 'Peringatan: anda tidak memiliki izin untuk memodifikasi informasi!';
+$_['error_title']            = 'Judul informasi harus antara 3 sampai 64 karakter!';
+$_['error_description']      = 'Deskripsi harus lebih dari 3 karakter!';
+$_['error_meta_title']       = 'Judul meta harus lebih besar dari 3 dan kurang dari 255 karakter!';
+$_['error_keyword']          = 'SEO URL already in use!';
+$_['error_account']          = 'Peringatan: Halaman informasi ini tidak dapat dihapus karena itu saat ini ditetapkan sebagai persyaratan Afiliasi toko!';
+$_['error_checkout']         = 'Peringatan: Halaman informasi ini tidak dapat dihapus karena itu saat ini ditetapkan sebagai persyaratan Afiliasi toko!';
+$_['error_affiliate']        = 'Peringatan: Halaman informasi ini tidak dapat dihapus karena itu saat ini ditetapkan sebagai persyaratan Afiliasi toko!';
+$_['error_return']           = 'Peringatan: Halaman informasi ini tidak dapat dihapus karena itu saat ini ditetapkan sebagai persyaratan Afiliasi toko!';
+$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
