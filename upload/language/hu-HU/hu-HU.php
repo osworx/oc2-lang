@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Adminisztráció';
+$_['heading_title']  = 'A jelszó alaphelyzetbe állítása';
 
 // Text
-$_['text_heading']   = 'Adminisztráció';
-$_['text_login']     = 'Kérjük, adja meg a bejelentkezési adatait.';
-$_['text_forgotten'] = 'Elfelejtett jelszó';
+$_['text_password']  = 'Írja be az új jelszót, amit használni szeretne.';
+$_['text_success']   = 'Sikeresen megváltoztatta jelszavát.';
 
 // Entry
-$_['entry_username'] = 'Felhasználónév';
 $_['entry_password'] = 'Jelszó';
-
-// Button
-$_['button_login']   = 'Belépés';
+$_['entry_confirm']  = 'Új jelszó mégegyszer';
 
 // Error
-$_['error_login']    = 'Nincs egyezõ felhasználónév és/vagy jelszó.';
-$_['error_token']    = 'Érvénytelen. Jelentkezzen be újra.';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'A két jelszó nem egyezik!';
