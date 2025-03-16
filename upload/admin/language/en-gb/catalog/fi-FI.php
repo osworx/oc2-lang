@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Valmistajat';
+$_['heading_title']      = 'Valinnat';
 
 // Text
-$_['text_success']      = 'Onnistui: Olet muokannut valmistajia!';
-$_['text_list']         = 'Valmistajat';
-$_['text_add']          = 'Lisää valmistaja';
-$_['text_edit']         = 'Muokkaa valmistajaa';
-$_['text_default']      = 'Oletus';
-$_['text_percent']      = 'Prosenttiosuus';
-$_['text_amount']       = 'Kiinteä summa';
+$_['text_success']       = 'Onnistui: Olet muokannut valintoja!';
+$_['text_list']          = 'Valinnat';
+$_['text_add']           = 'Lisää vaihtoehto';
+$_['text_edit']          = 'Muokkaa vaihtoehtoa';
+$_['text_choose']        = '-- Valitse --';
+$_['text_select']        = 'Valitse';
+$_['text_radio']         = 'Radio';
+$_['text_checkbox']      = 'Valintaruutu';
+$_['text_input']         = 'Syöte';
+$_['text_text']          = 'Teksti';
+$_['text_textarea']      = 'Tekstialue';
+$_['text_file']          = 'Tiedosto';
+$_['text_date']          = 'Päivämäärä';
+$_['text_datetime']      = 'Päivä ja aika';
+$_['text_time']          = 'Aika';
 
 // Column
-$_['column_name']       = 'Valmistajan nimi';
-$_['column_sort_order'] = 'Lajittelujärjestys';
-$_['column_action']     = 'Toiminto';
+$_['column_name']        = 'Valinnan nimi';
+$_['column_sort_order']  = 'Lajittelujärjestys';
+$_['column_action']      = 'Toiminto';
 
 // Entry
-$_['entry_name']        = 'Valmistajan nimi';
-$_['entry_store']       = 'Kaupat';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Kuva';
-$_['entry_sort_order']  = 'Lajittelujärjestys';
-$_['entry_type']        = 'Tyyppi';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Valinnan nimi';
+$_['entry_type']         = 'Tyyppi';
+$_['entry_option_value'] = 'Valinnan sisällön nimi';
+$_['entry_image']        = 'Kuva';
+$_['entry_sort_order']   = 'Lajittelujärjestys';
 
 // Error
-$_['error_warning']     = 'Varoitus: tarkista lomake virheiden varalta!';
-$_['error_permission']  = 'Varoitus: sinulla ei ole oikeuksia muokata valmistajia!';
-$_['error_name']        = 'Valmistajan nimen tulee olla 3 - 64 merkkiä pitkä!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Varoitus: tätä valmistajaa ei voi poistaa, koska %s tuotetta käyttää sitä!';
+$_['error_warning']      = 'Varoitus: tarkista lomake virheiden varalta!';
+$_['error_permission']   = 'Varoitus: Sinulla ei ole oikeuksia muokata valintoja!';
+$_['error_name']         = 'Valinnan nimen tulee olla 1 - 128 merkkiä pitkä!';
+$_['error_type']         = 'Varoitus: valinnan arvot ovat pakollisia!';
+$_['error_option_value'] = 'Vaihtoehdon sisällön nimen on oltava 1-128 merkkiä!';
+$_['error_product']      = 'Varoitus: tätä arvoa ei voi poistaa, koska %s tuotetta käyttää sitä!';
