@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Elfelejtette a jelszavát?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Elfelejtett jelszó';
-$_['text_your_email'] = 'Az Ön e-mail címe';
-$_['text_email']      = 'Adja meg az e-mailét, majd küldés gombra. Ezután jelszó-visszaállító linket e-mailben küldjük el.';
-$_['text_success']    = 'Egy megerõsítõ link el lett küldve az e-mail címére.';
-
-// Entry
-$_['entry_email']     = 'E-mail cím';
-$_['entry_password']  = 'Új jelszó';
-$_['entry_confirm']   = 'Új jelszó mégegyszer';
-
-// Error
-$_['error_email']     = 'A megadott e-mail cím nem szerepel adatbázisunkban! Kérjük, hogy próbálja meg újra!';
-$_['error_password']  = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']   = 'A két jelszó nem egyezik!';
+$_['text_order']             = 'Megrendelések';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'Teljesített';
+$_['text_customer']          = 'Vásárlók';
+$_['text_online']            = 'Online ügyfelek';
+$_['text_approval']          = 'Jóváhagyás függőben';
+$_['text_product']           = 'Termékek';
+$_['text_stock']             = 'Nincs raktáron';
+$_['text_review']            = 'Vélemények';
+$_['text_return']            = 'Visszárúk';
+$_['text_affiliate']         = 'Partnerprogram';
+$_['text_store']             = 'Áruházak';
+$_['text_front']             = 'Áruház';
+$_['text_help']              = 'Segítség';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Támogatói fórum';
+$_['text_documentation']     = 'Dokumentáció';
+$_['text_logout']            = 'Kijelentkezés';
