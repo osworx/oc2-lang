@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = '오픈카트';
+// header
+$_['heading_title']  = '관리';
 
 // Text
-$_['text_order']             = '주문';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = '완료';
-$_['text_customer']          = '고객';
-$_['text_online']            = '고객 접속정보';
-$_['text_approval']          = '승인 대기 중';
-$_['text_product']           = '상품';
-$_['text_stock']             = '품절';
-$_['text_review']            = '상품평';
-$_['text_return']            = '반품';
-$_['text_affiliate']         = '제휴사';
-$_['text_store']             = '쇼핑몰';
-$_['text_front']             = '쇼핑몰 프론트';
-$_['text_help']              = '도움말';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = '지원 포럼';
-$_['text_documentation']     = '문서';
-$_['text_logout']            = '로그아웃';
+$_['text_heading']   = '관리';
+$_['text_login']     = '로그인 정보를 입력하세요.';
+$_['text_forgotten'] = '비밀번호 분실';
+
+// Entry
+$_['entry_username'] = '사용자이름';
+$_['entry_password'] = '비밀번호';
+
+// Button
+$_['button_login']   = '로그인';
+
+// Error
+$_['error_login']    = '사용자이름 또는 비밀번호가 일치하지 않습니다.';
+$_['error_token']    = '잘못된 토큰 세션입니다. 다시 로그인 해주세요.';
