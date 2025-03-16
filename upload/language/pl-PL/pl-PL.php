@@ -1,36 +1,103 @@
 <?php
-// Heading
-$_['heading_title']     = 'Opinie';
-
 // Text
-$_['text_success']      = 'Sukces: Zmodyfikowałeś opinie!';
-$_['text_list']         = 'Lista opinii';
-$_['text_add']          = 'Dodaj opinię';
-$_['text_edit']         = 'Edytuj opinię';
-
-// Column
-$_['column_product']    = 'Produkt';
-$_['column_author']     = 'Autor';
-$_['column_rating']     = 'Ocena';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Data Dodania';
-$_['column_action']     = 'Akcja';
-
-// Entry
-$_['entry_product']     = 'Produkt';
-$_['entry_author']      = 'Autor';
-$_['entry_rating']      = 'Ocena';
-$_['entry_status']      = 'Status';
-$_['entry_text']        = 'Tekst';
-$_['entry_date_added']  = 'Data Dodania';
-
-// Help
-$_['help_product']      = '(Autouzupełnianie)';
-
-// Error
-$_['error_warning']     = 'Uwaga: Sprawdź dokładnie formularz pod kątem błędów!';
-$_['error_permission']  = 'Uwaga: Nie masz uprawnień do modyfikowania opinii!';
-$_['error_product']     = 'Uwaga: Produkt jest wymagany!';
-$_['error_author']      = 'Uwaga: Autor musi zawierać od 3 do 64 znaków!';
-$_['error_text']        = 'Uwaga: Tekst opinii musi zawierać przynajmniej 1 znak!';
-$_['error_rating']      = 'Uwaga: Ocena jest wymagana!';
+$_['text_affiliate']                 = 'Partnerzy';
+$_['text_api']                       = 'API';
+$_['text_attribute']                 = 'Atrybuty';
+$_['text_attribute_group']           = 'Grupa atrybutów';
+$_['text_backup']                    = 'Backup';
+$_['text_banner']                    = 'Banery';
+$_['text_catalog']                   = 'Katalog';
+$_['text_category']                  = 'Kategorie';
+$_['text_country']                   = 'Kraje';
+$_['text_coupon']                    = 'Bony';
+$_['text_currency']                  = 'Waluty';
+$_['text_customer']                  = 'Klienci';
+$_['text_customer_group']            = 'Grupy klientów';
+$_['text_custom_field']              = 'Własne pola';
+$_['text_dashboard']                 = 'Panel administracyjny';
+$_['text_design']                    = 'Projekt';
+$_['text_download']                  = 'Pliki do pobrania';
+$_['text_log']                       = 'Logi błędów';
+$_['text_event']                     = 'Events';
+$_['text_extension']                 = 'Rozszerzenia';
+$_['text_filter']                    = 'Filtry';
+$_['text_geo_zone']                  = 'Strefy podatkowe';
+$_['text_information']               = 'Informacje';
+$_['text_installer']                 = 'Instalator rozszerzeń';
+$_['text_language']                  = 'Języki';
+$_['text_layout']                    = 'Szablon';
+$_['text_localisation']              = 'Ustawienia narodowe';
+$_['text_location']                  = 'Lokalizacja sklepu';
+$_['text_contact']                   = 'Poczta';
+$_['text_marketing']                 = 'Marketing';
+$_['text_menu']                      = 'Menu Manager';
+$_['text_modification']              = 'Modyfikacje';
+$_['text_manufacturer']              = 'Producenci';
+$_['text_option']                    = 'Opcje';
+$_['text_order']                     = 'Zamówienia';
+$_['text_order_status']              = 'Statusy zamówień';
+$_['text_product']                   = 'Produkty';
+$_['text_reports']                   = 'Zestawienia';
+$_['text_report_sale']               = 'Sprzedaż';
+$_['text_report_sale_order']         = 'Zamówienia';
+$_['text_report_sale_tax']           = 'Podatek';
+$_['text_report_sale_shipping']      = 'Dostawa';
+$_['text_report_sale_return']        = 'Zwroty';
+$_['text_report_sale_coupon']        = 'Bony';
+$_['text_report_product']            = 'Produkty';
+$_['text_report_product_viewed']     = 'Przeglądano';
+$_['text_report_product_purchased']  = 'Zamawiano';
+$_['text_report_customer']           = 'Klienci';
+$_['text_report_customer_activity']  = 'Aktywność klientów';
+$_['text_report_customer_search']    = 'Customer Searches';
+$_['text_report_customer_online']    = 'Klienci online';
+$_['text_report_customer_order']     = 'Zamówienia';
+$_['text_report_customer_reward']    = 'Punkty lojalnościowe';
+$_['text_report_customer_credit']    = 'Kredyt';
+$_['text_report_marketing']          = 'Marketing';
+$_['text_report_affiliate']          = 'Partnerzy';
+$_['text_report_affiliate_activity'] = 'Aktywność partnerów';
+$_['text_review']                    = 'Opinie';
+$_['text_return']                    = 'Zwroty';
+$_['text_return_action']             = 'Działania ws. zwrotu';
+$_['text_return_reason']             = 'Przyczyna zwrotu';
+$_['text_return_status']             = 'Statusy zwrotów';
+$_['text_sale']                      = 'Sprzedaż';
+$_['text_setting']                   = 'Ustawienia';
+$_['text_store']                     = 'Extension Store';
+$_['text_stock_status']              = 'Status zapasów';
+$_['text_system']                    = 'System';
+$_['text_tax']                       = 'Podatki';
+$_['text_tax_class']                 = 'Rodzaje podatków';
+$_['text_tax_rate']                  = 'Stawki podatków';
+$_['text_translation']               = 'Language Editor';
+$_['text_theme']                     = 'Theme Editor';
+$_['text_tools']                     = 'Narzędzia';
+$_['text_upload']                    = 'Wgrane pliki';
+$_['text_user']                      = 'Użytkownik';
+$_['text_users']                     = 'Użytkownik';
+$_['text_user_group']                = 'Grupy użytkowników';
+$_['text_voucher']                   = 'Bon upominkowy';
+$_['text_voucher_theme']             = 'Tematyka bonu upominkowego';
+$_['text_weight_class']              = 'Jednostki wagi';
+$_['text_length_class']              = 'Jednostki długości';
+$_['text_zone']                      = 'Strefy';
+$_['text_recurring']                 = 'Profile Ratalne';
+$_['text_order_recurring']           = 'Zestawienie zamówień';
+$_['text_openbay_extension']         = 'OpenBay Pro';
+$_['text_openbay_dashboard']         = 'Panel administracyjny';
+$_['text_openbay_orders']            = 'Grupowa aktualizacja zamówień OpenBay';
+$_['text_openbay_items']             = 'Zarządzanie elementami OpenBay';
+$_['text_openbay_ebay']              = 'eBay';
+$_['text_openbay_amazon']            = 'Amazon (EU)';
+$_['text_openbay_amazonus']          = 'Amazon (USA)';
+$_['text_openbay_etsy']            	 = 'Etsy';
+$_['text_openbay_settings']          = 'Ustawienia';
+$_['text_openbay_links']             = 'Odnośniki do OpenBay';
+$_['text_openbay_report_price']      = 'Raport cenowy OpenBay';
+$_['text_openbay_order_import']      = 'Import zamówień OpenBay';
+$_['text_paypal']                    = 'PayPal';
+$_['text_paypal_search']             = 'Szukaj';
+$_['text_complete_status']           = 'Zakończone zamówienia'; 
+$_['text_processing_status']         = 'Przetwarzane zamówienia'; 
+$_['text_other_status']              = 'Inne statusy'; 
