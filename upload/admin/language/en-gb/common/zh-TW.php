@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = '系統管理';
 
 // Text
-$_['text_order']             = '訂單';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = '已完成';
-$_['text_customer']          = '顧客';
-$_['text_online']            = '線上客戶';
-$_['text_approval']          = '等待核准';
-$_['text_product']           = '商品';
-$_['text_stock']             = '缺貨';
-$_['text_review']            = '評論';
-$_['text_return']            = '退換貨';
-$_['text_affiliate']         = '聯盟會員';
-$_['text_store']             = '商店';
-$_['text_front']             = '商店前台';
-$_['text_help']              = '說明';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = '支援論壇';
-$_['text_documentation']     = '文件集';
-$_['text_logout']            = '登出';
+$_['text_heading']   = '系統管理';
+$_['text_login']     = '請輸入您的登入詳細資料。';
+$_['text_forgotten'] = '忘記密碼';
+
+// Entry
+$_['entry_username'] = '使用者名稱';
+$_['entry_password'] = '密碼';
+
+// Button
+$_['button_login']   = '登入';
+
+// Error
+$_['error_login']    = '無符合的使用者名稱或密碼。';
+$_['error_token']    = '無效的 session 憑證。請重新登入。';
