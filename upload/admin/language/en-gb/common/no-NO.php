@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administrasjon';
 
 // Text
-$_['text_order']             = 'Bestillinger';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Fullført';
-$_['text_customer']          = 'Kunder';
-$_['text_online']            = 'Besøkende';
-$_['text_approval']          = 'Venter godkjennelse';
-$_['text_product']           = 'Produkter';
-$_['text_stock']             = 'Utsolgt';
-$_['text_review']            = 'Produktomtaler';
-$_['text_return']            = 'Retur';
-$_['text_affiliate']         = 'Affiliater';
-$_['text_store']             = 'Butikker';
-$_['text_front']             = 'Butikkforside';
-$_['text_help']              = 'Hjelp';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Brukerforum';
-$_['text_documentation']     = 'Dokumentasjon';
-$_['text_logout']            = 'Logg ut';
+$_['text_heading']   = 'Administrasjon';
+$_['text_login']     = 'Fyll inn dine kontodetaljer.';
+$_['text_forgotten'] = 'Glemt passord';
+
+// Entry
+$_['entry_username'] = 'Brukernavn';
+$_['entry_password'] = 'Passord';
+
+// Button
+$_['button_login']   = 'Logg inn';
+
+// Error
+$_['error_login']    = 'Brukernavn og/eller passord stemmer ikke.';
+$_['error_token']    = 'Ugyldig token-økt. Du må logge inn på nytt.';
