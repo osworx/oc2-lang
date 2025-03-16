@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'دسته‌بندی‌ها';
+$_['heading_title']     = 'بارگیری‌ها';
 
 // Text
-$_['text_success']           = 'موفقیت:‌ شما دسته‌بندی‌ها را تغییر داده‌اید!';
-$_['text_list']              = 'فهرست دسته‌بندی';
-$_['text_add']               = 'افزودن دسته‌بندی';
-$_['text_edit']              = 'ویرایش دسته‌بندی';
-$_['text_default']           = 'پیش‎فرض';
+$_['text_success']      = 'موفقیت: شما بارگیری‌ها را تغییر دادید!';
+$_['text_list']         = 'فهرست بارگیری‌ها';
+$_['text_add']          = 'افزودن بارگیری';
+$_['text_edit']         = 'ویرایش بارگیری';
+$_['text_upload']       = 'پرونده شما با موفقیت بارگذاری شد!';
 
 // Column
-$_['column_name']            = 'نام دسته‌بندی';
-$_['column_sort_order']      = 'ترتیب';
-$_['column_action']          = 'کنش';
+$_['column_name']       = 'نام بارگیری';
+$_['column_date_added'] = 'تاریخ افزودن';
+$_['column_action']     = 'کنش';
 
 // Entry
-$_['entry_name']             = 'نام دسته‌بندی';
-$_['entry_description']      = 'توضیحات';
-$_['entry_meta_title'] 	     = 'عنوان متا تگ';
-$_['entry_meta_keyword']     = 'کلیدواژه‌های متا تگ';
-$_['entry_meta_description'] = 'توضیحات متا تگ';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'والد';
-$_['entry_filter']           = 'صافی‌ها';
-$_['entry_store']            = 'فروشگاه‌ها';
-$_['entry_image']            = 'تصویر';
-$_['entry_top']              = 'بالا';
-$_['entry_column']           = 'ستون‌ها';
-$_['entry_sort_order']       = 'ترتیب';
-$_['entry_status']           = 'وضعيت';
-$_['entry_layout']           = 'جایگزینی چیدمان';
+$_['entry_name']        = 'نام بارگیری';
+$_['entry_filename']    = 'نام پرونده';
+$_['entry_mask']        = 'ماسک';
 
 // Help
-$_['help_filter']            = '(کامل کردن خودکار)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'نمایش در نوار منو بالا. فقط برای دسته‌بندی‌های والد بالایی کار می‌کند.';
-$_['help_column']            = 'تعداد ستون‌ها برای استفاده در ۳ دسته‌بندی زیر. فقط برای دسته‌بندی‌های والد بالا کار می‌کند.';
+$_['help_filename']     = 'شما می‌توانید از طریق دکمه بارگذاری یا استفاده از اف‌تی‌پی در دایرکتوری بارگذاری نموده جزئیات را در زیر وارد نمایید.';
+$_['help_mask']         = 'توصیه می‌شود که نام پرونده و ماسک متفاوت باشد تا جلوی مردمی را سعی می‌کنند بارگیری‌های شما را به صورت مستقیم پیوند کنند گرفته شود.';
 
 // Error
-$_['error_warning']          = 'هشدار: لطفا فرم را به دقت برای خطاها بررسی نمایید!';
-$_['error_permission']       = 'هشدار: شما مجوز تغییر دسته‌بندی‌ها را ندارید!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'عنوان متا باید بزرگ‌تر از ۳ و کمتر از ۲۵۵ نویسه باشد!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'هشدار: لطفا فرم را به دقت برای خطاها بررسی نمایید!';
+$_['error_permission']  = 'هشدار: شما مجوز تغییر بارگیری‌های را ندارید!';
+$_['error_name']        = 'نام بارگیری باید بین ۳ و ۶۴ نویسه باشد!';
+$_['error_upload']      = 'بارگذاری لازم است!';
+$_['error_filename']    = 'نام پرونده باید بین ۳ و ۱۲۸ نویسه باشد!';
+$_['error_exists']      = 'پرونده وجود ندارد!';
+$_['error_mask']        = 'ماسک باید بین ۳ و ۱۲۸ نویسه باشد!';
+$_['error_filetype']    = 'نوع پرونده نامعتبر!';
+$_['error_product']     = 'هشدار: این بارگیری از آن جا که به %s محصول اختصاص یافته است نمی‌تواند حذف شود!';
