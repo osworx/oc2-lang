@@ -1,45 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Informació';
+$_['heading_title']     = 'Fabricant';
 
 // Text
-$_['text_success']           = 'Èxit: Heu modificat la informació!';
-$_['text_list']              = 'Information List';
-$_['text_add']               = 'Add Information';
-$_['text_edit']              = 'Edit Information';
-$_['text_default']           = 'Predeterminat';
+$_['text_success']      = 'Èxit: Heu modificat els Fabricants!';
+$_['text_list']         = 'Manufacturer List';
+$_['text_add']          = 'Add Manufacturer';
+$_['text_edit']         = 'Edit Manufacturer';
+$_['text_default']      = 'Predeterminat';
+$_['text_percent']      = 'Percentage';
+$_['text_amount']       = 'Quantitat Fixa';
 
 // Column
-$_['column_title']           = 'Títol de la Informació';
-$_['column_sort_order']	     = 'Ordre de classificació';
-$_['column_action']          = 'Acció';
+$_['column_name']       = 'Nom del Fabricant';
+$_['column_sort_order'] = 'Ordre de classificació';
+$_['column_action']     = 'Acció';
 
 // Entry
-$_['entry_title']            = 'Títol de la Informació';
-$_['entry_description']      = 'Descripció';
-$_['entry_store']            = 'Botigues:';
-$_['entry_meta_title'] 	     = 'Títol de l\'etiqueta meta';
-$_['entry_meta_keyword'] 	 = 'Meta Paraules Clau Tag';
-$_['entry_meta_description'] = 'Meta Tag Descripció';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_bottom']           = 'Bottom';
-$_['entry_status']           = 'Estat';
-$_['entry_sort_order']       = 'Ordre de classificació';
-$_['entry_layout']           = 'Disposició En Passar Damunt';
+$_['entry_name']        = 'Nom del Fabricant';
+$_['entry_store']       = 'Botigues:';
+$_['entry_keyword']     = 'SEO URL';
+$_['entry_image']       = 'Imatge';
+$_['entry_sort_order']  = 'Ordre de classificació';
+$_['entry_type']        = 'Tipus';
 
 // Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_bottom']            = 'Display in the bottom footer.';
+$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
 
 // Error
-$_['error_warning']          = 'Advertència: Si us plau reviseu acuradament el formulari pels errors!';
-$_['error_permission']       = 'Warning: No teniu permís per a modificar la informació!';
-$_['error_title']            = 'El Títol de la Informació ha de tenir entre 3 i 64 caràcters!';
-$_['error_description']      = 'La Descripció ha de tenir entre 3 i 128 caràcters!';
-$_['error_meta_title']       = 'El Títol Meta ha de ser major que 3 i menor de 255 caràcters!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_account']          = 'Advertència: Aquesta Pàgina d\'Informació no pot ser eliminada ja que conté els Termes d\'Us de: Comptes!';
-$_['error_checkout']         = 'Advertència: Aquesta Pàgina d\'Informació no pot ser eliminada ja que conté els Termes d\'Us de: Caixa!!';
-$_['error_affiliate']        = 'Advertència: Aquesta Pàgina d\'Informació no pot ser eliminada ja que conté els Termes d\'Us de: Afiliats!!';
-$_['error_return']           = 'Warning: This information page cannot be deleted as it is currently assigned as the store return terms!';
-$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
+$_['error_warning']     = 'Advertència: Si us plau reviseu acuradament el formulari pels errors!';
+$_['error_permission']  = 'Advertència: No teniu permís per modificar els fabricants!';
+$_['error_name']        = 'El Nom del Fabricant deu de tenir entre 3 i 64 caràcters!';
+$_['error_keyword']     = 'SEO URL already in use!';
+$_['error_product']     = 'Advertència: Aquest fabricant no pot ser eliminat ja que és actualment assignat a %s productes!';
