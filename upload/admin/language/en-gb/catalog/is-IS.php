@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Umsagnir';
+$_['heading_title']          = 'Eigindir';
 
 // Text
-$_['text_success']      = 'Success: You have modified reviews!';
-$_['text_list']         = 'Review List';
-$_['text_add']          = 'Add Review';
-$_['text_edit']         = 'Edit Review';
+$_['text_success']           = 'Fínt: Þú hefur breytt eigindum.';
+$_['text_list']              = 'Eigindalisti';
+$_['text_add']               = 'Bæta við eigind';
+$_['text_edit']              = 'Breyta eigind';
 
 // Column
-$_['column_product']    = 'Product';
-$_['column_author']     = 'Author';
-$_['column_rating']     = 'Rating';
-$_['column_status']     = 'Staða';
-$_['column_date_added'] = 'Date Added';
-$_['column_action']     = 'Aðgerð';
+$_['column_name']            = 'Heiti eigindar';
+$_['column_attribute_group'] = 'Eigindaflokkur';
+$_['column_sort_order']      = 'Breytiröð';
+$_['column_action']          = 'Aðgerð';
 
 // Entry
-$_['entry_product']     = 'Product';
-$_['entry_author']      = 'Author';
-$_['entry_rating']      = 'Rating';
-$_['entry_status']      = 'Staða';
-$_['entry_text']        = 'Text';
-$_['entry_date_added']  = 'Date Added';
-
-// Help
-$_['help_product']      = '(Autocomplete)';
+$_['entry_name']             = 'Heiti eigindar';
+$_['entry_attribute_group']  = 'Eigindaflokkur';
+$_['entry_sort_order']       = 'Breytiröð';
 
 // Error
-$_['error_warning']     = 'Aðvörun: Farðu vel yfir formið til að forðast villur!';
-$_['error_permission']  = 'Warning: You do not have permission to modify reviews!';
-$_['error_product']     = 'Product required!';
-$_['error_author']      = 'Author must be between 3 and 64 characters!';
-$_['error_text']        = 'Review Text must be at least 1 character!';
-$_['error_rating']      = 'Review rating required!';
+$_['error_warning']          = 'Aðvörun: Farðu vel yfir formið til að forðast villur!';
+$_['error_permission']       = 'Aðvörun: Þú hefur ekki heimild til að breyta eigindum!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Eigindarheiti verður að vera 3 til 64 stafir!';
+$_['error_product']          = 'Aðvörun: Þessari eigind verður ekki eytt því hún er tengd %s vörum!';
