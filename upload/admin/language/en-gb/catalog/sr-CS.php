@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Kategorije';
+$_['heading_title']     = 'Preuzimanje';
 
 // Text
-$_['text_success']           = 'Uspeh: Vi ste uspešno izmenili kategorije!';
-$_['text_list']              = 'Lista Kategorija';
-$_['text_add']               = 'Dodaj Kategoriiju';
-$_['text_edit']              = 'Izmeni Kategoriju';
-$_['text_default']           = 'Podrazumevano';
+$_['text_success']      = 'Uspeh: Vi ste uspešno izmenili preuzimanja!';
+$_['text_list']         = 'Lista Preuzimanja';
+$_['text_add']          = 'Dodaj Preuzimanje';
+$_['text_edit']         = 'Izmeni Preuzimanje';
+$_['text_upload']       = 'Vaša datoteka je uspešno dodana!';
 
 // Column
-$_['column_name']            = 'Ime Kategorije';
-$_['column_sort_order']      = 'Sortiraj po';
-$_['column_action']          = 'Akcija';
+$_['column_name']       = 'Ime Skidanja';
+$_['column_date_added'] = 'Datum Dodavanja';
+$_['column_action']     = 'Akcija';
 
 // Entry
-$_['entry_name']             = 'Ime Kategorije';
-$_['entry_description']      = 'Opis';
-$_['entry_meta_title'] 	     = 'Meta Oznaka Naslova';
-$_['entry_meta_keyword']     = 'Meta Oznaka Ključne reči';
-$_['entry_meta_description'] = 'Meta Oznaka Opisa';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'Izvor';
-$_['entry_filter']           = 'Filteri';
-$_['entry_store']            = 'Prodavnice';
-$_['entry_image']            = 'Slika';
-$_['entry_top']              = 'Vrh';
-$_['entry_column']           = 'Kolone';
-$_['entry_sort_order']       = 'Sortiraj po';
-$_['entry_status']           = 'Stanje';
-$_['entry_layout']           = 'Zamena Rasporeda';
+$_['entry_name']        = 'Ime Skidanja';
+$_['entry_filename']    = 'Ime datoteke';
+$_['entry_mask']        = 'Maska';
 
 // Help
-$_['help_filter']            = '(Automatsko Dovršavanje)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'Prikaži na vrhu meni bar. Radi samo za izvore kategorije koje se nalaze na vrhu.';
-$_['help_column']            = 'Broj kolona koje se koristite za 3 kategorije koje se nalaze dole. Radi samo za gornje izvore kategorija.';
+$_['help_filename']     = 'Možete dodati preko dugmeta za dodavanje ili koristiti FTP da dodate direktorijum za preuzimanje i unesete detalje ispod.';
+$_['help_mask']         = 'Preporučljivo je da naziv datoteke i maska budu razlicitog imena da bi sprečili ljude da povezuju njihova preuzimanja.';
 
 // Error
-$_['error_warning']          = 'Upozorenje: Molimo proverite formu zbog grešaka!';
-$_['error_permission']       = 'Upozorenje: Nemate dozvolu da izmenite kategoriju!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'Meta Naziv mora biti veći od 3 a manji od 255 karaktera!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'Upozorenje: Molimo proverite formu zbog grešaka!';
+$_['error_permission']  = 'Upozorenje: Nemate dozvolu da izmenite preuzimanja!';
+$_['error_name']        = 'Ime Preuzimanja mora biti između 3 i 64 karaktera!';
+$_['error_upload']      = 'Dodavanje potrebno!';
+$_['error_filename']    = 'Ime datoteke mora biti između 3 i 64 karaktera!';
+$_['error_exists']      = 'Datoteka ne postoji!';
+$_['error_mask']        = 'Maska mora imaiti između 2 i 128 znakova!';
+$_['error_filetype']    = 'Nepodržana datoteka!';
+$_['error_product']     = 'Upozorenje: Ova preuzimanja ne mogu biti obrisana jer su trenutno dodeljena %s proizvodima!';
