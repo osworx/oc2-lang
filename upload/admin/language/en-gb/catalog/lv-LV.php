@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Ražotāji';
+$_['heading_title']      = 'Opcijas';
 
 // Text
-$_['text_success']      = 'Veiksmīga: Jūs esat modificējis ražotājiem!';
-$_['text_list']         = 'Ražotāju saraksts';
-$_['text_add']          = 'Pievienot ražotājs';
-$_['text_edit']         = 'Rediģēt ražotājs';
-$_['text_default']      = 'Noklusējums';
-$_['text_percent']      = 'Procentos';
-$_['text_amount']       = 'Fiksēta summa';
+$_['text_success']       = 'Veiksmīga: Jūs esat modificējis iespējas!';
+$_['text_list']          = 'Opciju saraksts';
+$_['text_add']           = 'Pievienot opciju';
+$_['text_edit']          = 'Opciju rediģēt';
+$_['text_choose']        = 'Izvēlieties';
+$_['text_select']        = 'Izvēlēties';
+$_['text_radio']         = 'Radio';
+$_['text_checkbox']      = 'Izvēles rūtiņu';
+$_['text_input']         = 'ievade';
+$_['text_text']          = 'Teksts';
+$_['text_textarea']      = 'Teksta vieta';
+$_['text_file']          = 'Fails';
+$_['text_date']          = 'Datums';
+$_['text_datetime']      = 'Datums &amp; laiks';
+$_['text_time']          = 'Laiks';
 
 // Column
-$_['column_name']       = 'Ražotāja nosaukums';
-$_['column_sort_order'] = 'Kārtošanas secība';
-$_['column_action']     = 'Darbība';
+$_['column_name']        = 'Opcijas nosaukums';
+$_['column_sort_order']  = 'Kārtošanas secība';
+$_['column_action']      = 'Darbība';
 
 // Entry
-$_['entry_name']        = 'Ražotāja nosaukums';
-$_['entry_store']       = 'Veikali';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Attēls';
-$_['entry_sort_order']  = 'Kārtošanas secība';
-$_['entry_type']        = 'Veids';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Opcijas nosaukums';
+$_['entry_type']         = 'Veids';
+$_['entry_option_value'] = 'Opciju vērtības nosaukums';
+$_['entry_image']        = 'Attēls';
+$_['entry_sort_order']   = 'Kārtošanas secība';
 
 // Error
-$_['error_warning']     = 'Brīdinājums: Lūdzu pārbaudiet formu rūpīgi ,ir dažas kļūdas!';
-$_['error_permission']  = 'Brīdinājums: Jums nav tiesību modificēt ražotājiem!';
-$_['error_name']        = 'Izgatavotāja nosaukumam jābūt no 2 līdz 64 rakstzīmēm!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Brīdinājums: Šis ražotājs nevar dzēst, jo tā pašlaik ir piešķirts %s produktus!';
+$_['error_warning']      = 'Brīdinājums: Lūdzu pārbaudiet formu rūpīgi ,ir dažas kļūdas!';
+$_['error_permission']   = 'Brīdinājums: Jums nav tiesību modificēt opcijas!';
+$_['error_name']         = 'Opcijas nosaukumā jābūt no 1 līdz 128 rakstzīmēm!';
+$_['error_type']         = 'Brīdinājums: Opciju vērtības, kas nepieciešamas!';
+$_['error_option_value'] = 'Opcijas vērtība nosaukumā jābūt no 1 līdz 128 rakstzīmēm!';
+$_['error_product']      = 'Brīdinājums: Šī opcija nevar dzēst, jo tā pašlaik ir piešķirts %s produktus!';
