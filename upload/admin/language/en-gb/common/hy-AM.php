@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Մոռացել եք Գաղտնաբառը?';
+// Heading
+$_['heading_title']          = 'Ադմինիստրացիա';
 
 // Text
-$_['text_forgotten']  = 'Մոռացված Գաղտանբառը';
-$_['text_your_email'] = 'Ձեր E-Mail Հասցեն';
-$_['text_email']      = 'Մուտքագրեք այն e-mail հասցեն որը վերաբերվում է Ձեր Պահոցին. Սեղմեք հաստատել, որից հետո էլ. փոստով Ձեզ կուղարկվի գաղտնաբառը վերականգնելու հղում.';
-$_['text_success']    = 'Հաստատման համար հղումը ուղարկվել է Ձեր Էլ. փոստի հասցեին.';
-
-// Entry
-$_['entry_email']     = 'E-Mail հասցե';
-$_['entry_password']  = 'Նոր գաղտնաբառ';
-$_['entry_confirm']   = 'Կրկնել գաղտնաբառը';
-
-// Error
-$_['error_email']     = 'Այդպիսի E-Mail Հասցե չի գտնվել, խնդրում ենք փորձել նորից!';
-$_['error_password']  = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']   = 'Գաղտնաբառերը չեն համընկնում!';
+$_['text_order']             = 'Պատվերներ';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'Ավարտված';
+$_['text_customer']          = 'Հաճախորդներ';
+$_['text_online']            = 'Գնորդներ կայքում';
+$_['text_approval']          = 'Սպասում է հաստատման';
+$_['text_product']           = 'Ապրանքներ';
+$_['text_stock']             = 'Պահեստում չկա';
+$_['text_review']            = 'Կարծիքներ';
+$_['text_return']            = 'Վերադարձներ';
+$_['text_affiliate']         = 'Մասնաճյուղեր';
+$_['text_store']             = 'Խանութներ';
+$_['text_front']             = 'Խանութ';
+$_['text_help']              = 'Օգնություն';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Աջակցության Ֆորում';
+$_['text_documentation']     = 'Փաստաթղթեր';
+$_['text_logout']            = 'Ելք';
