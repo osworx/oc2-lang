@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Произвођачи';
+$_['heading_title']      = 'Опције';
 
 // Text
-$_['text_success']      = 'Успешно: изменили сте произвођаче!';
-$_['text_list']         = 'Листа произвођача';
-$_['text_add']          = 'Додај произвођача';
-$_['text_edit']         = 'Измени произвођача';
-$_['text_default']      = 'Подразумевано';
-$_['text_percent']      = 'Проценат';
-$_['text_amount']       = 'Фиксни износ';
+$_['text_success']       = 'Успешно: изменили сте опције!';
+$_['text_list']          = 'Листа опција';
+$_['text_add']           = 'Додај опцију';
+$_['text_edit']          = 'Уреди опцију';
+$_['text_choose']        = 'Изабрати';
+$_['text_select']        = 'Изаберите';
+$_['text_radio']         = 'Радио';
+$_['text_checkbox']      = 'Поље за потврду';
+$_['text_input']         = 'Унос';
+$_['text_text']          = 'Текст';
+$_['text_textarea']      = 'Простор текста';
+$_['text_file']          = 'Датотека';
+$_['text_date']          = 'Датум';
+$_['text_datetime']      = 'Датум &amp; време';
+$_['text_time']          = 'Време';
 
 // Column
-$_['column_name']       = 'Име произвођача';
-$_['column_sort_order'] = 'Редослед';
-$_['column_action']     = 'Акција';
+$_['column_name']        = 'Назив опције';
+$_['column_sort_order']  = 'Редослед';
+$_['column_action']      = 'Акција';
 
 // Entry
-$_['entry_name']        = 'Име произвођача';
-$_['entry_store']       = 'Продавнице';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Слика';
-$_['entry_sort_order']  = 'Редослед';
-$_['entry_type']        = 'Тип';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Назив опције';
+$_['entry_type']         = 'Тип';
+$_['entry_option_value'] = 'Назив вредности опције';
+$_['entry_image']        = 'Слика';
+$_['entry_sort_order']   = 'Редослед';
 
 // Error
-$_['error_warning']     = 'Упозорење: молимо вас да пажљиво проверите могуће грешке у формулару!';
-$_['error_permission']  = 'Упозорење: немате дозволу за измену произвођача!';
-$_['error_name']        = 'Име произвођача мора бити између 2 и 64 знака!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Упозорење: овај произвођач се не може обрисати јер тренутно има придружено %s производа!';
+$_['error_warning']      = 'Упозорење: молимо вас да пажљиво проверите могуће грешке у формулару!';
+$_['error_permission']   = 'Упозорење: немате дозволу за измену опција!';
+$_['error_name']         = 'Назив опције мора бити између 1 и 128 знакова!';
+$_['error_type']         = 'Упозорење: вредности опција су обавезне!';
+$_['error_option_value'] = 'Назив вредности опције мора бити између 1 и 128 знакова!';
+$_['error_product']      = 'Упозорење: Ову опцију није могуће обрисати јер тренутно има придружених %s производа!';
