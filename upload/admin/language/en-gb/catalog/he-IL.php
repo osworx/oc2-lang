@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'ביקורות';
+$_['heading_title']          = 'מאפיינים';
 
 // Text
-$_['text_success']      = 'הצלחה: שינית ביקורות!';
-$_['text_list']         = 'רשימת ביקורות';
-$_['text_add']          = 'הוסף ביקורת';
-$_['text_edit']         = 'ערוך ביקורת';
+$_['text_success']           = 'הצלחה: מודול תכונות שונה!';
+$_['text_list']              = 'רשימת תכונות';
+$_['text_add']               = 'הוסף תכונה';
+$_['text_edit']              = 'ערוך תכונה';
 
 // Column
-$_['column_product']    = 'מוצר';
-$_['column_author']     = 'מחבר';
-$_['column_rating']     = 'דירוג';
-$_['column_status']     = 'סטטוס';
-$_['column_date_added'] = 'תאריך שנוסף';
-$_['column_action']     = 'פעולה';
+$_['column_name']            = 'שם תכונה';
+$_['column_attribute_group'] = 'קבוצת תכונות';
+$_['column_sort_order']      = 'סדר מיון';
+$_['column_action']          = 'פעולה';
 
 // Entry
-$_['entry_product']     = 'מוצר';
-$_['entry_author']      = 'מחבר';
-$_['entry_rating']      = 'דירוג';
-$_['entry_status']      = 'סטטוס';
-$_['entry_text']        = 'טקסט';
-$_['entry_date_added']  = 'תאריך שנוסף';
-
-// Help
-$_['help_product']      = '(השלמה אוטומטית)';
+$_['entry_name']             = 'שם תכונה';
+$_['entry_attribute_group']  = 'קבוצת תכונות';
+$_['entry_sort_order']       = 'סדר מיון';
 
 // Error
-$_['error_warning']     = 'אזהרה: אנא בדוק בקפידה אם יש שגיאות בטופס!';
-$_['error_permission']  = 'אזהרה: אין לך הרשאה לשינוי ביקורות!';
-$_['error_product']     = 'מוצר נדרש!';
-$_['error_author']      = 'מחבר חייב להיות בין 3 ל 64 תווים!';
-$_['error_text']        = 'טקסט ביקורת חייב להיות לפחות תו אחד!';
-$_['error_rating']      = 'דירוג ביקורת נדרש!';
+$_['error_warning']          = 'אזהרה: אנא בדוק בקפידה אם יש שגיאות בטופס!';
+$_['error_permission']       = 'אזהרה: אין לך הרשאה לשנות תכונות!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'תכונה חייבת להכיל בין 3 לבין 64 תווים!';
+$_['error_product']          = 'אזהרה: לא ניתן למחוק תכונה זו היות והיא יועדה ל %s מוצרים!';
