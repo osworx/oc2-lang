@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administracija';
 
 // Text
-$_['text_order']             = 'Narudžbe';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Završeno';
-$_['text_customer']          = 'Klijenti';
-$_['text_online']            = 'Klijenata online';
-$_['text_approval']          = 'Odobravanje u toku';
-$_['text_product']           = 'Proizvodi';
-$_['text_stock']             = 'Nema na stanju';
-$_['text_review']            = 'Recenzije';
-$_['text_return']            = 'Povrati';
-$_['text_affiliate']         = 'Partneri';
-$_['text_store']             = 'Prodavnice';
-$_['text_front']             = 'Izlog';
-$_['text_help']              = 'Pomoć';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Forum za podršku';
-$_['text_documentation']     = 'Dokumentacija';
-$_['text_logout']            = 'Odjava';
+$_['text_heading']   = 'Administracija';
+$_['text_login']     = 'Molimo unesite svoje podatke za prijavu.';
+$_['text_forgotten'] = 'Zaboravljena šifra';
+
+// Entry
+$_['entry_username'] = 'Korisničko ime';
+$_['entry_password'] = 'Šifra';
+
+// Button
+$_['button_login']   = 'Prijava';
+
+// Error
+$_['error_login']    = 'Upozorenje: Korisničko ime i(li) šifra se ne slažu.';
+$_['error_token']    = 'Neispravna token sesija. Molimo prijavite se ponovo.';
