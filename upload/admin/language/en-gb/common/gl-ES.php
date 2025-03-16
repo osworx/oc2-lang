@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Esqueciches o contrasinal?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Contrasinal esquecido';
-$_['text_your_email'] = 'A tua direccion de correo electónico';
-$_['text_email']      = 'Engade o correo electrónico para asocialo coa tua conta. Pincha enviar para obter un novo contrasinal que che enviaremos.';
-$_['text_success']    = 'Un correo electrónico con un enlace de confirmación foi enviado o seu enderezo de correo electrónico.';
-
-// Entry
-$_['entry_email']     = 'Enderezo de correo electrónico';
-$_['entry_password']  = 'Novo contrasinal';
-$_['entry_confirm']   = 'Confirmar';
-
-// Error
-$_['error_email']     = 'Aviso: O correo electrónico non foi encontrado nos nosos rexistros, tenteo de novo!';
-$_['error_password']  = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']   = 'O contrasinal e a sua confirmacion non coinciden!';
+$_['text_order']             = 'Pedidos';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'Completo';
+$_['text_customer']          = 'Clientes';
+$_['text_online']            = 'Clientes en liña';
+$_['text_approval']          = 'Aprobación pendente';
+$_['text_product']           = 'Produtos';
+$_['text_stock']             = 'Sen Stock';
+$_['text_review']            = 'Revisións';
+$_['text_return']            = 'Devolucións';
+$_['text_affiliate']         = 'Afiliados';
+$_['text_store']             = 'Tendas';
+$_['text_front']             = 'Vista da tenda';
+$_['text_help']              = 'Axuda';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Foros de soporte';
+$_['text_documentation']     = 'Documentación';
+$_['text_logout']            = 'Pechar sesión';
