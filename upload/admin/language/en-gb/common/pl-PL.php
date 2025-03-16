@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administracja';
 
 // Text
-$_['text_order']             = 'Zamówienia';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Gotowe';
-$_['text_customer']          = 'Klienci';
-$_['text_online']            = 'Klienci online';
-$_['text_approval']          = 'Oczekujące na zatwierdzenie';
-$_['text_product']           = 'Produkty';
-$_['text_stock']             = 'Brak w magazynie';
-$_['text_review']            = 'Opinie';
-$_['text_return']            = 'Zwroty';
-$_['text_affiliate']         = 'Partnerzy';
-$_['text_store']             = 'Sklepy';
-$_['text_front']             = 'Witryna sklepu';
-$_['text_help']              = 'Pomoc';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Forum Pomocy';
-$_['text_documentation']     = 'Dokumentacja';
-$_['text_logout']            = 'Wyloguj się';
+$_['text_heading']   = 'Administracja';
+$_['text_login']     = 'Wprowadź swoje dane logowania.';
+$_['text_forgotten'] = 'Zapomniane hasło';
+
+// Entry
+$_['entry_username'] = 'Nazwa Użytkownika';
+$_['entry_password'] = 'Hasło';
+
+// Button
+$_['button_login']   = 'Zaloguj się';
+
+// Error
+$_['error_login']    = 'Nie pasuje do nazwy użytkownika lub hasła.';
+$_['error_token']    = 'Nieprawidłowy token sesji. Zaloguj się ponownie.';
