@@ -1,36 +1,103 @@
 <?php
-// Heading
-$_['heading_title']     = 'Κριτικές';
-
 // Text
-$_['text_success']      = 'Επιτυχία: Έχετε τροποποιήσει κριτικές!';
-$_['text_list']         = 'Λίστα κριτικών';
-$_['text_add']          = 'Προσθήκη Κριτικής';
-$_['text_edit']         = 'Επεξεργασία κριτικής';
-
-// Column
-$_['column_product']    = 'Προϊόν';
-$_['column_author']     = 'Συντάκτης';
-$_['column_rating']     = 'Βαθμολογία';
-$_['column_status']     = 'Κατάσταση';
-$_['column_date_added'] = 'Ημερομηνίας Προσθήκης';
-$_['column_action']     = 'Ενέργεια';
-
-// Entry
-$_['entry_product']     = 'Προϊόν';
-$_['entry_author']      = 'Συντάκτης';
-$_['entry_rating']      = 'Βαθμολογία';
-$_['entry_status']      = 'Κατάσταση';
-$_['entry_text']        = 'κείμενο';
-$_['entry_date_added']  = 'Ημερομηνίας Προσθήκης';
-
-// Help
-$_['help_product']      = '(Αυτοσυμπλήρωση)';
-
-// Error
-$_['error_warning']     = 'Προειδοποίηση: Παρακαλώ ελέγξτε τη φόρμα προσεκτικά για λάθη!';
-$_['error_permission']  = 'Προειδοποίηση: Δεν έχετε δικαίωμα να τροποποιήσετε κριτικές!';
-$_['error_product']     = 'Απαιτείτε προϊόν!';
-$_['error_author']      = 'Ο Συγγραφέας πρέπει να έχει από 3 μέχρι 64 χαρακτήρες!';
-$_['error_text']        = 'Το κείμενο της κριτικής θα πρέπει να έχει το λιγότερο 1 χαρακτήρα!';
-$_['error_rating']      = 'Απαιτείτε βαθμολογία κριτικής!';
+$_['text_affiliate']                 = 'Συνεργάτες';
+$_['text_api']                       = 'API';
+$_['text_attribute']                 = 'Χαρακτηριστικά';
+$_['text_attribute_group']           = 'Ομάδα Χαρακτηριστικών';
+$_['text_backup']                    = 'Αντίγραφα ασφαλείας / απόκατασταση';
+$_['text_banner']                    = 'Πανό';
+$_['text_catalog']                   = 'κατάλογος';
+$_['text_category']                  = 'Κατηγορίες';
+$_['text_country']                   = 'Χώρες';
+$_['text_coupon']                    = 'Κουπόνια';
+$_['text_currency']                  = 'Νομίσματα';
+$_['text_customer']                  = 'Πελάτες';
+$_['text_customer_group']            = 'Ομάδες πελατών';
+$_['text_custom_field']              = 'Προσαρμοσμένα πεδία';
+$_['text_dashboard']                 = 'Πίνακας ελέγχου';
+$_['text_design']                    = 'Design';
+$_['text_download']                  = 'Λήψεις';
+$_['text_log']                       = 'Αρχεία καταγραφής σφαλμάτων';
+$_['text_event']                     = 'Events';
+$_['text_extension']                 = 'Επεκτάσεις';
+$_['text_filter']                    = 'Φίλτρα';
+$_['text_geo_zone']                  = 'Γεωγραφικές ζώνες';
+$_['text_information']               = 'Πληροφορίες';
+$_['text_installer']                 = 'Εγκαταστάτης επέκτασης';
+$_['text_language']                  = 'Γλώσσες';
+$_['text_layout']                    = 'Σχεδιαγράμματα';
+$_['text_localisation']              = 'Τοπική προσαρμογή';
+$_['text_location']                  = 'θέση καταστήματος';
+$_['text_contact']                   = 'Mail';
+$_['text_marketing']                 = 'Marketing';
+$_['text_menu']                      = 'Menu Manager';
+$_['text_modification']              = 'Τροποποιήσεις';
+$_['text_manufacturer']              = 'Κατασκευαστές';
+$_['text_option']                    = 'Επιλογές';
+$_['text_order']                     = 'Παραγγελίες';
+$_['text_order_status']              = 'Καταστάσεις παραγγελιών';
+$_['text_product']                   = 'Προϊόντα';
+$_['text_reports']                   = 'Αναφορές';
+$_['text_report_sale']               = 'Sales';
+$_['text_report_sale_order']         = 'Παραγγελίες';
+$_['text_report_sale_tax']           = 'Φόρος';
+$_['text_report_sale_shipping']      = 'Μεταφορικά';
+$_['text_report_sale_return']        = 'Επιστροφές';
+$_['text_report_sale_coupon']        = 'Κουπόνια';
+$_['text_report_product']            = 'Προϊόντα';
+$_['text_report_product_viewed']     = 'Είδαν';
+$_['text_report_product_purchased']  = 'Αγοράστηκαν';
+$_['text_report_customer']           = 'Πελάτες';
+$_['text_report_customer_activity']  = 'Δραστηριότητα του πελάτη';
+$_['text_report_customer_search']    = 'Customer Searches';
+$_['text_report_customer_online']    = 'Πελάτες online';
+$_['text_report_customer_order']     = 'Παραγγελίες';
+$_['text_report_customer_reward']    = 'Πόντοι ανταμοιβής';
+$_['text_report_customer_credit']    = 'Πίστωση';
+$_['text_report_marketing']          = 'Marketing';
+$_['text_report_affiliate']          = 'Συνεργάτες';
+$_['text_report_affiliate_activity'] = 'Δραστηριότητα Συνεργάτη';
+$_['text_review']                    = 'Κριτικές';
+$_['text_return']                    = 'Επιστροφές';
+$_['text_return_action']             = 'Ενέργειες επιστροφής';
+$_['text_return_reason']             = 'Λόγοι επιστροφής';
+$_['text_return_status']             = 'Κατάσταση επιστροφών';
+$_['text_sale']                      = 'Sales';
+$_['text_setting']                   = 'Επιλογές';
+$_['text_store']                     = 'Extension Store';
+$_['text_stock_status']              = 'Κατάσταση Αποθεμάτων';
+$_['text_system']                    = 'Σύστημα';
+$_['text_tax']                       = 'Φόροι';
+$_['text_tax_class']                 = 'Τάξεις φορολογίας';
+$_['text_tax_rate']                  = 'Φορολογικοί συντελεστές';
+$_['text_translation']               = 'Language Editor';
+$_['text_theme']                     = 'Theme Editor';
+$_['text_tools']                     = 'Εργαλεία';
+$_['text_upload']                    = 'Μεταφορτώσεις';
+$_['text_user']                      = 'χρήστες';
+$_['text_users']                     = 'χρήστες';
+$_['text_user_group']                = 'Ομάδες χρηστών';
+$_['text_voucher']                   = 'Δωροεπιταγές';
+$_['text_voucher_theme']             = 'θέματα κουπονιού';
+$_['text_weight_class']              = 'Κατηγορίες βάρους';
+$_['text_length_class']              = 'Κατηγορίες μήκους';
+$_['text_zone']                      = 'Ζώνες';
+$_['text_recurring']                 = 'Επαναλαμβανόμενα προφίλ';
+$_['text_order_recurring']           = 'Επαναλαμβανόμενες παραγγελίες';
+$_['text_openbay_extension']         = 'OpenBay Pro';
+$_['text_openbay_dashboard']         = 'Πίνακας ελέγχου';
+$_['text_openbay_orders']            = 'Ενημέρωση μαζικής παραγγελίας ';
+$_['text_openbay_items']             = 'Διαχείριση στοιχείων';
+$_['text_openbay_ebay']              = 'eBay';
+$_['text_openbay_amazon']            = 'Amazon (ΕΕ)';
+$_['text_openbay_amazonus']          = 'Amazon (ΗΠΑ)';
+$_['text_openbay_etsy']            	 = 'Etsy';
+$_['text_openbay_settings']          = 'Επιλογές';
+$_['text_openbay_links']             = 'Σύνδεσμοι αντικειμένου';
+$_['text_openbay_report_price']      = 'Αναφορά τιμολόγησης';
+$_['text_openbay_order_import']      = 'Εισαγωγή παραγγελίας';
+$_['text_paypal']                    = 'PayPal';
+$_['text_paypal_search']             = 'Search';
+$_['text_complete_status']           = 'Ολοκληρωμένες παραγγελίες'; 
+$_['text_processing_status']         = 'Παραγγελίες υπό επεξεργασία'; 
+$_['text_other_status']              = 'Άλλες καταστάσεις'; 
