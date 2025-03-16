@@ -1,25 +1,45 @@
 <?php
 // Heading
-$_['heading_title']     = 'Filtrid';
+$_['heading_title']          = 'Informatsioon';
 
 // Text
-$_['text_success']      = 'Oled edukalt muutnud filtreid!';
-$_['text_list']         = 'Flitrite nimekirjad';
-$_['text_add']          = 'Lisa filter';
-$_['text_edit']         = 'Muuda filtrit';
+$_['text_success']           = 'Oled edukalt muutnud informatsiooni!';
+$_['text_list']              = 'Teabe loend';
+$_['text_add']               = 'Lisa teave';
+$_['text_edit']              = 'Muuta teavet';
+$_['text_default']           = 'Vaikimisi';
 
 // Column
-$_['column_group']      = 'Filtri grupp';
-$_['column_sort_order'] = 'Sorteerimis järjekord';
-$_['column_action']     = 'Tegevus';
+$_['column_title']           = 'Teabe pealkiri';
+$_['column_sort_order']	     = 'Sorteerimis järjekord';
+$_['column_action']          = 'Tegevus';
 
 // Entry
-$_['entry_group']       = 'Filtri gruppi nimi';
-$_['entry_name']        = 'Filtri nimi';
-$_['entry_sort_order']  = 'Sorteerimis järjekord';
+$_['entry_title']            = 'Teabe pealkiri';
+$_['entry_description']      = 'Kirjeldus';
+$_['entry_store']            = 'Poed';
+$_['entry_meta_title'] 	     = 'Meta Tag pealkiri';
+$_['entry_meta_keyword'] 	 = 'Sisukirjelduse märksõnad';
+$_['entry_meta_description'] = 'Sisukirjelduse kirjeldus';
+$_['entry_keyword']          = 'SEO URL';
+$_['entry_bottom']           = 'Alla';
+$_['entry_status']           = 'Staatus';
+$_['entry_sort_order']       = 'Sorteerimis järjekord';
+$_['entry_layout']           = 'Asetuse ülekirjutamine';
+
+// Help
+$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['help_bottom']            = 'Näita jaluses.';
 
 // Error
-$_['error_warning']     = 'Hoiatus: Palun kontrollige vormi vead hoolikalt üle!';
-$_['error_permission']  = 'Hoiatus: Sul ei ole õigusi muuta filtreid!';
-$_['error_group']       = 'Filtri grupi nimi peab olema vahemikus 1 kuni 64 tähemärki pikk!';
-$_['error_name']        = 'Filtri nimi peab olema 1 kuni 64 tähemärki!';
+$_['error_warning']          = 'Hoiatus: Palun kontrollige vormi vead hoolikalt üle!';
+$_['error_permission']       = 'Hoiatus: Sul ei ole luba muuta informatsiooni!';
+$_['error_title']            = 'Informatsiooni tiitel peab olema vähemalt 3 kuni 64 tähte!';
+$_['error_description']      = 'Kirjeldus peab olema rohkem kui 3 tähte!';
+$_['error_meta_title']       = 'Meta pealkiri peab olema üle 3 ja alla 255 tähemärgi!';
+$_['error_keyword']          = 'SEO URL already in use!';
+$_['error_account']          = 'Hoiatus: See informatsiooni lehekülge ei saa kustutada, sest see on hetkel määratud hetkel poe konto tingimuste lehena!';
+$_['error_checkout']         = 'Hoiatus: Seda informatsiooni lehekülge ei saa kustutada, sest see on hetkel määratud poe ostu tingimuste lehena!';
+$_['error_affiliate']        = 'Hoiatus: Seda informatsiooni lehekülg ei saa kustutada, sest see on hetkel määratud poe filiaal tingimuste lehena!';
+$_['error_return']           = 'Hoiatus: See informatsiooni lehekülge ei saa kustutada, sest see on hetkel määratud hetkel poe konto tingimuste lehena!';
+$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
