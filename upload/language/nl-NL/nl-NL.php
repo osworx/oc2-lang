@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Categorie&euml;n';
+$_['heading_title']     = 'Downloads';
 
 // Text
-$_['text_success']           = 'Succes: Instellingen gewijzigd!';
-$_['text_list']              = 'Lijst';
-$_['text_add']               = 'Toevoegen';
-$_['text_edit']              = 'Wijzigen';
-$_['text_default']           = 'Hoofdwinkel';
+$_['text_success']      = 'Succes: Instellingen gewijzigd!';
+$_['text_list']         = 'Lijst';
+$_['text_add']          = 'Toevoegen';
+$_['text_edit']         = 'Wijzigen';
+$_['text_upload']       = 'Het bestand is succesvol ge-upload!';
 
 // Column
-$_['column_name']            = 'Categorienaam';
-$_['column_sort_order']      = 'Sorteervolgorde';
-$_['column_action']          = 'Aktie';
+$_['column_name']       = 'Downloadnaam';
+$_['column_date_added'] = 'Datum';
+$_['column_action']     = 'Aktie';
 
 // Entry
-$_['entry_name']             = 'Categorienaam';
-$_['entry_description']      = 'Beschrijving';
-$_['entry_meta_title'] 	     = 'Meta Tag Titel';
-$_['entry_meta_keyword']     = 'Meta Tag Zoekwoorden';
-$_['entry_meta_description'] = 'Meta Tag Omschrijving';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'Hoofdcategorie';
-$_['entry_filter']           = 'Filters';
-$_['entry_store']            = 'Winkel(s)';
-$_['entry_image']            = 'Afbeelding';
-$_['entry_top']              = 'Naar boven';
-$_['entry_column']           = 'Kolommen';
-$_['entry_sort_order']       = 'Sorteervolgorde';
-$_['entry_status']           = 'status';
-$_['entry_layout']           = 'Layout';
+$_['entry_name']        = 'Downloadnaam';
+$_['entry_filename']    = 'Bestandsnaam';
+$_['entry_mask']        = 'Maskeer-naam';
 
 // Help
-$_['help_filter']            = '(AutoAanvullen)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'Weergeven in de top menu bar. Alleen voor Hoofdcategorie&euml;n.';
-$_['help_column']            = 'Aantal kolommen voor de onderste 3 categorie&euml;n. Werkt alleen met Hoofdcategorie&euml;n.';
+$_['help_filename']     = 'Via de upload knop of dmv. FTP kun je bestanden naar de download directorie overzetten. Voer hieronder de detailsin.';
+$_['help_mask']         = 'Het is aan te raden de naam van het bestand en de maskeer-naam verschillend te laten zijn om illegale downloads onmogelijk te maken.';
 
 // Error
-$_['error_warning']          = 'Waarschuwing: Controlleer of alle verplichte velden volledig zijn ingevuld!';
-$_['error_permission']       = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'Waarschuwing: Meta Titel dient tussen de 3 en 255 tekens lang te zijn!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'Waarschuwing: Controlleer of alle verplichte velden volledig zijn ingevuld!';
+$_['error_permission']  = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
+$_['error_name']        = 'Waarschuwing: Naam dient tussen de 3 en 64 tekens lang te zijn!';
+$_['error_upload']      = 'Waarschuwing: Upload verplicht!';
+$_['error_filename']    = 'Waarschuwing: Bestandsnaam dient tussen de 3 en 128 tekens lang te zijn!';
+$_['error_exists']      = 'Waarschuwing: Bestand bestaat niet!';
+$_['error_mask']        = 'Waarschuwing: Maskeer dient tussen de 3 en 128 tekens lang te zijn!';
+$_['error_filetype']    = 'Waarschuwing: Ongeldig bestandstype!';
+$_['error_product']     = 'Waarschuwing: Deze download kan niet worden verwijderd omdat deze is gekoppeld aan %s product(en)!';
