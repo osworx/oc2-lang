@@ -1,35 +1,25 @@
 <?php
 // Heading
-$_['heading_title']     = 'Descargas';
+$_['heading_title']     = 'Filtros';
 
 // Text
-$_['text_success']      = 'Modificaronse as descargas correctamente!';
-$_['text_list']         = 'Lista de descargas';
-$_['text_add']          = 'Engadir descarga';
-$_['text_edit']         = 'Editar descarga';
-$_['text_upload']       = 'O ficheiro subiuse correctamente!';
+$_['text_success']      = 'Modificarnse os filtros correctamente!';
+$_['text_list']         = 'Lista de filtros';
+$_['text_add']          = 'Engadir filtro';
+$_['text_edit']         = 'Editar filtro';
 
 // Column
-$_['column_name']       = 'Nome da descarga';
-$_['column_date_added'] = 'Engadida o';
+$_['column_group']      = 'Grupo de filtros';
+$_['column_sort_order'] = 'Orde da clasificación';
 $_['column_action']     = 'Acción';
 
 // Entry
-$_['entry_name']        = 'Nome da descarga';
-$_['entry_filename']    = 'Nome do ficheiro';
-$_['entry_mask']        = 'Máscara';
-
-// Help
-$_['help_filename']     = 'Podense subir arquivos co boton subir ou utilizar FTP para subir os ficheiros descargados e introducir os detalles abaixo.';
-$_['help_mask']         = 'É recomendado que o nome do ficheiro e a máscara sexan diferentes coa fin de evitar se poida acceder directamente ás descargas.';
+$_['entry_group']       = 'Nome do grupo de filtros';
+$_['entry_name']        = 'Nome do filtro';
+$_['entry_sort_order']  = 'Orde da clasificación';
 
 // Error
 $_['error_warning']     = 'Aviso: Por favor, revise o formulario e busque os erros!';
-$_['error_permission']  = 'Aviso: non ten permisos para modificar as descargas!';
-$_['error_name']        = 'O nome da descarga debe ter entre 3 e 64 caracteres!';
-$_['error_upload']      = 'Subida requirida!';
-$_['error_filename']    = 'O nome do ficheiro de ter entre 3 e 128 caracteres!';
-$_['error_exists']      = 'O ficheiro non existe!';
-$_['error_mask']        = 'A mascara debe ter entre 3 e 128 caracteres!';
-$_['error_filetype']    = 'Tipo de ficheiro non valido!';
-$_['error_product']     = 'Aviso: esta descarga non pode ser eliminada xa que esta asignada a %s produtos!';
+$_['error_permission']  = 'Aviso: Non ten os permisos para modificar os filtros!';
+$_['error_group']       = 'O nome do grupo de filtros debe ter entre 1 e 64 caracteres!';
+$_['error_name']        = 'O nome do filtro debe ter entre 1 e 64 caracteres!';
