@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'هل نسيت كلمة المرور الخاصة بك؟';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'كلمة المرور منسيّة';
-$_['text_your_email'] = 'عنوان البريد الإلكتروني الخاص بك';
-$_['text_email']      = 'قم بإدخال عنوان البريد الإلكتروني المرتبط بحسابك. ثم انقر على زر الإدخال للحصول على رابط إعادة تعيين كلمة المرور عبر بريدك الإلكتروني.';
-$_['text_success']    = 'تم إرسال رابط التأكيد إلى البريد الإلكتروني الخاص بمالك المتجر.';
-
-// Entry
-$_['entry_email']     = 'عنوان البريد الإلكتروني';
-$_['entry_password']  = 'كلمة المرور الجديدة';
-$_['entry_confirm']   = 'تأكيد';
-
-// Error
-$_['error_email']     = 'تحذير: عنوان البريد الإلكتروني لم يتم إيجاده في سجلاتنا, الرجاء المحاولة مره اخرى!';
-$_['error_password']  = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']   = 'لا تتطابق كلمة المرور مع خانة تأكيد كلمة المرور!';
+$_['text_order']             = 'الطلبات';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'اكتمل';
+$_['text_customer']          = 'العملاء';
+$_['text_online']            = 'العملاء المتواجدون الآن';
+$_['text_approval']          = 'بانتظار التأكيد';
+$_['text_product']           = 'المنتجات';
+$_['text_stock']             = 'غير متوفر حالياً';
+$_['text_review']            = 'المراجعات';
+$_['text_return']            = 'المُرتجعات';
+$_['text_affiliate']         = 'شركاء التسويق';
+$_['text_store']             = 'المتاجر';
+$_['text_front']             = 'واجهة المتجر';
+$_['text_help']              = 'المساعدة';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'منتدى الدعم الفني';
+$_['text_documentation']     = 'الوثائق';
+$_['text_logout']            = 'تسجيل الخروج';
