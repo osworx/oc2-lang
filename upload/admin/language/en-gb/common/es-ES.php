@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = '¿Olvidó su contraseña?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Contraseña olvidada';
-$_['text_your_email'] = 'Su dirección de correo electrónico';
-$_['text_email']      = 'Introduzca la dirección de correo electrónico asociada a su cuenta. Haga clic en enviar para recibir un enlace por correo electrónico para restaurar la contraseña.';
-$_['text_success']    = 'Un correo electrónico con un enlace de confirmación ha sido enviado a su dirección de correo electrónico de administrador.';
-
-// Entry
-$_['entry_email']     = 'Dirección de correo electrónico';
-$_['entry_password']  = 'Nueva Contraseña';
-$_['entry_confirm']   = 'Confirmar';
-
-// Error
-$_['error_email']     = 'ADVERTENCIA: La dirección de correo electrónico no fue encontrada en nuestros registros, por favor intentelo de nuevo!';
-$_['error_password']  = 'La Contraseña debe poseer entre 4 y 20 caracteres!';
-$_['error_confirm']   = 'La contraseña y su confirmación no coinciden!';
+$_['text_order']             = 'Pedidos';
+$_['text_processing_status'] = 'Procesando';
+$_['text_complete_status']   = 'Terminado';
+$_['text_customer']          = 'Clientes';
+$_['text_online']            = 'Clientes en línea';
+$_['text_approval']          = 'Pendiente de aprobación';
+$_['text_product']           = 'Productos';
+$_['text_stock']             = 'Sin existencias';
+$_['text_review']            = 'Comentarios';
+$_['text_return']            = 'Devoluciones';
+$_['text_affiliate']         = 'Afiliados';
+$_['text_store']             = 'Tiendas';
+$_['text_front']             = 'Tienda';
+$_['text_help']              = 'Ayuda';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Foro de asistencia';
+$_['text_documentation']     = 'Documentación';
+$_['text_logout']            = 'Desconexión';
