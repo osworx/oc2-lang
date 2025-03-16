@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Passwort vergessen?';
+// Heading
+$_['heading_title']          = 'OpenCart dt. Version';
 
 // Text
-$_['text_forgotten']  = 'Passwort vergessen';
-$_['text_your_email'] = 'Emailadresse';
-$_['text_email']      = '';
-$_['text_success']    = 'Email wurde an die Adresse gesendet';
-
-// Entry
-$_['entry_email']     = 'Emailadresse';
-$_['entry_password']  = 'Neues Passwort';
-$_['entry_confirm']   = '';
-
-// Error
-$_['error_email']     = 'Hinweis: die angegebene Emailadresse ist unbekannt, bitte nochmals eingeben';
-$_['error_password']  = 'Passwort muss zwischen 4 und 20 Zeichen lang sein';
-$_['error_confirm']   = '';
+$_['text_order']             = 'Aufträge';
+$_['text_processing_status'] = 'In Arbeit';
+$_['text_complete_status']   = 'Fertig';
+$_['text_customer']          = 'Kunden';
+$_['text_online']            = 'Kunden Online';
+$_['text_approval']          = 'Warten auf Freigabe';
+$_['text_product']           = 'Produkte';
+$_['text_stock']             = 'Ni. Lagernd';
+$_['text_review']            = 'Bewertungen';
+$_['text_return']            = 'Retouren';
+$_['text_affiliate']         = 'Partner';
+$_['text_store']             = 'Shops';
+$_['text_front']             = 'Zum Geschäft';
+$_['text_help']              = 'Hilfe';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Supportforum';
+$_['text_documentation']     = 'Dokumentation';
+$_['text_logout']            = 'Abmelden';
