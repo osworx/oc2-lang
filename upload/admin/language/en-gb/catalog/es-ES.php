@@ -1,108 +1,42 @@
 <?php
 // Heading
-$_['heading_title']          = 'Productos';
+$_['heading_title']			= 'Perfiles Recurrentes';
 
 // Text
-$_['text_success']           = '¡Ha modificado correctamente los productos!';
-$_['text_list']              = 'Lista de Productos';
-$_['text_add']               = 'Agregar Producto';
-$_['text_edit']              = 'Editar Producto';
-$_['text_plus']              = '+';
-$_['text_minus']             = '-';
-$_['text_default']           = 'Predefinido';
-$_['text_option']            = 'Opción';
-$_['text_option_value']      = 'Valor de la Opción';
-$_['text_percent']           = 'Porcentaje';
-$_['text_amount']            = 'Cantidad Fija';
-
-// Column
-$_['column_name']            = 'Nombre del Producto';
-$_['column_model']           = 'Modelo';
-$_['column_image']           = 'Imagen';
-$_['column_price']           = 'Precio';
-$_['column_quantity']        = 'Cantidad';
-$_['column_status']          = 'Estado';
-$_['column_action']          = 'Acción';
+$_['text_success']          = '¡Has modificado correctamente los perfiles recurrentes!';
+$_['text_list']             = 'Lista de Perfiles Recurrentes';
+$_['text_add']              = 'Agregar Perfil Recurrente';
+$_['text_edit']             = 'Editar Perfil Recurrente';
+$_['text_day']				= 'Diario';
+$_['text_week']				= 'Semanal';
+$_['text_semi_month']		= 'Quincenal';
+$_['text_month']			= 'Mensual';
+$_['text_year']				= 'Anual';
+$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Los montos recurrentes son calculados por la frecuencia y ciclos. </p><p>Por ejemplo si usa una frecuencia "semanal" y un ciclo de "2", entonces al usuario se le cobrará cada 2 semanas.</p><p>La duración es el número de veces que el usuario realiza los pagos, coloquelo en 0 si quieres que los pagos sean anulados.</p>';
+$_['text_profile']			= 'Perfil Recurrente';
+$_['text_trial']			= 'Perfil de Prueba';
 
 // Entry
-$_['entry_name']             = 'Nombre del Producto';
-$_['entry_description']      = 'Descripción';
-$_['entry_meta_title'] 	     = 'Etiqueta de Meta Título';
-$_['entry_meta_keyword'] 	 = 'Etiqueta Meta Palabras Claves';
-$_['entry_meta_description'] = 'Etiqueta Meta Descripción';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_model']            = 'Modelo';
-$_['entry_sku']              = 'SKU';
-$_['entry_upc']              = 'UPC';
-$_['entry_ean']              = 'EAN';
-$_['entry_jan']              = 'JAN';
-$_['entry_isbn']             = 'ISBN';
-$_['entry_mpn']              = 'MPN';
-$_['entry_location']         = 'Localización';
-$_['entry_shipping']         = 'Requiere Envío';
-$_['entry_manufacturer']     = 'Fabricante';
-$_['entry_store']            = 'Tiendas';
-$_['entry_date_available']   = 'Disponible desde fecha';
-$_['entry_quantity']         = 'Cantidad';
-$_['entry_minimum']          = 'Cantidad Mínima';
-$_['entry_stock_status']     = 'Estatus Fuera de Stock';
-$_['entry_price']            = 'Precio';
-$_['entry_tax_class']        = 'Tipo de Impuesto';
-$_['entry_points']           = 'Puntos';
-$_['entry_option_points']    = 'Puntos';
-$_['entry_subtract']         = 'Restar del Stock';
-$_['entry_weight_class']     = 'Medida de Peso';
-$_['entry_weight']           = 'Peso';
-$_['entry_dimension']        = 'Dimensiones (L x A x A)';
-$_['entry_length_class']     = 'Tipo de Longitud';
-$_['entry_length']           = 'Longitud';
-$_['entry_width']            = 'Ancho';
-$_['entry_height']           = 'Alto';
-$_['entry_image']            = 'Imagen';
-$_['entry_additional_image'] = 'Additional Images';
-$_['entry_customer_group']   = 'Grupo de Clientes';
-$_['entry_date_start']       = 'Fecha de Inicio';
-$_['entry_date_end']         = 'Fecha Final';
-$_['entry_priority']         = 'Prioridad';
-$_['entry_attribute']        = 'Atributo';
-$_['entry_attribute_group']  = 'Grupo de atributos';
-$_['entry_text']             = 'Texto';
-$_['entry_option']           = 'Opción';
-$_['entry_option_value']     = 'Valor de la Opción';
-$_['entry_required']         = 'Requerido';
-$_['entry_status']           = 'Estado';
-$_['entry_sort_order']       = 'Ordenar por';
-$_['entry_category']         = 'Categorías';
-$_['entry_filter']           = 'Filtros';
-$_['entry_download']         = 'Descargas';
-$_['entry_related']          = 'Productos Relacionados';
-$_['entry_tag']          	 = 'Etiquetas del Producto';
-$_['entry_reward']           = 'Puntos de Recompensa';
-$_['entry_layout']           = 'Anulación de la disposición';
-$_['entry_recurring']        = 'Perfil Recurrente';
+$_['entry_name']		    = 'Nombre';
+$_['entry_price']			= 'Precio';
+$_['entry_duration']		= 'Duración';
+$_['entry_cycle']			= 'Ciclo';
+$_['entry_frequency']		= 'Frecuencia';
+$_['entry_trial_price']		= 'Precio de Prueba';
+$_['entry_trial_duration']	= 'Duración de la Prueba';
+$_['entry_trial_status']	= 'Estatus de la Prueba';
+$_['entry_trial_cycle']	    = 'Ciclo de Prueba';
+$_['entry_trial_frequency'] = 'Frecuencia de la Prueba';
+$_['entry_status']			= 'Estado';
+$_['entry_sort_order']		= 'Ordenar por';
 
-// Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_sku']               = 'Número de Referencia';
-$_['help_upc']               = 'Código Universal del Producto';
-$_['help_ean']               = 'Número Europeo del Artículo';
-$_['help_jan']               = 'Número Japonés del Artículo';
-$_['help_isbn']              = 'Número Internacional Estándar';
-$_['help_mpn']               = 'Número de Parte del Fabricante';
-$_['help_manufacturer']      = '(Autocompletar)';
-$_['help_minimum']           = 'Forzar una cantidad mínima de pedido';
-$_['help_stock_status']      = 'Estado que se muestra cuando un producto está fuera de stock';
-$_['help_points']            = 'Número de puntos necesarios para comprar este artículo. Si no quieres que se adquiera con punto dejar en 0.';
-$_['help_category']          = '(Autocompletar)';
-$_['help_filter']            = '(Autocompletar)';
-$_['help_download']          = '(Autocompletar)';
-$_['help_related']           = '(Autocompletar)';
-$_['help_tag']               = 'Comma separated';
+// Column
+$_['column_name']			= 'Nombre';
+$_['column_sort_order']	    = 'Ordenar por';
+$_['column_action']         = 'Acción';
 
 // Error
-$_['error_warning']          = '¡Advertencia: Por favor revise cuidadosamente los errores en el formulario!';
-$_['error_permission']       = '¡Advertencia: No tienes permiso para modificar productos!';
-$_['error_name']             = '¡El Nombre del producto debe ser mayor que 3 y menor que 255 caracteres!';
-$_['error_meta_title']       = '¡Meta Título debe ser mayor a 3 y menor a 255 caracteres!';
-$_['error_model']            = '¡El Modelo del Producto debe ser mayor que 1 y menor que 64 caracteres!';
-$_['error_keyword']          = 'SEO URL already in use!';
+$_['error_warning']         = '¡Advertencia: Por favor revise cuidadosamente los errores en el formulario!';
+$_['error_permission']		= '¡Advertencia: No tienes permiso para modificar perfiles recurrentes!';
+$_['error_name']			= '¡El Nombre del producto debe ser mayor que 3 y menor que 255 caracteres!';
+$_['error_product']			= '¡Advertencia: Este perfil recurrente no se puede eliminar porque actualmente se asigna a los productos %s!';
