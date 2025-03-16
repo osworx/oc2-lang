@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Anmeldelser';
+$_['heading_title']          = 'Egenskaber';
 
 // Text
-$_['text_success']      = 'Succes: Du har ændret Anmeldelser!';
-$_['text_list']         = 'Anmeldelser';
-$_['text_add']          = 'Tilføj anmeldelse';
-$_['text_edit']         = 'Rediger anmeldelse';
+$_['text_success']           = 'Succes! Du har ændret egenskaber!';
+$_['text_list']              = 'Egenskaber';
+$_['text_add']               = 'Tilføj egenskab';
+$_['text_edit']              = 'Rediger egenskab';
 
 // Column
-$_['column_product']    = 'Produkt';
-$_['column_author']     = 'Forfatter';
-$_['column_rating']     = 'Bedømmelse';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Tilføjet dato';
-$_['column_action']     = 'Handling';
+$_['column_name']            = 'Egenskab navn';
+$_['column_attribute_group'] = 'Egenskab gruppe';
+$_['column_sort_order']      = 'Sorteringsrækkefølge';
+$_['column_action']          = 'Handling';
 
 // Entry
-$_['entry_product']     = 'Produkt';
-$_['entry_author']      = 'Forfatter';
-$_['entry_rating']      = 'Bedømmelse';
-$_['entry_status']      = 'Status';
-$_['entry_text']        = 'Tekst';
-$_['entry_date_added']  = 'Tilføjet dato';
-
-// Help
-$_['help_product']      = '(Autofuldførelse)';
+$_['entry_name']             = 'Egenskab navn';
+$_['entry_attribute_group']  = 'Egenskab gruppe';
+$_['entry_sort_order']       = 'Sorteringsrækkefølge';
 
 // Error
-$_['error_warning']     = 'Advarsel: Gennemgå venligst formularen for fejl!';
-$_['error_permission']  = 'Fejl: Du har ikke tilladelse til at ændre valgmuligheder!';
-$_['error_product']     = 'Produkt påkrævet!';
-$_['error_author']      = 'Forfatternavn skal være mellem 3 og 64 tegn!';
-$_['error_text']        = 'Anmeldelsestekst skal være mindst ét tegn!';
-$_['error_rating']      = 'Bedømmelse påkrævet!';
+$_['error_warning']          = 'Advarsel: Gennemgå venligst formularen for fejl!';
+$_['error_permission']       = 'Fejl! Du har ikke tilladelse til at ændre egenskaber!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Egenskabsnavn skal være mellem 3 og 64 karakterer!';
+$_['error_product']          = 'Fejl! Denne egenskab kan ikke slettes, da den i øjeblikket er tilknyttet %s produkter!';
