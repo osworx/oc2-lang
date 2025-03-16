@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Arvostelut';
+$_['heading_title']          = 'Ominaisuudet';
 
 // Text
-$_['text_success']      = 'Onnistui: Olet muokannut arvosteluja!';
-$_['text_list']         = 'Arvostelut';
-$_['text_add']          = 'Lisää arvostelu';
-$_['text_edit']         = 'Muokkaa arvostelua';
+$_['text_success']           = 'Onnistui: ominaisuuksia on muutettu!';
+$_['text_list']              = 'Ominaisuudet';
+$_['text_add']               = 'Lisää ominaisuus';
+$_['text_edit']              = 'Muokkaa ominaisuutta';
 
 // Column
-$_['column_product']    = 'Tuote';
-$_['column_author']     = 'Tekijä';
-$_['column_rating']     = 'Arvostelu';
-$_['column_status']     = 'Tila';
-$_['column_date_added'] = 'Lisäyspäivämäärä';
-$_['column_action']     = 'Toiminto';
+$_['column_name']            = 'Ominaisuuden nimi';
+$_['column_attribute_group'] = 'Ominaisuusryhmä';
+$_['column_sort_order']      = 'Lajittelujärjestys';
+$_['column_action']          = 'Toiminto';
 
 // Entry
-$_['entry_product']     = 'Tuote';
-$_['entry_author']      = 'Tekijä';
-$_['entry_rating']      = 'Arvostelu';
-$_['entry_status']      = 'Tila';
-$_['entry_text']        = 'Teksti';
-$_['entry_date_added']  = 'Lisäyspäivämäärä';
-
-// Help
-$_['help_product']      = '(Automaattinen täydennys)';
+$_['entry_name']             = 'Ominaisuuden nimi';
+$_['entry_attribute_group']  = 'Ominaisuusryhmä';
+$_['entry_sort_order']       = 'Lajittelujärjestys';
 
 // Error
-$_['error_warning']     = 'Varoitus: tarkista lomake virheiden varalta!';
-$_['error_permission']  = 'Varoitus: sinulla ei ole oikeuksia muokata arvosteluja!';
-$_['error_product']     = 'Tuote on pakollinen!';
-$_['error_author']      = 'Kirjoittajan tulee olla 3 - 64 merkkiä pitkä!';
-$_['error_text']        = 'Arvostelutekstin tulee sisältää ainakin 1 merkki!';
-$_['error_rating']      = 'Arvosana on pakollinen!';
+$_['error_warning']          = 'Varoitus: tarkista lomake virheiden varalta!';
+$_['error_permission']       = 'Varoitus: sinulla ei ole oikeuksia muokata ominaisuuksia!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Ominaisuuden nimen tulee olla 3 - 64 merkiä pitkä!';
+$_['error_product']          = 'Varoitus: tätä ominaisuutta ei voi poistaa, koska %s tuotetta käyttää sitä!';
