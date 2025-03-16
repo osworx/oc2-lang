@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Produktomtaler';
+$_['heading_title']          = 'Produktegenskaper';
 
 // Text
-$_['text_success']      = 'Endringer ble vellykket lagret.';
-$_['text_list']         = 'Liste';
-$_['text_add']          = 'Legg til';
-$_['text_edit']         = 'Endre';
+$_['text_success']           = 'Endringene ble vellykket lagret.';
+$_['text_list']              = 'Liste';
+$_['text_add']               = 'Legg til';
+$_['text_edit']              = 'Endre';
 
 // Column
-$_['column_product']    = 'Produkt';
-$_['column_author']     = 'Skribent';
-$_['column_rating']     = 'Vurdering';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Lagt til';
-$_['column_action']     = 'Valg';
+$_['column_name']            = 'Navn';
+$_['column_attribute_group'] = 'Gruppe';
+$_['column_sort_order']      = 'Sortering';
+$_['column_action']          = 'Valg';
 
 // Entry
-$_['entry_product']     = 'Produkt';
-$_['entry_author']      = 'Skribent';
-$_['entry_rating']      = 'Vurdering';
-$_['entry_status']      = 'Status';
-$_['entry_text']        = 'Tekstfelt';
-$_['entry_date_added']  = 'Lagt til';
-
-// Help
-$_['help_product']      = '(Autofullfør)';
+$_['entry_name']             = 'Navn';
+$_['entry_attribute_group']  = 'Gruppe';
+$_['entry_sort_order']       = 'Sortering';
 
 // Error
-$_['error_warning']     = 'Påse at alle påkrevde felter er fylt inn.';
-$_['error_permission']  = 'Du har ikke rettigheter til å utføre valgte handling.';
-$_['error_product']     = 'Produkt må velges.';
-$_['error_author']      = 'Skribent må inneholde mellom 3 og 64 tegn.';
-$_['error_text']        = 'Tekst må inneholde minst 1 tegn.';
-$_['error_rating']      = 'Vurdering må angis.';
+$_['error_warning']          = 'Påse at alle påkrevde felter er fylt inn.';
+$_['error_permission']       = 'Du har ikke rettigheter til å utføre valgte handling.';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Navn må inneholde mellom 3 og 64 tegn.';
+$_['error_product']          = 'Denne produktegenskapen kan ikke slettes ettersom den er tilknyttet %s produkter.';
