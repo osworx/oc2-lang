@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'שכחת סיסמא?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'סיסמה נשכחה';
-$_['text_your_email'] = 'כתובת הדואר האלקטרוני שלך';
-$_['text_email']      = 'הזן את כתובת הדואר האלקטרוני המשויכת לחשבון שלך. לחץ על שלח כדי לקבל קישור בדואל שלך לאיפוס סיסמתך.';
-$_['text_success']    = 'הודעת דואל עם קישור נשלחה לכתובת הדוא"ל לאישור כניסת המנהל שלך.';
-
-// Entry
-$_['entry_email']     = 'כתובת דואר אלקטרוני';
-$_['entry_password']  = 'סיסמא חדשה';
-$_['entry_confirm']   = 'אשר';
-
-// Error
-$_['error_email']     = 'אזהרה: כתובת הדואר האלקטרוני לא נמצא ברשומות שלנו, אנא נסה שוב!';
-$_['error_password']  = 'הסיסמה חייבת להיות בין 3 ל 20 תווים!';
-$_['error_confirm']   = 'הסיסמה ואישור סיסמה אינם תואמים!';
+$_['text_order']             = 'הזמנות';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'הושלם';
+$_['text_customer']          = 'לקוחות';
+$_['text_online']            = 'לקוחות מקוונים';
+$_['text_approval']          = 'מחכה לאישור';
+$_['text_product']           = 'מוצרים';
+$_['text_stock']             = 'אזל מהמלאי';
+$_['text_review']            = 'ביקורות';
+$_['text_return']            = 'החזרות';
+$_['text_affiliate']         = 'שותפים';
+$_['text_store']             = 'חנויות';
+$_['text_front']             = 'חזית החנות';
+$_['text_help']              = 'עזרה';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'פורום תמיכה';
+$_['text_documentation']     = 'תיעוד';
+$_['text_logout']            = 'התנתק';
