@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'การบริหาร';
 
 // Text
-$_['text_order']             = 'ออเดอร์';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'เสร็จสมบูรณ์';
-$_['text_customer']          = 'ลูกค้า';
-$_['text_online']            = 'ลูกค้าออนไลน์';
-$_['text_approval']          = 'รอการอนุมัติ';
-$_['text_product']           = 'สินค้า';
-$_['text_stock']             = 'สินค้าหมด';
-$_['text_review']            = 'บทวิจารณ์';
-$_['text_return']            = 'คืนสินค้า';
-$_['text_affiliate']         = 'ตัวแทนจำหน่าย';
-$_['text_store']             = 'ร้านค้า';
-$_['text_front']             = 'หน้าร้านค้า';
-$_['text_help']              = 'ช่วยเหลือ';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'ฟอรั่มช่วยเหลือ';
-$_['text_documentation']     = 'เอกสารประกอบ';
-$_['text_logout']            = 'ออกจากระบบ';
+$_['text_heading']   = 'การบริหาร';
+$_['text_login']     = 'กรุณาระบุรายละเอียดของคุณเพื่อเข้าสู่ระบบ';
+$_['text_forgotten'] = 'ลืมรหัสผ่าน';
+
+// Entry
+$_['entry_username'] = 'ชื่อผู้ใช้';
+$_['entry_password'] = 'รหัสผ่าน';
+
+// Button
+$_['button_login']   = 'เข้าสู่ระบบ';
+
+// Error
+$_['error_login']    = 'ข้อมูลที่ระบุไม่ตรงกับชื่อผู้ใช้และ/หรือรหัสผ่าน ในฐานข้อมูล';
+$_['error_token']    = 'โทเค็นไม่ถูกต้อง กรุณาเข้าสู่ระบบอีกครั้ง';
