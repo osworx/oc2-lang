@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administracija';
 
 // Text
-$_['text_order']             = 'Porudžbine';
-$_['text_processing_status'] = 'Obrađivanje';
-$_['text_complete_status']   = 'Završeno';
-$_['text_customer']          = 'Korisnici';
-$_['text_online']            = 'Korisnic Na Mreži';
-$_['text_approval']          = 'Čeka na dozvolu';
-$_['text_product']           = 'Proizvodi';
-$_['text_stock']             = 'Nema na lageru';
-$_['text_review']            = 'Kritike';
-$_['text_return']            = 'Povratno';
-$_['text_affiliate']         = 'Članstvo';
-$_['text_store']             = 'Prodavnice';
-$_['text_front']             = 'Prednja Prodavnica';
-$_['text_help']              = 'Pomoć';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Podrška na Forumu';
-$_['text_documentation']     = 'Dokumentacija';
-$_['text_logout']            = 'Odjavite se';
+$_['text_heading']   = 'Administracija';
+$_['text_login']     = 'Molimo vas unesite vaše detalje prijave.';
+$_['text_forgotten'] = 'Zaboravljena Šifra';
+
+// Entry
+$_['entry_username'] = 'Korisničko Ime';
+$_['entry_password'] = 'Šifra';
+
+// Button
+$_['button_login']   = 'Prijavi se';
+
+// Error
+$_['error_login']    = 'Ne poklapa se Krisničko Ime i/ili Šifra.';
+$_['error_token']    = 'Ne podržana sesija. Molimo vas prijavite se ponovo.';
