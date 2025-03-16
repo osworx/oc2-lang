@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'Ponavljajoči se profil';
+$_['heading_title']     = 'Mnenja in ocene';
 
 // Text
-$_['text_success']          = 'USPEŠNO: Ste spremenjeni ponavljajoče se profile!';
-$_['text_list']             = 'Seznam Ponavljajočih profilov';
-$_['text_add']              = 'Dodajte Ponavljajoči profil';
-$_['text_edit']             = 'Uredite Ponavljajoči profil';
-$_['text_day']				= 'Dan';
-$_['text_week']				= 'Teden';
-$_['text_semi_month']		= 'Pol meseca';
-$_['text_month']			= 'Mesec';
-$_['text_year']				= 'Leto';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Ponavljajoče se zneski se izračunajo po pogostosti in cikli.</p><p>Na primer, če uporabljate frekvenco "teden" in cikla "2", nato pa si bodo zaračunali vsaka 2 tedna.</p><p>Čas, kolikokrat si bo plačala, nastavite na 0, če želite, plačila, dokler se ne prekličejo.</p>';
-$_['text_profile']			= 'Ponavljajoči se profil';
-$_['text_trial']			= 'Poskusni profil';
-
-// Entry
-$_['entry_name']		    = 'Ime';
-$_['entry_price']			= 'Cena';
-$_['entry_duration']		= 'Trajanje';
-$_['entry_cycle']			= 'Cikel';
-$_['entry_frequency']		= 'Pogostost';
-$_['entry_trial_price']		= 'Poskusna cena';
-$_['entry_trial_duration']	= 'Poskusno trajanje';
-$_['entry_trial_status']	= 'Poskusno stanje';
-$_['entry_trial_cycle']	    = 'Poskusni cikel';
-$_['entry_trial_frequency'] = 'Poskusna pogostost';
-$_['entry_status']			= 'Status';
-$_['entry_sort_order']		= 'Vrstni red';
+$_['text_success']      = 'USPEŠNO: Ste uredili mnenja in ocene!';
+$_['text_list']         = 'Seznam mnenj';
+$_['text_add']          = 'Dodajte mnenje';
+$_['text_edit']         = 'Uredite mnenje';
 
 // Column
-$_['column_name']			= 'Ime';
-$_['column_sort_order']	    = 'Vrstni red';
-$_['column_action']         = 'Dejanje';
+$_['column_product']    = 'Izdelek';
+$_['column_author']     = 'Avtor';
+$_['column_rating']     = 'Ocena';
+$_['column_status']     = 'Status';
+$_['column_date_added'] = 'Dodano dne';
+$_['column_action']     = 'Dejanje';
+
+// Entry
+$_['entry_product']     = 'Izdelek';
+$_['entry_author']      = 'Avtor';
+$_['entry_rating']      = 'Ocena';
+$_['entry_status']      = 'Status';
+$_['entry_text']        = 'Besedilo';
+$_['entry_date_added']  = 'Dodano dne';
+
+// Help
+$_['help_product']      = '(Samodokončanje)';
 
 // Error
-$_['error_warning']         = 'POZOR: Prosimo, pazljivo preverite polja za morebitne napake!';
-$_['error_permission']		= 'POZOR: Nimate dovoljenja za spreminjanje ponavljajočih profilov!';
-$_['error_name']			= 'Ime profila, mora biti več od 3 in manj kot 255 znakov!';
-$_['error_product']			= 'POZOR: Ta ponavljajoči se profil ni mogoče izbrisati, saj je trenutno dodeljen %s izdelkov!';
+$_['error_warning']     = 'POZOR: Prosimo, pazljivo preverite polja za morebitne napake!';
+$_['error_permission']  = 'POZOR: Nimate dovoljenja za urejanje mnenj!';
+$_['error_product']     = 'Izdelek je zahtevan!';
+$_['error_author']      = 'Avtorjevo ime mora imeti več kot 3 in manj kot 64 znakov!';
+$_['error_text']        = 'Besedilo mnenj mora imeti najmanj 1 znak!';
+$_['error_rating']      = 'Ocena izdelka je zahtevana!';
