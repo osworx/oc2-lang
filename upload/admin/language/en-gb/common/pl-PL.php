@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administracja';
+$_['heading_title']  = 'Zmień swoje hasło';
 
 // Text
-$_['text_heading']   = 'Administracja';
-$_['text_login']     = 'Wprowadź swoje dane logowania.';
-$_['text_forgotten'] = 'Zapomniane hasło';
+$_['text_password']  = 'Wprowadź nowe hasło, którego chcesz używać.';
+$_['text_success']   = 'Sukces: Twoje hasło zostało pomyślnie zaktualizowane.';
 
 // Entry
-$_['entry_username'] = 'Nazwa Użytkownika';
 $_['entry_password'] = 'Hasło';
-
-// Button
-$_['button_login']   = 'Zaloguj się';
+$_['entry_confirm']  = 'Potwierdź';
 
 // Error
-$_['error_login']    = 'Nie pasuje do nazwy użytkownika lub hasła.';
-$_['error_token']    = 'Nieprawidłowy token sesji. Zaloguj się ponownie.';
+$_['error_password'] = 'Hasło musi zawierać od 4 do 20 znaków!';
+$_['error_confirm']  = 'Hasło i potwierdzenie hasła nie są identyczne!';
