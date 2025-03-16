@@ -1,36 +1,103 @@
 <?php
-// Heading
-$_['heading_title']     = 'Recenze';
-
 // Text
-$_['text_success']      = 'Úspěch: Změnili jste Recenze!';
-$_['text_list']         = 'Seznam Recenzí';
-$_['text_add']          = 'Přidat recenzi';
-$_['text_edit']         = 'Upravit Recenze';
-
-// Column
-$_['column_product']    = 'Produkt';
-$_['column_author']     = 'Author';
-$_['column_rating']     = 'Hodnocení';
-$_['column_status']     = 'Stav';
-$_['column_date_added'] = 'Datum přidání';
-$_['column_action']     = 'Akce';
-
-// Entry
-$_['entry_product']     = 'Produkt';
-$_['entry_author']      = 'Author';
-$_['entry_rating']      = 'Hodnocení';
-$_['entry_status']      = 'Stav';
-$_['entry_text']        = 'Text';
-$_['entry_date_added']  = 'Datum přidání';
-
-// Help
-$_['help_product']      = '(Funkce Automatické dokončování)';
-
-// Error
-$_['error_warning']     = 'Upozornění: Zkontrolujte formulář pečlivě pro chyby!';
-$_['error_permission']  = 'Upozornění: Nemáte oprávnění ke změně Recenze!';
-$_['error_product']     = 'Produkt je požadován!';
-$_['error_author']      = 'Autor musí být v rozmezí 3 až 64 znaků!';
-$_['error_text']        = 'Text Recenze musí být alespoň 1 znak!';
-$_['error_rating']      = 'Hodnocení recenze je vyžadováno!';
+$_['text_affiliate']                 = 'Partneři';
+$_['text_api']                       = 'API';
+$_['text_attribute']                 = 'Atributy';
+$_['text_attribute_group']           = 'Skupina atributů';
+$_['text_backup']                    = 'Záloha / Obnova';
+$_['text_banner']                    = 'Bannery';
+$_['text_catalog']                   = 'Katalog';
+$_['text_category']                  = 'Kategorie';
+$_['text_country']                   = 'Země';
+$_['text_coupon']                    = 'Kupóny';
+$_['text_currency']                  = 'Měny';
+$_['text_customer']                  = 'Zákazníci';
+$_['text_customer_group']            = 'Skupiny zákazníků';
+$_['text_custom_field']              = 'Vlastní pole';
+$_['text_dashboard']                 = 'Nástěnka';
+$_['text_design']                    = 'Design';
+$_['text_download']                  = 'Soubory ke stažení';
+$_['text_log']                       = 'Chybové zprávy';
+$_['text_event']                     = 'Events';
+$_['text_extension']                 = 'Rozšíření';
+$_['text_filter']                    = 'Filtry';
+$_['text_geo_zone']                  = 'Geo zóny';
+$_['text_information']               = 'Informace';
+$_['text_installer']                 = 'Instalační služba rozšíření';
+$_['text_language']                  = 'Jazyky';
+$_['text_layout']                    = 'Rozložení';
+$_['text_localisation']              = 'Lokalizace';
+$_['text_location']                  = 'Umístění Obchodu';
+$_['text_contact']                   = 'Mail';
+$_['text_marketing']                 = 'Marketing';
+$_['text_menu']                      = 'Menu Manager';
+$_['text_modification']              = 'Modifikace';
+$_['text_manufacturer']              = 'Výrobci';
+$_['text_option']                    = 'Možnosti';
+$_['text_order']                     = 'Objednávky';
+$_['text_order_status']              = 'Stavy objednávek';
+$_['text_product']                   = 'Produkty';
+$_['text_reports']                   = 'Reporty';
+$_['text_report_sale']               = 'Sales';
+$_['text_report_sale_order']         = 'Objednávky';
+$_['text_report_sale_tax']           = 'Daň';
+$_['text_report_sale_shipping']      = 'Doprava';
+$_['text_report_sale_return']        = 'Vrácenky';
+$_['text_report_sale_coupon']        = 'Kupóny';
+$_['text_report_product']            = 'Produkty';
+$_['text_report_product_viewed']     = 'Zobrazeno';
+$_['text_report_product_purchased']  = 'Zakoupeno';
+$_['text_report_customer']           = 'Zákazníci';
+$_['text_report_customer_activity']  = 'Aktivity zákazníka';
+$_['text_report_customer_search']    = 'Customer Searches';
+$_['text_report_customer_online']    = 'Zákazníci Online';
+$_['text_report_customer_order']     = 'Objednávky';
+$_['text_report_customer_reward']    = 'Věrnostní body';
+$_['text_report_customer_credit']    = 'Úvěr';
+$_['text_report_marketing']          = 'Marketing';
+$_['text_report_affiliate']          = 'Partneři';
+$_['text_report_affiliate_activity'] = 'Aktivita partnerů';
+$_['text_review']                    = 'Recenze';
+$_['text_return']                    = 'Vrácenky';
+$_['text_return_action']             = 'Akce vrácení';
+$_['text_return_reason']             = 'Příčiny vratky';
+$_['text_return_status']             = 'Stavy vratek';
+$_['text_sale']                      = 'Sales';
+$_['text_setting']                   = 'Nastavení';
+$_['text_store']                     = 'Extension Store';
+$_['text_stock_status']              = 'Skladové stavy';
+$_['text_system']                    = 'Systém';
+$_['text_tax']                       = 'Daně';
+$_['text_tax_class']                 = 'Daňové třídy';
+$_['text_tax_rate']                  = 'Daňové sazby';
+$_['text_translation']               = 'Language Editor';
+$_['text_theme']                     = 'Theme Editor';
+$_['text_tools']                     = 'Nástroje';
+$_['text_upload']                    = 'Nahrávání';
+$_['text_user']                      = 'Uživatelé';
+$_['text_users']                     = 'Uživatelé';
+$_['text_user_group']                = 'Skupiny uživatelů';
+$_['text_voucher']                   = 'Dárkové poukazy';
+$_['text_voucher_theme']             = 'Dárkové motivy';
+$_['text_weight_class']              = 'Hmotnostní třídy';
+$_['text_length_class']              = 'Jednotky délky';
+$_['text_zone']                      = 'Zóny';
+$_['text_recurring']                 = 'Opakované profily';
+$_['text_order_recurring']           = 'Opakované objednávky';
+$_['text_openbay_extension']         = 'OpenBay Pro';
+$_['text_openbay_dashboard']         = 'Nástěnka';
+$_['text_openbay_orders']            = 'Hromadná úprava objednávky';
+$_['text_openbay_items']             = 'Správa položek';
+$_['text_openbay_ebay']              = 'eBay';
+$_['text_openbay_amazon']            = 'Amazon (EU)';
+$_['text_openbay_amazonus']          = 'Amazon (USA)';
+$_['text_openbay_etsy']            	 = 'Etsy';
+$_['text_openbay_settings']          = 'Nastavení';
+$_['text_openbay_links']             = 'Propojení položek';
+$_['text_openbay_report_price']      = 'Cenové výkazy';
+$_['text_openbay_order_import']      = 'Import Objednávky';
+$_['text_paypal']                    = 'PayPal';
+$_['text_paypal_search']             = 'Search';
+$_['text_complete_status']           = 'Objednávky dokončené'; 
+$_['text_processing_status']         = 'Objednávky zpracovávané'; 
+$_['text_other_status']              = 'Ostatní stavy'; 
