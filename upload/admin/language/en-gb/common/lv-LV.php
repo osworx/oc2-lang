@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administrēšana';
+$_['heading_title']  = 'Nomainīt savu paroli';
 
 // Text
-$_['text_heading']   = 'Administrēšana';
-$_['text_login']     = 'Lūdzu, ievadiet savu pieteikšanās informāciju.';
-$_['text_forgotten'] = 'Aizmirstā parole';
+$_['text_password']  = 'Ievadiet jauno paroli, kuru vēlaties izmantot.';
+$_['text_success']   = 'Veiksmīga: Jūsu parole ir veiksmīgi atjaunināta.';
 
 // Entry
-$_['entry_username'] = 'Lietotāja vārds';
 $_['entry_password'] = 'Parole';
-
-// Button
-$_['button_login']   = 'Pieteikties';
+$_['entry_confirm']  = 'Apstiprināt';
 
 // Error
-$_['error_login']    = 'Nevar atrast lietotājvārdu un/vai paroli.';
-$_['error_token']    = 'Nederīga sesija. Lūdzu, piesakieties vēlreiz.';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'Parole un paroles apstiprinājums nesaskan!';
