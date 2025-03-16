@@ -1,108 +1,42 @@
 <?php
 // Heading
-$_['heading_title']          = 'Produk';
+$_['heading_title']			= 'Profil Saat Ini';
 
 // Text
-$_['text_success']           = 'Sukses: Anda telah memodifikasi produk!';
-$_['text_list']              = 'Daftar Produk';
-$_['text_add']               = 'Tambah Produk';
-$_['text_edit']              = 'Ubah Produk';
-$_['text_plus']              = '+';
-$_['text_minus']             = '-';
-$_['text_default']           = 'Standar';
-$_['text_option']            = 'Opsi';
-$_['text_option_value']      = 'Nilai Opsi';
-$_['text_percent']           = 'Persentase';
-$_['text_amount']            = 'Jumlah Tetap';
-
-// Column
-$_['column_name']            = 'Nama Produk';
-$_['column_model']           = 'Model';
-$_['column_image']           = 'Gambar';
-$_['column_price']           = 'Harga';
-$_['column_quantity']        = 'Jumlah';
-$_['column_status']          = 'Status';
-$_['column_action']          = 'Tindakan';
+$_['text_success']          = 'Berhasil ! Anda telah mengubah profil saat ini!';
+$_['text_list']             = 'Daftar Profil Saat Ini';
+$_['text_add']              = 'Tambahkan Profil Saat Ini';
+$_['text_edit']             = 'Sunting Profil Saat Ini';
+$_['text_day']				= 'Hari';
+$_['text_week']				= 'Minggu';
+$_['text_semi_month']		= 'Awal Bulan';
+$_['text_month']			= 'Bulan';
+$_['text_year']				= 'Tahun';
+$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Recurring jumlah dihitung berdasarkan frekuensi dan siklus.</p><p>Sebagai contoh jika Anda menggunakan frekuensi "Minggu" dan siklus "2", maka pengguna akan ditagih setiap 2 minggu.</p><p>Durasi adalah jumlah kali pengguna akan melakukan pembayaran, pengaturan untuk 0 jika Anda inginkan pembayaran sampai mereka membatalkan.</p>';
+$_['text_profile']			= 'Profil berulang';
+$_['text_trial']			= 'Profil Percobaan';
 
 // Entry
-$_['entry_name']             = 'Nama Produk';
-$_['entry_description']      = 'Deskripsi';
-$_['entry_meta_title'] 	     = 'Judul Tag Meta';
-$_['entry_meta_keyword'] 	 = 'Kata Kunci Tag Meta';
-$_['entry_meta_description'] = 'Deskripsi Tag Meta';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_model']            = 'Model';
-$_['entry_sku']              = 'SKU';
-$_['entry_upc']              = 'UPC';
-$_['entry_ean']              = 'EAN';
-$_['entry_jan']              = 'JAN';
-$_['entry_isbn']             = 'ISBN';
-$_['entry_mpn']              = 'MPN';
-$_['entry_location']         = 'LOKASI';
-$_['entry_shipping']         = 'Syarat pengiriman';
-$_['entry_manufacturer']     = 'Produsen';
-$_['entry_store']            = 'Toko';
-$_['entry_date_available']   = 'Tanggal Tersedia';
-$_['entry_quantity']         = 'Jumlah';
-$_['entry_minimum']          = 'Jumlah minimum';
-$_['entry_stock_status']     = 'Habis stok';
-$_['entry_price']            = 'Harga';
-$_['entry_tax_class']        = 'Kelas Pajak';
-$_['entry_points']           = 'poin';
-$_['entry_option_points']    = 'poin';
-$_['entry_subtract']         = 'Uraian Stok';
-$_['entry_weight_class']     = 'Satuan Berat';
-$_['entry_weight']           = 'Berat';
-$_['entry_dimension']        = 'Dimensi (P x L x T)';
-$_['entry_length_class']     = 'Satuan Panjang';
-$_['entry_length']           = 'Panjang';
-$_['entry_width']            = 'Lebar';
-$_['entry_height']           = 'Tinggi';
-$_['entry_image']            = 'Gambar';
-$_['entry_additional_image'] = 'Additional Images';
-$_['entry_customer_group']   = 'Grup Pelanggan';
-$_['entry_date_start']       = 'Tanggal Mulai';
-$_['entry_date_end']         = 'Tanggal akhir';
-$_['entry_priority']         = 'Prioritas';
-$_['entry_attribute']        = 'Atribut';
-$_['entry_attribute_group']  = 'Grup Atribut';
-$_['entry_text']             = 'Teks';
-$_['entry_option']           = 'Opsi';
-$_['entry_option_value']     = 'Nilai Opsi';
-$_['entry_required']         = 'Wajib';
-$_['entry_status']           = 'Status';
-$_['entry_sort_order']       = 'Urutan';
-$_['entry_category']         = 'Kategori';
-$_['entry_filter']           = 'Filter';
-$_['entry_download']         = 'Unduhan';
-$_['entry_related']          = 'Produk Terkait';
-$_['entry_tag']          	 = 'Kata kunci produk';
-$_['entry_reward']           = 'Poin Hadiah';
-$_['entry_layout']           = 'Penimpaan Tata Letak';
-$_['entry_recurring']        = 'Profil berulang';
+$_['entry_name']		    = 'Nama';
+$_['entry_price']			= 'Harga';
+$_['entry_duration']		= 'Durasi';
+$_['entry_cycle']			= 'Perputaran';
+$_['entry_frequency']		= 'Frekuensi';
+$_['entry_trial_price']		= 'Harga Percobaan';
+$_['entry_trial_duration']	= 'Durasi Percobaan';
+$_['entry_trial_status']	= 'Status Percobaan';
+$_['entry_trial_cycle']	    = 'Aktifitas Perputaran Percobaan';
+$_['entry_trial_frequency'] = 'Frekuensi Percobaan';
+$_['entry_status']			= 'Status';
+$_['entry_sort_order']		= 'Urutan';
 
-// Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_sku']               = 'SKU';
-$_['help_upc']               = 'Kode Produk Universal UPC';
-$_['help_ean']               = 'Nomor artikel Eropa';
-$_['help_jan']               = 'Nomor artikel Jepang';
-$_['help_isbn']              = 'Nomer Buku standar internasional ISBN';
-$_['help_mpn']               = 'Nomor bagian produsen';
-$_['help_manufacturer']      = '(Autocomplete)';
-$_['help_minimum']           = 'Ketentuan minimum order yang seharusnya';
-$_['help_stock_status']      = 'Status akan terlihan ketika produk kehabisan stok';
-$_['help_points']            = 'Jumlah poin yang dibutuhkan untuk membeli item ini. Jika Anda tidak ingin produk ini harus dibeli dengan poin 0.';
-$_['help_category']          = '(Autocomplete)';
-$_['help_filter']            = '(Autocomplete)';
-$_['help_download']          = '(Autocomplete)';
-$_['help_related']           = '(Autocomplete)';
-$_['help_tag']               = 'Comma separated';
+// Column
+$_['column_name']			= 'Nama';
+$_['column_sort_order']	    = 'Urutan';
+$_['column_action']         = 'Tindakan';
 
 // Error
-$_['error_warning']          = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
-$_['error_permission']       = 'Peringatan: Anda tidak memiliki izin untuk mengubah tata letak!';
-$_['error_name']             = 'Nama Produk harus lebih dari 3 dan kurang dari 255 karakter!';
-$_['error_meta_title']       = 'Judul meta harus lebih besar dari 3 dan kurang dari 255 karakter!';
-$_['error_model']            = 'Model produk harus lebih dari 3 dan kurang dari 64 karakter!';
-$_['error_keyword']          = 'SEO URL already in use!';
+$_['error_warning']         = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
+$_['error_permission']		= 'Anda tidak diizinkan untuk mengubah profil saat ini!';
+$_['error_name']			= 'Nama produk harus lebih banyak dari 3 dan kurang dari 255 karakter!';
+$_['error_product']			= 'Profil saat ini belum dapat dihapus sebab sedang digunakan oleh produk %s !';
