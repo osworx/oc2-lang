@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Kategoriler';
+$_['heading_title']     = 'İndirmeler';
 
 // Text
-$_['text_success']           = 'Başarılı: Kategorileri düzenlediniz!';
-$_['text_list']              = 'Kategori Listesi';
-$_['text_add']               = 'Kategori Ekle';
-$_['text_edit']              = 'Kategoriyi Düzenle';
-$_['text_default']           = 'Varsayılan';
+$_['text_success']      = 'Başarılı: Yüklemeleri düzenlediniz!';
+$_['text_list']         = 'İndirme Listesi';
+$_['text_add']          = 'İndirileceklere Ekle';
+$_['text_edit']         = 'İndirmeyi Düzenle';
+$_['text_upload']       = 'Dosya başarıyla yüklendi!';
 
 // Column
-$_['column_name']            = 'Kategori Adı';
-$_['column_sort_order']      = 'Sıralama Düzeni';
-$_['column_action']          = 'Eylem';
+$_['column_name']       = 'Dosya Adı';
+$_['column_date_added'] = 'Eklenme Tarihi';
+$_['column_action']     = 'Eylem';
 
 // Entry
-$_['entry_name']             = 'Kategori Adı';
-$_['entry_description']      = 'Açıklama';
-$_['entry_meta_title'] 	     = 'Meta etiketi başlığı';
-$_['entry_meta_keyword']     = 'Meta etiketi anahtar kelimeler';
-$_['entry_meta_description'] = 'Meta etiketi açıklamasına';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'Üst';
-$_['entry_filter']           = 'Filtreler';
-$_['entry_store']            = 'Dükkanlar';
-$_['entry_image']            = 'Resim';
-$_['entry_top']              = 'Üst';
-$_['entry_column']           = 'Sütunlar';
-$_['entry_sort_order']       = 'Sıralama Düzeni';
-$_['entry_status']           = 'Durum';
-$_['entry_layout']           = 'Düzeni Geçersiz Kılma';
+$_['entry_name']        = 'Dosya Adı';
+$_['entry_filename']    = 'Dosya Adı';
+$_['entry_mask']        = 'Gizle';
 
 // Help
-$_['help_filter']            = '(Otomatik Tamamla)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'Üst menü çubuğunda görüntülenir. Sadece en üst kategoriler için çalışır.';
-$_['help_column']            = '3 alt kategori için kullanılacak sütun sayısı. Sadece en üst kategorileri için çalışır.';
+$_['help_filename']     = 'Yükle(me) butonunu kullanarak yükleme yapabilir ya da FTP ile indirme dizinine yükleyebilir ve aşağıdaki detayları girebilirsiniz.';
+$_['help_mask']         = 'Dosya adı ve maskenin farklı olması, doğrudan indirme dosyalarınıza bağlantı verilmesini durdurmak için  önerilir.';
 
 // Error
-$_['error_warning']          = 'Uyarı: Lütfen formu gösterilen hatalar nedeniyle dikkatlice kontrol edin!';
-$_['error_permission']       = 'Uyarı: Kategorileri değiştirme iznine sahip değilsiniz!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'Meta Başlık en az 3 ve en fazla 255 karakter olmalıdır!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'Uyarı: Lütfen formu gösterilen hatalar nedeniyle dikkatlice kontrol edin!';
+$_['error_permission']  = 'Uyarı: Karşıdan Yüklenenleri değiştirme iznine sahip değilsiniz!';
+$_['error_name']        = 'İndirme adı 3 ile 64 karakter arasında olmalıdır!';
+$_['error_upload']      = 'Yükleme yapmanız gerekmektedir!';
+$_['error_filename']    = 'Dosya adı 3 ile 128 karakter arasında olmalıdır!';
+$_['error_exists']      = 'Dosya bulunamadı!';
+$_['error_mask']        = 'Maske 3 ile 128 karakter arasında olmalıdır!';
+$_['error_filetype']    = 'Geçersiz dosya türü!';
+$_['error_product']     = 'UYARI: Şu an için %s ürünle bağlantılı olan bu indirme dosyası silinemez!';
