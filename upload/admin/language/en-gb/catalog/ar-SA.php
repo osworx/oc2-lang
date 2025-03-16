@@ -1,45 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'روابط ذات صلة';
+$_['heading_title']     = 'الشركات المصنعة';
 
 // Text
-$_['text_success']           = 'تم بنجاح: لقد قمت بتعديل المعلومات!';
-$_['text_list']              = 'قائمة المعلومات';
-$_['text_add']               = 'إضافة صفحة معلومات';
-$_['text_edit']              = 'تعديل صفحة المعلومات';
-$_['text_default']           = 'الافتراضي';
+$_['text_success']      = 'تم بنجاح: لقد قمت بتعديل الشركات المصنعة!';
+$_['text_list']         = 'قائمة الشركات';
+$_['text_add']          = 'إضافة شركة';
+$_['text_edit']         = 'تعديل شركة';
+$_['text_default']      = 'الافتراضي';
+$_['text_percent']      = 'النسبة المئوية';
+$_['text_amount']       = 'المبلغ الثابت';
 
 // Column
-$_['column_title']           = 'عنوان صفحة المعلومات';
-$_['column_sort_order']	     = 'الترتيب';
-$_['column_action']          = 'عمل';
+$_['column_name']       = 'اسم الشركة';
+$_['column_sort_order'] = 'الترتيب';
+$_['column_action']     = 'عمل';
 
 // Entry
-$_['entry_title']            = 'عنوان صفحة المعلومات';
-$_['entry_description']      = 'الوصف';
-$_['entry_store']            = 'المتاجر';
-$_['entry_meta_title'] 	     = 'عنوان Meta-Tag';
-$_['entry_meta_keyword'] 	 = 'الكلمات الوصفية "Meta Tag Keywords"';
-$_['entry_meta_description'] = 'وصف العلامة الوصفية "Meta Tag Description"';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_bottom']           = 'الأسفل';
-$_['entry_status']           = 'الحالة';
-$_['entry_sort_order']       = 'الترتيب';
-$_['entry_layout']           = 'تجاوز التخطيط';
+$_['entry_name']        = 'اسم الشركة';
+$_['entry_store']       = 'المتاجر';
+$_['entry_keyword']     = 'SEO URL';
+$_['entry_image']       = 'صورة';
+$_['entry_sort_order']  = 'الترتيب';
+$_['entry_type']        = 'النوع';
 
 // Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_bottom']            = 'العرض في أسفل تذييل الصفحة.';
+$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
 
 // Error
-$_['error_warning']          = 'تحذير: الرجاء التحقق من النموذج واصلاح الأخطاء!';
-$_['error_permission']       = 'تحذير: ليس لديك الصلاحية للتعديل على صفحة المعلومات!';
-$_['error_title']            = 'يجب أن يكون عنوان صفحة المعلومات مابين 3 و 64 حرفاً!';
-$_['error_description']      = 'يجب أن يكون الوصف أكثر من 3 أحرف!';
-$_['error_meta_title']       = 'يجب أن لا يقل عدد حروف العنوان عن 3حروف ولا يزيد عن 255 حرف!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_account']          = 'تحذير: لا يمكن حذف صفحة المعلومات هذه لأنها مرتبطة بشروط المتجر!';
-$_['error_checkout']         = 'تحذير: لا يمكن حذف صفحة المعلومات هذه لأنها مرتبطة بشروط إنهاء الطلب!';
-$_['error_affiliate']        = 'تحذير: لا يمكن حذف صفحة المعلومات هذه لأنها مرتبطة بشروط برنامج التسويق بالعمولة!';
-$_['error_return']           = 'تحذير: لا يمكن حذف صفحة المعلومات هذه لأنها مرتبطة بشروط الارجاع!';
-$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
+$_['error_warning']     = 'تحذير: الرجاء التحقق من النموذج واصلاح الأخطاء!';
+$_['error_permission']  = 'تحذير: ليس لديك الصلحية للتعديل على الشركات!';
+$_['error_name']        = 'يجب أن يكون اسم الشركة ما بين 2 و 64 حرفاً!';
+$_['error_keyword']     = 'SEO URL already in use!';
+$_['error_product']     = 'تحذير: لا يمكن حذف هذه الشركة لإرتباطها بـ %s منتجات!';
