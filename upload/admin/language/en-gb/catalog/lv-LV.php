@@ -1,35 +1,25 @@
 <?php
 // Heading
-$_['heading_title']     = 'Lejupielādes';
+$_['heading_title']     = 'Filtri';
 
 // Text
-$_['text_success']      = 'Veiksmīgi: Jūs esat labojis lejupielādes!';
-$_['text_list']         = 'Lejupielādēt sarakstu';
-$_['text_add']          = 'Pievienot Lejupielādi';
-$_['text_edit']         = 'Labot lejupielādes';
-$_['text_upload']       = 'Fails tika veiksmīgi augšupielādēts!';
+$_['text_success']      = 'Veiksmīga: Jūs esat modificējis filtrus!';
+$_['text_list']         = 'Filtru saraksts';
+$_['text_add']          = 'Pievienot filtru';
+$_['text_edit']         = 'Labojiet filtru';
 
 // Column
-$_['column_name']       = 'Lejupielādes nosaukums';
-$_['column_date_added'] = 'Pievienošanas datums';
+$_['column_group']      = 'Filtra grupu';
+$_['column_sort_order'] = 'Kārtošanas secība';
 $_['column_action']     = 'Darbība';
 
 // Entry
-$_['entry_name']        = 'Lejupielādes nosaukums';
-$_['entry_filename']    = 'Faila nosaukums';
-$_['entry_mask']        = 'Maska';
-
-// Help
-$_['help_filename']     = 'Var augšupielādēt, izmantojot pogas augšupielādēt vai izmantot FTP augšupielādēt lejupielādēt direktoriju un ievadiet informāciju zemāk.';
-$_['help_mask']         = 'Ieteicams masku un faila nosaukums atšķiras, pārtraukt cilvēki cenšas piesaistīt tieši jūsu lejupielāžu ierakstus.';
+$_['entry_group']       = 'Filtru grupas nosaukums';
+$_['entry_name']        = 'Filtra nosaukums';
+$_['entry_sort_order']  = 'Kārtošanas secība';
 
 // Error
 $_['error_warning']     = 'Brīdinājums: Lūdzu pārbaudiet formu rūpīgi ,ir dažas kļūdas!';
-$_['error_permission']  = 'Brīdinājums: Jums nav tiesību modificēt lejupielādes!';
-$_['error_name']        = 'Lejupielādēt nosaukumā jābūt no 3 līdz 64 rakstzīmēm!';
-$_['error_upload']      = 'Augšupielādēt nepieciešams!';
-$_['error_filename']    = 'Filename jābūt no 3 līdz 128 rakstzīmēm!';
-$_['error_exists']      = 'Fails neeksistē!';
-$_['error_mask']        = 'Maskai jābūt no 3 līdz 128 rakstzīmēm!';
-$_['error_filetype']    = 'Nederīgs faila tips!';
-$_['error_product']     = 'Brīdinājums: Šī lejupielāde nevar dzēst, jo tā pašlaik ir piešķirts %s produktus!';
+$_['error_permission']  = 'Brīdinājums: Jums nav tiesību modificēt filtrus!';
+$_['error_group']       = 'Filtru grupas nosaukumā jābūt no 1 līdz 64 rakstzīmēm!';
+$_['error_name']        = 'Filtra nosaukumā jābūt no 1 līdz 64 rakstzīmēm!';
