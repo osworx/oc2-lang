@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Ste pozabili geslo?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Pozabljeno geslo';
-$_['text_your_email'] = 'Vaš E-Mail naslov';
-$_['text_email']      = 'Vpišite e-mail naslov, ki se nanaša na Vaš račun, potrdite in pošljite.';
-$_['text_success']    = 'Na Vaš e-mail naslov je bila poslana potrditvena povezava.';
-
-// Entry
-$_['entry_email']     = 'E-mail naslov';
-$_['entry_password']  = 'Novo geslo';
-$_['entry_confirm']   = 'Potrdite novo geslo';
-
-// Error
-$_['error_email']     = 'POZOR: Vpisanega e-mail naslova ni v naši bazi, prosimo, poizkusite znova!';
-$_['error_password']  = 'Geslo mora vsebovati med 4 in 20 znakov!';
-$_['error_confirm']   = 'Vpisa v Novo geslo in Potrdite novo geslo nista enaka!';
+$_['text_order']             = 'Naročila';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'Zaključeno';
+$_['text_customer']          = 'Kupci';
+$_['text_online']            = 'Kupci na spletu';
+$_['text_approval']          = 'Čakajoča odobritev';
+$_['text_product']           = 'Izdelki';
+$_['text_stock']             = 'Ni na zalogi';
+$_['text_review']            = 'Mnenja in ocene';
+$_['text_return']            = 'Vračila';
+$_['text_affiliate']         = 'Partnerski program';
+$_['text_store']             = 'Trgovina';
+$_['text_front']             = 'Ospredje trgovine';
+$_['text_help']              = 'Pomoč';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Forum za podporo';
+$_['text_documentation']     = 'Dokumentacija';
+$_['text_logout']            = 'Odjava';
