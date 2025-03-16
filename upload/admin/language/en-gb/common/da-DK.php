@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Glemt adgangskode?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Glemt adgangskode';
-$_['text_your_email'] = 'Din e-mail-adresse';
-$_['text_email']      = 'Angiv den e-mail-adresse, der er knyttet til din konto. Klik på Send for at få et nulstillet din adgangskode og et link til genoprettelse sendt til mail-adressen.';
-$_['text_success']    = 'En e-mail med et bekræftelseslink er blevet sendt til din e-mail adresse.';
-
-// Entry
-$_['entry_email']     = 'E-mail adresse';
-$_['entry_password']  = 'Ny adgangskode';
-$_['entry_confirm']   = 'Bekræft';
-
-// Error
-$_['error_email']     = 'Fejl: Denne e-mail-adresse blev ikke fundet i vor databaseposter. Prøv venligst igen!';
-$_['error_password']  = 'Adgangskoden skal være mellem 4 og 20 karakterer!';
-$_['error_confirm']   = 'Adgangskode og adgangskodebekræftelse stemmer ikke overens!';
+$_['text_order']             = 'Ordrer';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'Gennemført';
+$_['text_customer']          = 'Kunder';
+$_['text_online']            = 'Kunder online';
+$_['text_approval']          = 'Afventer godkendelse';
+$_['text_product']           = 'Produkter';
+$_['text_stock']             = 'Udgåede produkter';
+$_['text_review']            = 'Anmeldelser';
+$_['text_return']            = 'Returvarer';
+$_['text_affiliate']         = 'Partnere';
+$_['text_store']             = 'Butikker';
+$_['text_front']             = 'Butiksforside';
+$_['text_help']              = 'Hjælp';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Supportforum';
+$_['text_documentation']     = 'Dokumentation';
+$_['text_logout']            = 'Log ud';
