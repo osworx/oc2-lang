@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'ניהול';
+$_['heading_title']  = 'לאפס את הסיסמה שלך';
 
 // Text
-$_['text_heading']   = 'ניהול';
-$_['text_login']     = 'הזן את פרטי ההתחברות שלך.';
-$_['text_forgotten'] = 'סיסמה נשכחה';
+$_['text_password']  = 'הזן את הסיסמה החדשה שאתה רוצה להשתמש.';
+$_['text_success']   = 'הצלחה: הסיסמה שלך עודכנה בהצלחה .';
 
 // Entry
-$_['entry_username'] = 'שם משתמש';
 $_['entry_password'] = 'סיסמא';
-
-// Button
-$_['button_login']   = 'התחברות';
+$_['entry_confirm']  = 'אשר';
 
 // Error
-$_['error_login']    = 'שם משתמש או הסיסמא לא תואמים.';
-$_['error_token']    = 'פעולה לא תקינה. אנא התחבר שוב.';
+$_['error_password'] = 'הסיסמה חייבת להיות בין 3 ל 20 תווים!';
+$_['error_confirm']  = 'הסיסמה ואישור סיסמה אינם תואמים!';
