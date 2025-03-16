@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Kateqoriyalar';
+$_['heading_title']     = 'Yükləmələr';
 
 // Text
-$_['text_success']           = 'Uğurlu: kateqoriya redaktə edildi!';
-$_['text_list']              = 'Kateqoriya siyahısı';
-$_['text_add']               = 'Kateqoriya Əlavə et';
-$_['text_edit']              = 'Kateqoriyaya düzəliş';
-$_['text_default']           = 'Varsayılan';
+$_['text_success']      = 'Müvəffəqiyyət: Siz yükləmələri dəyişdirmişsiniz!';
+$_['text_list']         = 'Yükləmə siyahısı';
+$_['text_add']          = 'Yüklə';
+$_['text_edit']         = 'Yüklənənə, düzəliş et';
+$_['text_upload']       = 'Sizin faylınız müvəffəqiyyətlə yükləndi!';
 
 // Column
-$_['column_name']            = 'Kateqoriya adı';
-$_['column_sort_order']      = 'Növlərə görə sırala';
-$_['column_action']          = 'Hərəkət';
+$_['column_name']       = 'Yükləmə Adı';
+$_['column_date_added'] = 'Əlavə Olunma Tarixi';
+$_['column_action']     = 'Hərəkət';
 
 // Entry
-$_['entry_name']             = 'Kateqoriya adı';
-$_['entry_description']      = 'Açıqlama';
-$_['entry_meta_title'] 	     = 'Meta başlığı';
-$_['entry_meta_keyword']     = 'Meta açar sözləri';
-$_['entry_meta_description'] = 'Meta İzahat';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'Valideyn';
-$_['entry_filter']           = 'Filterlər';
-$_['entry_store']            = 'Dükanlar';
-$_['entry_image']            = 'Şəkillər';
-$_['entry_top']              = 'Top';
-$_['entry_column']           = 'Sütunlar';
-$_['entry_sort_order']       = 'Növlərə görə sırala';
-$_['entry_status']           = 'Status';
-$_['entry_layout']           = 'Düzeni Geçersiz Kılma';
+$_['entry_name']        = 'Yükləmə Adı';
+$_['entry_filename']    = 'Fayl adı';
+$_['entry_mask']        = 'Maska';
 
 // Help
-$_['help_filter']            = 'Avtomatik tamamlama';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'Üst menyu bar göstərilir. Yalnız ən üst kateqoriya üçün çalışır.';
-$_['help_column']            = '3 alt kateqoriyalar üçün istifadə ediləcək sütun sayı. Yalnız ən üst kateqoriyaları üçün çalışır.';
+$_['help_filename']     = 'You can upload via the upload button or use FTP to upload to the download directory and enter the details below.';
+$_['help_mask']         = 'It is recommended that the filename and the mask are different to stop people trying to directly link to your downloads.';
 
 // Error
-$_['error_warning']          = 'Xəbərdarlıq: Xahiş edirik, formu göstərilən səhvlər səbəbiylə diqqətlə nəzarət edin!';
-$_['error_permission']       = 'Xəbərdarlıq: Kateqoriyaları dəyişdirmə icazəsinə sahib deyilsiniz!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'Meta başlıq ən az 3 və ən çox 255 simvol olmalıdır!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'Xəbərdarlıq: Xahiş edirik, formu göstərilən səhvlər səbəbiylə diqqətlə nəzarət edin!';
+$_['error_permission']  = 'Diqqət: Yükləmələri dəyişmək üçün hüquqlarınız yoxdur!';
+$_['error_name']        = 'Filtr adı 1 və 64 simvol arasında olmalıdır!';
+$_['error_upload']      = 'Tələb edilən yükləyin!';
+$_['error_filename']    = 'Faylın adı 3 və 128 xarakterin arasında olmalıdır!';
+$_['error_exists']      = 'Fayl mövcud olmur!';
+$_['error_mask']        = 'Maska 3 və 128 xarakterin arasında olmalıdır!';
+$_['error_filetype']    = 'Etibarsız fayl tipi!';
+$_['error_product']     = 'Diqqət: Bu yükləmə silinə bilməz, necə ki bu hal-hazırda %s məhsullarına təyin edilir!';
