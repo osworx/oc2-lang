@@ -1,27 +1,25 @@
 <?php
 // Heading
-$_['heading_title']          = 'Atribut';
+$_['heading_title']     = 'Grup Atribut';
 
 // Text
-$_['text_success']           = 'Berhasil: Anda telah mengubah atribut!';
-$_['text_list']              = 'Daftar Atribut';
-$_['text_add']               = 'Tambah Atribut';
-$_['text_edit']              = 'Ubah Atribut';
+$_['text_success']      = 'Sukses: Anda telah memodifikasi grup atribut!';
+$_['text_list']         = 'Daftar kelompok atribut';
+$_['text_add']          = 'Menambahkan atribut kelompok';
+$_['text_edit']         = 'Edit Atribut Kelompok';
 
 // Column
-$_['column_name']            = 'Nama Atribut';
-$_['column_attribute_group'] = 'Grup Atribut';
-$_['column_sort_order']      = 'Urutan';
-$_['column_action']          = 'Tindakan';
+$_['column_name']       = 'Nama Grup Atribut';
+$_['column_sort_order'] = 'Urutan';
+$_['column_action']     = 'Tindakan';
 
 // Entry
-$_['entry_name']             = 'Nama Atribut';
-$_['entry_attribute_group']  = 'Grup Atribut';
-$_['entry_sort_order']       = 'Urutan';
+$_['entry_name']        = 'Nama Grup Atribut';
+$_['entry_sort_order']  = 'Urutan';
 
 // Error
-$_['error_warning']          = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
-$_['error_permission']       = 'Peringatan: Anda tidak memiliki izin untuk mengubah atribut!';
-$_['error_attribute_group']  = 'Attribute Group Required!';
-$_['error_name']             = 'Nama Atribut harus di antara 3 sampai 64 karakter!';
-$_['error_product']          = 'Peringatan: Atribut ini tidak bisa dihapus karena saat ini ditetapkan untuk produk %s!';
+$_['error_warning']     = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
+$_['error_permission']  = 'Peringatan: Anda tidak memiliki izin untuk mengubah grup atribut!';
+$_['error_name']        = 'Nama grup atribut harus antara 3 dan 64 karakter!';
+$_['error_attribute']   = 'Peringatan: Grup atribut ini tidak bisa dihapus karena saat ini ditetapkan untuk atribut %s!';
+$_['error_product']     = 'Peringatan: Atribut ini tidak bisa dihapus karena saat ini ditetapkan untuk produk %s!';
