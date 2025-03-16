@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'Profils récurrents';
+$_['heading_title']     = 'Évaluations';
 
 // Text
-$_['text_success']          = 'Vous venez de modifier le(s) profil(s) récurrent(s) !';
-$_['text_list']             = 'Liste des profils récurrents';
-$_['text_add']              = 'Ajouter un profil récurrent';
-$_['text_edit']             = 'Modifier un profil récurrent';
-$_['text_day']				= 'Jour';
-$_['text_week']				= 'Semaine';
-$_['text_semi_month']		= 'Quinzaine';
-$_['text_month']			= 'Mois';
-$_['text_year']				= 'Année';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i>Les montants récurrents sont calculés par fréquence et cycles.</p><p>Par exemple, si vous utilisez une fréquence de « semaine » et un cycle de « 2 », l’utilisateur sera facturé toutes les 2 semaines.</p><p>La durée est le nombre de fois que l’utilisateur effectuera un paiement, réglez la durée à 0 si vous voulez recevoir des paiements jusqu’à annulation.</p>';
-$_['text_profile']			= 'Profil récurrent';
-$_['text_trial']			= 'Profil abonné';
-
-// Entry
-$_['entry_name']		    = 'Nom';
-$_['entry_price']			= 'Prix';
-$_['entry_duration']		= 'Durée';
-$_['entry_cycle']			= 'Cycle';
-$_['entry_frequency']		= 'Fréquence';
-$_['entry_trial_price']		= 'Prix de la cotisation';
-$_['entry_trial_duration']	= 'Durée de cotisation';
-$_['entry_trial_status']	= 'État de la cotisation';
-$_['entry_trial_cycle']	    = 'Cycle de cotisation';
-$_['entry_trial_frequency'] = 'Fréquence de cotisation';
-$_['entry_status']			= 'État';
-$_['entry_sort_order']		= 'Ordre de présentation';
+$_['text_success']      = 'Modification d’évaluation réussie !';
+$_['text_list']         = 'Liste des évaluations';
+$_['text_add']          = 'Ajouter une évaluation';
+$_['text_edit']         = 'Modifier une évaluation';
 
 // Column
-$_['column_name']			= 'Nom';
-$_['column_sort_order']	    = 'Ordre de présentation';
-$_['column_action']         = 'Action';
+$_['column_product']    = 'Produit';
+$_['column_author']     = 'Auteur';
+$_['column_rating']     = 'Note';
+$_['column_status']     = 'État';
+$_['column_date_added'] = 'Date d\'ajout';
+$_['column_action']     = 'Action';
+
+// Entry
+$_['entry_product']     = 'Produit';
+$_['entry_author']      = 'Auteur';
+$_['entry_rating']      = 'Note';
+$_['entry_status']      = 'État';
+$_['entry_text']        = 'Texte';
+$_['entry_date_added']  = 'Date d\'ajout';
+
+// Help
+$_['help_product']      = '(Autocomplétion)';
 
 // Error
-$_['error_warning']         = 'Attention: Veuillez vérifier que le formulaire ne contient pas d\'erreur !';
-$_['error_permission']		= 'Attention : vous n’êtes pas autorisé à modifier les profils récurrents !';
-$_['error_name']			= 'Le nom du produit doit contenir entre 3 et 255 caractères !';
-$_['error_product']			= 'Attention : ce profil récurrent ne peut être supprimé car il est actuellement attribué à %s produits !';
+$_['error_warning']     = 'Attention: Veuillez vérifier que le formulaire ne contient pas d\'erreur !';
+$_['error_permission']  = 'Attention : vous n’êtes pas autorisé à modifier les avis !';
+$_['error_product']     = 'Le produit est requis !';
+$_['error_author']      = 'Le nom de l’auteur doit contenir entre 3 et 64 caractères !';
+$_['error_text']        = 'L’avis doit contenir au moins un caractère !';
+$_['error_rating']      = 'La note est requise !';
