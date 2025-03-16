@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Lupa Kata Sandi Anda?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Lupa Kata Sandi';
-$_['text_your_email'] = 'Alamat E-Mail Anda';
-$_['text_email']      = 'Masukkan alamat e-mail yang terdaftar dengan akun anda. Klik submit untuk mendapatkan link reset kata sandi di email kepada anda.';
-$_['text_success']    = 'Sebuah email dengan link konfirmasi telah dikirim ke alamat email admin anda.';
-
-// Entry
-$_['entry_email']     = 'Alamat E-Mail';
-$_['entry_password']  = 'Kata Sandi Baru';
-$_['entry_confirm']   = 'Konfirmasi';
-
-// Error
-$_['error_email']     = 'Peringatan: Alamat email tidak ditemukan dalam database kami, silakan coba lagi!';
-$_['error_password']  = 'Password harus antara 4 hingga 20 karakter!';
-$_['error_confirm']   = 'Kata sandi dan konfirmasi kata sandi tidak cocok!';
+$_['text_order']             = 'Pesanan';
+$_['text_processing_status'] = 'Memproses';
+$_['text_complete_status']   = 'Selesai';
+$_['text_customer']          = 'Pelanggan';
+$_['text_online']            = 'Pelanggan Online';
+$_['text_approval']          = 'Menunggu Disetujui';
+$_['text_product']           = 'Produk';
+$_['text_stock']             = 'Stok Habis';
+$_['text_review']            = 'Ulasan';
+$_['text_return']            = 'Pengembalian';
+$_['text_affiliate']         = 'Afiliasi';
+$_['text_store']             = 'Toko';
+$_['text_front']             = 'Depan Toko';
+$_['text_help']              = 'Bantuan';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Forum Dukungan';
+$_['text_documentation']     = 'Dokumentasi';
+$_['text_logout']            = 'Log Keluar';
