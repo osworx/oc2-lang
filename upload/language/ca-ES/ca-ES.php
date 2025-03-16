@@ -1,35 +1,25 @@
 <?php
 // Heading
-$_['heading_title']     = 'Descàrregues';
+$_['heading_title']     = 'Filtres';
 
 // Text
-$_['text_success']      = 'Èxit: Heu modificat descàrrregues!';
-$_['text_list']         = 'Llista de descàrregues';
-$_['text_add']          = 'Afegir a descàrregues';
-$_['text_edit']         = 'Editar descàrregues';
-$_['text_upload']       = 'El teu arxiu s\'ha pujat amb èxit!';
+$_['text_success']      = 'Success: You have modified filters!';
+$_['text_list']         = 'Filter List';
+$_['text_add']          = 'Add Filter';
+$_['text_edit']         = 'Edit Filter';
 
 // Column
-$_['column_name']       = 'Nom de la Descàrrega';
-$_['column_date_added'] = 'Date Added';
+$_['column_group']      = 'Filter Group';
+$_['column_sort_order'] = 'Ordre de classificació';
 $_['column_action']     = 'Acció';
 
 // Entry
-$_['entry_name']        = 'Nom de la Descàrrega';
-$_['entry_filename']    = 'Nom del Fitxer';
-$_['entry_mask']        = 'Màscara';
-
-// Help
-$_['help_filename']     = 'Pots pujar arxius usant el botó PUJAR o usar FTP per pujar-los al directori de descàrregues i ingressar els detalls a continuació.';
-$_['help_mask']         = 'Es recomana que el nom de l\'arxiu i la màscara siguin diferents per evitar que la gent posi enllaços directes a les teves descàrregues.';
+$_['entry_group']       = 'Filter Group Name';
+$_['entry_name']        = 'Filter Name';
+$_['entry_sort_order']  = 'Ordre de classificació';
 
 // Error
 $_['error_warning']     = 'Advertència: Si us plau reviseu acuradament el formulari pels errors!';
-$_['error_permission']  = 'Advertència: No teniu permís per modificar descàrregues!';
-$_['error_name']        = 'El Nom de la Descàrrega ha de tenir entre 3 i 64 caràcters!';
-$_['error_upload']      = 'Upload required!';
-$_['error_filename']    = 'El Nom del Fitxer ha de tenir entre 3 i 128 caràcters!';
-$_['error_exists']      = 'El fitxer no existeix!';
-$_['error_mask']        = 'Mask must be between 3 and 128 characters!';
-$_['error_filetype']    = 'Tipus de fitxer no vàlid!';
-$_['error_product']     = 'Advertència: Aquesta descàrrega no pot ser esborrada ja que està assignada a %s productes!';
+$_['error_permission']  = 'Warning: You do not have permission to modify filters!';
+$_['error_group']       = 'Filter Group Name must be between 1 and 64 characters!';
+$_['error_name']        = 'Filter Name must be between 1 and 64 characters!';
