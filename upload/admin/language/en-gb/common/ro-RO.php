@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administrație';
+$_['heading_title']  = 'Resetați parola dvs.';
 
 // Text
-$_['text_heading']   = 'Administrație';
-$_['text_login']     = 'Vă rugăm să introduceți datele dvs. de logare.';
-$_['text_forgotten'] = 'Parolă uitată';
+$_['text_password']  = 'Introduceți noua parola pe care vreți să o folosiți.';
+$_['text_success']   = 'Succes: Parola dvs. a fost actualizată cu succes.';
 
 // Entry
-$_['entry_username'] = 'Nume utilizator';
 $_['entry_password'] = 'Parolă';
-
-// Button
-$_['button_login']   = 'Logare';
+$_['entry_confirm']  = 'Confirmare';
 
 // Error
-$_['error_login']    = 'Numele de utilizator și/sau parola nu au fost găsite.';
-$_['error_token']    = 'Sesiune încheiată. Vă rugăm să vă logați din nou.';
+$_['error_password'] = 'Parola trebuie să fie între 4 și 20 de caractere!';
+$_['error_confirm']  = 'Parola și confirmarea parolei nu coincid!';
