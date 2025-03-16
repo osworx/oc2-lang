@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Omdömen';
+$_['heading_title']          = 'Attribut';
 
 // Text
-$_['text_success']      = 'Klart: Du har ändrat recensioner!';
-$_['text_list']         = 'Recensionslista';
-$_['text_add']          = 'Lägg till recension';
-$_['text_edit']         = 'Redigera recension';
+$_['text_success']           = 'Klart: Du har ändrat attributen!';
+$_['text_list']              = 'Attributlista';
+$_['text_add']               = 'Lägg till Attribut';
+$_['text_edit']              = 'Redigera Attribut';
 
 // Column
-$_['column_product']    = 'Produkt';
-$_['column_author']     = 'Skapare';
-$_['column_rating']     = 'Betyg';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Skapad';
-$_['column_action']     = 'Åtgärd';
+$_['column_name']            = 'Attributnamn';
+$_['column_attribute_group'] = 'Attributgrupp';
+$_['column_sort_order']      = 'Sorteringsordning';
+$_['column_action']          = 'Åtgärd';
 
 // Entry
-$_['entry_product']     = 'Produkt';
-$_['entry_author']      = 'Skapare';
-$_['entry_rating']      = 'Betyg';
-$_['entry_status']      = 'Status';
-$_['entry_text']        = 'Text';
-$_['entry_date_added']  = 'Skapad';
-
-// Help
-$_['help_product']      = '(Komplettera automatiskt)';
+$_['entry_name']             = 'Attributnamn';
+$_['entry_attribute_group']  = 'Attributgrupp';
+$_['entry_sort_order']       = 'Sorteringsordning';
 
 // Error
-$_['error_warning']     = 'Varning: Kolla gärna formuläret noga vad det gäller fel!';
-$_['error_permission']  = 'Varning: Du har inte behörighet att ändra recensioner!';
-$_['error_product']     = 'Produkt krävs!';
-$_['error_author']      = 'Skapare måste vara mellan 3 och 64 tecken långt!';
-$_['error_text']        = 'Recensionstexten måste vara minst 1 tecken!';
-$_['error_rating']      = 'Recensionsbetyg krävs!';
+$_['error_warning']          = 'Varning: Kolla gärna formuläret noga vad det gäller fel!';
+$_['error_permission']       = 'Varning: Du har inte behörighet att redigera attribut!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Attributets Namn, måste vara mellan 3 och 64 tecken!';
+$_['error_product']          = 'Varning: Detta attribut kan inte raderas, det är tilldelat %s produkter!';
