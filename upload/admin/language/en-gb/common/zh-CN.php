@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = '管理';
+$_['heading_title']  = '重新设置密码';
 
 // Text
-$_['text_heading']   = '管理';
-$_['text_login']     = '请输入登录信息';
-$_['text_forgotten'] = '忘记密码';
+$_['text_password']  = '输入新密码';
+$_['text_success']   = '成功：你的密码已经更新。';
 
 // Entry
-$_['entry_username'] = '用户名';
 $_['entry_password'] = '密码';
-
-// Button
-$_['button_login']   = '登录';
+$_['entry_confirm']  = '确认';
 
 // Error
-$_['error_login']    = '找不到匹配的用户名和/或密码。';
-$_['error_token']    = '会话无效。请重新登录。';
+$_['error_password'] = '密码必须在4到20个字符之间！';
+$_['error_confirm']  = '密码和确认密码不匹配 ！';
