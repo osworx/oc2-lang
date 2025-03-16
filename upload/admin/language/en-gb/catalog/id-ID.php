@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Ulasan';
+$_['heading_title']          = 'Atribut';
 
 // Text
-$_['text_success']      = 'Sukses: Anda telah Merubah Review !';
-$_['text_list']         = 'Daftar Ulasan';
-$_['text_add']          = 'Tambah Review';
-$_['text_edit']         = 'Ubah Review';
+$_['text_success']           = 'Berhasil: Anda telah mengubah atribut!';
+$_['text_list']              = 'Daftar Atribut';
+$_['text_add']               = 'Tambah Atribut';
+$_['text_edit']              = 'Ubah Atribut';
 
 // Column
-$_['column_product']    = 'Produk';
-$_['column_author']     = 'Pembuat';
-$_['column_rating']     = 'Peringkat';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Tanggal Ditambahkan';
-$_['column_action']     = 'Tindakan';
+$_['column_name']            = 'Nama Atribut';
+$_['column_attribute_group'] = 'Grup Atribut';
+$_['column_sort_order']      = 'Urutan';
+$_['column_action']          = 'Tindakan';
 
 // Entry
-$_['entry_product']     = 'Produk';
-$_['entry_author']      = 'Pembuat';
-$_['entry_rating']      = 'Peringkat';
-$_['entry_status']      = 'Status';
-$_['entry_text']        = 'Teks';
-$_['entry_date_added']  = 'Tanggal Ditambahkan';
-
-// Help
-$_['help_product']      = '(Autocomplete)';
+$_['entry_name']             = 'Nama Atribut';
+$_['entry_attribute_group']  = 'Grup Atribut';
+$_['entry_sort_order']       = 'Urutan';
 
 // Error
-$_['error_warning']     = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
-$_['error_permission']  = 'Peringatan: Anda tidak memiliki izin untuk memodifikasi Review!';
-$_['error_product']     = 'Produk yang dibutuhkan!';
-$_['error_author']      = 'Penulis harus antara 3 dan 64 karakter!';
-$_['error_text']        = 'Tinjauan teks harus setidaknya 1 karakter!';
-$_['error_rating']      = 'Nilai Rating diperlukan review!';
+$_['error_warning']          = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
+$_['error_permission']       = 'Peringatan: Anda tidak memiliki izin untuk mengubah atribut!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Nama Atribut harus di antara 3 sampai 64 karakter!';
+$_['error_product']          = 'Peringatan: Atribut ini tidak bisa dihapus karena saat ini ditetapkan untuk produk %s!';
