@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'Profil Saat Ini';
+$_['heading_title']     = 'Ulasan';
 
 // Text
-$_['text_success']          = 'Berhasil ! Anda telah mengubah profil saat ini!';
-$_['text_list']             = 'Daftar Profil Saat Ini';
-$_['text_add']              = 'Tambahkan Profil Saat Ini';
-$_['text_edit']             = 'Sunting Profil Saat Ini';
-$_['text_day']				= 'Hari';
-$_['text_week']				= 'Minggu';
-$_['text_semi_month']		= 'Awal Bulan';
-$_['text_month']			= 'Bulan';
-$_['text_year']				= 'Tahun';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Recurring jumlah dihitung berdasarkan frekuensi dan siklus.</p><p>Sebagai contoh jika Anda menggunakan frekuensi "Minggu" dan siklus "2", maka pengguna akan ditagih setiap 2 minggu.</p><p>Durasi adalah jumlah kali pengguna akan melakukan pembayaran, pengaturan untuk 0 jika Anda inginkan pembayaran sampai mereka membatalkan.</p>';
-$_['text_profile']			= 'Profil berulang';
-$_['text_trial']			= 'Profil Percobaan';
-
-// Entry
-$_['entry_name']		    = 'Nama';
-$_['entry_price']			= 'Harga';
-$_['entry_duration']		= 'Durasi';
-$_['entry_cycle']			= 'Perputaran';
-$_['entry_frequency']		= 'Frekuensi';
-$_['entry_trial_price']		= 'Harga Percobaan';
-$_['entry_trial_duration']	= 'Durasi Percobaan';
-$_['entry_trial_status']	= 'Status Percobaan';
-$_['entry_trial_cycle']	    = 'Aktifitas Perputaran Percobaan';
-$_['entry_trial_frequency'] = 'Frekuensi Percobaan';
-$_['entry_status']			= 'Status';
-$_['entry_sort_order']		= 'Urutan';
+$_['text_success']      = 'Sukses: Anda telah Merubah Review !';
+$_['text_list']         = 'Daftar Ulasan';
+$_['text_add']          = 'Tambah Review';
+$_['text_edit']         = 'Ubah Review';
 
 // Column
-$_['column_name']			= 'Nama';
-$_['column_sort_order']	    = 'Urutan';
-$_['column_action']         = 'Tindakan';
+$_['column_product']    = 'Produk';
+$_['column_author']     = 'Pembuat';
+$_['column_rating']     = 'Peringkat';
+$_['column_status']     = 'Status';
+$_['column_date_added'] = 'Tanggal Ditambahkan';
+$_['column_action']     = 'Tindakan';
+
+// Entry
+$_['entry_product']     = 'Produk';
+$_['entry_author']      = 'Pembuat';
+$_['entry_rating']      = 'Peringkat';
+$_['entry_status']      = 'Status';
+$_['entry_text']        = 'Teks';
+$_['entry_date_added']  = 'Tanggal Ditambahkan';
+
+// Help
+$_['help_product']      = '(Autocomplete)';
 
 // Error
-$_['error_warning']         = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
-$_['error_permission']		= 'Anda tidak diizinkan untuk mengubah profil saat ini!';
-$_['error_name']			= 'Nama produk harus lebih banyak dari 3 dan kurang dari 255 karakter!';
-$_['error_product']			= 'Profil saat ini belum dapat dihapus sebab sedang digunakan oleh produk %s !';
+$_['error_warning']     = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
+$_['error_permission']  = 'Peringatan: Anda tidak memiliki izin untuk memodifikasi Review!';
+$_['error_product']     = 'Produk yang dibutuhkan!';
+$_['error_author']      = 'Penulis harus antara 3 dan 64 karakter!';
+$_['error_text']        = 'Tinjauan teks harus setidaknya 1 karakter!';
+$_['error_rating']      = 'Nilai Rating diperlukan review!';
