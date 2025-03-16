@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Categorías';
+$_['heading_title']     = 'Descargas';
 
 // Text
-$_['text_success']           = 'Modificou as categorías correctamente!';
-$_['text_list']              = 'Lista de categorías';
-$_['text_add']               = 'Engadir categoría';
-$_['text_edit']              = 'Editar categoría';
-$_['text_default']           = 'Por defecto';
+$_['text_success']      = 'Modificaronse as descargas correctamente!';
+$_['text_list']         = 'Lista de descargas';
+$_['text_add']          = 'Engadir descarga';
+$_['text_edit']         = 'Editar descarga';
+$_['text_upload']       = 'O ficheiro subiuse correctamente!';
 
 // Column
-$_['column_name']            = 'Nome da categoría';
-$_['column_sort_order']      = 'Orde da clasificación';
-$_['column_action']          = 'Acción';
+$_['column_name']       = 'Nome da descarga';
+$_['column_date_added'] = 'Engadida o';
+$_['column_action']     = 'Acción';
 
 // Entry
-$_['entry_name']             = 'Nome da categoría';
-$_['entry_description']      = 'Descrición';
-$_['entry_meta_title'] 	     = 'Titulo meta etiqueta';
-$_['entry_meta_keyword']     = 'Meta etiquetas de palabras chave';
-$_['entry_meta_description'] = 'Descrición meta etiquetas';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'Pai';
-$_['entry_filter']           = 'Filtros';
-$_['entry_store']            = 'Tendas';
-$_['entry_image']            = 'Imaxe';
-$_['entry_top']              = 'Arriba';
-$_['entry_column']           = 'Columnas';
-$_['entry_sort_order']       = 'Orde da clasificación';
-$_['entry_status']           = 'Estado';
-$_['entry_layout']           = 'Deseño Override';
+$_['entry_name']        = 'Nome da descarga';
+$_['entry_filename']    = 'Nome do ficheiro';
+$_['entry_mask']        = 'Máscara';
 
 // Help
-$_['help_filter']            = '(Autocompletar)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'Amosar na barra superior do menu. So e válida para as categorías de pai superiores.';
-$_['help_column']            = 'Número de columnas para utilizar para 3 categorías de profundidade. So funciona para as categorías pai superiores.';
+$_['help_filename']     = 'Podense subir arquivos co boton subir ou utilizar FTP para subir os ficheiros descargados e introducir os detalles abaixo.';
+$_['help_mask']         = 'É recomendado que o nome do ficheiro e a máscara sexan diferentes coa fin de evitar se poida acceder directamente ás descargas.';
 
 // Error
-$_['error_warning']          = 'Aviso: Por favor, revise o formulario e busque os erros!';
-$_['error_permission']       = 'Aviso: Non ten permisos para modificar categorías!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'O Meta Title debe ter entre 3 e 255 caracteres!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'Aviso: Por favor, revise o formulario e busque os erros!';
+$_['error_permission']  = 'Aviso: non ten permisos para modificar as descargas!';
+$_['error_name']        = 'O nome da descarga debe ter entre 3 e 64 caracteres!';
+$_['error_upload']      = 'Subida requirida!';
+$_['error_filename']    = 'O nome do ficheiro de ter entre 3 e 128 caracteres!';
+$_['error_exists']      = 'O ficheiro non existe!';
+$_['error_mask']        = 'A mascara debe ter entre 3 e 128 caracteres!';
+$_['error_filetype']    = 'Tipo de ficheiro non valido!';
+$_['error_product']     = 'Aviso: esta descarga non pode ser eliminada xa que esta asignada a %s produtos!';
