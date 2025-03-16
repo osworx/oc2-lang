@@ -1,36 +1,103 @@
 <?php
-// Heading
-$_['heading_title']     = 'Vélemények';
-
 // Text
-$_['text_success']      = 'Sikeresen módosította a véleményt!';
-$_['text_list']         = 'Vélemények';
-$_['text_add']          = 'Vélemény írása';
-$_['text_edit']         = 'Vélemény javítása';
-
-// Column
-$_['column_product']    = 'Termék';
-$_['column_author']     = 'Szerző';
-$_['column_rating']     = 'Értékelés';
-$_['column_status']     = 'Állapot';
-$_['column_date_added'] = 'Hozzáadás dátuma';
-$_['column_action']     = 'Művelet';
-
-// Entry
-$_['entry_product']     = 'Termék';
-$_['entry_author']      = 'Szerző';
-$_['entry_rating']      = 'Értékelés';
-$_['entry_status']      = 'Állapot';
-$_['entry_text']        = 'Szöveg';
-$_['entry_date_added']  = 'Hozzáadás dátuma';
-
-// Help
-$_['help_product']      = '(Autó Kiegészítés)';
-
-// Error
-$_['error_warning']     = 'Figyelem: Kérjük, figyelmesen ellenőrizze a hibákat!';
-$_['error_permission']  = 'Figyelem: Nincs jogosultsága a módosításra!';
-$_['error_product']     = 'Szükséges terméket megadni!';
-$_['error_author']      = 'Szerző nevének 3 és 64 karakter között kell lennie!';
-$_['error_text']        = 'A szövegnek legalább 1 karakter hosszúnak kell lennie!';
-$_['error_rating']      = 'Értékelés is szükséges!';
+$_['text_affiliate']                 = 'Partnerprogram';
+$_['text_api']                       = 'API';
+$_['text_attribute']                 = 'Jellemzők';
+$_['text_attribute_group']           = 'Jellemzőcsoportok';
+$_['text_backup']                    = 'Mentés / Visszaállítás';
+$_['text_banner']                    = 'Bannerek';
+$_['text_catalog']                   = 'Katalógus';
+$_['text_category']                  = 'Kategóriák';
+$_['text_country']                   = 'Országok';
+$_['text_coupon']                    = 'Kuponok';
+$_['text_currency']                  = 'Pénznemek';
+$_['text_customer']                  = 'Vásárlók';
+$_['text_customer_group']            = 'Vásárlói csoportok';
+$_['text_custom_field']              = 'Egyéni mezők';
+$_['text_dashboard']                 = 'Vezérlőpult';
+$_['text_design']                    = 'Design';
+$_['text_download']                  = 'Letöltések';
+$_['text_log']                       = 'Hibanaplók';
+$_['text_event']                     = 'Events';
+$_['text_extension']                 = 'Bővítmények';
+$_['text_filter']                    = 'Szűrők';
+$_['text_geo_zone']                  = 'Földrajzi zónák';
+$_['text_information']               = 'Információ';
+$_['text_installer']                 = 'Bővítmény telepítő';
+$_['text_language']                  = 'Nyelvek';
+$_['text_layout']                    = 'Elrendezések';
+$_['text_localisation']              = 'Területi beállítások';
+$_['text_location']                  = 'Bolt elhelyezkedése';
+$_['text_contact']                   = 'Mail';
+$_['text_marketing']                 = 'Marketing';
+$_['text_menu']                      = 'Menu Manager';
+$_['text_modification']              = 'Módosítások';
+$_['text_manufacturer']              = 'Gyártók';
+$_['text_option']                    = 'Opciók';
+$_['text_order']                     = 'Megrendelések';
+$_['text_order_status']              = 'Rendelés állapotok';
+$_['text_product']                   = 'Termékek';
+$_['text_reports']                   = 'Jelentések';
+$_['text_report_sale']               = 'Sales';
+$_['text_report_sale_order']         = 'Megrendelések';
+$_['text_report_sale_tax']           = 'Áfa';
+$_['text_report_sale_shipping']      = 'Szállítás';
+$_['text_report_sale_return']        = 'Visszárúk';
+$_['text_report_sale_coupon']        = 'Kuponok';
+$_['text_report_product']            = 'Termékek';
+$_['text_report_product_viewed']     = 'Megtekintve';
+$_['text_report_product_purchased']  = 'Megvásárolva';
+$_['text_report_customer']           = 'Vásárlók';
+$_['text_report_customer_activity']  = 'Vásárlói tevékenység';
+$_['text_report_customer_search']    = 'Customer Searches';
+$_['text_report_customer_online']    = 'Online ügyfelek';
+$_['text_report_customer_order']     = 'Megrendelések';
+$_['text_report_customer_reward']    = 'Hűségpontok';
+$_['text_report_customer_credit']    = 'Hitel';
+$_['text_report_marketing']          = 'Marketing';
+$_['text_report_affiliate']          = 'Partnerprogram';
+$_['text_report_affiliate_activity'] = 'Partner aktivitás';
+$_['text_review']                    = 'Vélemények';
+$_['text_return']                    = 'Visszárúk';
+$_['text_return_action']             = 'Visszáru műveletek';
+$_['text_return_reason']             = 'Visszaküldési okok';
+$_['text_return_status']             = 'Visszáru állapotai';
+$_['text_sale']                      = 'Sales';
+$_['text_setting']                   = 'Beállítások';
+$_['text_store']                     = 'Extension Store';
+$_['text_stock_status']              = 'Készlet állapotok';
+$_['text_system']                    = 'Rendszer';
+$_['text_tax']                       = 'Adók';
+$_['text_tax_class']                 = 'Adóosztályok';
+$_['text_tax_rate']                  = 'Adókulcsok';
+$_['text_translation']               = 'Language Editor';
+$_['text_theme']                     = 'Theme Editor';
+$_['text_tools']                     = 'Eszközök';
+$_['text_upload']                    = 'Feltöltések';
+$_['text_user']                      = 'Felhasználók';
+$_['text_users']                     = 'Felhasználók';
+$_['text_user_group']                = 'Felhasználói csoportok';
+$_['text_voucher']                   = 'Ajándékutalványok';
+$_['text_voucher_theme']             = 'Ajándékutalvány témák';
+$_['text_weight_class']              = 'Súlyosztályok';
+$_['text_length_class']              = 'Hossz osztályok';
+$_['text_zone']                      = 'Zónák';
+$_['text_recurring']                 = 'Ismétlődő profilok';
+$_['text_order_recurring']           = 'Ismétlődő rendelések';
+$_['text_openbay_extension']         = 'OpenBay Pro';
+$_['text_openbay_dashboard']         = 'Vezérlőpult';
+$_['text_openbay_orders']            = 'Tömeges rendelésfrissítés';
+$_['text_openbay_items']             = 'Tételek kezelése';
+$_['text_openbay_ebay']              = 'eBay';
+$_['text_openbay_amazon']            = 'Amazon (EU)';
+$_['text_openbay_amazonus']          = 'Amazon (US)';
+$_['text_openbay_etsy']            	 = 'Etsy';
+$_['text_openbay_settings']          = 'Beállítások';
+$_['text_openbay_links']             = 'Tétel linkjei';
+$_['text_openbay_report_price']      = 'Árképzési jelentés';
+$_['text_openbay_order_import']      = 'Rendelés importálása';
+$_['text_paypal']                    = 'PayPal';
+$_['text_paypal_search']             = 'Keresés';
+$_['text_complete_status']           = 'Teljesített rendelések'; 
+$_['text_processing_status']         = 'Megrendelések feldolgozása'; 
+$_['text_other_status']              = 'Egyéb állapotok'; 
