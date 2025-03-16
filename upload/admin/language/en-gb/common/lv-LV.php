@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Aizmirsi paroli?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Aizmirstā parole';
-$_['text_your_email'] = 'E-pasta adrese';
-$_['text_email']      = 'Ievadiet e-pasta adresi, kas saistīta ar jūsu kontu. Noklikšķiniet uz iesniegt, paroles atjaunošanas saiti pa e-pastu.';
-$_['text_success']    = 'E-pasts tika nosūtīts uz  e-pasta adresi ar apstiprinājuma saiti.';
-
-// Entry
-$_['entry_email']     = 'E-pasta adrese';
-$_['entry_password']  = 'Jauna Parole';
-$_['entry_confirm']   = 'Apstiprināt';
-
-// Error
-$_['error_email']     = 'Brīdinājums: E-pasta adrese netika atrasta mūsu datubāzē. Lūdzu mēģiniet vēlreiz!';
-$_['error_password']  = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']   = 'Parole un paroles apstiprinājums nesaskan!';
+$_['text_order']             = 'Pasūtījumi';
+$_['text_processing_status'] = 'Apstrādā';
+$_['text_complete_status']   = 'Pabeigts';
+$_['text_customer']          = 'Klienti';
+$_['text_online']            = 'Klienti tiešsaistē';
+$_['text_approval']          = 'Gaida apstiprinājumu';
+$_['text_product']           = 'Produkti';
+$_['text_stock']             = 'Nav pieejams';
+$_['text_review']            = 'Apraksti';
+$_['text_return']            = 'Atgriezšanas';
+$_['text_affiliate']         = 'Saistītie uzņēmumi';
+$_['text_store']             = 'Veikali';
+$_['text_front']             = 'Veikala priekšā';
+$_['text_help']              = 'Palīdzība';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Atbalsta forums';
+$_['text_documentation']     = 'Dokumentācija';
+$_['text_logout']            = 'Iziet';
