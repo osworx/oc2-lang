@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Вытворцы';
+$_['heading_title']      = 'Наладкі';
 
 // Text
-$_['text_success']      = 'Поспех: Вытворцы змененыя!';
-$_['text_list']         = 'Спіс вытворцаў';
-$_['text_add']          = 'Дадаць вытворцу';
-$_['text_edit']         = 'Рэдагаваць вытворцу';
-$_['text_default']      = 'Па-змаўчанню';
-$_['text_percent']      = 'Адсотак';
-$_['text_amount']       = 'Фіксіраваная колькасць';
+$_['text_success']       = 'Поспех: Опцыі змененыя!';
+$_['text_list']          = 'Спіс опцыяў';
+$_['text_add']           = 'Дадаць опцыю';
+$_['text_edit']          = 'Рэдагаваць опцыю';
+$_['text_choose']        = 'Выбраць';
+$_['text_select']        = 'Абраць';
+$_['text_radio']         = 'Radio';
+$_['text_checkbox']      = 'Checkbox';
+$_['text_input']         = 'Input';
+$_['text_text']          = 'Text';
+$_['text_textarea']      = 'Textarea';
+$_['text_file']          = 'File';
+$_['text_date']          = 'Date';
+$_['text_datetime']      = 'Date &amp; Time';
+$_['text_time']          = 'Time';
 
 // Column
-$_['column_name']       = 'Назва вытворцы';
-$_['column_sort_order'] = 'Парадак сартавання';
-$_['column_action']     = 'Дзеянне';
+$_['column_name']        = 'Назва опцыі';
+$_['column_sort_order']  = 'Парадак сартавання';
+$_['column_action']      = 'Дзеянне';
 
 // Entry
-$_['entry_name']        = 'Назва вытворцы';
-$_['entry_store']       = 'Крамы';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Выява';
-$_['entry_sort_order']  = 'Парадак сартавання';
-$_['entry_type']        = 'Тып';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Назва опцыі';
+$_['entry_type']         = 'Тып';
+$_['entry_option_value'] = 'Назва значэння опцыі';
+$_['entry_image']        = 'Выява';
+$_['entry_sort_order']   = 'Парадак сартавання';
 
 // Error
-$_['error_warning']     = 'Увага: Калі ласка, ўважліва праверце ўведзеные дадзеныя!';
-$_['error_permission']  = 'Увага: Вы не можаце змяняць вытворцаў!';
-$_['error_name']        = 'Называ вытворцы павінна быць ад 2 да 64 сімвалаў!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Увага: Гэты вытворца не можа быць выдалены, бо звазаны з %s таварамі!';
+$_['error_warning']      = 'Увага: Калі ласка, ўважліва праверце ўведзеные дадзеныя!';
+$_['error_permission']   = 'Увага: вы не можаце змяняць опцыі!';
+$_['error_name']         = 'Даўжыня назвы опцыі павінна быць ад 1 да 128 сімвалаў!';
+$_['error_type']         = 'Увага: Значэнне опцыі абавязковае!';
+$_['error_option_value'] = 'Даўжыня значэння опцыі павінна быць ад 1 да 128 сімвалаў!';
+$_['error_product']      = 'Увага: Гэтая опцыя не можа быць выдалена, бо звязана з %s таварамі!';
