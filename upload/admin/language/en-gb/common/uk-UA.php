@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Панель керування';
+$_['heading_title']  = 'Скидання пароля';
 
 // Text
-$_['text_heading']   = 'Панель керування';
-$_['text_login']     = 'Будь ласка, введіть свої логін та пароль.';
-$_['text_forgotten'] = 'Нагадати пароль';
+$_['text_password']  = 'Введіть ваш новий пароль.';
+$_['text_success']   = 'Вітаємо! Ви успішно змінили пароль.';
 
 // Entry
-$_['entry_username'] = 'Користувач';
 $_['entry_password'] = 'Пароль';
-
-// Button
-$_['button_login']   = 'Вхід';
+$_['entry_confirm']  = 'Підтвердити';
 
 // Error
-$_['error_login']    = 'Ім\'я користувача та пароль не збігаються.';
-$_['error_token']    = 'Термін сесії закінчився. Залогіньтесь будь-ласка знову.';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'Пароль і підтвердження пароля не співпадають!';
