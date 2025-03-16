@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Reviews';
+$_['heading_title']          = '属性：';
 
 // Text
-$_['text_success']      = 'Success: You have modified reviews!';
-$_['text_list']         = 'Review List';
-$_['text_add']          = 'Add Review';
-$_['text_edit']         = 'Edit Review';
+$_['text_success']           = '成功: 属性を変更した ！';
+$_['text_list']              = '属性リスト';
+$_['text_add']               = '属性を追加';
+$_['text_edit']              = '属性を編集';
 
 // Column
-$_['column_product']    = 'Product';
-$_['column_author']     = 'Author';
-$_['column_rating']     = 'Rating';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Date Added';
-$_['column_action']     = 'アクション';
+$_['column_name']            = '属性名';
+$_['column_attribute_group'] = '属性グループ';
+$_['column_sort_order']      = '並べ替え順序';
+$_['column_action']          = 'アクション';
 
 // Entry
-$_['entry_product']     = 'Product';
-$_['entry_author']      = 'Author';
-$_['entry_rating']      = 'Rating';
-$_['entry_status']      = 'Status';
-$_['entry_text']        = 'Text';
-$_['entry_date_added']  = 'Date Added';
-
-// Help
-$_['help_product']      = '(Autocomplete)';
+$_['entry_name']             = '属性名';
+$_['entry_attribute_group']  = '属性グループ';
+$_['entry_sort_order']       = '並べ替え順序';
 
 // Error
-$_['error_warning']     = 'Warning: Please check the form carefully for errors!';
-$_['error_permission']  = 'Warning: You do not have permission to modify reviews!';
-$_['error_product']     = 'Product required!';
-$_['error_author']      = 'Author must be between 3 and 64 characters!';
-$_['error_text']        = 'Review Text must be at least 1 character!';
-$_['error_rating']      = 'Review rating required!';
+$_['error_warning']          = 'Warning: Please check the form carefully for errors!';
+$_['error_permission']       = '警告：あなたは属性を変更する権限がありません！';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = '属性名は、3〜64文字の間でなければなりません！';
+$_['error_product']          = '警告: %s に割り当てられているため、この属性を削除できません！';
