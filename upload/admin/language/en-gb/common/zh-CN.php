@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = '管理';
 
 // Text
-$_['text_order']             = '订单';
-$_['text_processing_status'] = '正在处理中';
-$_['text_complete_status']   = '已完成';
-$_['text_customer']          = '客户';
-$_['text_online']            = '在线客户';
-$_['text_approval']          = '待审批';
-$_['text_product']           = '产品管理';
-$_['text_stock']             = '缺货';
-$_['text_review']            = '商品点评';
-$_['text_return']            = '退货';
-$_['text_affiliate']         = '推广联盟';
-$_['text_store']             = '商店';
-$_['text_front']             = '店铺前台';
-$_['text_help']              = '帮助';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = '支持论坛';
-$_['text_documentation']     = '文档';
-$_['text_logout']            = '退出登录';
+$_['text_heading']   = '管理';
+$_['text_login']     = '请输入登录信息';
+$_['text_forgotten'] = '忘记密码';
+
+// Entry
+$_['entry_username'] = '用户名';
+$_['entry_password'] = '密码';
+
+// Button
+$_['button_login']   = '登录';
+
+// Error
+$_['error_login']    = '找不到匹配的用户名和/或密码。';
+$_['error_token']    = '会话无效。请重新登录。';
