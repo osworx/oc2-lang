@@ -1,45 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Informacje';
+$_['heading_title']     = 'Producenci';
 
 // Text
-$_['text_success']           = 'Sukces: Zmodyfikowano informacje!';
-$_['text_list']              = 'Lista informacji';
-$_['text_add']               = 'Dodaj informacje';
-$_['text_edit']              = 'Edytuj informacje';
-$_['text_default']           = 'Domyślnie';
+$_['text_success']      = 'Sukces: Zmodyfikowano producentów!';
+$_['text_list']         = 'Producent listy';
+$_['text_add']          = 'Dodać producent';
+$_['text_edit']         = 'Edytuj producent';
+$_['text_default']      = 'Domyślnie';
+$_['text_percent']      = 'Procentowo';
+$_['text_amount']       = 'Stała kwota';
 
 // Column
-$_['column_title']           = 'Tytuł informacji';
-$_['column_sort_order']	     = 'Kolejność sortowania';
-$_['column_action']          = 'Akcja';
+$_['column_name']       = 'Nazwa producenta';
+$_['column_sort_order'] = 'Kolejność sortowania';
+$_['column_action']     = 'Akcja';
 
 // Entry
-$_['entry_title']            = 'Tytuł informacji';
-$_['entry_description']      = 'Opis';
-$_['entry_store']            = 'Sklepy';
-$_['entry_meta_title'] 	     = 'Meta Tag Tytuł';
-$_['entry_meta_keyword'] 	 = 'Słowa kluczowe Tag meta';
-$_['entry_meta_description'] = 'Opis Tag meta';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_bottom']           = 'Na dole';
-$_['entry_status']           = 'Status';
-$_['entry_sort_order']       = 'Kolejność sortowania';
-$_['entry_layout']           = 'Zastępowanie układu';
+$_['entry_name']        = 'Nazwa producenta';
+$_['entry_store']       = 'Sklepy';
+$_['entry_keyword']     = 'SEO URL';
+$_['entry_image']       = 'Zdjęcie';
+$_['entry_sort_order']  = 'Kolejność sortowania';
+$_['entry_type']        = 'Typ';
 
 // Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_bottom']            = 'Wyświetla w stopce .';
+$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
 
 // Error
-$_['error_warning']          = 'Uwaga: Sprawdź dokładnie formularz pod kątem błędów!';
-$_['error_permission']       = 'Ostrzeżenie: Nie masz uprawnień do modyfikowania informacji!';
-$_['error_title']            = 'Tytuł informacji musi być między 3 i 64 znaków!';
-$_['error_description']      = 'Opis musi być więcej niż 3 znaki!';
-$_['error_meta_title']       = 'Nazwa kategorii musi zawierać od 3 do 255 znaków!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_account']          = 'Ostrzeżenie: Ta strona informacyjna nie może być usunięta, ponieważ jest obecnie przypisana jako Regulamin Konta!';
-$_['error_checkout']         = 'Ostrzeżenie: Ta strona informacyjna nie może być usunięta, ponieważ jest obecnie przypisana jako Regulamin Kasy!';
-$_['error_affiliate']        = 'Ostrzeżenie: Ta strona informacyjna nie może być usunięta, ponieważ jest obecnie przypisana jako Regulamin Partnerski!';
-$_['error_return']           = 'Ostrzeżenie: Ta strona informacyjna nie może być usunięta, ponieważ jest używana w sklepach!';
-$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
+$_['error_warning']     = 'Uwaga: Sprawdź dokładnie formularz pod kątem błędów!';
+$_['error_permission']  = 'Ostrzeżenie: Nie masz uprawnień do modyfikowania producentów!';
+$_['error_name']        = 'Nazwa producenta musi być od 2 do 64 znaków!';
+$_['error_keyword']     = 'SEO URL already in use!';
+$_['error_product']     = 'Ostrzeżenie: Nie można usunąć tego producenta,  jest on obecnie przypisany do %s produktów!';
