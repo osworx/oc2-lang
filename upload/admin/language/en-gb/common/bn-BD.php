@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administration';
 
 // Text
-$_['text_order']             = 'অর্ডার';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'সম্পূর্ণ হয়েছে';
-$_['text_customer']          = 'ক্রেতা';
-$_['text_online']            = 'Customers Online';
-$_['text_approval']          = 'Pending approval';
-$_['text_product']           = 'Products';
-$_['text_stock']             = 'Out of stock';
-$_['text_review']            = 'Reviews';
-$_['text_return']            = 'Returns';
-$_['text_affiliate']         = 'Affiliates';
-$_['text_store']             = 'ভাণ্ডার';
-$_['text_front']             = 'Store Front';
-$_['text_help']              = 'Help';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Support Forum';
-$_['text_documentation']     = 'Documentation';
-$_['text_logout']            = 'Logout';
+$_['text_heading']   = 'Administration';
+$_['text_login']     = 'অনুগ্রহ করে আপনার ইমেইল লিখুন.';
+$_['text_forgotten'] = 'পাসওয়ার্ড ভুলে গেছেন';
+
+// Entry
+$_['entry_username'] = 'ইউজারনেম';
+$_['entry_password'] = 'Password';
+
+// Button
+$_['button_login']   = 'Login';
+
+// Error
+$_['error_login']    = 'No match for Username and/or Password.';
+$_['error_token']    = 'অকার্যকর টোকেন অধিবেশন। আবার লগ ইন অনুগ্রহ করে।.';
