@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administration';
+$_['heading_title']  = 'Reset your password';
 
 // Text
-$_['text_heading']   = 'Administration';
-$_['text_login']     = 'Please enter your login details.';
-$_['text_forgotten'] = 'Gleymt lykilorð';
+$_['text_password']  = 'Enter the new password you wish to use.';
+$_['text_success']   = 'Success: Your password has been successfully updated.';
 
 // Entry
-$_['entry_username'] = 'Username';
 $_['entry_password'] = 'Password';
-
-// Button
-$_['button_login']   = 'Login';
+$_['entry_confirm']  = 'Staðfesta';
 
 // Error
-$_['error_login']    = 'No match for Username and/or Password.';
-$_['error_token']    = 'Invalid token session. Please login again.';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'Lykilorð og staðfest lykilorð passa ekki!';
