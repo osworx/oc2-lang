@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Yönetim Paneli';
+$_['heading_title']  = 'Şifrenizi sıfırlayın';
 
 // Text
-$_['text_heading']   = 'Yönetim Paneli';
-$_['text_login']     = 'Lütfen oturum açma bilgilerinizi girin.';
-$_['text_forgotten'] = 'Parolamı Unuttum';
+$_['text_password']  = 'Kullanmak istediğiniz parolayı girin.';
+$_['text_success']   = 'Başarı: Parolanız başarıyla güncelleştirildi.';
 
 // Entry
-$_['entry_username'] = 'Kullanıcı Adı';
 $_['entry_password'] = 'Parola';
-
-// Button
-$_['button_login']   = 'Giriş Yap';
+$_['entry_confirm']  = 'Onayla';
 
 // Error
-$_['error_login']    = 'Kullanıcı adı ve/veya parola için eşleşme yok.';
-$_['error_token']    = 'Geçersiz oturum. Lütfen tekrar giriş yapınız.';
+$_['error_password'] = 'Şifre 4 ile 20 karakter arasında olmalıdır!';
+$_['error_confirm']  = 'Parola ve parola onayı eşleşmiyor!';
