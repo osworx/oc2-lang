@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart Ylläpito';
+// header
+$_['heading_title']  = 'Ylläpito';
 
 // Text
-$_['text_order']             = 'Tilaukset';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Valmis';
-$_['text_customer']          = 'Asiakkaat';
-$_['text_online']            = 'Asiakkaita verkossa';
-$_['text_approval']          = 'Odottaa hyväksyntää';
-$_['text_product']           = 'Tuotteet';
-$_['text_stock']             = 'Ei varastossa';
-$_['text_review']            = 'Arvostelut';
-$_['text_return']            = 'Palaututetaan';
-$_['text_affiliate']         = 'Kumppanit';
-$_['text_store']             = 'Kaupat';
-$_['text_front']             = 'Kaupan etusivu';
-$_['text_help']              = 'Ohje';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Tukifoorumi';
-$_['text_documentation']     = 'Dokumentaatio';
-$_['text_logout']            = 'Kirjaudu ulos';
+$_['text_heading']   = 'Ylläpito';
+$_['text_login']     = 'Anna kirjautumistietosi.';
+$_['text_forgotten'] = 'Unohtunut salasana';
+
+// Entry
+$_['entry_username'] = 'Käyttäjanimi';
+$_['entry_password'] = 'Salasana';
+
+// Button
+$_['button_login']   = 'Kirjaudu';
+
+// Error
+$_['error_login']    = 'Käyttäjänimi ja/tai salasana eivät täsmää.';
+$_['error_token']    = 'Istunnon valtuutus ei kelpaa, kirjaudu uudelleen.';
