@@ -1,25 +1,46 @@
 <?php
 // Heading
-$_['heading_title']     = '속성그룹';
+$_['heading_title']          = '상품분류';
 
 // Text
-$_['text_success']      = '완료: 속성그룹을 수정했습니다.';
-$_['text_list']         = '속성그룹 목록';
-$_['text_add']          = '속성그룹 추가';
-$_['text_edit']         = '속성그룹 수정';
+$_['text_success']           = '완료: 상품분류를 수정했습니다.';
+$_['text_list']              = '상품분류 목록';
+$_['text_add']               = '상품분류 추가';
+$_['text_edit']              = '상품분류 수정';
+$_['text_default']           = '기본값';
 
 // Column
-$_['column_name']       = '속성그룹 이름';
-$_['column_sort_order'] = '정렬순서';
-$_['column_action']     = '작업';
+$_['column_name']            = '상품분류명';
+$_['column_sort_order']      = '정렬순서';
+$_['column_action']          = '작업';
 
 // Entry
-$_['entry_name']        = '속성그룹 이름';
-$_['entry_sort_order']  = '정렬순서';
+$_['entry_name']             = '상품분류명';
+$_['entry_description']      = '상세설명';
+$_['entry_meta_title'] 	     = '메타 태그 제목';
+$_['entry_meta_keyword']     = '메타 태그 키워드';
+$_['entry_meta_description'] = '메타 태그 설명';
+$_['entry_keyword']          = 'SEO URL';
+$_['entry_parent']           = '상위';
+$_['entry_filter']           = '필터';
+$_['entry_store']            = '쇼핑몰';
+$_['entry_image']            = '이미지';
+$_['entry_top']              = '상단 메뉴바에 표시';
+$_['entry_column']           = '컬럼 수';
+$_['entry_sort_order']       = '정렬순서';
+$_['entry_status']           = '상태';
+$_['entry_layout']           = '레이아웃 재정의';
+
+// Help
+$_['help_filter']            = '(자동완성)';
+$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['help_top']               = '상단 메뉴바에 표시합니다. 최상위 카테고리에만 적용됩니다.';
+$_['help_column']            = '하위 3개 카테고리를 위한 컬럼 수. 최상위 카테고리에만 적용됩니다.';
 
 // Error
-$_['error_warning']     = '주의: 오류가 발생했습니다. 입력 항목을 다시 확인해주세요.';
-$_['error_permission']  = '주의: 속성그룹을 수정할 수 있는 권한이 없습니다.';
-$_['error_name']        = '속성그룹 이름은 3~64 글자 이내로 입력해주세요.';
-$_['error_attribute']   = '주의: 현재 %s개의 속성에 이 속성그룹이 설정되어 있으므로 삭제할 수 없습니다.';
-$_['error_product']     = '주의: 현재 %s개의 상품에 이 속성그룹이 설정되어 있으므로 삭제할 수 없습니다.';
+$_['error_warning']          = '주의: 오류가 발생했습니다. 입력 항목을 다시 확인해주세요.';
+$_['error_permission']       = '주의: 상품분류를 수정할 수 있는 권한이 없습니다.';
+$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
+$_['error_meta_title']       = '메타 태그 제목은 3~255 글자 이내로 입력해주세요.';
+$_['error_keyword']          = 'SEO URL already in use!';
+$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
