@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administration';
 
 // Text
-$_['text_order']             = 'Commandes';
-$_['text_processing_status'] = 'Traitement';
-$_['text_complete_status']   = 'Terminé';
-$_['text_customer']          = 'Clients';
-$_['text_online']            = 'Visiteurs en ligne';
-$_['text_approval']          = 'En attente de validation';
-$_['text_product']           = 'Produits';
-$_['text_stock']             = 'En rupture de stock';
-$_['text_review']            = 'Avis';
-$_['text_return']            = 'Retours';
-$_['text_affiliate']         = 'Affiliés';
-$_['text_store']             = 'Boutiques';
-$_['text_front']             = 'Magasin';
-$_['text_help']              = 'Aide';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Forum d’aide';
-$_['text_documentation']     = 'Documentation';
-$_['text_logout']            = 'Se déconnecter';
+$_['text_heading']   = 'Administration';
+$_['text_login']     = 'Veuillez entrer vos identifiants.';
+$_['text_forgotten'] = 'Mot de passe oublié';
+
+// Entry
+$_['entry_username'] = 'Nom d’utilisateur';
+$_['entry_password'] = 'Mot de passe';
+
+// Button
+$_['button_login']   = 'Ouvrir une session';
+
+// Error
+$_['error_login']    = 'Attention : aucune correspondance trouvée entre ce <br/><b>nom d’utilisateur et/ou ce mot de passe</b>.';
+$_['error_token']    = 'Attention : session invalide. Veuillez ouvrir une nouvelle session.';
