@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Zaboravili ste šifru?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Zaboravljena Šifra';
-$_['text_your_email'] = 'Vaša Adresa E-Pošte';
-$_['text_email']      = 'Unesite adresu e-pošte povezanu sa vašim nalogom. Kliknite pošalji da bi dobili poništenje lozinke na vašu e-adresu.';
-$_['text_success']    = 'E-poruka je poslata sa vezom za potvrdu na vaš admin adresu e-pošte.';
-
-// Entry
-$_['entry_email']     = 'Adresa E-Pošte';
-$_['entry_password']  = 'Nova Šifra';
-$_['entry_confirm']   = 'Potvrdi';
-
-// Error
-$_['error_email']     = 'Upozorenje: Navedena E-Mail adresa nije registrovana kod nas, pokušajte ponovo!';
-$_['error_password']  = 'Šifra mora biti između 4 i 20 karaktera!';
-$_['error_confirm']   = 'Šifra i Podvrdna Šifra se ne poklapaju!';
+$_['text_order']             = 'Porudžbine';
+$_['text_processing_status'] = 'Obrađivanje';
+$_['text_complete_status']   = 'Završeno';
+$_['text_customer']          = 'Korisnici';
+$_['text_online']            = 'Korisnic Na Mreži';
+$_['text_approval']          = 'Čeka na dozvolu';
+$_['text_product']           = 'Proizvodi';
+$_['text_stock']             = 'Nema na lageru';
+$_['text_review']            = 'Kritike';
+$_['text_return']            = 'Povratno';
+$_['text_affiliate']         = 'Članstvo';
+$_['text_store']             = 'Prodavnice';
+$_['text_front']             = 'Prednja Prodavnica';
+$_['text_help']              = 'Pomoć';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Podrška na Forumu';
+$_['text_documentation']     = 'Dokumentacija';
+$_['text_logout']            = 'Odjavite se';
