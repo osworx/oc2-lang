@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'ผู้ผลิต';
+$_['heading_title']      = 'ตัวเลือก';
 
 // Text
-$_['text_success']      = 'ความสำเร็จ: คุณได้ปรับเปลี่ยนผู้ผลิต';
-$_['text_list']         = 'รายการผู้ผลิต';
-$_['text_add']          = 'เพิ่มผู้ผลิต';
-$_['text_edit']         = 'แก้ไขผู้ผลิต';
-$_['text_default']      = 'ค่าเริ่มต้น';
-$_['text_percent']      = 'เปอร์เซ็นต์';
-$_['text_amount']       = 'คงที่';
+$_['text_success']       = 'ความสำเร็จ: คุณได้ปรับเปลี่ยนตัวเลือก';
+$_['text_list']          = 'รายการตัวเลือก';
+$_['text_add']           = 'เพิ่มตัวเลือก';
+$_['text_edit']          = 'แก้ไขตัวเลือก';
+$_['text_choose']        = 'เลือก';
+$_['text_select']        = 'เลือก';
+$_['text_radio']         = 'ตัวเลือกเดี่ยว';
+$_['text_checkbox']      = 'ตัวเลือกกล่องกา';
+$_['text_input']         = 'Input';
+$_['text_text']          = 'ข้อความ';
+$_['text_textarea']      = 'พื้นที่ข้อความ';
+$_['text_file']          = 'ไฟล์';
+$_['text_date']          = 'วัน';
+$_['text_datetime']      = 'วันและเวลา';
+$_['text_time']          = 'เวลา';
 
 // Column
-$_['column_name']       = 'ชื่อผู้ผลิต';
-$_['column_sort_order'] = 'ลำดับการจัดเรียง';
-$_['column_action']     = 'การดำเนินการ';
+$_['column_name']        = 'ชื่อตัวเลือก';
+$_['column_sort_order']  = 'ลำดับการจัดเรียง';
+$_['column_action']      = 'การดำเนินการ';
 
 // Entry
-$_['entry_name']        = 'ชื่อผู้ผลิต';
-$_['entry_store']       = 'ร้านค้า';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'รูปภาพ';
-$_['entry_sort_order']  = 'ลำดับการจัดเรียง';
-$_['entry_type']        = 'ประเภท';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'ชื่อตัวเลือก';
+$_['entry_type']         = 'ประเภท';
+$_['entry_option_value'] = 'ชื่อตัวเลือก';
+$_['entry_image']        = 'รูปภาพ';
+$_['entry_sort_order']   = 'ลำดับการจัดเรียง';
 
 // Error
-$_['error_warning']     = 'คำเตือน: กรุณาตรวจสอบแบบฟอร์มอย่างรอบคอบสำหรับข้อผิดพลาด!';
-$_['error_permission']  = 'คำเตือน: คุณไม่มีสิทธิ์ในการปรับเปลี่ยนผู้ผลิต';
-$_['error_name']        = 'ชื่อผู้ผลิตต้องอยู่ระหว่าง 2 ถึง 64 อักขระ';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'คำเตือน: ผู้ผลิตนี้ไม่สามารถลบเนื่องจากใช้อยู่กับผลิตภัณฑ์ %s';
+$_['error_warning']      = 'คำเตือน: กรุณาตรวจสอบแบบฟอร์มอย่างรอบคอบสำหรับข้อผิดพลาด!';
+$_['error_permission']   = 'คำเตือน: คุณไม่มีสิทธิ์ในการปรับเปลี่ยนตัวเลือก';
+$_['error_name']         = 'ชื่อตัวเลือกต้องอยู่ระหว่าง 1 และ 128 อักขระ';
+$_['error_type']         = 'คำเตือน: ต้องใส่ค่าให้ตัวเลือกก่อน!';
+$_['error_option_value'] = 'ชื่อตัวเลือกค่าต้องอยู่ระหว่าง 1 และ 128 อักขระ';
+$_['error_product']      = 'คำเตือน: ตัวเลือกนี้ไม่สามารถลบเนื่องปัจจุบันมีการกำหนดให้กับผลิตภัณฑ์ %s';
