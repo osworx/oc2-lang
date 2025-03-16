@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Kategorier';
+$_['heading_title']     = 'Downloads';
 
 // Text
-$_['text_success']           = 'Succes! Du har ændret kategorier!';
-$_['text_list']              = 'Kategorier';
-$_['text_add']               = 'Tilføj kategori';
-$_['text_edit']              = 'Rediger kategori';
-$_['text_default']           = 'Standard';
+$_['text_success']      = 'Succes: Du har ændret downloads!';
+$_['text_list']         = 'Downloads';
+$_['text_add']          = 'Tilføj fil til download';
+$_['text_edit']         = 'Rediger download';
+$_['text_upload']       = 'Din fil er blevet uploadet!';
 
 // Column
-$_['column_name']            = 'Kategorinavn';
-$_['column_sort_order']      = 'Sorteringsrækkefølge';
-$_['column_action']          = 'Handling';
+$_['column_name']       = 'Downloadnavn';
+$_['column_date_added'] = 'Tilføjet dato';
+$_['column_action']     = 'Handling';
 
 // Entry
-$_['entry_name']             = 'Kategorinavn';
-$_['entry_description']      = 'Beskrivelse';
-$_['entry_meta_title'] 	     = 'Meta tag titel';
-$_['entry_meta_keyword']     = 'Meta tag nøgleord';
-$_['entry_meta_description'] = 'Meta tag Beskrivelse';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'Overordnet';
-$_['entry_filter']           = 'Filtre';
-$_['entry_store']            = 'Butikker';
-$_['entry_image']            = 'Billede';
-$_['entry_top']              = 'Top';
-$_['entry_column']           = 'Kolonner';
-$_['entry_sort_order']       = 'Sorteringsrækkefølge';
-$_['entry_status']           = 'Status';
-$_['entry_layout']           = 'Andet layout';
+$_['entry_name']        = 'Downloadnavn';
+$_['entry_filename']    = 'Filnavn';
+$_['entry_mask']        = 'Mønster';
 
 // Help
-$_['help_filter']            = '(Autofuldførelse)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'Vis i topmenu-bjælken. Virker kun for første niveau overordnede kategorier.';
-$_['help_column']            = 'Antal kolonner, der skal bruges for 3 underordnede kategorier. Virker kun for øverste niveau overordnede kategorier.';
+$_['help_filename']     = 'Du kan uploade ved hjælp af upload-knappen eller bruge FTP til at uploade til download-mappen og tilføje detaljerne herunder.';
+$_['help_mask']         = 'Det anbefales at filnavnet og mønsteret er forskellige for at forhindre andre i at linke direkte til dine filer.';
 
 // Error
-$_['error_warning']          = 'Advarsel: Gennemgå venligst formularen for fejl!';
-$_['error_permission']       = 'Fejl: Du har ikke tilladelse til at ændre kategorier!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'Metatitel skal være mellem 3 og 255 karakterer!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'Advarsel: Gennemgå venligst formularen for fejl!';
+$_['error_permission']  = 'Advarsel: Du har ikke tilladelse til at ændre downloads!';
+$_['error_name']        = 'Downloadnavn skal være mellem 3 og 64 karakterer!';
+$_['error_upload']      = 'Upload påkrævet!';
+$_['error_filename']    = 'Filnavn skal være mellem 3 og 128 karakterer!';
+$_['error_exists']      = 'Filen findes ikke!';
+$_['error_mask']        = 'Mønsteret skal være mellem 3 og 128 karakterer!';
+$_['error_filetype']    = 'Ugyldig filtype!';
+$_['error_product']     = 'Fejl: Denne download kan ikke slettes, da den i øjeblikket er tilknyttet %s produkter!';
