@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Kategoritë';
+$_['heading_title']     = 'Shkarkimet';
 
 // Text
-$_['text_success']           = 'Ju keni modifikuar kategoritë me sukses!';
-$_['text_list']              = 'Lista e kategorive';
-$_['text_add']               = 'Shto Kategori';
-$_['text_edit']              = 'Redakto Kategorinë';
-$_['text_default']           = 'Parapërzgjedhur';
+$_['text_success']      = 'Ju keni modifikuar me sukses shkarkimet!';
+$_['text_list']         = 'Lista e shkarkimeve';
+$_['text_add']          = 'Shto shkarkim';
+$_['text_edit']         = 'Redaktor shkarkim';
+$_['text_upload']       = 'Fajlli juaj është ngarkuar me sukses!';
 
 // Column
-$_['column_name']            = 'Emri Kategorisë';
-$_['column_sort_order']      = 'Radhitja';
-$_['column_action']          = 'Veprimi';
+$_['column_name']       = 'Emri i shkarkimit';
+$_['column_date_added'] = 'Data e shtuar';
+$_['column_action']     = 'Veprimi';
 
 // Entry
-$_['entry_name']             = 'Emri Kategorisë';
-$_['entry_description']      = 'Përshkrimi';
-$_['entry_meta_title'] 	     = 'Meta titulli';
-$_['entry_meta_keyword']     = 'Fjalë kyçe meta.';
-$_['entry_meta_description'] = 'Përshkrimi Meta Tag';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'Prindi';
-$_['entry_filter']           = 'Filtrat';
-$_['entry_store']            = 'Dyqanet';
-$_['entry_image']            = 'Fotografia';
-$_['entry_top']              = 'Sipër';
-$_['entry_column']           = 'Kolonat';
-$_['entry_sort_order']       = 'Radhitja';
-$_['entry_status']           = 'Statusi';
-$_['entry_layout']           = 'Faqosja e shtypit';
+$_['entry_name']        = 'Emri i shkarkimit';
+$_['entry_filename']    = 'Emri i fajllit';
+$_['entry_mask']        = 'Maska';
 
 // Help
-$_['help_filter']            = '(Autokompletimi)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'Shfaqe në pjesën e sipërme të shiritit të menusë. Funksionon vetëm për kategoritë e larta prindërore.';
-$_['help_column']            = 'Numri kolonave për të përdorur për 3 kategoritë e fundit. Funksionon vetëm për top kategoritë prind.';
+$_['help_filename']     = 'Ju mund të ngarkoni përmes butonit të ngarkimit ose të përdorni FTP për të ngarkuar në drejtorinë e shkarkimit dhe të futni detajet më poshtë.';
+$_['help_mask']         = 'Rekomandohet që emri i skedarit dhe maska të jenë të ndryshme për të ndaluar njerëzit që përpiqen të lidhen drejtpërdrejt me shkarkimet tuaja.';
 
 // Error
-$_['error_warning']          = 'Vërejtje: Ju lutem kontrolloni formën me kujdes për ndonjë gabim!';
-$_['error_permission']       = 'Vërejtje: Nuk keni autorizim të modifikoni kategoritë!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'Produkti Model duhet të jetë më i madh se 3 dhe më pak se 255 karaktere!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'Vërejtje: Ju lutem kontrolloni formën me kujdes për ndonjë gabim!';
+$_['error_permission']  = 'Vërejtje: Ju nuk keni leje për të modifikuar shkarkimet!';
+$_['error_name']        = 'Emri i shkarkimit duhet të jetë në mes 3 dhe 64 karaktereve!';
+$_['error_upload']      = 'Kërkohet ngarkimi!';
+$_['error_filename']    = 'Emri i fajllit duhet të jetë në mes 3 dhe 128 karaktereve!';
+$_['error_exists']      = 'Fajlli nuk ekziston!';
+$_['error_mask']        = 'Maska duhet të jetë në mes 3 dhe 128 karaktereve!';
+$_['error_filetype']    = 'Lloji invalid i fajllit!';
+$_['error_product']     = 'Vërejtje: Ky shkarkim nuk mund të fshihet sepse është i caktuar për produktet %s!';
