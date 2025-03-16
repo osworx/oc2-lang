@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administravimas';
 
 // Text
-$_['text_order']             = 'Užsakymai';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Pabaigta';
-$_['text_customer']          = 'Klientai';
-$_['text_online']            = 'Prisijungę klientai';
-$_['text_approval']          = 'Laukia patvirtinimo';
-$_['text_product']           = 'Prekės';
-$_['text_stock']             = 'Nėra sandėlyje';
-$_['text_review']            = 'Apžvalgos';
-$_['text_return']            = 'Grąžinimai';
-$_['text_affiliate']         = 'Partneriai';
-$_['text_store']             = 'Parduotuvės';
-$_['text_front']             = 'Parduotuvės vitrina';
-$_['text_help']              = 'Pagalba';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Pagalbos forumas';
-$_['text_documentation']     = 'Dokumentacija';
-$_['text_logout']            = 'Atsijungti';
+$_['text_heading']   = 'Administravimas';
+$_['text_login']     = 'Įveskite savo prisijungimo duomenis.';
+$_['text_forgotten'] = 'Pamiršau slaptažodį';
+
+// Entry
+$_['entry_username'] = 'Vartotojo vardas';
+$_['entry_password'] = 'Slaptažodis';
+
+// Button
+$_['button_login']   = 'Prisijungti';
+
+// Error
+$_['error_login']    = 'Nerastas toks vartotojo vardas ir/ar slaptažodis.';
+$_['error_token']    = 'Bloga sesija. Prisijunkite iš naujo.';
