@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = '관리';
+$_['heading_title']  = '비밀번호 재설정';
 
 // Text
-$_['text_heading']   = '관리';
-$_['text_login']     = '로그인 정보를 입력하세요.';
-$_['text_forgotten'] = '비밀번호 분실';
+$_['text_password']  = '사용하실 새 비밀번호를 입력해주세요.';
+$_['text_success']   = '완료: 비밀번호를 변경했습니다.';
 
 // Entry
-$_['entry_username'] = '사용자이름';
 $_['entry_password'] = '비밀번호';
-
-// Button
-$_['button_login']   = '로그인';
+$_['entry_confirm']  = '비밀번호 확인';
 
 // Error
-$_['error_login']    = '사용자이름 또는 비밀번호가 일치하지 않습니다.';
-$_['error_token']    = '잘못된 토큰 세션입니다. 다시 로그인 해주세요.';
+$_['error_password'] = '비밀번호는 4~20 글자 이내로 입력해주세요.';
+$_['error_confirm']  = '비밀번호와 비밀번호 확인이 일치하지 않습니다.';
