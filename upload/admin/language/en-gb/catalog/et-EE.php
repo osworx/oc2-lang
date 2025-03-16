@@ -1,108 +1,42 @@
 <?php
 // Heading
-$_['heading_title']          = 'Tooted';
+$_['heading_title']			= 'Korduvad profiilid';
 
 // Text
-$_['text_success']           = 'Oled edukalt muutnud tooteid!';
-$_['text_list']              = 'Toote nimekiri';
-$_['text_add']               = 'Lisa toode';
-$_['text_edit']              = 'Muuda toodet';
-$_['text_plus']              = '+';
-$_['text_minus']             = '-';
-$_['text_default']           = 'Vaikimisi';
-$_['text_option']            = 'Valik';
-$_['text_option_value']      = 'Valiku väärtus';
-$_['text_percent']           = 'Percentage';
-$_['text_amount']            = 'Fixed Amount';
-
-// Column
-$_['column_name']            = 'Toote nimi';
-$_['column_model']           = 'Mudel';
-$_['column_image']           = 'Pilt';
-$_['column_price']           = 'Hind';
-$_['column_quantity']        = 'Kogus';
-$_['column_status']          = 'Staatus';
-$_['column_action']          = 'Tegevus';
+$_['text_success']          = 'Success: You have modified recurring profiles!';
+$_['text_list']             = 'Recurring Profile List';
+$_['text_add']              = 'Add Recurring Profile';
+$_['text_edit']             = 'Edit Recurring Profile';
+$_['text_day']				= 'Päev';
+$_['text_week']				= 'nädal';
+$_['text_semi_month']		= 'Pool kuud';
+$_['text_month']			= 'Month';
+$_['text_year']				= 'Year';
+$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Recurring amounts are calculated by the frequency and cycles.</p><p>For example if you use a frequency of "week" and a cycle of "2", then the user will be billed every 2 weeks.</p><p>The duration is the number of times the user will make a payment, set this to 0 if you want payments until they are cancelled.</p>';
+$_['text_profile']			= 'Korduvad profiilid';
+$_['text_trial']			= 'Trial Profile';
 
 // Entry
-$_['entry_name']             = 'Toote nimi';
-$_['entry_description']      = 'Kirjeldus';
-$_['entry_meta_title'] 	     = 'Meta Tag pealkiri';
-$_['entry_meta_keyword'] 	 = 'Sisukirjelduse märksõnad';
-$_['entry_meta_description'] = 'Sisukirjelduse kirjeldus';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_model']            = 'Mudel';
-$_['entry_sku']              = 'SKU';
-$_['entry_upc']              = 'UPC';
-$_['entry_ean']              = 'EAN ribakood';
-$_['entry_jan']              = 'JAN';
-$_['entry_isbn']             = 'ISBN';
-$_['entry_mpn']              = 'MPN';
-$_['entry_location']         = 'Asukoht';
-$_['entry_shipping']         = 'Tarne on vajalik';
-$_['entry_manufacturer']     = 'Tootja';
-$_['entry_store']            = 'Poed';
-$_['entry_date_available']   = 'Saadaval alates';
-$_['entry_quantity']         = 'Kogus';
-$_['entry_minimum']          = 'Minimaalne kogus';
-$_['entry_stock_status']     = 'Laost otsas olek';
-$_['entry_price']            = 'Hind';
-$_['entry_tax_class']        = 'Maksu klass';
-$_['entry_points']           = 'Punktid';
-$_['entry_option_points']    = 'Punktid';
-$_['entry_subtract']         = 'Lahuta kogust';
-$_['entry_weight_class']     = 'Raskuse klass';
-$_['entry_weight']           = 'Kaal';
-$_['entry_dimension']        = 'Mõõdud (Pikkus x Laius x Kõrgus)';
-$_['entry_length_class']     = 'Pikkuse klass';
-$_['entry_length']           = 'Pikkus';
-$_['entry_width']            = 'Laius';
-$_['entry_height']           = 'Kõrgus';
-$_['entry_image']            = 'Pilt';
-$_['entry_additional_image'] = 'Additional Images';
-$_['entry_customer_group']   = 'Kliendi rühm';
-$_['entry_date_start']       = 'Alguse kuupäev';
-$_['entry_date_end']         = 'Lõpu kuupäev';
-$_['entry_priority']         = 'Tähtsus';
-$_['entry_attribute']        = 'Atribuut';
-$_['entry_attribute_group']  = 'Atribuudi rühm';
-$_['entry_text']             = 'Tekst';
-$_['entry_option']           = 'Valik';
-$_['entry_option_value']     = 'Valiku väärtus';
-$_['entry_required']         = 'Vajalik';
-$_['entry_status']           = 'Staatus';
-$_['entry_sort_order']       = 'Sorteerimis järjekord';
-$_['entry_category']         = 'Kategooriad';
-$_['entry_filter']           = 'Filtrid';
-$_['entry_download']         = 'Allalaadimised';
-$_['entry_related']          = 'Seotud tooted';
-$_['entry_tag']          	 = 'Toote sildid';
-$_['entry_reward']           = 'Boonuspunktid';
-$_['entry_layout']           = 'Asetuse ülekirjutamine';
-$_['entry_recurring']        = 'Korduvad profiilid';
+$_['entry_name']		    = 'Name';
+$_['entry_price']			= 'Hind';
+$_['entry_duration']		= 'Duration';
+$_['entry_cycle']			= 'Cycle';
+$_['entry_frequency']		= 'Frequency';
+$_['entry_trial_price']		= 'Trial price';
+$_['entry_trial_duration']	= 'Trial duration';
+$_['entry_trial_status']	= 'Trial status';
+$_['entry_trial_cycle']	    = 'Trial cycle';
+$_['entry_trial_frequency'] = 'Trial frequency';
+$_['entry_status']			= 'Staatus';
+$_['entry_sort_order']		= 'Sorteerimis järjekord';
 
-// Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_sku']               = 'Stock Keeping Unit';
-$_['help_upc']               = 'Universal Product Code';
-$_['help_ean']               = 'European Article Number';
-$_['help_jan']               = 'Japanese Article Number';
-$_['help_isbn']              = 'International Standard Book Number';
-$_['help_mpn']               = 'Manufacturer Part Number';
-$_['help_manufacturer']      = '(Automaatselt lõpetatud)';
-$_['help_minimum']           = 'Force a minimum ordered amount';
-$_['help_stock_status']      = 'Status shown when a product is out of stock';
-$_['help_points']            = 'Number of points needed to buy this item. If you don\'t want this product to be purchased with points leave as 0.';
-$_['help_category']          = '(Automaatselt lõpetatud)';
-$_['help_filter']            = '(Automaatselt lõpetatud)';
-$_['help_download']          = '(Automaatselt lõpetatud)';
-$_['help_related']           = '(Automaatselt lõpetatud)';
-$_['help_tag']               = 'Comma separated';
+// Column
+$_['column_name']			= 'Name';
+$_['column_sort_order']	    = 'Sorteerimis järjekord';
+$_['column_action']         = 'Tegevus';
 
 // Error
-$_['error_warning']          = 'Hoiatus: Palun kontrollige vormi vead hoolikalt üle!';
-$_['error_permission']       = 'Warning: You do not have permission to modify products!';
-$_['error_name']             = 'Product Name must be greater than 3 and less than 255 characters!';
-$_['error_meta_title']       = 'Meta pealkiri peab olema üle 3 ja alla 255 tähemärgi!';
-$_['error_model']            = 'Product Model must be greater than 1 and less than 64 characters!';
-$_['error_keyword']          = 'SEO URL already in use!';
+$_['error_warning']         = 'Hoiatus: Palun kontrollige vormi vead hoolikalt üle!';
+$_['error_permission']		= 'Warning: You do not have permission to modify recurring profiles!';
+$_['error_name']			= 'Profile Name must be greater than 3 and less than 255 characters!';
+$_['error_product']			= 'Warning: This recurring profile cannot be deleted as it is currently assigned to %s products!';
