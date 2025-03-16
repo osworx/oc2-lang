@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administrace';
+$_['heading_title']  = 'Resetování hesla';
 
 // Text
-$_['text_heading']   = 'Administrace';
-$_['text_login']     = 'Zadejte Vaše přihlašovací informace.';
-$_['text_forgotten'] = 'Zapomenuté heslo';
+$_['text_password']  = 'Zadejte nové heslo, které chcete použít.';
+$_['text_success']   = 'Úspěch: Vaše heslo bylo úspěšně změněno.';
 
 // Entry
-$_['entry_username'] = 'Uživatelské jméno';
 $_['entry_password'] = 'Heslo';
-
-// Button
-$_['button_login']   = 'Přihlásit';
+$_['entry_confirm']  = 'Potvrdit';
 
 // Error
-$_['error_login']    = 'Není shoda pro zadané uživatelské jméno a heslo.';
-$_['error_token']    = 'Chybný přihlašovací příznak. Prosím přihlašte se znovu.';
+$_['error_password'] = 'Heslo musí být delší než 4 znaky a kratší než 20 znaků!';
+$_['error_confirm']  = 'Heslo a potvrzení hesla se neshodují!';
