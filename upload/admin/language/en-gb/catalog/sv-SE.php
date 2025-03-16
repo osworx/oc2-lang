@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Tillverkare';
+$_['heading_title']      = 'Alternativ';
 
 // Text
-$_['text_success']      = 'Klart: Du har ändrat tillverkare!';
-$_['text_list']         = 'Lista över tillverkare';
-$_['text_add']          = 'Lägg till tillverkare';
-$_['text_edit']         = 'Redigera tillverkare';
-$_['text_default']      = 'Standard';
-$_['text_percent']      = 'Procentandel';
-$_['text_amount']       = 'Fast belopp';
+$_['text_success']       = 'Klart: Du har ändrat i alternativ!';
+$_['text_list']          = 'Alternativlista';
+$_['text_add']           = 'Lägg till alternativ';
+$_['text_edit']          = 'Redigera alternativ';
+$_['text_choose']        = 'Välja';
+$_['text_select']        = 'Markera';
+$_['text_radio']         = 'Radioknapp';
+$_['text_checkbox']      = 'Kryssruta';
+$_['text_input']         = 'Indata';
+$_['text_text']          = 'Text';
+$_['text_textarea']      = 'Textarea';
+$_['text_file']          = 'Fil';
+$_['text_date']          = 'Datum';
+$_['text_datetime']      = 'Datum &amp; Tid';
+$_['text_time']          = 'Tid';
 
 // Column
-$_['column_name']       = 'Tillverkarens namn';
-$_['column_sort_order'] = 'Sorteringsordning';
-$_['column_action']     = 'Åtgärd';
+$_['column_name']        = 'Alternativnamn';
+$_['column_sort_order']  = 'Sorteringsordning';
+$_['column_action']      = 'Åtgärd';
 
 // Entry
-$_['entry_name']        = 'Tillverkarens namn';
-$_['entry_store']       = 'Butiker';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Bild';
-$_['entry_sort_order']  = 'Sorteringsordning';
-$_['entry_type']        = 'Typ';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Alternativnamn';
+$_['entry_type']         = 'Typ';
+$_['entry_option_value'] = 'Alternativvärde';
+$_['entry_image']        = 'Bild';
+$_['entry_sort_order']   = 'Sorteringsordning';
 
 // Error
-$_['error_warning']     = 'Varning: Kolla gärna formuläret noga vad det gäller fel!';
-$_['error_permission']  = 'Varning: Du har inte behörighet att ändra tillverkare!';
-$_['error_name']        = 'Tillverkarens namn måste vara mellan 2 och 64 tecken långt!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Varning: Denna tillverkare kan inte raderas eftersom det för närvarande är tilldelad %s produkter!';
+$_['error_warning']      = 'Varning: Kolla gärna formuläret noga vad det gäller fel!';
+$_['error_permission']   = 'Varning: Du har inte behörighet att ändra alternativ!';
+$_['error_name']         = 'Alternativnamnet måste innehålla mellan 1 och 128 tecken!';
+$_['error_type']         = 'Varning: Alternativvärde krävs!';
+$_['error_option_value'] = 'Alternativvärde måste innehålla mellan 1 och 128 tecken!';
+$_['error_product']      = 'Varning: Detta alternativ kan inte raderas eftersom det är kopplat till %s produkter!';
