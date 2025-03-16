@@ -1,36 +1,103 @@
 <?php
-// Heading
-$_['heading_title']     = 'Отзиви';
-
 // Text
-$_['text_success']      = 'Успех: Вие модифицирахте коментари!';
-$_['text_list']         = 'Преглед списък';
-$_['text_add']          = 'Добави преглед';
-$_['text_edit']         = 'Редактиране на преглед';
-
-// Column
-$_['column_product']    = 'Продукт';
-$_['column_author']     = 'Автор';
-$_['column_rating']     = 'Рейтинг';
-$_['column_status']     = 'Статус';
-$_['column_date_added'] = 'Дата на добаване';
-$_['column_action']     = 'Действие';
-
-// Entry
-$_['entry_product']     = 'Продукт';
-$_['entry_author']      = 'Автор';
-$_['entry_rating']      = 'Рейтинг';
-$_['entry_status']      = 'Статус';
-$_['entry_text']        = 'Текст';
-$_['entry_date_added']  = 'Дата на добаване';
-
-// Help
-$_['help_product']      = '(Автодовършване)';
-
-// Error
-$_['error_warning']     = 'Внимание: Моля, проверете формуляра внимателно за грешки!';
-$_['error_permission']  = 'Внимание: Вие нямате разрешение да променят мнения!';
-$_['error_product']     = 'Необходим продукт!';
-$_['error_author']      = 'Авторът трябва да бъде между 3 и 64 знака!';
-$_['error_text']        = 'Текста трябва да съдържа най-малко 1 знак!';
-$_['error_rating']      = 'Преглед рейтинг задължително!';
+$_['text_affiliate']                 = 'Съдружници';
+$_['text_api']                       = 'API';
+$_['text_attribute']                 = 'Атрибути';
+$_['text_attribute_group']           = 'Групи атрибути';
+$_['text_backup']                    = 'Архивиране / възстановяване';
+$_['text_banner']                    = 'Банери';
+$_['text_catalog']                   = 'Каталог';
+$_['text_category']                  = 'Категории';
+$_['text_country']                   = 'Държави';
+$_['text_coupon']                    = 'Купони';
+$_['text_currency']                  = 'Валути';
+$_['text_customer']                  = 'Клиенти';
+$_['text_customer_group']            = 'Клиентски групи';
+$_['text_custom_field']              = 'Потребителски полета';
+$_['text_dashboard']                 = 'Табло';
+$_['text_design']                    = 'Дизайн';
+$_['text_download']                  = 'Сваляния';
+$_['text_log']                       = 'Логове за грешки';
+$_['text_event']                     = 'Events';
+$_['text_extension']                 = 'Разширения';
+$_['text_filter']                    = 'Филтри';
+$_['text_geo_zone']                  = 'Гео зони';
+$_['text_information']               = 'Информация';
+$_['text_installer']                 = 'Инсталатор на разширения';
+$_['text_language']                  = 'Езици';
+$_['text_layout']                    = 'Оформления';
+$_['text_localisation']              = 'Локализиране';
+$_['text_location']                  = 'Местоположение на магазина';
+$_['text_contact']                   = 'Поща';
+$_['text_marketing']                 = 'Маркетинг';
+$_['text_menu']                      = 'Menu Manager';
+$_['text_modification']              = 'Модификации';
+$_['text_manufacturer']              = 'Производители';
+$_['text_option']                    = 'Опции';
+$_['text_order']                     = 'Поръчки';
+$_['text_order_status']              = 'Статуси на поръчката';
+$_['text_product']                   = 'Продукти';
+$_['text_reports']                   = 'Отчети';
+$_['text_report_sale']               = 'Продажби';
+$_['text_report_sale_order']         = 'Поръчки';
+$_['text_report_sale_tax']           = 'Данък';
+$_['text_report_sale_shipping']      = 'Доставка';
+$_['text_report_sale_return']        = 'Връщане';
+$_['text_report_sale_coupon']        = 'Купони';
+$_['text_report_product']            = 'Продукти';
+$_['text_report_product_viewed']     = 'Прегледано';
+$_['text_report_product_purchased']  = 'Закупен';
+$_['text_report_customer']           = 'Клиенти';
+$_['text_report_customer_activity']  = 'Клиентска дейност';
+$_['text_report_customer_search']    = 'Customer Searches';
+$_['text_report_customer_online']    = 'Потребители онлайн';
+$_['text_report_customer_order']     = 'Поръчки';
+$_['text_report_customer_reward']    = 'Наградни точки ';
+$_['text_report_customer_credit']    = 'Кредит';
+$_['text_report_marketing']          = 'Маркетинг';
+$_['text_report_affiliate']          = 'Съдружници';
+$_['text_report_affiliate_activity'] = 'Активност на Партньори';
+$_['text_review']                    = 'Отзиви';
+$_['text_return']                    = 'Връщане';
+$_['text_return_action']             = 'Връщане на действия';
+$_['text_return_reason']             = 'Причини за рекламация';
+$_['text_return_status']             = 'Статуси на връщанията';
+$_['text_sale']                      = 'Продажби';
+$_['text_setting']                   = 'Настройки';
+$_['text_store']                     = 'Extension Store';
+$_['text_stock_status']              = 'Складов статус';
+$_['text_system']                    = 'Система';
+$_['text_tax']                       = 'Данъци';
+$_['text_tax_class']                 = 'Данъчни категории';
+$_['text_tax_rate']                  = 'Данъчни ставки';
+$_['text_translation']               = 'Language Editor';
+$_['text_theme']                     = 'Theme Editor';
+$_['text_tools']                     = 'Инструменти';
+$_['text_upload']                    = 'Качи';
+$_['text_user']                      = 'Потребители';
+$_['text_users']                     = 'Потребители';
+$_['text_user_group']                = 'Потребителски групи';
+$_['text_voucher']                   = 'Ваучери за подарък';
+$_['text_voucher_theme']             = 'Ваучер теми';
+$_['text_weight_class']              = 'Класове тегло';
+$_['text_length_class']              = 'Класове дължина';
+$_['text_zone']                      = 'Зони';
+$_['text_recurring']                 = 'Периодични профили';
+$_['text_order_recurring']           = 'Повтарящи се поръчки';
+$_['text_openbay_extension']         = 'OpenBay Pro';
+$_['text_openbay_dashboard']         = 'Табло';
+$_['text_openbay_orders']            = 'Актуализация на насипни (без опаковка) поръчки';
+$_['text_openbay_items']             = 'Управление на елементи';
+$_['text_openbay_ebay']              = 'eBay';
+$_['text_openbay_amazon']            = 'Amazon (ЕС)';
+$_['text_openbay_amazonus']          = 'Amazon (САЩ)';
+$_['text_openbay_etsy']            	 = 'Etsy';
+$_['text_openbay_settings']          = 'Настройки';
+$_['text_openbay_links']             = 'Линкове на елементи';
+$_['text_openbay_report_price']      = 'Ценови доклад';
+$_['text_openbay_order_import']      = 'Импортиране на поръчки';
+$_['text_paypal']                    = 'PayPal';
+$_['text_paypal_search']             = 'Търсене';
+$_['text_complete_status']           = 'Поръчки са завършени'; 
+$_['text_processing_status']         = 'Поръчки за преработка'; 
+$_['text_other_status']              = 'Други статуси'; 
