@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'निर्माताओं';
+$_['heading_title']      = 'विकल्प';
 
 // Text
-$_['text_success']      = 'सफलता: आपने निर्माताओं को संशोधित किया है!';
-$_['text_list']         = 'निर्माता सूची';
-$_['text_add']          = 'निर्माता जोड़ें';
-$_['text_edit']         = 'निर्माता को संशोधित करें';
-$_['text_default']      = 'सामान्य';
-$_['text_percent']      = 'प्रतिशत';
-$_['text_amount']       = 'निश्चित रकम';
+$_['text_success']       = 'सफलता: आपने विकल्पों को संशोधित किया है!';
+$_['text_list']          = 'विकल्प सूची';
+$_['text_add']           = 'विकल्प जोड़ें';
+$_['text_edit']          = 'विकल्प संशोधित करें';
+$_['text_choose']        = 'चुनाव करें';
+$_['text_select']        = 'चयन करें';
+$_['text_radio']         = 'रेडियो';
+$_['text_checkbox']      = 'चेक बॉक्स';
+$_['text_input']         = 'इनपुट';
+$_['text_text']          = 'शब्द';
+$_['text_textarea']      = 'शब्द क्षेत्र';
+$_['text_file']          = 'फ़ाइल';
+$_['text_date']          = 'दिनांक';
+$_['text_datetime']      = 'दिनांक &amp; समय';
+$_['text_time']          = 'समय';
 
 // Column
-$_['column_name']       = 'निर्माता का नाम';
-$_['column_sort_order'] = 'क्रम';
-$_['column_action']     = 'कार्यवाही';
+$_['column_name']        = 'विकल्प का नाम';
+$_['column_sort_order']  = 'क्रम';
+$_['column_action']      = 'कार्यवाही';
 
 // Entry
-$_['entry_name']        = 'निर्माता का नाम';
-$_['entry_store']       = 'भंडार';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'छवि';
-$_['entry_sort_order']  = 'क्रम';
-$_['entry_type']        = 'प्रकार';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'विकल्प का नाम';
+$_['entry_type']         = 'प्रकार';
+$_['entry_option_value'] = 'विकल्प मान का नाम';
+$_['entry_image']        = 'छवि';
+$_['entry_sort_order']   = 'क्रम';
 
 // Error
-$_['error_warning']     = 'चेतावनी: कृपया ध्यान से त्रुटियों के लिए प्रपत्र की जाँच करें!';
-$_['error_permission']  = 'चेतावनी: आपको निर्माताओं को संशोधित करने की अनुमति नहीं है!';
-$_['error_name']        = 'निर्माता का नाम 2 और 64 अक्षरों के बीच होना चाहिए!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'चेतावनी: इस निर्माता को हटाया नहीं जा सकता क्योंकि यह वर्तमान में %s उत्पादों के लिए निश्चित किया गया है!';
+$_['error_warning']      = 'चेतावनी: कृपया ध्यान से त्रुटियों के लिए प्रपत्र की जाँच करें!';
+$_['error_permission']   = 'चेतावनी: आपको विकल्पों को संशोधित करने की अनुमति नहीं है!';
+$_['error_name']         = 'विकल्प नाम 1 और 128 अक्षरों के बीच होना चाहिए!';
+$_['error_type']         = 'चेतावनी: विकल्प मान आवश्यक!';
+$_['error_option_value'] = 'विकल्प मान नाम 1 और 128 अक्षरों के बीच होना चाहिए!';
+$_['error_product']      = 'चेतावनी: इस विकल्प को हटाया नहीं जा सकता क्योंकि यह वर्तमान में %s उत्पादों के लिए निश्चित किया गया है!';
