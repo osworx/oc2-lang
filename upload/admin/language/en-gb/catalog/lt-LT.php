@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Gamintojai';
+$_['heading_title']      = 'Pasirinkimai';
 
 // Text
-$_['text_success']      = 'Jūs sėkmingai pakeitėte gamintoją!';
-$_['text_list']         = 'Gamintojų sąrašas';
-$_['text_add']          = 'Pridėti gamintoją';
-$_['text_edit']         = 'Redaguoti gamintoją';
-$_['text_default']      = 'Numatytasis';
-$_['text_percent']      = 'Procentas';
-$_['text_amount']       = 'Nustatyta suma';
+$_['text_success']       = 'Jūs sėkmingai nustatėte pasirinkimus!';
+$_['text_list']          = 'Pasirinkimų sąrašas';
+$_['text_add']           = 'Pridėti pasirinkimą';
+$_['text_edit']          = 'Redaguoti pasirinkimą';
+$_['text_choose']        = 'Pasirinkite';
+$_['text_select']        = 'Pažymėkite';
+$_['text_radio']         = 'Pasirinkimo mygtukas';
+$_['text_checkbox']      = 'Žymės langelis';
+$_['text_input']         = 'Įvestis';
+$_['text_text']          = 'Tekstas';
+$_['text_textarea']      = 'Teksto sritis';
+$_['text_file']          = 'Failas';
+$_['text_date']          = 'Data';
+$_['text_datetime']      = 'Data &amp; ir laikas';
+$_['text_time']          = 'Laikas';
 
 // Column
-$_['column_name']       = 'Gamintojo pavadinimas';
-$_['column_sort_order'] = 'Rikiavimo tvarka';
-$_['column_action']     = 'Veiksmas';
+$_['column_name']        = 'Parinkties pavadinimas';
+$_['column_sort_order']  = 'Rikiavimo tvarka';
+$_['column_action']      = 'Veiksmas';
 
 // Entry
-$_['entry_name']        = 'Gamintojo pavadinimas';
-$_['entry_store']       = 'Parduotuvės';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Paveikslėlis';
-$_['entry_sort_order']  = 'Rikiavimo tvarka';
-$_['entry_type']        = 'Tipas';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Parinkties pavadinimas';
+$_['entry_type']         = 'Tipas';
+$_['entry_option_value'] = 'Parinkties reikšmės pavadinimas';
+$_['entry_image']        = 'Paveikslėlis';
+$_['entry_sort_order']   = 'Rikiavimo tvarka';
 
 // Error
-$_['error_warning']     = 'Įspėjimas: Patikrinkite klaidas formoje!';
-$_['error_permission']  = 'Įspėjimas: Neturite teisės keisti gamintojo!';
-$_['error_name']        = 'Gamintojo pavadinimą turi sudaryti nuo 2 iki 64 simbolių!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Įspėjimas: Negalima panaikinti šio gamintojo, nes ji šiuo metu priskirtas %s produktams!';
+$_['error_warning']      = 'Įspėjimas: Patikrinkite klaidas formoje!';
+$_['error_permission']   = 'Dėmesio: Jūs neturite teisės keisti parinktis!';
+$_['error_name']         = 'Parinkties pavadinimas turi būti nuo 1 iki 128 simbolių ilgio!';
+$_['error_type']         = 'Dėmesio: pasirinkimų reikšmės yra privalomos!';
+$_['error_option_value'] = 'Pasirinkimo pavadinimas turi būti nuo 1 iki 128 raidžių!';
+$_['error_product']      = 'Įspėjimas: Ši pasirinkimas negali būti ištrintas, nes yra priskirtas %s produktams!';
