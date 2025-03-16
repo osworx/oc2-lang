@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Producenci';
+$_['heading_title']      = 'Opcje';
 
 // Text
-$_['text_success']      = 'Sukces: Zmodyfikowano producentów!';
-$_['text_list']         = 'Producent listy';
-$_['text_add']          = 'Dodać producent';
-$_['text_edit']         = 'Edytuj producent';
-$_['text_default']      = 'Domyślnie';
-$_['text_percent']      = 'Procentowo';
-$_['text_amount']       = 'Stała kwota';
+$_['text_success']       = 'Sukces: Zmodyfikowałeś opcje!';
+$_['text_list']          = 'Lista opcji';
+$_['text_add']           = 'Dodaj opcję';
+$_['text_edit']          = 'Edytuj opcję';
+$_['text_choose']        = 'Wybierz';
+$_['text_select']        = 'Wyselekcjonuj';
+$_['text_radio']         = 'Pole wyboru';
+$_['text_checkbox']      = 'Pole wyboru';
+$_['text_input']         = 'Wprowadź';
+$_['text_text']          = 'Tekst';
+$_['text_textarea']      = 'Pole tekstowe';
+$_['text_file']          = 'Plik';
+$_['text_date']          = 'Data';
+$_['text_datetime']      = 'Data &amp; czas';
+$_['text_time']          = 'Czas';
 
 // Column
-$_['column_name']       = 'Nazwa producenta';
-$_['column_sort_order'] = 'Kolejność sortowania';
-$_['column_action']     = 'Akcja';
+$_['column_name']        = 'Nazwa opcji';
+$_['column_sort_order']  = 'Kolejność sortowania';
+$_['column_action']      = 'Akcja';
 
 // Entry
-$_['entry_name']        = 'Nazwa producenta';
-$_['entry_store']       = 'Sklepy';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Zdjęcie';
-$_['entry_sort_order']  = 'Kolejność sortowania';
-$_['entry_type']        = 'Typ';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Nazwa opcji';
+$_['entry_type']         = 'Typ';
+$_['entry_option_value'] = 'Nazwa wartości opcji:';
+$_['entry_image']        = 'Zdjęcie';
+$_['entry_sort_order']   = 'Kolejność sortowania';
 
 // Error
-$_['error_warning']     = 'Uwaga: Sprawdź dokładnie formularz pod kątem błędów!';
-$_['error_permission']  = 'Ostrzeżenie: Nie masz uprawnień do modyfikowania producentów!';
-$_['error_name']        = 'Nazwa producenta musi być od 2 do 64 znaków!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Ostrzeżenie: Nie można usunąć tego producenta,  jest on obecnie przypisany do %s produktów!';
+$_['error_warning']      = 'Uwaga: Sprawdź dokładnie formularz pod kątem błędów!';
+$_['error_permission']   = 'Uwaga: Nie masz uprawnień do modyfikowania opcji!';
+$_['error_name']         = 'Uwaga: Nazwa opcji musi zawierać od 1 do 128 znaków!';
+$_['error_type']         = 'Uwaga: Wartości opcji są wymagane!';
+$_['error_option_value'] = 'Uwaga: Nazwa wartości opcji musi zawierać od 1 do 128 znaków!';
+$_['error_product']      = 'Uwaga: Opcja nie może zostać usunięta, gdyż jest przypisana do %s produktów!';
