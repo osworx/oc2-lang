@@ -1,27 +1,25 @@
 <?php
 // Heading
-$_['heading_title']          = 'Özellikler';
+$_['heading_title']     = 'Öznitelik Grupları';
 
 // Text
-$_['text_success']           = 'Başarılı: Öznitelikleri düzenlediniz!';
-$_['text_list']              = 'Öznitelik Listesi';
-$_['text_add']               = 'Öznitelik Ekle';
-$_['text_edit']              = 'Öznitelik Düzenle';
+$_['text_success']      = 'Başarı: Öznitelik gruplarını değiştirdiniz!';
+$_['text_list']         = 'Öznitelik Grup listesi';
+$_['text_add']          = 'Öznitelik Grubu Ekle';
+$_['text_edit']         = 'Öznitelik Grubu Düzenle';
 
 // Column
-$_['column_name']            = 'Öznitelik Adı';
-$_['column_attribute_group'] = 'Öznitelik Grubu';
-$_['column_sort_order']      = 'Sıralama Düzeni';
-$_['column_action']          = 'Eylem';
+$_['column_name']       = 'Öznitelik Grup Adı';
+$_['column_sort_order'] = 'Sıralama Düzeni';
+$_['column_action']     = 'Eylem';
 
 // Entry
-$_['entry_name']             = 'Öznitelik Adı';
-$_['entry_attribute_group']  = 'Öznitelik Grubu';
-$_['entry_sort_order']       = 'Sıralama Düzeni';
+$_['entry_name']        = 'Öznitelik Grup Adı';
+$_['entry_sort_order']  = 'Sıralama Düzeni';
 
 // Error
-$_['error_warning']          = 'Uyarı: Lütfen formu gösterilen hatalar nedeniyle dikkatlice kontrol edin!';
-$_['error_permission']       = 'Uyarı: Öznitelikleri değiştirme izniniz yok!';
-$_['error_attribute_group']  = 'Attribute Group Required!';
-$_['error_name']             = 'Öznitelik adı 3 ile 64 karakter arasında olmalıdır!';
-$_['error_product']          = 'Uyarı: Bu öznitelik halen %s ürününe atandığından silinemez!';
+$_['error_warning']     = 'Uyarı: Lütfen formu gösterilen hatalar nedeniyle dikkatlice kontrol edin!';
+$_['error_permission']  = 'Uyarı: Öznitelik gruplarını değiştirme iznine sahip değilsiniz!';
+$_['error_name']        = 'Öznitelik grup adı 3 ile 64 karakter arasında olmalıdır!';
+$_['error_attribute']   = 'Uyarı: Bu öznitelik grubu halen  %s özniteliklerine bağlı olduğundan silinemez!';
+$_['error_product']     = 'Uyarı: Bu öznitelik grubu halen %s ürününe atandığından silinemez!';
