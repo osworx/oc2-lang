@@ -1,25 +1,46 @@
 <?php
 // Heading
-$_['heading_title']     = '属性グループ';
+$_['heading_title']          = 'カテゴリ';
 
 // Text
-$_['text_success']      = '成功: 属性グループを変更しました！';
-$_['text_list']         = '属性グループリスト';
-$_['text_add']          = '属性グループを追加';
-$_['text_edit']         = '属性グループを編集';
+$_['text_success']           = '成功: カテゴリを変更しました!';
+$_['text_list']              = 'カテゴリ一覧';
+$_['text_add']               = 'カテゴリを追加';
+$_['text_edit']              = 'カテゴリを編集';
+$_['text_default']           = 'デフォルト';
 
 // Column
-$_['column_name']       = '属性グループ名';
-$_['column_sort_order'] = '並べ替え順序';
-$_['column_action']     = 'アクション';
+$_['column_name']            = 'カテゴリ名';
+$_['column_sort_order']      = '並べ替え順序';
+$_['column_action']          = 'アクション';
 
 // Entry
-$_['entry_name']        = '属性グループ名';
-$_['entry_sort_order']  = '並べ替え順序';
+$_['entry_name']             = 'カテゴリ名';
+$_['entry_description']      = '説明';
+$_['entry_meta_title'] 	     = 'Meta タグのタイトル';
+$_['entry_meta_keyword']     = 'Meta タグのキーワード';
+$_['entry_meta_description'] = 'Meta タグの説明';
+$_['entry_keyword']          = 'SEO URL';
+$_['entry_parent']           = '上位';
+$_['entry_filter']           = 'フィルタ';
+$_['entry_store']            = 'ストア';
+$_['entry_image']            = '画像';
+$_['entry_top']              = 'Top';
+$_['entry_column']           = 'Columns';
+$_['entry_sort_order']       = '並べ替え順序';
+$_['entry_status']           = 'Status';
+$_['entry_layout']           = 'Layout Override';
+
+// Help
+$_['help_filter']            = '(Autocomplete)';
+$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['help_top']               = 'Display in the top menu bar. Only works for the top parent categories.';
+$_['help_column']            = 'Number of columns to use for the bottom 3 categories. Only works for the top parent categories.';
 
 // Error
-$_['error_warning']     = 'Warning: Please check the form carefully for errors!';
-$_['error_permission']  = '警告：あなたは属性を変更する権限がありません！';
-$_['error_name']        = '属性グループの名前は、3 から 64 文字の間でなければなりません!';
-$_['error_attribute']   = '警告: %s 属性に割り当てられているため、この属性グループを削除できません！';
-$_['error_product']     = '警告: %s に割り当てられているため、この属性を削除できません！';
+$_['error_warning']          = 'Warning: Please check the form carefully for errors!';
+$_['error_permission']       = 'Warning: You do not have permission to modify categories!';
+$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
+$_['error_meta_title']       = 'Meta Title must be greater than 3 and less than 255 characters!';
+$_['error_keyword']          = 'SEO URL already in use!';
+$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
