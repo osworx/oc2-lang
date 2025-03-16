@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart dt. Version';
+// header
+$_['heading_title']  = 'Verwaltung';
 
 // Text
-$_['text_order']             = 'Aufträge';
-$_['text_processing_status'] = 'In Arbeit';
-$_['text_complete_status']   = 'Fertig';
-$_['text_customer']          = 'Kunden';
-$_['text_online']            = 'Kunden Online';
-$_['text_approval']          = 'Warten auf Freigabe';
-$_['text_product']           = 'Produkte';
-$_['text_stock']             = 'Ni. Lagernd';
-$_['text_review']            = 'Bewertungen';
-$_['text_return']            = 'Retouren';
-$_['text_affiliate']         = 'Partner';
-$_['text_store']             = 'Shops';
-$_['text_front']             = 'Zum Geschäft';
-$_['text_help']              = 'Hilfe';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Supportforum';
-$_['text_documentation']     = 'Dokumentation';
-$_['text_logout']            = 'Abmelden';
+$_['text_heading']   = 'Verwaltung';
+$_['text_login']     = 'Anmeldung Verwaltung';
+$_['text_forgotten'] = 'Passwort vergessen';
+
+// Entry
+$_['entry_username'] = 'Benutzername';
+$_['entry_password'] = 'Passwort';
+
+// Button
+$_['button_login']   = 'Anmelden';
+
+// Error
+$_['error_login']    = 'Benutzername und/oder Passwort falsch';
+$_['error_token']    = 'Sitzung ist abgelaufen - bitte nochmals anmelden';
