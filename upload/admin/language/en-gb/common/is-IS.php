@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Gleymt lykilorð?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Gleymt lykilorð';
-$_['text_your_email'] = 'Netfangið þitt';
-$_['text_email']      = 'Sláðu inn því netfangi sem tengt er við reikninginn. Smelltu á Senda og þú færð krækju senda á netfangið svo þú getir endursett lykilorðið.';
-$_['text_success']    = 'Póstur með staðfestingarkrækju hefur verið send á netfangið þitt.';
-
-// Entry
-$_['entry_email']     = 'Netfang';
-$_['entry_password']  = 'Nýtt lykilorð';
-$_['entry_confirm']   = 'Staðfesta';
-
-// Error
-$_['error_email']     = 'Ath. Netfangið fannst ekki í skrá.  Reyndu aftur!';
-$_['error_password']  = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']   = 'Lykilorð og staðfest lykilorð passa ekki!';
+$_['text_order']             = 'Orders';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'Completed';
+$_['text_customer']          = 'Customers';
+$_['text_online']            = 'Customers Online';
+$_['text_approval']          = 'Pending approval';
+$_['text_product']           = 'Vörur';
+$_['text_stock']             = 'Out of stock';
+$_['text_review']            = 'Umsagnir';
+$_['text_return']            = 'Returns';
+$_['text_affiliate']         = 'Affiliates';
+$_['text_store']             = 'Verslanir';
+$_['text_front']             = 'Store Front';
+$_['text_help']              = 'Help';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Support Forum';
+$_['text_documentation']     = 'Documentation';
+$_['text_logout']            = 'Logout';
