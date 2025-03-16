@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Адміністрацыя';
 
 // Text
-$_['text_order']             = 'Замовы';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Завершана';
-$_['text_customer']          = 'Пакупнікі';
-$_['text_online']            = 'Пакупнікоў анлайн';
-$_['text_approval']          = 'Чакае падцверджання';
-$_['text_product']           = 'Тавары';
-$_['text_stock']             = 'Няма ў наяўнасці';
-$_['text_review']            = 'Агляды';
-$_['text_return']            = 'Вяртанне';
-$_['text_affiliate']         = 'Партнёрская праграма';
-$_['text_store']             = 'Крамы';
-$_['text_front']             = 'Вітрына';
-$_['text_help']              = 'Дапамога';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Форум падтрымкі';
-$_['text_documentation']     = 'Дакументацыя';
-$_['text_logout']            = 'Выйсці';
+$_['text_heading']   = 'Адміністрацыя';
+$_['text_login']     = 'Увядзі свае дадзеныя для ўваходу.';
+$_['text_forgotten'] = 'Забылі пароль';
+
+// Entry
+$_['entry_username'] = 'Імя карыстальніка';
+$_['entry_password'] = 'Пароль';
+
+// Button
+$_['button_login']   = 'Уваход';
+
+// Error
+$_['error_login']    = 'Няправільны пароль альбо імя карыстальніка.';
+$_['error_token']    = 'Сеанс скончаны, увайдзіце, калі ласка, зноў.';
