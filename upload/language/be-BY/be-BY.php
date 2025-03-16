@@ -1,36 +1,103 @@
 <?php
-// Heading
-$_['heading_title']     = 'Агляды';
-
 // Text
-$_['text_success']      = 'Поспех: Агляды змененыя!';
-$_['text_list']         = 'Спіс аглядаў';
-$_['text_add']          = 'Дадаць агляд';
-$_['text_edit']         = 'Рэдагаваць агляд';
-
-// Column
-$_['column_product']    = 'Тавар';
-$_['column_author']     = 'Аўтар';
-$_['column_rating']     = 'Рэйтынг';
-$_['column_status']     = 'Статус';
-$_['column_date_added'] = 'Дададзена';
-$_['column_action']     = 'Дзеянне';
-
-// Entry
-$_['entry_product']     = 'Тавар';
-$_['entry_author']      = 'Аўтар';
-$_['entry_rating']      = 'Рэйтынг';
-$_['entry_status']      = 'Статус';
-$_['entry_text']        = 'Text';
-$_['entry_date_added']  = 'Дададзена';
-
-// Help
-$_['help_product']      = '(Аўтазавяршэнне)';
-
-// Error
-$_['error_warning']     = 'Увага: Калі ласка, ўважліва праверце ўведзеные дадзеныя!';
-$_['error_permission']  = 'Увага: Вы не можаце змяняць агляды!';
-$_['error_product']     = 'Патрэбна ўказаць прадукт!';
-$_['error_author']      = 'Аўтар павінен мець ад 3 да 64 сімвалаў!';
-$_['error_text']        = 'Тэкст агляду павінен быць не меньш за 1 сімвал!';
-$_['error_rating']      = 'Патрэбна ўказаць рэйтынг агляду!';
+$_['text_affiliate']                 = 'Партнёрская праграма';
+$_['text_api']                       = 'API';
+$_['text_attribute']                 = 'Атрыбуты';
+$_['text_attribute_group']           = 'Група атрыбутаў';
+$_['text_backup']                    = 'Рэзервовая копія/аднаўленне';
+$_['text_banner']                    = 'Банэры';
+$_['text_catalog']                   = 'Каталог';
+$_['text_category']                  = 'Катэгорыі';
+$_['text_country']                   = 'Краіны';
+$_['text_coupon']                    = 'Купоны';
+$_['text_currency']                  = 'Валюты';
+$_['text_customer']                  = 'Пакупнікі';
+$_['text_customer_group']            = 'Групы пакупнікоў';
+$_['text_custom_field']              = 'Адвольныя ўласцівасці';
+$_['text_dashboard']                 = 'Панэль кіравання';
+$_['text_design']                    = 'Design';
+$_['text_download']                  = 'Загрузкі';
+$_['text_log']                       = 'Лог памылак';
+$_['text_event']                     = 'Events';
+$_['text_extension']                 = 'Пашырэнні';
+$_['text_filter']                    = 'Фільтры';
+$_['text_geo_zone']                  = 'Геа-зоны';
+$_['text_information']               = 'Інфармацыя';
+$_['text_installer']                 = 'Усталёўшчык пашырэнняў';
+$_['text_language']                  = 'Мовы';
+$_['text_layout']                    = 'Размяшчэнне';
+$_['text_localisation']              = 'Лакалізацыя';
+$_['text_location']                  = 'Месца знаходжання крамы';
+$_['text_contact']                   = 'Mail';
+$_['text_marketing']                 = 'Marketing';
+$_['text_menu']                      = 'Menu Manager';
+$_['text_modification']              = 'Мадыфікацыі';
+$_['text_manufacturer']              = 'Вытворцы';
+$_['text_option']                    = 'Наладкі';
+$_['text_order']                     = 'Замовы';
+$_['text_order_status']              = 'Статусы замовы';
+$_['text_product']                   = 'Тавары';
+$_['text_reports']                   = 'Справаздачы';
+$_['text_report_sale']               = 'Sales';
+$_['text_report_sale_order']         = 'Замовы';
+$_['text_report_sale_tax']           = 'Падатак';
+$_['text_report_sale_shipping']      = 'Дастаўка';
+$_['text_report_sale_return']        = 'Вяртанне';
+$_['text_report_sale_coupon']        = 'Купоны';
+$_['text_report_product']            = 'Тавары';
+$_['text_report_product_viewed']     = 'Праглядаў';
+$_['text_report_product_purchased']  = 'Пакупак';
+$_['text_report_customer']           = 'Пакупнікі';
+$_['text_report_customer_activity']  = 'Актыўнасць пакупнікоў';
+$_['text_report_customer_search']    = 'Customer Searches';
+$_['text_report_customer_online']    = 'Пакупнікоў анлайн';
+$_['text_report_customer_order']     = 'Замовы';
+$_['text_report_customer_reward']    = 'Бонусныя балы';
+$_['text_report_customer_credit']    = 'Крэдыт';
+$_['text_report_marketing']          = 'Marketing';
+$_['text_report_affiliate']          = 'Партнёрская праграма';
+$_['text_report_affiliate_activity'] = 'Партнёрская актыўнасць';
+$_['text_review']                    = 'Агляды';
+$_['text_return']                    = 'Вяртанне';
+$_['text_return_action']             = 'Вяртанні';
+$_['text_return_reason']             = 'Прычыны вяртанняў';
+$_['text_return_status']             = 'Статусы вяртанняў';
+$_['text_sale']                      = 'Sales';
+$_['text_setting']                   = 'Наладкі';
+$_['text_store']                     = 'Extension Store';
+$_['text_stock_status']              = 'Статусы на складзе';
+$_['text_system']                    = 'Сістэма';
+$_['text_tax']                       = 'Падаткі';
+$_['text_tax_class']                 = 'Класы падаткаў';
+$_['text_tax_rate']                  = 'Памеры падаткаў';
+$_['text_translation']               = 'Language Editor';
+$_['text_theme']                     = 'Theme Editor';
+$_['text_tools']                     = 'Інструменты';
+$_['text_upload']                    = 'Загрузкі';
+$_['text_user']                      = 'Карыстальнікі';
+$_['text_users']                     = 'Карыстальнікі';
+$_['text_user_group']                = 'Групы карыстальнікаў';
+$_['text_voucher']                   = 'Падарункавыя сертыфікаты';
+$_['text_voucher_theme']             = 'Тэмы падарункавых сертыфікатаў';
+$_['text_weight_class']              = 'Класы вагі';
+$_['text_length_class']              = 'Класы даўжыні';
+$_['text_zone']                      = 'Зоны';
+$_['text_recurring']                 = 'Перыядычныя плацяжы';
+$_['text_order_recurring']           = 'Рэгулярныя замовы';
+$_['text_openbay_extension']         = 'OpenBay Pro';
+$_['text_openbay_dashboard']         = 'Панэль кіравання';
+$_['text_openbay_orders']            = 'Групавая яктуалізацыя замоў OpenBay';
+$_['text_openbay_items']             = 'Кіраванне таварамі OpenBay';
+$_['text_openbay_ebay']              = 'eBay';
+$_['text_openbay_amazon']            = 'Amazon (EU)';
+$_['text_openbay_amazonus']          = 'Amazon (US)';
+$_['text_openbay_etsy']            	 = 'Etsy';
+$_['text_openbay_settings']          = 'Наладкі';
+$_['text_openbay_links']             = 'Спасылкі OpenBay';
+$_['text_openbay_report_price']      = 'Коштавая справаздача';
+$_['text_openbay_order_import']      = 'Імпарт замоў';
+$_['text_paypal']                    = 'PayPal';
+$_['text_paypal_search']             = 'Search';
+$_['text_complete_status']           = 'Выкананыя замовы'; 
+$_['text_processing_status']         = 'Замовы ў апрацоўцы'; 
+$_['text_other_status']              = 'Іншыя статусы'; 
