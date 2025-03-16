@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administration';
+$_['heading_title']  = 'Réinitialiser votre mot de passe';
 
 // Text
-$_['text_heading']   = 'Administration';
-$_['text_login']     = 'Veuillez entrer vos identifiants.';
-$_['text_forgotten'] = 'Mot de passe oublié';
+$_['text_password']  = 'Veuillez entrer le nouveau mot de passe que vous souhaitez utiliser.';
+$_['text_success']   = 'Votre <b>mot de passe</b> a correctement été mis à jour.';
 
 // Entry
-$_['entry_username'] = 'Nom d’utilisateur';
 $_['entry_password'] = 'Mot de passe';
-
-// Button
-$_['button_login']   = 'Ouvrir une session';
+$_['entry_confirm']  = 'Confirmer';
 
 // Error
-$_['error_login']    = 'Attention : aucune correspondance trouvée entre ce <br/><b>nom d’utilisateur et/ou ce mot de passe</b>.';
-$_['error_token']    = 'Attention : session invalide. Veuillez ouvrir une nouvelle session.';
+$_['error_password'] = 'Le mot de passe doit contenir entre 4 et 20 caractères !';
+$_['error_confirm']  = 'Le mot de passe de confirmation ne correspond pas au premier mot de passe !';
