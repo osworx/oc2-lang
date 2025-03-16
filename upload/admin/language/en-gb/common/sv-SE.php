@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administration';
+$_['heading_title']  = 'Återställ ditt lösenord';
 
 // Text
-$_['text_heading']   = 'Administration';
-$_['text_login']     = 'Ange dina inloggningsuppgifter.';
-$_['text_forgotten'] = 'Glömt lösenordet';
+$_['text_password']  = 'Ange ditt nya lösenord.';
+$_['text_success']   = 'Klart: Ditt lösenord är nu ändrat.';
 
 // Entry
-$_['entry_username'] = 'Användarnamn';
 $_['entry_password'] = 'Lösenord';
-
-// Button
-$_['button_login']   = 'Logga in';
+$_['entry_confirm']  = 'Bekräfta lösenordet';
 
 // Error
-$_['error_login']    = 'Användarnamnet och/eller lösenordet finns inte.';
-$_['error_token']    = 'Utgången/förfallen token-session. Logga in igen.';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'Lösenordet och bekräftelsen överensstämmer inte!';
