@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administração';
+$_['heading_title']  = 'Redefinir sua senha';
 
 // Text
-$_['text_heading']   = 'Administração';
-$_['text_login']     = 'Por favor, digite seus detalhes de login.';
-$_['text_forgotten'] = 'Senha esquecida';
+$_['text_password']  = 'Digite a nova senha que você deseja usar.';
+$_['text_success']   = 'Sucesso: Sua senha foi atualizada com sucesso.';
 
 // Entry
-$_['entry_username'] = 'Usuário';
 $_['entry_password'] = 'Senha';
-
-// Button
-$_['button_login']   = 'Entrar';
+$_['entry_confirm']  = 'Confirmar';
 
 // Error
-$_['error_login']    = 'Não encontramos o  nome de usuário e/ou senha.';
-$_['error_token']    = 'Sessão token inválido. Faça o login novamente.';
+$_['error_password'] = 'Senha deve ter entre 3 e 20 caracteres!';
+$_['error_confirm']  = 'Senha e confirmação de senha não combinam!';
