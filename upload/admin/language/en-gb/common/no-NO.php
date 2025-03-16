@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Glemt ditt passord?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Glemt passord';
-$_['text_your_email'] = 'Din e-postadresse';
-$_['text_email']      = 'Fyll inn e-postadressen som er tilknyttet din konto. Klikk \'Send\' for å få tilsendt en lenke for tilbakestilling av passord.';
-$_['text_success']    = 'En e-post med en bekreftelselenke har blitt sendt til din e-postadresse.';
-
-// Entry
-$_['entry_email']     = 'E-postadresse';
-$_['entry_password']  = 'Nytt passord';
-$_['entry_confirm']   = 'Bekreft';
-
-// Error
-$_['error_email']     = 'E-postadressen ble ikke funnet, kontroller at du har skrevet riktig og forsøk igjen.';
-$_['error_password']  = 'Passordet må inneholde mellom 4 og 20 tegn.';
-$_['error_confirm']   = 'Passord og bekreftelse er ikke lik.';
+$_['text_order']             = 'Bestillinger';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'Fullført';
+$_['text_customer']          = 'Kunder';
+$_['text_online']            = 'Besøkende';
+$_['text_approval']          = 'Venter godkjennelse';
+$_['text_product']           = 'Produkter';
+$_['text_stock']             = 'Utsolgt';
+$_['text_review']            = 'Produktomtaler';
+$_['text_return']            = 'Retur';
+$_['text_affiliate']         = 'Affiliater';
+$_['text_store']             = 'Butikker';
+$_['text_front']             = 'Butikkforside';
+$_['text_help']              = 'Hjelp';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Brukerforum';
+$_['text_documentation']     = 'Dokumentasjon';
+$_['text_logout']            = 'Logg ut';
