@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Kategorijos';
+$_['heading_title']     = 'Atsisiuntimai';
 
 // Text
-$_['text_success']           = 'Atlikta: Jūs pakeitėte kategorijas!';
-$_['text_list']              = 'Kategorijų sąrašas';
-$_['text_add']               = 'Pridėti kategoriją';
-$_['text_edit']              = 'Redaguoti kategoriją';
-$_['text_default']           = 'Numatytasis';
+$_['text_success']      = 'Atlikta: Jūs atnaujinote atsisiuntimus!';
+$_['text_list']         = 'Atsisiuntimų sąrašas';
+$_['text_add']          = 'Pridėti atsisiuntimą';
+$_['text_edit']         = 'Redaguoti atsisiuntimą';
+$_['text_upload']       = 'Jūsų failas sėkmingai įkeltas!';
 
 // Column
-$_['column_name']            = 'Kategorijos pavadinimas';
-$_['column_sort_order']      = 'Rikiavimo tvarka';
-$_['column_action']          = 'Veiksmas';
+$_['column_name']       = 'Atsisiuntimo pavadinimas';
+$_['column_date_added'] = 'Įkėlimo data';
+$_['column_action']     = 'Veiksmas';
 
 // Entry
-$_['entry_name']             = 'Kategorijos pavadinimas';
-$_['entry_description']      = 'Aprašymas';
-$_['entry_meta_title'] 	     = 'Meta Tago pavadinimas';
-$_['entry_meta_keyword']     = 'Meta Tag Raktažodžiai';
-$_['entry_meta_description'] = 'Meta Tag Aprašymas';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'Pirminis';
-$_['entry_filter']           = 'Filtrai';
-$_['entry_store']            = 'Parduotuvės';
-$_['entry_image']            = 'Paveikslėlis';
-$_['entry_top']              = 'Viršus';
-$_['entry_column']           = 'Stulpeliai';
-$_['entry_sort_order']       = 'Rikiavimo tvarka';
-$_['entry_status']           = 'Statusas';
-$_['entry_layout']           = 'Šablono valdymas';
+$_['entry_name']        = 'Atsisiuntimo pavadinimas';
+$_['entry_filename']    = 'Failo pavadinimas';
+$_['entry_mask']        = 'Kaukė';
 
 // Help
-$_['help_filter']            = '(Užbaigti automatiškai)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'Rodyti viršutiniame meniu. Veikia tik su aukščiausio lygio kategorijomis.';
-$_['help_column']            = 'Stulpelių skaičius apatinėms 3 kategorijoms. Veikia tik su aukščiausio lygio kategorijoms.';
+$_['help_filename']     = 'Galite įkelti paspaudę įkėlimo mygtuką arba naudoti FTP prieigą.';
+$_['help_mask']         = 'Rekomenduojama, kad failo vardas ir kaukė būtų skirtingi. Taip bus galima išvengti žmonių, talpins nuorodas tiesiogiai į šį failą.';
 
 // Error
-$_['error_warning']          = 'Įspėjimas: Patikrinkite klaidas formoje!';
-$_['error_permission']       = 'Įspėjimas: Jūs neturite teisės redaguoti kategorijas!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'Meta pavadinimas turi būti ilgesnis kaip 3 ir trumpesnis kaip 255 simboliai!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'Įspėjimas: Patikrinkite klaidas formoje!';
+$_['error_permission']  = 'Įspėjimas: Jūs neturite teisės redaguoti atsisiuntimų!';
+$_['error_name']        = 'Atsisiuntimo pavadinimas turi būti tarp 3 ir 64 simbolių ilgio!';
+$_['error_upload']      = 'Įkėlimas privalomas!';
+$_['error_filename']    = 'Failo pavadinimas turi būti tarp 3 ir 128 simbolių!';
+$_['error_exists']      = 'Failas neegzistuoja!';
+$_['error_mask']        = 'Slaptumas turi būti nuo 3 iki 128 simbolių!';
+$_['error_filetype']    = 'Klaidingas failo tipas!';
+$_['error_product']     = 'Įspėjimas: Šis atsisiuntimas negali būti pašalintas, nes yra priskirtas %s produktams!';
