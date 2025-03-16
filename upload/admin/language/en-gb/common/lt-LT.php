@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Pamiršote savo slaptažodį?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Pamiršau slaptažodį';
-$_['text_your_email'] = 'Jūsų el. pašto adresas';
-$_['text_email']      = 'Įveskite el. pašto adresą susietą su jūsų paskyra. Paspauskite pateikti ir gausite slaptažodžio nustatymo el. laišką.';
-$_['text_success']    = 'Laiškas su patvirtinimo nuoroda buvo išsiųstas į jūsų administratoriaus el. pašto adresas.';
-
-// Entry
-$_['entry_email']     = 'El. pašto adresas';
-$_['entry_password']  = 'Naujas slaptažodis';
-$_['entry_confirm']   = 'Patvirtinti';
-
-// Error
-$_['error_email']     = 'Įspėjimas: El. pašto adresas nerastas mūsų įrašuose, prašome pabandyti dar kartą!';
-$_['error_password']  = 'Slaptažodis turi būti nuo 4 iki 20 simbolių!';
-$_['error_confirm']   = 'Slaptažodis ir slaptažodžio pakartojimas nesutampa!';
+$_['text_order']             = 'Užsakymai';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'Pabaigta';
+$_['text_customer']          = 'Klientai';
+$_['text_online']            = 'Prisijungę klientai';
+$_['text_approval']          = 'Laukia patvirtinimo';
+$_['text_product']           = 'Prekės';
+$_['text_stock']             = 'Nėra sandėlyje';
+$_['text_review']            = 'Apžvalgos';
+$_['text_return']            = 'Grąžinimai';
+$_['text_affiliate']         = 'Partneriai';
+$_['text_store']             = 'Parduotuvės';
+$_['text_front']             = 'Parduotuvės vitrina';
+$_['text_help']              = 'Pagalba';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Pagalbos forumas';
+$_['text_documentation']     = 'Dokumentacija';
+$_['text_logout']            = 'Atsijungti';
