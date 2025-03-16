@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administração';
+$_['heading_title']  = 'Repor Palavra-Chave';
 
 // Text
-$_['text_heading']   = 'Administração';
-$_['text_login']     = 'Por favor, preencha os seus dados de login.';
-$_['text_forgotten'] = 'Palavra-chave Esquecida';
+$_['text_password']  = 'Introduza a nova Palavra-Chave que deseja usar.';
+$_['text_success']   = 'Concluído: A sua Palavra-Chave foi actualizada com sucesso.';
 
 // Entry
-$_['entry_username'] = 'Nome de Utilizador';
 $_['entry_password'] = 'Palavra-Chave';
-
-// Button
-$_['button_login']   = 'Iníciar Sessão';
+$_['entry_confirm']  = 'Confirmar';
 
 // Error
-$_['error_login']    = 'O Utilizador e/ou Palavra-Chave não estão corretos.';
-$_['error_token']    = 'Token de sessão inválido. Inicie Sessão novamente.';
+$_['error_password'] = 'A palavra-passe deve conter entre 4 a 20 carateres!';
+$_['error_confirm']  = 'A Palavra-Chave e a confirmação da Palavra-Chave não são iguais!';
