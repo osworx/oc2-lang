@@ -1,45 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Информације';
+$_['heading_title']     = 'Произвођачи';
 
 // Text
-$_['text_success']           = 'Успешно: изменили сте информације!';
-$_['text_list']              = 'Листа информација';
-$_['text_add']               = 'Додај информацију';
-$_['text_edit']              = 'Измени информацију';
-$_['text_default']           = 'Подразумевано';
+$_['text_success']      = 'Успешно: изменили сте произвођаче!';
+$_['text_list']         = 'Листа произвођача';
+$_['text_add']          = 'Додај произвођача';
+$_['text_edit']         = 'Измени произвођача';
+$_['text_default']      = 'Подразумевано';
+$_['text_percent']      = 'Проценат';
+$_['text_amount']       = 'Фиксни износ';
 
 // Column
-$_['column_title']           = 'Наслов информације';
-$_['column_sort_order']	     = 'Редослед';
-$_['column_action']          = 'Акција';
+$_['column_name']       = 'Име произвођача';
+$_['column_sort_order'] = 'Редослед';
+$_['column_action']     = 'Акција';
 
 // Entry
-$_['entry_title']            = 'Наслов информације';
-$_['entry_description']      = 'Опис';
-$_['entry_store']            = 'Продавнице';
-$_['entry_meta_title'] 	     = 'Мета ознака Наслов';
-$_['entry_meta_keyword'] 	 = 'Мета ознака Кључне речи';
-$_['entry_meta_description'] = 'Мета ознака Опис';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_bottom']           = 'Дно';
-$_['entry_status']           = 'Статус';
-$_['entry_sort_order']       = 'Редослед';
-$_['entry_layout']           = 'Заобилажење распореда';
+$_['entry_name']        = 'Име произвођача';
+$_['entry_store']       = 'Продавнице';
+$_['entry_keyword']     = 'SEO URL';
+$_['entry_image']       = 'Слика';
+$_['entry_sort_order']  = 'Редослед';
+$_['entry_type']        = 'Тип';
 
 // Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_bottom']            = 'Прикажи у подножју.';
+$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
 
 // Error
-$_['error_warning']          = 'Упозорење: молимо вас да пажљиво проверите могуће грешке у формулару!';
-$_['error_permission']       = 'Упозорење: немате дозволу за измену информације!';
-$_['error_title']            = 'Наслов информације мора бити између 3 и 64 знака!';
-$_['error_description']      = 'Опис мора да буде дужи од 3 знака!';
-$_['error_meta_title']       = 'Мета ознака Наслов мора бити дужа од 3 и краћа од 255 знакова!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_account']          = 'Упозорење: ова информативна страница се не може обрисати јер је придружена уз услове налога за продавницу!';
-$_['error_checkout']         = 'Упозорење: ова информативна страница се не може обрисати јер је придружена уз услове завршетка куповине!';
-$_['error_affiliate']        = 'Упозорење: ова информативна страница се не може обрисати јер је придружена уз сарадничке услове за продавницу!';
-$_['error_return']           = 'Упозорење: ова информативна страница се не може обрисати јер је придружена уз услове повраћаја робе за продавницу!';
-$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
+$_['error_warning']     = 'Упозорење: молимо вас да пажљиво проверите могуће грешке у формулару!';
+$_['error_permission']  = 'Упозорење: немате дозволу за измену произвођача!';
+$_['error_name']        = 'Име произвођача мора бити између 2 и 64 знака!';
+$_['error_keyword']     = 'SEO URL already in use!';
+$_['error_product']     = 'Упозорење: овај произвођач се не може обрисати јер тренутно има придружено %s производа!';
