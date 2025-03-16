@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Tootjad';
+$_['heading_title']      = 'Valikud';
 
 // Text
-$_['text_success']      = 'Success: You have modified manufacturers!';
-$_['text_list']         = 'Manufacturer List';
-$_['text_add']          = 'Add Manufacturer';
-$_['text_edit']         = 'Edit Manufacturer';
-$_['text_default']      = 'Vaikimisi';
-$_['text_percent']      = 'Percentage';
-$_['text_amount']       = 'Fixed Amount';
+$_['text_success']       = 'Õnnestumine: Sa oled muutnud seadeid!';
+$_['text_list']          = 'Valikud';
+$_['text_add']           = 'Lisa valik';
+$_['text_edit']          = 'Redigeeri valikut';
+$_['text_choose']        = 'Vali';
+$_['text_select']        = 'Vali';
+$_['text_radio']         = 'Radio button';
+$_['text_checkbox']      = 'Märkeruut';
+$_['text_input']         = 'Sisend';
+$_['text_text']          = 'Tekst';
+$_['text_textarea']      = 'Tekstiala';
+$_['text_file']          = 'Fail';
+$_['text_date']          = 'Kuupäev';
+$_['text_datetime']      = 'Kuupäev &amp; Aeg';
+$_['text_time']          = 'Aeg';
 
 // Column
-$_['column_name']       = 'Manufacturer Name';
-$_['column_sort_order'] = 'Sorteerimis järjekord';
-$_['column_action']     = 'Tegevus';
+$_['column_name']        = 'Valiku nimi';
+$_['column_sort_order']  = 'Sorteerimis järjekord';
+$_['column_action']      = 'Tegevus';
 
 // Entry
-$_['entry_name']        = 'Manufacturer Name';
-$_['entry_store']       = 'Poed';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Pilt';
-$_['entry_sort_order']  = 'Sorteerimis järjekord';
-$_['entry_type']        = 'Type';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Valiku nimi';
+$_['entry_type']         = 'Type';
+$_['entry_option_value'] = 'Valiku väärtus';
+$_['entry_image']        = 'Pilt';
+$_['entry_sort_order']   = 'Sorteerimis järjekord';
 
 // Error
-$_['error_warning']     = 'Hoiatus: Palun kontrollige vormi vead hoolikalt üle!';
-$_['error_permission']  = 'Warning: You do not have permission to modify manufacturers!';
-$_['error_name']        = 'Manufacturer Name must be between 2 and 64 characters!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Warning: This manufacturer cannot be deleted as it is currently assigned to %s products!';
+$_['error_warning']      = 'Hoiatus: Palun kontrollige vormi vead hoolikalt üle!';
+$_['error_permission']   = 'Hoiatus: Sul ei ole luba valikute muutmiseks!';
+$_['error_name']         = 'Valiku nimi peab olema 1 kuni 128 tähte!';
+$_['error_type']         = 'Hoiatus: Valiku väärtused vajalikud!';
+$_['error_option_value'] = 'Valiku väärtuse nimi peab olema 1 kuni 128 tähte!';
+$_['error_product']      = 'Hoiatus: Seda valikut ei saa kustutada, sest see on hetkel määratud toodetele: %s!';
