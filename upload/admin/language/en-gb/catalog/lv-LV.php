@@ -1,45 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Informācija';
+$_['heading_title']     = 'Ražotāji';
 
 // Text
-$_['text_success']           = 'Veiksmīgi: Informācija labota!';
-$_['text_list']              = 'Informācijas saraksts';
-$_['text_add']               = 'Pievienot informāciju';
-$_['text_edit']              = 'Labot informāciju';
-$_['text_default']           = 'Noklusējums';
+$_['text_success']      = 'Veiksmīga: Jūs esat modificējis ražotājiem!';
+$_['text_list']         = 'Ražotāju saraksts';
+$_['text_add']          = 'Pievienot ražotājs';
+$_['text_edit']         = 'Rediģēt ražotājs';
+$_['text_default']      = 'Noklusējums';
+$_['text_percent']      = 'Procentos';
+$_['text_amount']       = 'Fiksēta summa';
 
 // Column
-$_['column_title']           = 'Informācijas nosaukums';
-$_['column_sort_order']	     = 'Kārtošanas secība';
-$_['column_action']          = 'Darbība';
+$_['column_name']       = 'Ražotāja nosaukums';
+$_['column_sort_order'] = 'Kārtošanas secība';
+$_['column_action']     = 'Darbība';
 
 // Entry
-$_['entry_title']            = 'Informācijas nosaukums';
-$_['entry_description']      = 'Apraksts';
-$_['entry_store']            = 'Veikali';
-$_['entry_meta_title'] 	     = 'Meta Tag nosaukums';
-$_['entry_meta_keyword'] 	 = 'Meta Tag atslēgvārdi';
-$_['entry_meta_description'] = 'Meta Tag apraksts';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_bottom']           = 'Apakša';
-$_['entry_status']           = 'Statuss';
-$_['entry_sort_order']       = 'Kārtošanas secība';
-$_['entry_layout']           = 'Izkārtojuma ignorēšana';
+$_['entry_name']        = 'Ražotāja nosaukums';
+$_['entry_store']       = 'Veikali';
+$_['entry_keyword']     = 'SEO URL';
+$_['entry_image']       = 'Attēls';
+$_['entry_sort_order']  = 'Kārtošanas secība';
+$_['entry_type']        = 'Veids';
 
 // Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_bottom']            = 'Mājaslapas apakša.';
+$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
 
 // Error
-$_['error_warning']          = 'Brīdinājums: Lūdzu pārbaudiet formu rūpīgi ,ir dažas kļūdas!';
-$_['error_permission']       = 'Brīdinājums: Jums nav pietiekamu pilnvaru, lai modificētu informāciju!';
-$_['error_title']            = 'Informācija sadaļā jābūt no 3 līdz 64 rakstzīmēm!';
-$_['error_description']      = 'Aprakstā drīkst būt vairāk kā 3 rakstzīmes!';
-$_['error_meta_title']       = 'Galvenajā nosaukumā jābūt lielākam par 3 līdz mazāk nekā 255 rakstzīmes!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_account']          = 'Brīdinājums: Šajā informācijas lapā nevar dzēst, jo tas pašreiz ir piešķirts kā veikalā kontu noteikumus!';
-$_['error_checkout']         = 'Brīdinājums: Šajā informācijas lapā nevar dzēst, jo tas pašreiz ir piešķirts kā veikala kases noteikumi!';
-$_['error_affiliate']        = 'Brīdinājums: Šajā informācijas lapā nevar dzēst, jo tas pašreiz ir piešķirts kā veikalu filiāles nosacījumiem!';
-$_['error_return']           = 'Brīdinājums: Šajā informācijas lapā nevar dzēst, jo tas pašreiz ir piešķirts kā veikalā atgriešanas noteikumiem!';
-$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
+$_['error_warning']     = 'Brīdinājums: Lūdzu pārbaudiet formu rūpīgi ,ir dažas kļūdas!';
+$_['error_permission']  = 'Brīdinājums: Jums nav tiesību modificēt ražotājiem!';
+$_['error_name']        = 'Izgatavotāja nosaukumam jābūt no 2 līdz 64 rakstzīmēm!';
+$_['error_keyword']     = 'SEO URL already in use!';
+$_['error_product']     = 'Brīdinājums: Šis ražotājs nevar dzēst, jo tā pašlaik ir piešķirts %s produktus!';
