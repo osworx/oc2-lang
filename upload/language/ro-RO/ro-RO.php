@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'Profil recurent';
+$_['heading_title']     = 'Opinii';
 
 // Text
-$_['text_success']          = 'Felicitări: Ați modificat profilele recurente!';
-$_['text_list']             = 'Listă de profile recurente';
-$_['text_add']              = 'Adaugă un profil recurent';
-$_['text_edit']             = 'Modifică un profil recurent';
-$_['text_day']				= 'Zi';
-$_['text_week']				= 'Săptămână';
-$_['text_semi_month']		= 'Jumătate de lună';
-$_['text_month']			= 'Lună';
-$_['text_year']				= 'An';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i>Sumele recurente sunt calculate cu ajutorul frecvenței și al ciclurilor.</p><p>Spre exemplu dacă utiliați o frecvență de „o săptămână” și un ciclu de „2”, atunci utilizatorul va plăti la fiecare 2 săptămâni.</p><p>Durata este de câte ori utilizatorul va face plata, stabiliți la 0 dacă doriți plați până când vor fi anulate.</p>';
-$_['text_profile']			= 'Profil recurent';
-$_['text_trial']			= 'Profilul încercare';
-
-// Entry
-$_['entry_name']		    = 'Nume';
-$_['entry_price']			= 'Preț';
-$_['entry_duration']		= 'Durată';
-$_['entry_cycle']			= 'Ciclu';
-$_['entry_frequency']		= 'Frecvență';
-$_['entry_trial_price']		= 'Preț încercare';
-$_['entry_trial_duration']	= 'Durată încercare';
-$_['entry_trial_status']	= 'Statut încercare';
-$_['entry_trial_cycle']	    = 'Ciclu încercare';
-$_['entry_trial_frequency'] = 'Frecvență încercare';
-$_['entry_status']			= 'Stare';
-$_['entry_sort_order']		= 'Ordinea de sortare';
+$_['text_success']      = 'Felicitări: Ați modificat opiniile!';
+$_['text_list']         = 'Listă opinii';
+$_['text_add']          = 'Adaugă o opinie';
+$_['text_edit']         = 'Modifică o opinie';
 
 // Column
-$_['column_name']			= 'Nume';
-$_['column_sort_order']	    = 'Ordinea de sortare';
-$_['column_action']         = 'Acțiune';
+$_['column_product']    = 'Produs';
+$_['column_author']     = 'Autor';
+$_['column_rating']     = 'Evaluare';
+$_['column_status']     = 'Stare';
+$_['column_date_added'] = 'Data adăugării';
+$_['column_action']     = 'Acțiune';
+
+// Entry
+$_['entry_product']     = 'Produs';
+$_['entry_author']      = 'Autor';
+$_['entry_rating']      = 'Evaluare';
+$_['entry_status']      = 'Stare';
+$_['entry_text']        = 'Text';
+$_['entry_date_added']  = 'Data adăugării';
+
+// Help
+$_['help_product']      = '(Completare automată)';
 
 // Error
-$_['error_warning']         = 'Avertisment: Vă rugăm să verificaţi formularul pentru erori!';
-$_['error_permission']		= 'Avertisment: Nu aveţi permisiunea de a modifica profilele recurente!';
-$_['error_name']			= 'Numele profilului trebuie să fie mai mare de 3 caractere și mai puțin de 255 caractere!';
-$_['error_product']			= 'Avertisment: Acest profil recurent nu poate fi șters deoarece este asociat cu %s produse!';
+$_['error_warning']     = 'Avertisment: Vă rugăm să verificaţi formularul pentru erori!';
+$_['error_permission']  = 'Avertisment: Nu aveți permisiunea de a modifica opiniile!';
+$_['error_product']     = 'Produs necesar!';
+$_['error_author']      = 'Autorul trebuie să fie între 3 caractere și 64 de caractere!';
+$_['error_text']        = 'Textul opiniei trebuie să fie de cel puțin un caracter!';
+$_['error_rating']      = 'Evaluare opinie necesară!';
