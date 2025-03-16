@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administración';
 
 // Text
-$_['text_order']             = 'Pedidos';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Completo';
-$_['text_customer']          = 'Clientes';
-$_['text_online']            = 'Clientes en liña';
-$_['text_approval']          = 'Aprobación pendente';
-$_['text_product']           = 'Produtos';
-$_['text_stock']             = 'Sen Stock';
-$_['text_review']            = 'Revisións';
-$_['text_return']            = 'Devolucións';
-$_['text_affiliate']         = 'Afiliados';
-$_['text_store']             = 'Tendas';
-$_['text_front']             = 'Vista da tenda';
-$_['text_help']              = 'Axuda';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Foros de soporte';
-$_['text_documentation']     = 'Documentación';
-$_['text_logout']            = 'Pechar sesión';
+$_['text_heading']   = 'Administración';
+$_['text_login']     = 'Introduza os seus datos de inicio de sesión.';
+$_['text_forgotten'] = 'Contrasinal esquecido';
+
+// Entry
+$_['entry_username'] = 'Nome de usuario';
+$_['entry_password'] = 'Contrasinal';
+
+// Button
+$_['button_login']   = 'Iniciar sesión';
+
+// Error
+$_['error_login']    = 'Non se atopou o nome de usuaro e/ou o contrasinal.';
+$_['error_token']    = 'Token de sesion invalido. Por favor tenteo de novo.';
