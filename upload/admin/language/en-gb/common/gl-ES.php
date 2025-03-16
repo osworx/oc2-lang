@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administración';
+$_['heading_title']  = 'Cambiar o contrasinal';
 
 // Text
-$_['text_heading']   = 'Administración';
-$_['text_login']     = 'Introduza os seus datos de inicio de sesión.';
-$_['text_forgotten'] = 'Contrasinal esquecido';
+$_['text_password']  = 'Novo contrasinal que quere usar.';
+$_['text_success']   = 'Modificouse o seu contrasinal correctamente.';
 
 // Entry
-$_['entry_username'] = 'Nome de usuario';
 $_['entry_password'] = 'Contrasinal';
-
-// Button
-$_['button_login']   = 'Iniciar sesión';
+$_['entry_confirm']  = 'Confirmar';
 
 // Error
-$_['error_login']    = 'Non se atopou o nome de usuaro e/ou o contrasinal.';
-$_['error_token']    = 'Token de sesion invalido. Por favor tenteo de novo.';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'O contrasinal e a sua confirmacion non coinciden!';
