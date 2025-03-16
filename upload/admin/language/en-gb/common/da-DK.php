@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administration';
+$_['heading_title']  = 'Nulstil din adgangskode';
 
 // Text
-$_['text_heading']   = 'Administration';
-$_['text_login']     = 'Indtast dine login-oplysninger.';
-$_['text_forgotten'] = 'Glemt adgangskode';
+$_['text_password']  = 'Indtast den nye adgangskode.';
+$_['text_success']   = 'Succes: Din adgangskode er blevet opdateret.';
 
 // Entry
-$_['entry_username'] = 'Brugernavn';
 $_['entry_password'] = 'Adgangskode';
-
-// Button
-$_['button_login']   = 'Log ind';
+$_['entry_confirm']  = 'Bekræft';
 
 // Error
-$_['error_login']    = 'Brugernavn og/eller adgangskode findes ikke.';
-$_['error_token']    = 'Ugyldig token session. Log ind igen.';
+$_['error_password'] = 'Adgangskoden skal være mellem 4 og 20 karakterer!';
+$_['error_confirm']  = 'Adgangskode og adgangskodebekræftelse stemmer ikke overens!';
