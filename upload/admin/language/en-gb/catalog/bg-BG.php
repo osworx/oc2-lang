@@ -1,45 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Информация';
+$_['heading_title']     = 'Производители';
 
 // Text
-$_['text_success']           = 'Успех: Вие модифицирахте информация!';
-$_['text_list']              = 'Информация списък';
-$_['text_add']               = 'Добавяне на информация';
-$_['text_edit']              = 'Редактиране на информация';
-$_['text_default']           = 'По подразбиране';
+$_['text_success']      = 'Успех: Вие модифицирахте производители!';
+$_['text_list']         = 'Manufacturer list';
+$_['text_add']          = 'Добавяне на производител';
+$_['text_edit']         = 'Редактиране на производител';
+$_['text_default']      = 'По подразбиране';
+$_['text_percent']      = 'Процент';
+$_['text_amount']       = 'Фиксирана сума';
 
 // Column
-$_['column_title']           = 'Информационно заглавие';
-$_['column_sort_order']	     = 'Ред на Сортиране';
-$_['column_action']          = 'Действие';
+$_['column_name']       = 'Име на производителя';
+$_['column_sort_order'] = 'Ред на Сортиране';
+$_['column_action']     = 'Действие';
 
 // Entry
-$_['entry_title']            = 'Информационно заглавие';
-$_['entry_description']      = 'Описание';
-$_['entry_store']            = 'Магазини';
-$_['entry_meta_title'] 	     = 'Мета име';
-$_['entry_meta_keyword'] 	 = 'Мета тагове ключови думи';
-$_['entry_meta_description'] = 'Мета тагове описание';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_bottom']           = 'Отдолу';
-$_['entry_status']           = 'Статус';
-$_['entry_sort_order']       = 'Ред на Сортиране';
-$_['entry_layout']           = 'Замени оформление';
+$_['entry_name']        = 'Име на производителя';
+$_['entry_store']       = 'Магазини';
+$_['entry_keyword']     = 'SEO URL';
+$_['entry_image']       = 'Изображение';
+$_['entry_sort_order']  = 'Ред на Сортиране';
+$_['entry_type']        = 'Тип';
 
 // Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_bottom']            = 'Показване в долния колонтитул.';
+$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
 
 // Error
-$_['error_warning']          = 'Внимание: Моля, проверете формуляра внимателно за грешки!';
-$_['error_permission']       = 'Предупреждение: Вие нямате разрешение да променяте информация!';
-$_['error_title']            = 'Информационното заглавие трябва да бъде между 3 и 64 знака!';
-$_['error_description']      = 'Описанието трябва да бъде повече от 3 символа!';
-$_['error_meta_title']       = 'Мета заглавие трябва да бъде по-голямо от 3 и по-малко от 255 знака!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_account']          = 'Внимание: Тази информационна страница не може да се изтрие, тъй като тя в момента се използва от магазина с условията за акаунта!';
-$_['error_checkout']         = 'Внимание: Тази информационна страница не може да се изтрие, тъй като тя в момента се използва от магазина с условията за поръчка!';
-$_['error_affiliate']        = 'Внимание: Тази информационна страница не може да се изтрие, тъй като тя в момента се използва от магазина с условията за афилейт програмата!';
-$_['error_return']           = 'Внимание: Тази информационна страница не може да се изтрие, тъй като тя в момента се използва от магазина с условията за връщане на продукти!';
-$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
+$_['error_warning']     = 'Внимание: Моля, проверете формуляра внимателно за грешки!';
+$_['error_permission']  = 'Предупреждение: Вие нямате разрешение да променяте производители!';
+$_['error_name']        = 'Името на производителя трябва да бъде между 2 и 64 знака!';
+$_['error_keyword']     = 'SEO URL already in use!';
+$_['error_product']     = 'Предупреждение: Този производител не може да се заличи, тъй като понастоящем е зададен на %s продукти!';
