@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Parolanızı mı unuttunuz?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Parolamı Unuttum';
-$_['text_your_email'] = 'E-Posta Adresiniz:';
-$_['text_email']      = 'Kayıt olurken yazdığınız E-Posta adresinizi yazınız. Şifreniz E-Posta adresinize gönderilecektir.';
-$_['text_success']    = 'Yeni parolanız E-Posta adresinize gönderildi.';
-
-// Entry
-$_['entry_email']     = 'E-Posta Adresi:';
-$_['entry_password']  = 'Yeni Parola';
-$_['entry_confirm']   = 'Onayla';
-
-// Error
-$_['error_email']     = 'Uyarı: E-Posta adresi bulunamadı. Lütfen tekrar deneyiniz!';
-$_['error_password']  = 'Şifre 4 ile 20 karakter arasında olmalıdır!';
-$_['error_confirm']   = 'Parola ve parola onayı eşleşmiyor!';
+$_['text_order']             = 'Siparişler';
+$_['text_processing_status'] = 'İşlem devam ediyor';
+$_['text_complete_status']   = 'Tamamlandı';
+$_['text_customer']          = 'Müşteriler';
+$_['text_online']            = 'Çevrimiçi Müşteriler';
+$_['text_approval']          = 'Onay bekliyor';
+$_['text_product']           = 'Ürünler';
+$_['text_stock']             = 'Stokta Yok';
+$_['text_review']            = 'Yorumlar';
+$_['text_return']            = 'Ürün İadesi';
+$_['text_affiliate']         = 'Ortaklık';
+$_['text_store']             = 'Dükkanlar';
+$_['text_front']             = 'Mağazaya Git';
+$_['text_help']              = 'Yardım';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Destek Forumu';
+$_['text_documentation']     = 'Dökümantasyon';
+$_['text_logout']            = 'Çıkış yap';
