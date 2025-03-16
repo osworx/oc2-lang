@@ -1,45 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Informatsioon';
+$_['heading_title']     = 'Tootjad';
 
 // Text
-$_['text_success']           = 'Oled edukalt muutnud informatsiooni!';
-$_['text_list']              = 'Teabe loend';
-$_['text_add']               = 'Lisa teave';
-$_['text_edit']              = 'Muuta teavet';
-$_['text_default']           = 'Vaikimisi';
+$_['text_success']      = 'Success: You have modified manufacturers!';
+$_['text_list']         = 'Manufacturer List';
+$_['text_add']          = 'Add Manufacturer';
+$_['text_edit']         = 'Edit Manufacturer';
+$_['text_default']      = 'Vaikimisi';
+$_['text_percent']      = 'Percentage';
+$_['text_amount']       = 'Fixed Amount';
 
 // Column
-$_['column_title']           = 'Teabe pealkiri';
-$_['column_sort_order']	     = 'Sorteerimis järjekord';
-$_['column_action']          = 'Tegevus';
+$_['column_name']       = 'Manufacturer Name';
+$_['column_sort_order'] = 'Sorteerimis järjekord';
+$_['column_action']     = 'Tegevus';
 
 // Entry
-$_['entry_title']            = 'Teabe pealkiri';
-$_['entry_description']      = 'Kirjeldus';
-$_['entry_store']            = 'Poed';
-$_['entry_meta_title'] 	     = 'Meta Tag pealkiri';
-$_['entry_meta_keyword'] 	 = 'Sisukirjelduse märksõnad';
-$_['entry_meta_description'] = 'Sisukirjelduse kirjeldus';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_bottom']           = 'Alla';
-$_['entry_status']           = 'Staatus';
-$_['entry_sort_order']       = 'Sorteerimis järjekord';
-$_['entry_layout']           = 'Asetuse ülekirjutamine';
+$_['entry_name']        = 'Manufacturer Name';
+$_['entry_store']       = 'Poed';
+$_['entry_keyword']     = 'SEO URL';
+$_['entry_image']       = 'Pilt';
+$_['entry_sort_order']  = 'Sorteerimis järjekord';
+$_['entry_type']        = 'Type';
 
 // Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_bottom']            = 'Näita jaluses.';
+$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
 
 // Error
-$_['error_warning']          = 'Hoiatus: Palun kontrollige vormi vead hoolikalt üle!';
-$_['error_permission']       = 'Hoiatus: Sul ei ole luba muuta informatsiooni!';
-$_['error_title']            = 'Informatsiooni tiitel peab olema vähemalt 3 kuni 64 tähte!';
-$_['error_description']      = 'Kirjeldus peab olema rohkem kui 3 tähte!';
-$_['error_meta_title']       = 'Meta pealkiri peab olema üle 3 ja alla 255 tähemärgi!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_account']          = 'Hoiatus: See informatsiooni lehekülge ei saa kustutada, sest see on hetkel määratud hetkel poe konto tingimuste lehena!';
-$_['error_checkout']         = 'Hoiatus: Seda informatsiooni lehekülge ei saa kustutada, sest see on hetkel määratud poe ostu tingimuste lehena!';
-$_['error_affiliate']        = 'Hoiatus: Seda informatsiooni lehekülg ei saa kustutada, sest see on hetkel määratud poe filiaal tingimuste lehena!';
-$_['error_return']           = 'Hoiatus: See informatsiooni lehekülge ei saa kustutada, sest see on hetkel määratud hetkel poe konto tingimuste lehena!';
-$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
+$_['error_warning']     = 'Hoiatus: Palun kontrollige vormi vead hoolikalt üle!';
+$_['error_permission']  = 'Warning: You do not have permission to modify manufacturers!';
+$_['error_name']        = 'Manufacturer Name must be between 2 and 64 characters!';
+$_['error_keyword']     = 'SEO URL already in use!';
+$_['error_product']     = 'Warning: This manufacturer cannot be deleted as it is currently assigned to %s products!';
