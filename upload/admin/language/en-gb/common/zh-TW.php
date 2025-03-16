@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = '系統管理';
+$_['heading_title']  = '重置密碼';
 
 // Text
-$_['text_heading']   = '系統管理';
-$_['text_login']     = '請輸入您的登入詳細資料。';
-$_['text_forgotten'] = '忘記密碼';
+$_['text_password']  = '輸入要使用的新密碼。';
+$_['text_success']   = '您的密碼已成功更新。';
 
 // Entry
-$_['entry_username'] = '使用者名稱';
 $_['entry_password'] = '密碼';
-
-// Button
-$_['button_login']   = '登入';
+$_['entry_confirm']  = '確認';
 
 // Error
-$_['error_login']    = '無符合的使用者名稱或密碼。';
-$_['error_token']    = '無效的 session 憑證。請重新登入。';
+$_['error_password'] = '密碼必須介於 4 到 20 個字元之間！';
+$_['error_confirm']  = '密碼與確認密碼結果不符！';
