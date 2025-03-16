@@ -1,48 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Categorie';
+$_['heading_title']     = 'Download';
 
 // Text
-$_['text_success']           = 'Hai modificato con successo le categorie!';
-$_['text_list']              = 'Elenco delle categorie';
-$_['text_add']               = 'Aggiungi una categoria';
-$_['text_edit']              = 'Modifica una categoria';
-$_['text_default']           = 'Predefinita';
+$_['text_success']      = 'Hai modificato i download con successo!';
+$_['text_list']         = 'Elenco Download';
+$_['text_add']          = 'Aggiungi download';
+$_['text_edit']         = 'Modifica Download';
+$_['text_upload']       = 'Il tuo file è stato caricato con successo!';
 
 // Column
-$_['column_name']            = 'Nome della categoria';
-$_['column_sort_order']      = 'Ordinamento';
-$_['column_action']          = 'Azione';
+$_['column_name']       = 'Nome download';
+$_['column_date_added'] = 'Data inserimento';
+$_['column_action']     = 'Azione';
 
 // Entry
-$_['entry_name']             = 'Nome della categoria';
-$_['entry_description']      = 'Descrizione';
-$_['entry_meta_title'] 	     = 'Meta Tag Title';
-$_['entry_meta_keyword']     = 'Meta Tag Keywords';
-$_['entry_meta_description'] = 'Meta Tag Description';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'Superiore';
-$_['entry_filter']           = 'Filtri
-';
-$_['entry_store']            = 'Negozi';
-$_['entry_image']            = 'Immagine';
-$_['entry_top']              = 'In alto';
-$_['entry_column']           = 'Colonne
-';
-$_['entry_sort_order']       = 'Ordinamento';
-$_['entry_status']           = 'Stato';
-$_['entry_layout']           = 'Sovrascrivere layout';
+$_['entry_name']        = 'Nome download';
+$_['entry_filename']    = 'Nome file';
+$_['entry_mask']        = 'Maschera';
 
 // Help
-$_['help_filter']            = '(Completamento automatico)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'Visualizza nella barra menu in alto. Funziona solo per le categorie di livello superiore.';
-$_['help_column']            = 'Numero di colonne da utilizzare per le ultime 3 categorie. Funziona solo per le categorie di livello superiore.';
+$_['help_filename']     = 'Si possono caricare tramite il pulsante upload o utilizzare FTP per caricare la cartella di download e immettere i dettagli di seguito.';
+$_['help_mask']         = 'È consigliabile che il nome del file e la maschera siano diversi per impedire alle persone di collegarsi direttamente ai vostri download.';
 
 // Error
-$_['error_warning']          = 'Attenzione: Si prega di controllare attentamente gli errori del modulo!';
-$_['error_permission']       = 'Attenzione: Non hai il permesso per modificare le categorie!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'Il Meta Title deve essere maggiore di 3 e inferiore a 255 caratteri!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'Attenzione: Si prega di controllare attentamente gli errori del modulo!';
+$_['error_permission']  = 'Attenzione: non hai il permesso per modificare i download!';
+$_['error_name']        = 'Il nome del download deve essere compreso tra 3 e 64 caratteri!';
+$_['error_upload']      = 'Caricamento richiesto!';
+$_['error_filename']    = 'Il nome del file deve avere da 3 a 128 caratteri!';
+$_['error_exists']      = 'Il file non esiste!';
+$_['error_mask']        = 'La maschera deve avere tra 3 e 128 caratteri!';
+$_['error_filetype']    = 'Tipo di file non valido!';
+$_['error_product']     = 'Attenzione: questo download non può essere cancellato poiché è attualmente assegnato a %s prodotti!';
