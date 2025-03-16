@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Quản trị';
+$_['heading_title']  = 'Đặt lại mật khẩu của bạn';
 
 // Text
-$_['text_heading']   = 'Quản trị';
-$_['text_login']     = 'Xin vui lòng nhập các thông tin đăng nhập.';
-$_['text_forgotten'] = 'Quên mật khẩu';
+$_['text_password']  = 'Nhập mật khẩu mới mà bạn muốn sử dụng.';
+$_['text_success']   = 'Thành công: Mật khẩu của bạn đã được cập nhật thành công.';
 
 // Entry
-$_['entry_username'] = 'Tên đăng nhập';
 $_['entry_password'] = 'Mật khẩu';
-
-// Button
-$_['button_login']   = 'Đăng nhập';
+$_['entry_confirm']  = 'Xác nhận';
 
 // Error
-$_['error_login']    = 'Tên người dùng và/hoặc mật khẩu không đúng.';
-$_['error_token']    = 'Phiên đăng nhập không hợp lệ. Xin vui lòng đăng nhập lại.';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'Mật mã và sự xác nhận mật mã không trùng khớp!';
