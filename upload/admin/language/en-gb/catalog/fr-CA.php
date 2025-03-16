@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Fabricants';
+$_['heading_title']      = 'Options';
 
 // Text
-$_['text_success']      = 'Modification des marques réussie !';
-$_['text_list']         = 'Liste des marques';
-$_['text_add']          = 'Ajouter une marque';
-$_['text_edit']         = 'Modifier une marque';
-$_['text_default']      = 'Par défaut';
-$_['text_percent']      = 'Pourcentage';
-$_['text_amount']       = 'Montant fixe';
+$_['text_success']       = 'Modification des options réussie !';
+$_['text_list']          = 'Liste des options';
+$_['text_add']           = 'Ajouter une option';
+$_['text_edit']          = 'Modifier l’option';
+$_['text_choose']        = 'Selectionnez';
+$_['text_select']        = 'Sélectionner';
+$_['text_radio']         = 'Bouton Radio';
+$_['text_checkbox']      = 'Case à cocher';
+$_['text_input']         = 'Entrée de données';
+$_['text_text']          = 'Texte';
+$_['text_textarea']      = 'Zone de texte';
+$_['text_file']          = 'Fichier';
+$_['text_date']          = 'Date';
+$_['text_datetime']      = 'Date et heure';
+$_['text_time']          = 'Heure';
 
 // Column
-$_['column_name']       = 'Nom de la marque';
-$_['column_sort_order'] = 'Ordre de présentation';
-$_['column_action']     = 'Action';
+$_['column_name']        = 'Nom de l’option';
+$_['column_sort_order']  = 'Ordre de présentation';
+$_['column_action']      = 'Action';
 
 // Entry
-$_['entry_name']        = 'Nom de la marque';
-$_['entry_store']       = 'Magasins';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Image';
-$_['entry_sort_order']  = 'Ordre de présentation';
-$_['entry_type']        = 'Type';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Nom de l’option';
+$_['entry_type']         = 'Type';
+$_['entry_option_value'] = 'Nom de la valeur d’option';
+$_['entry_image']        = 'Image';
+$_['entry_sort_order']   = 'Ordre de présentation';
 
 // Error
-$_['error_warning']     = 'Attention: Veuillez vérifier que le formulaire ne contient pas d\'erreur !';
-$_['error_permission']  = 'Avertissement : Vous n\'êtes pas autorisé à modifier les Marques !';
-$_['error_name']        = 'La composition du nom du fabricant doit être comprise entre de 2 à 64 caractères !';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Attention : ce fabricant ne peut être supprimé car il est actuellement affecté aux produits %s !';
+$_['error_warning']      = 'Attention: Veuillez vérifier que le formulaire ne contient pas d\'erreur !';
+$_['error_permission']   = 'Attention : vous n’êtes pas autorisé à modifier les options !';
+$_['error_name']         = 'Nom de l’option doit contenir entre 1 et 128 caractères !';
+$_['error_type']         = 'Attention : valeurs de l’option requises !';
+$_['error_option_value'] = 'Le nom du champ personnalisé doit contenir entre 1 et 128 caractères !';
+$_['error_product']      = 'Attention : il est impossible d’effacer ce téléchargement car il est actuellement attribué à %s produits !';
