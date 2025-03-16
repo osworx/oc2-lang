@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'Perfiles Recurrentes';
+$_['heading_title']     = 'Comentarios';
 
 // Text
-$_['text_success']          = '¡Has modificado correctamente los perfiles recurrentes!';
-$_['text_list']             = 'Lista de Perfiles Recurrentes';
-$_['text_add']              = 'Agregar Perfil Recurrente';
-$_['text_edit']             = 'Editar Perfil Recurrente';
-$_['text_day']				= 'Diario';
-$_['text_week']				= 'Semanal';
-$_['text_semi_month']		= 'Quincenal';
-$_['text_month']			= 'Mensual';
-$_['text_year']				= 'Anual';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Los montos recurrentes son calculados por la frecuencia y ciclos. </p><p>Por ejemplo si usa una frecuencia "semanal" y un ciclo de "2", entonces al usuario se le cobrará cada 2 semanas.</p><p>La duración es el número de veces que el usuario realiza los pagos, coloquelo en 0 si quieres que los pagos sean anulados.</p>';
-$_['text_profile']			= 'Perfil Recurrente';
-$_['text_trial']			= 'Perfil de Prueba';
-
-// Entry
-$_['entry_name']		    = 'Nombre';
-$_['entry_price']			= 'Precio';
-$_['entry_duration']		= 'Duración';
-$_['entry_cycle']			= 'Ciclo';
-$_['entry_frequency']		= 'Frecuencia';
-$_['entry_trial_price']		= 'Precio de Prueba';
-$_['entry_trial_duration']	= 'Duración de la Prueba';
-$_['entry_trial_status']	= 'Estatus de la Prueba';
-$_['entry_trial_cycle']	    = 'Ciclo de Prueba';
-$_['entry_trial_frequency'] = 'Frecuencia de la Prueba';
-$_['entry_status']			= 'Estado';
-$_['entry_sort_order']		= 'Ordenar por';
+$_['text_success']      = '¡Ha modificado exitosamente los comentarios!';
+$_['text_list']         = 'Lista de Comentarios';
+$_['text_add']          = 'Agregar Comentarios';
+$_['text_edit']         = 'Editar Comentarios';
 
 // Column
-$_['column_name']			= 'Nombre';
-$_['column_sort_order']	    = 'Ordenar por';
-$_['column_action']         = 'Acción';
+$_['column_product']    = 'Producto';
+$_['column_author']     = 'Autor';
+$_['column_rating']     = 'Calificación';
+$_['column_status']     = 'Estado';
+$_['column_date_added'] = 'Agregar Fecha';
+$_['column_action']     = 'Acción';
+
+// Entry
+$_['entry_product']     = 'Producto';
+$_['entry_author']      = 'Autor';
+$_['entry_rating']      = 'Calificación';
+$_['entry_status']      = 'Estado';
+$_['entry_text']        = 'Texto';
+$_['entry_date_added']  = 'Agregar Fecha';
+
+// Help
+$_['help_product']      = '(Autocompletar)';
 
 // Error
-$_['error_warning']         = '¡Advertencia: Por favor revise cuidadosamente los errores en el formulario!';
-$_['error_permission']		= '¡Advertencia: No tienes permiso para modificar perfiles recurrentes!';
-$_['error_name']			= '¡El Nombre del producto debe ser mayor que 3 y menor que 255 caracteres!';
-$_['error_product']			= '¡Advertencia: Este perfil recurrente no se puede eliminar porque actualmente se asigna a los productos %s!';
+$_['error_warning']     = '¡Advertencia: Por favor revise cuidadosamente los errores en el formulario!';
+$_['error_permission']  = '¡Advertencia: No tienes permiso para modificar los comentarios!';
+$_['error_product']     = '¡Producto requerido!';
+$_['error_author']      = '¡El autor debe tener entre 3 y 64 carácteres!';
+$_['error_text']        = '¡El Texto del Comentario debe tener al menos 1 carácter!';
+$_['error_rating']      = '¡Calificación del comentario requerida!';
