@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Ylläpito';
+$_['heading_title']  = 'Tyhjennä salasana';
 
 // Text
-$_['text_heading']   = 'Ylläpito';
-$_['text_login']     = 'Anna kirjautumistietosi.';
-$_['text_forgotten'] = 'Unohtunut salasana';
+$_['text_password']  = 'Syötä uusi salasana, jota haluat käyttää.';
+$_['text_success']   = 'Salasanan päivittäminen onnistui.';
 
 // Entry
-$_['entry_username'] = 'Käyttäjanimi';
 $_['entry_password'] = 'Salasana';
-
-// Button
-$_['button_login']   = 'Kirjaudu';
+$_['entry_confirm']  = 'Vahvista';
 
 // Error
-$_['error_login']    = 'Käyttäjänimi ja/tai salasana eivät täsmää.';
-$_['error_token']    = 'Istunnon valtuutus ei kelpaa, kirjaudu uudelleen.';
+$_['error_password'] = 'Salasanan tulee olla 4 - 20 merkkiä pitkä!';
+$_['error_confirm']  = 'Salasanat eivät täsmää!';
