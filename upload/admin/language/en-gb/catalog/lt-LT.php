@@ -1,45 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Informacija';
+$_['heading_title']     = 'Gamintojai';
 
 // Text
-$_['text_success']           = 'Atlikta: Jūs atnaujinote informaciją!';
-$_['text_list']              = 'Informacijos sąrašas';
-$_['text_add']               = 'Pridėti informaciją';
-$_['text_edit']              = 'Redaguoti informaciją';
-$_['text_default']           = 'Numatytasis';
+$_['text_success']      = 'Jūs sėkmingai pakeitėte gamintoją!';
+$_['text_list']         = 'Gamintojų sąrašas';
+$_['text_add']          = 'Pridėti gamintoją';
+$_['text_edit']         = 'Redaguoti gamintoją';
+$_['text_default']      = 'Numatytasis';
+$_['text_percent']      = 'Procentas';
+$_['text_amount']       = 'Nustatyta suma';
 
 // Column
-$_['column_title']           = 'Informacijos pavadinimas';
-$_['column_sort_order']	     = 'Rikiavimo tvarka';
-$_['column_action']          = 'Veiksmas';
+$_['column_name']       = 'Gamintojo pavadinimas';
+$_['column_sort_order'] = 'Rikiavimo tvarka';
+$_['column_action']     = 'Veiksmas';
 
 // Entry
-$_['entry_title']            = 'Informacijos pavadinimas';
-$_['entry_description']      = 'Aprašymas';
-$_['entry_store']            = 'Parduotuvės';
-$_['entry_meta_title'] 	     = 'Meta Tago pavadinimas';
-$_['entry_meta_keyword'] 	 = 'Meta Tag Raktažodžiai';
-$_['entry_meta_description'] = 'Meta Tag Aprašymas';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_bottom']           = 'Į apačia';
-$_['entry_status']           = 'Statusas';
-$_['entry_sort_order']       = 'Rikiavimo tvarka';
-$_['entry_layout']           = 'Šablono valdymas';
+$_['entry_name']        = 'Gamintojo pavadinimas';
+$_['entry_store']       = 'Parduotuvės';
+$_['entry_keyword']     = 'SEO URL';
+$_['entry_image']       = 'Paveikslėlis';
+$_['entry_sort_order']  = 'Rikiavimo tvarka';
+$_['entry_type']        = 'Tipas';
 
 // Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_bottom']            = 'Rodyti apatinėje juostoje.';
+$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
 
 // Error
-$_['error_warning']          = 'Įspėjimas: Patikrinkite klaidas formoje!';
-$_['error_permission']       = 'Įspėjimas: Jūs neturite teisės keisti informacijos!';
-$_['error_title']            = 'Informacijos pavadinimas turi būti nuo 3 iki 64 simbolių ilgio!';
-$_['error_description']      = 'Aprašymas turi būti daugiau nei 3 simboliai!';
-$_['error_meta_title']       = 'Meta pavadinimas turi būti ilgesnis kaip 3 ir trumpesnis kaip 255 simboliai!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_account']          = 'Įspėjimas: Šis informacinis puslapis negali būti pašalintas, nes jis susijęs su puslapio terminais!';
-$_['error_checkout']         = 'Įspėjimas: Šis informacinis puslapis negali būti pašalintas, nes jis susijęs su puslapio terminais!';
-$_['error_affiliate']        = 'Įspėjimas: Šis informacinis puslapis negali būti pašalintas, nes jis susijęs su puslapio terminais!';
-$_['error_return']           = 'Įspėjimas: Šis informacinis puslapis negali būti pašalintas, nes jis susijęs su puslapio terminais!';
-$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
+$_['error_warning']     = 'Įspėjimas: Patikrinkite klaidas formoje!';
+$_['error_permission']  = 'Įspėjimas: Neturite teisės keisti gamintojo!';
+$_['error_name']        = 'Gamintojo pavadinimą turi sudaryti nuo 2 iki 64 simbolių!';
+$_['error_keyword']     = 'SEO URL already in use!';
+$_['error_product']     = 'Įspėjimas: Negalima panaikinti šio gamintojo, nes ji šiuo metu priskirtas %s produktams!';
