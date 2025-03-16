@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Apžvalgos';
+$_['heading_title']          = 'Savybės';
 
 // Text
-$_['text_success']      = 'Pavyko: Modifikavote atsiliepimus!';
-$_['text_list']         = 'Apžvalgų sąrašas';
-$_['text_add']          = 'Pridėti apžvalgą';
-$_['text_edit']         = 'Redaguoti apžvalgą';
+$_['text_success']           = 'Atlikta: Jūs pakeitėte savybes!';
+$_['text_list']              = 'Savybių sąrašas';
+$_['text_add']               = 'Pridėti savybes';
+$_['text_edit']              = 'Redaguoti savybes';
 
 // Column
-$_['column_product']    = 'Produktas';
-$_['column_author']     = 'Autorius';
-$_['column_rating']     = 'Įvertinimas';
-$_['column_status']     = 'Statusas';
-$_['column_date_added'] = 'Įkėlimo data';
-$_['column_action']     = 'Veiksmas';
+$_['column_name']            = 'Savybės pavadinimas';
+$_['column_attribute_group'] = 'Savybės grupė';
+$_['column_sort_order']      = 'Rikiavimo tvarka';
+$_['column_action']          = 'Veiksmas';
 
 // Entry
-$_['entry_product']     = 'Produktas';
-$_['entry_author']      = 'Autorius';
-$_['entry_rating']      = 'Įvertinimas';
-$_['entry_status']      = 'Statusas';
-$_['entry_text']        = 'Tekstas';
-$_['entry_date_added']  = 'Įkėlimo data';
-
-// Help
-$_['help_product']      = '(Užbaigti automatiškai)';
+$_['entry_name']             = 'Savybės pavadinimas';
+$_['entry_attribute_group']  = 'Savybės grupė';
+$_['entry_sort_order']       = 'Rikiavimo tvarka';
 
 // Error
-$_['error_warning']     = 'Įspėjimas: Patikrinkite klaidas formoje!';
-$_['error_permission']  = 'Įspėjimas: Jūs neturite teisės redaguoti apžvalgas!';
-$_['error_product']     = 'Būtinas produktas!';
-$_['error_author']      = 'Autoriaus vardas turi būti tarp 3 ir 64 simbolių!';
-$_['error_text']        = 'Apžvalga turi būti ne trumpesnė, nei 1 simbolis!';
-$_['error_rating']      = 'Būtinas apžvalgos įvertinimas!';
+$_['error_warning']          = 'Įspėjimas: Patikrinkite klaidas formoje!';
+$_['error_permission']       = 'Įspėjimas: Jūs neturite leidimo keisti savybes!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Savybės pavadinimas turi būti nuo 3 iki 64 simbolių!';
+$_['error_product']          = 'Įspėjimas: Ši savybė negali būti panaikinta, nes yra priskirta %s produktams!';
