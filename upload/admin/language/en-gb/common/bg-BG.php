@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Забравили се паролата си?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Забравена парола';
-$_['text_your_email'] = 'Вашият E-Mail адрес';
-$_['text_email']      = 'Въведете имейл адреса, свързан с вашия акаунт. Кликнете върху Изпращане на парола възстановяване връзка електронна поща за вас.';
-$_['text_success']    = 'Имейл с линк за потвърждение е изпратена до вашия имейл адрес.';
-
-// Entry
-$_['entry_email']     = 'Имейл адрес';
-$_['entry_password']  = 'Нова парола';
-$_['entry_confirm']   = 'Потвърди';
-
-// Error
-$_['error_email']     = 'Предупреждение: Имейл адресът не е намерен в нашите архиви, моля опитайте отново!';
-$_['error_password']  = 'Паролата трябва да е с дължина между 4 и 20 символа!';
-$_['error_confirm']   = 'Паролата и потвърждението на паролата не съвпадат!';
+$_['text_order']             = 'Поръчки';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'Завършено';
+$_['text_customer']          = 'Клиенти';
+$_['text_online']            = 'Потребители онлайн';
+$_['text_approval']          = 'Чакащо одобрение';
+$_['text_product']           = 'Продукти';
+$_['text_stock']             = 'Изчерпано количество';
+$_['text_review']            = 'Отзиви';
+$_['text_return']            = 'Връщане';
+$_['text_affiliate']         = 'Съдружници';
+$_['text_store']             = 'Магазини';
+$_['text_front']             = 'Витрина';
+$_['text_help']              = 'Помощ';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Форум за поддръжка';
+$_['text_documentation']     = 'Документация';
+$_['text_logout']            = 'Изход';
