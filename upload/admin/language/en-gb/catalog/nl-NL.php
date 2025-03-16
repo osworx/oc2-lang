@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Recensies';
+$_['heading_title']          = 'Attributen';
 
 // Text
-$_['text_success']      = 'Gefeliciteerd: U heeft de Recensies gewijzigd!';
-$_['text_list']         = 'Recensie lijst';
-$_['text_add']          = 'Voeg een Recensie toe';
-$_['text_edit']         = 'Recensie bewerken';
+$_['text_success']           = 'Succes: Instellingen gewijzigd!';
+$_['text_list']              = 'Lijst';
+$_['text_add']               = 'Toevoegen';
+$_['text_edit']              = 'Wijzigen';
 
 // Column
-$_['column_product']    = 'Product';
-$_['column_author']     = 'Auteur';
-$_['column_rating']     = 'Waardering';
-$_['column_status']     = 'status';
-$_['column_date_added'] = 'Datum';
-$_['column_action']     = 'Aktie';
+$_['column_name']            = 'Attribuutnaam';
+$_['column_attribute_group'] = 'Attribuut groep';
+$_['column_sort_order']      = 'Sorteervolgorde';
+$_['column_action']          = 'Aktie';
 
 // Entry
-$_['entry_product']     = 'Product';
-$_['entry_author']      = 'Auteur';
-$_['entry_rating']      = 'Waardering';
-$_['entry_status']      = 'status';
-$_['entry_text']        = 'Tekst';
-$_['entry_date_added']  = 'Datum';
-
-// Help
-$_['help_product']      = '(AutoAanvullen)';
+$_['entry_name']             = 'Attribuutnaam';
+$_['entry_attribute_group']  = 'Attribuut groep';
+$_['entry_sort_order']       = 'Sorteervolgorde';
 
 // Error
-$_['error_warning']     = 'Waarschuwing: Controlleer of alle verplichte velden volledig zijn ingevuld!';
-$_['error_permission']  = 'Opgelet: U heeft geen rechten om recensies te wijzigen!';
-$_['error_product']     = 'Product vereist!';
-$_['error_author']      = 'De auteur moet tussen de 3 en 64 karakters bevatten!';
-$_['error_text']        = 'Recensie tekst moet minimaal 1 karakter bevatten!';
-$_['error_rating']      = 'Recensie beoordeling vereist!';
+$_['error_warning']          = 'Waarschuwing: Controlleer of alle verplichte velden volledig zijn ingevuld!';
+$_['error_permission']       = 'Waarschuwing: U heeft geen rechten deze instellingen te wijzigen!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Waarschuwing: Attribuutnaam dient tussen de 3 en 64 tekens lang te zijn!';
+$_['error_product']          = 'Waarschuwing: Deze attribuut kan niet worden verwijderd want het is gekoppeld aan %s product(en)!';
