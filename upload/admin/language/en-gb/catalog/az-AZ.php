@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'İstehsalçılar';
+$_['heading_title']      = 'Seçimlər';
 
 // Text
-$_['text_success']      = 'Uğurlu: Siz filtrləri redaktə etdiniz!';
-$_['text_list']         = 'İstehsalçılar';
-$_['text_add']          = 'İstehsalçı əlavə et';
-$_['text_edit']         = 'İstehsalçı redaktə et';
-$_['text_default']      = 'Varsayılan';
-$_['text_percent']      = 'Faiz';
-$_['text_amount']       = 'Müəyyən miqdar';
+$_['text_success']       = 'Müvəffəqiyyət: Siz istifadəçiləri dəyişdirmişsiniz!';
+$_['text_list']          = 'Seçim siyahısı';
+$_['text_add']           = 'Seçim əlavə et';
+$_['text_edit']          = 'Seçimə düzəliş et';
+$_['text_choose']        = 'Seçin';
+$_['text_select']        = 'Seçmək';
+$_['text_radio']         = 'Radio';
+$_['text_checkbox']      = 'Checkbox';
+$_['text_input']         = 'Giriş';
+$_['text_text']          = 'Mətn';
+$_['text_textarea']      = 'Mətn sahəsi';
+$_['text_file']          = 'Fayl';
+$_['text_date']          = 'Tarix';
+$_['text_datetime']      = 'Tarix &amp; zaman';
+$_['text_time']          = 'Vaxt';
 
 // Column
-$_['column_name']       = 'İstehsalçıların adı';
-$_['column_sort_order'] = 'Növlərə görə sırala';
-$_['column_action']     = 'Hərəkət';
+$_['column_name']        = 'Seçimlərin adı';
+$_['column_sort_order']  = 'Növlərə görə sırala';
+$_['column_action']      = 'Hərəkət';
 
 // Entry
-$_['entry_name']        = 'İstehsalçıların adı';
-$_['entry_store']       = 'Dükanlar';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Şəkillər';
-$_['entry_sort_order']  = 'Növlərə görə sırala';
-$_['entry_type']        = 'Növ';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Seçimlərin adı';
+$_['entry_type']         = 'Növ';
+$_['entry_option_value'] = 'Dəyər adı';
+$_['entry_image']        = 'Şəkillər';
+$_['entry_sort_order']   = 'Növlərə görə sırala';
 
 // Error
-$_['error_warning']     = 'Xəbərdarlıq: Xahiş edirik, formu göstərilən səhvlər səbəbiylə diqqətlə nəzarət edin!';
-$_['error_permission']  = 'Xəbərdarlıq: filtr adlarını dəyişmək üçün, sizin icazəniz yoxdur!';
-$_['error_name']        = 'Filtr adı 1 və 64 simvol arasında olmalıdır!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'Xəbərdar etmək: Bu əlamət silinə bilməz, necə ki bu hal-hazırda %s məhsullarına təyin edilir!';
+$_['error_warning']      = 'Xəbərdarlıq: Xahiş edirik, formu göstərilən səhvlər səbəbiylə diqqətlə nəzarət edin!';
+$_['error_permission']   = 'Diqqət: Yükləmələri dəyişmək üçün hüquqlarınız yoxdur!';
+$_['error_name']         = 'Soyad 1-dən 32-yədək simvol aralığında olmalıdır!';
+$_['error_type']         = 'Diqqət: Seçənək dəyərləri mütləqdir.';
+$_['error_option_value'] = 'Soyad 1-dən 32-yədək simvol aralığında olmalıdır!';
+$_['error_product']      = 'Diqqət: Bu yükləmə silinə bilməz, necə ki bu hal-hazırda %s məhsullarına təyin edilir!';
