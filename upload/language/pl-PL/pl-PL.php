@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Kategorie';
+$_['heading_title']     = 'Pliki do pobrania';
 
 // Text
-$_['text_success']           = 'Sukces: Kategorie zostały zmodyfikowane!';
-$_['text_list']              = 'Lista kategorii';
-$_['text_add']               = 'Dodaj kategorię';
-$_['text_edit']              = 'Edytuj kategorię';
-$_['text_default']           = 'Domyślnie';
+$_['text_success']      = 'Sukces: Zmodyfikowane pliki do pobrania!';
+$_['text_list']         = 'Pobierz listę';
+$_['text_add']          = 'Dodaj plik';
+$_['text_edit']         = 'Edytuj plik';
+$_['text_upload']       = 'Plik został pomyślnie załadowany!';
 
 // Column
-$_['column_name']            = 'Nazwa kategorii';
-$_['column_sort_order']      = 'Kolejność sortowania';
-$_['column_action']          = 'Akcja';
+$_['column_name']       = 'Nazwa pliku';
+$_['column_date_added'] = 'Data Dodania';
+$_['column_action']     = 'Akcja';
 
 // Entry
-$_['entry_name']             = 'Nazwa kategorii';
-$_['entry_description']      = 'Opis';
-$_['entry_meta_title'] 	     = 'Meta Tag Tytuł';
-$_['entry_meta_keyword']     = 'Słowa kluczowe Tag meta';
-$_['entry_meta_description'] = 'Opis Tag meta';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'Kategoria nadrzędna:';
-$_['entry_filter']           = 'Filtry';
-$_['entry_store']            = 'Sklepy';
-$_['entry_image']            = 'Zdjęcie';
-$_['entry_top']              = 'U góry';
-$_['entry_column']           = 'Kolumny';
-$_['entry_sort_order']       = 'Kolejność sortowania';
-$_['entry_status']           = 'Status';
-$_['entry_layout']           = 'Zastępowanie układu';
+$_['entry_name']        = 'Nazwa pliku';
+$_['entry_filename']    = 'Nazwa pliku';
+$_['entry_mask']        = 'Maskować';
 
 // Help
-$_['help_filter']            = '(Autouzupełnianie)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'Wyświetla w górnym pasku menu . Działa tylko dla kategorii nadrzędnych.';
-$_['help_column']            = 'Liczba kolumn do wykorzystania w podkategoriach. Działa tylko dla najwyższych nadrzędnych kategorii.';
+$_['help_filename']     = 'Plik możesz przesyłać za pomocą przycisku przesyłania lub użyć protokołu FTP , aby przesłać do katalogu pobierania (poniżej wpisz szczegóły).';
+$_['help_mask']         = 'Zalecane jest, żeby nazwa pliku i maska różniły się od siebie, aby zapobiec bezpośrednim ściągnięciom plików.';
 
 // Error
-$_['error_warning']          = 'Uwaga: Sprawdź dokładnie formularz pod kątem błędów!';
-$_['error_permission']       = 'Ostrzeżenie: Nie masz uprawnień do modyfikowania kategorii!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'Nazwa kategorii musi zawierać od 3 do 255 znaków!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'Uwaga: Sprawdź dokładnie formularz pod kątem błędów!';
+$_['error_permission']  = 'Ostrzeżenie: Nie masz uprawnień do modyfikacji -  pliki do pobrania!';
+$_['error_name']        = 'Nazwa plików musi być między 3 i 64 znaków!';
+$_['error_upload']      = 'Prześlij wymagane!';
+$_['error_filename']    = 'Nazwa pliku musi być między 3 i 128 znaków!';
+$_['error_exists']      = 'Plik nie istnieje!';
+$_['error_mask']        = 'Maskowanie musi być między 3 i 128 znaków!';
+$_['error_filetype']    = 'Nieprawidłowy typ pliku!';
+$_['error_product']     = 'Ostrzeżenie: Nie można usunąć pobrania, jest ono obecnie przypisany do %s produktów!';
