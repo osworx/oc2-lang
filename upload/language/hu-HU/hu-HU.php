@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'Ismétlődő profilok';
+$_['heading_title']     = 'Vélemények';
 
 // Text
-$_['text_success']          = 'Siker: Módosította az ismétlődő profilokat!';
-$_['text_list']             = 'Ismétlődő profilok listája';
-$_['text_add']              = 'Ismétlődő profil hozzáadása';
-$_['text_edit']             = 'Ismétlődő profil szerkesztése';
-$_['text_day']				= 'Nap';
-$_['text_week']				= 'Hét';
-$_['text_semi_month']		= 'Fél hónap';
-$_['text_month']			= 'Hónap';
-$_['text_year']				= 'Év';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i>A gyakoriság és a ciklusok alapján számítjuk ki az ismétlődő összegeket.</p> <p>Például, ha az Ön által használt gyakoriság a "hét" és a ciklus "2", akkor 2 hetente számlázunk.</p><p>Az időintervallum az a szám, amely alatt a felhasználó teljesíti a fizetést, beállíthatja nullára, ha szeretné a kifizetéseket, amég nem törlik azokat.</p>';
-$_['text_profile']			= 'Ismétlődő profil';
-$_['text_trial']			= 'Próba profil';
-
-// Entry
-$_['entry_name']		    = 'Név';
-$_['entry_price']			= 'Ár';
-$_['entry_duration']		= 'Időtartam';
-$_['entry_cycle']			= 'Ciklus';
-$_['entry_frequency']		= 'Gyakoriság';
-$_['entry_trial_price']		= 'Próba ára';
-$_['entry_trial_duration']	= 'Próba időtartama';
-$_['entry_trial_status']	= 'Próba állapota';
-$_['entry_trial_cycle']	    = 'Próba ciklusa';
-$_['entry_trial_frequency'] = 'Próba gyakorisága';
-$_['entry_status']			= 'Állapot';
-$_['entry_sort_order']		= 'Rendezés';
+$_['text_success']      = 'Sikeresen módosította a véleményt!';
+$_['text_list']         = 'Vélemények';
+$_['text_add']          = 'Vélemény írása';
+$_['text_edit']         = 'Vélemény javítása';
 
 // Column
-$_['column_name']			= 'Név';
-$_['column_sort_order']	    = 'Rendezés';
-$_['column_action']         = 'Művelet';
+$_['column_product']    = 'Termék';
+$_['column_author']     = 'Szerző';
+$_['column_rating']     = 'Értékelés';
+$_['column_status']     = 'Állapot';
+$_['column_date_added'] = 'Hozzáadás dátuma';
+$_['column_action']     = 'Művelet';
+
+// Entry
+$_['entry_product']     = 'Termék';
+$_['entry_author']      = 'Szerző';
+$_['entry_rating']      = 'Értékelés';
+$_['entry_status']      = 'Állapot';
+$_['entry_text']        = 'Szöveg';
+$_['entry_date_added']  = 'Hozzáadás dátuma';
+
+// Help
+$_['help_product']      = '(Autó Kiegészítés)';
 
 // Error
-$_['error_warning']         = 'Figyelem: Kérjük, figyelmesen ellenőrizze a hibákat!';
-$_['error_permission']		= 'Figyelem: Nincs jogosultsága az ismétlődő profilok módosításához!';
-$_['error_name']			= 'A profilnév 3-nál több és 255-nél kevesebb karaktert tartalmazhat!';
-$_['error_product']			= 'Figyelem: Ez az ismétlődő profil nem törölhető, mivel jelenleg %s termékhez van hozzárendelve!';
+$_['error_warning']     = 'Figyelem: Kérjük, figyelmesen ellenőrizze a hibákat!';
+$_['error_permission']  = 'Figyelem: Nincs jogosultsága a módosításra!';
+$_['error_product']     = 'Szükséges terméket megadni!';
+$_['error_author']      = 'Szerző nevének 3 és 64 karakter között kell lennie!';
+$_['error_text']        = 'A szövegnek legalább 1 karakter hosszúnak kell lennie!';
+$_['error_rating']      = 'Értékelés is szükséges!';
