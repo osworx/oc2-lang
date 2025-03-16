@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'الادارة';
+$_['heading_title']  = 'إعادة تعيين كلمة المرور الخاصة بك';
 
 // Text
-$_['text_heading']   = 'الادارة';
-$_['text_login']     = 'الرجاء إدخال تفاصيل تسجيل الدخول الخاصة بك.';
-$_['text_forgotten'] = 'كلمة المرور منسيّة';
+$_['text_password']  = 'أدخل كلمة المرور الجديدة التي تريد استخدامها.';
+$_['text_success']   = 'تم بنجاح: كلمة المرور الخاصة بك تم تحديثها.';
 
 // Entry
-$_['entry_username'] = 'اسم المستخدم';
 $_['entry_password'] = 'كلمة المرور';
-
-// Button
-$_['button_login']   = 'تسجيل الدخول';
+$_['entry_confirm']  = 'تأكيد';
 
 // Error
-$_['error_login']    = 'لا تطابق بين اسم المستخدم و/أو كلمة المرور.';
-$_['error_token']    = 'انتهى زمن الجلسة , يرجى تسجيل الدخول مرة أخرى';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'لا تتطابق كلمة المرور مع خانة تأكيد كلمة المرور!';
