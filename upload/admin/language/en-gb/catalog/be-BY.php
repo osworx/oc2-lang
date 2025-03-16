@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Агляды';
+$_['heading_title']          = 'Атрыбуты';
 
 // Text
-$_['text_success']      = 'Поспех: Агляды змененыя!';
-$_['text_list']         = 'Спіс аглядаў';
-$_['text_add']          = 'Дадаць агляд';
-$_['text_edit']         = 'Рэдагаваць агляд';
+$_['text_success']           = 'Поспех: атрыбуты змененыя!';
+$_['text_list']              = 'Спіс атрыбутаў';
+$_['text_add']               = 'Дадаць атрыбут';
+$_['text_edit']              = 'Рэдагаваць атрыбут';
 
 // Column
-$_['column_product']    = 'Тавар';
-$_['column_author']     = 'Аўтар';
-$_['column_rating']     = 'Рэйтынг';
-$_['column_status']     = 'Статус';
-$_['column_date_added'] = 'Дададзена';
-$_['column_action']     = 'Дзеянне';
+$_['column_name']            = 'Назва атрыбуту';
+$_['column_attribute_group'] = 'Група атрыбутаў';
+$_['column_sort_order']      = 'Парадак сартавання';
+$_['column_action']          = 'Дзеянне';
 
 // Entry
-$_['entry_product']     = 'Тавар';
-$_['entry_author']      = 'Аўтар';
-$_['entry_rating']      = 'Рэйтынг';
-$_['entry_status']      = 'Статус';
-$_['entry_text']        = 'Text';
-$_['entry_date_added']  = 'Дададзена';
-
-// Help
-$_['help_product']      = '(Аўтазавяршэнне)';
+$_['entry_name']             = 'Назва атрыбуту';
+$_['entry_attribute_group']  = 'Група атрыбутаў';
+$_['entry_sort_order']       = 'Парадак сартавання';
 
 // Error
-$_['error_warning']     = 'Увага: Калі ласка, ўважліва праверце ўведзеные дадзеныя!';
-$_['error_permission']  = 'Увага: Вы не можаце змяняць агляды!';
-$_['error_product']     = 'Патрэбна ўказаць прадукт!';
-$_['error_author']      = 'Аўтар павінен мець ад 3 да 64 сімвалаў!';
-$_['error_text']        = 'Тэкст агляду павінен быць не меньш за 1 сімвал!';
-$_['error_rating']      = 'Патрэбна ўказаць рэйтынг агляду!';
+$_['error_warning']          = 'Увага: Калі ласка, ўважліва праверце ўведзеные дадзеныя!';
+$_['error_permission']       = 'Увага: вы не маеце права рэдагаваць атрыбут!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Назва атрыбуту павінна мець ад 3 да 64 знакаў!';
+$_['error_product']          = 'Увага: гэты атрыбут не можа быць выдалены, паколькі ён адносіцца да %s тавараў!';
