@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Müdiriyyət';
 
 // Text
-$_['text_order']             = 'Sifarişlər';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Completed';
-$_['text_customer']          = 'Müştərilər';
-$_['text_online']            = 'Customers Online';
-$_['text_approval']          = 'Pending approval';
-$_['text_product']           = 'Məhsullar';
-$_['text_stock']             = 'Out of stock';
-$_['text_review']            = 'Rəylər';
-$_['text_return']            = 'Returns';
-$_['text_affiliate']         = 'Affiliates';
-$_['text_store']             = 'Dükanlar';
-$_['text_front']             = 'Store Front';
-$_['text_help']              = 'Help';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Support Forum';
-$_['text_documentation']     = 'Documentation';
-$_['text_logout']            = 'Logout';
+$_['text_heading']   = 'Müdiriyyət';
+$_['text_login']     = 'Giriş məlumatlarınızı daxil edin.';
+$_['text_forgotten'] = 'Unudulmuş Keçidsözü';
+
+// Entry
+$_['entry_username'] = 'İstifadəçi adı';
+$_['entry_password'] = 'Şifrə';
+
+// Button
+$_['button_login']   = 'Giriş';
+
+// Error
+$_['error_login']    = 'No match for Username and/or Password.';
+$_['error_token']    = 'Səhv token sessiyası. Yenidən Giriş edin.';
