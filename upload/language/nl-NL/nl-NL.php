@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'Openkaart';
+// header
+$_['heading_title']  = 'Administratie';
 
 // Text
-$_['text_order']             = 'Bestellingen';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'Voltooid';
-$_['text_customer']          = 'Klanten';
-$_['text_online']            = 'Online klanten';
-$_['text_approval']          = 'Wachtende op goedkeuring';
-$_['text_product']           = 'Producten';
-$_['text_stock']             = 'Geen voorraad';
-$_['text_review']            = 'Recensies';
-$_['text_return']            = 'Opbrengst';
-$_['text_affiliate']         = 'Leden';
-$_['text_store']             = 'Winkel(s)';
-$_['text_front']             = 'Winkel voorkant';
-$_['text_help']              = 'Help';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Help Forum';
-$_['text_documentation']     = 'Documentatie';
-$_['text_logout']            = 'Uitloggen';
+$_['text_heading']   = 'Administratie';
+$_['text_login']     = 'Voer uw inloggegevens in.';
+$_['text_forgotten'] = 'Vergeten wachtwoord';
+
+// Entry
+$_['entry_username'] = 'Gebruikersnaam';
+$_['entry_password'] = 'Wachtwoord';
+
+// Button
+$_['button_login']   = 'Inloggen';
+
+// Error
+$_['error_login']    = 'Geen gegevens gevonden voor gebruikers en/of Wachtwoord.';
+$_['error_token']    = 'Ongeldige sessie-token.Log opnieuw in.';
