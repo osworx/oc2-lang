@@ -1,108 +1,42 @@
 <?php
 // Heading
-$_['heading_title']          = 'Products';
+$_['heading_title']			= 'Recurring Profiles';
 
 // Text
-$_['text_success']           = 'Success: You have modified products!';
-$_['text_list']              = 'পণ্য তালিকা';
-$_['text_add']               = 'একটি পণ্য যোগ করুন';
-$_['text_edit']              = 'একটি পণ্য যোগ করুন';
-$_['text_plus']              = '+';
-$_['text_minus']             = '-';
-$_['text_default']           = 'ডিফল্ট (পূর্ব-নির্ধারিত)';
-$_['text_option']            = 'Option';
-$_['text_option_value']      = 'বিকল্পের মূল্য';
-$_['text_percent']           = 'Percentage';
-$_['text_amount']            = 'Fixed Amount';
-
-// Column
-$_['column_name']            = 'Product Name';
-$_['column_model']           = 'Model';
-$_['column_image']           = 'ছবি';
-$_['column_price']           = 'Price';
-$_['column_quantity']        = 'Quantity';
-$_['column_status']          = 'অবস্থা';
-$_['column_action']          = 'অ্যাকশনঃ';
+$_['text_success']          = 'Success: You have modified recurring profiles!';
+$_['text_list']             = 'পৌনঃপুনিক প্রোফাইল';
+$_['text_add']              = 'পৌনঃপুনিক প্রোফাইল';
+$_['text_edit']             = 'পৌনঃপুনিক প্রোফাইল';
+$_['text_day']				= 'Day';
+$_['text_week']				= 'Week';
+$_['text_semi_month']		= 'অর্ধদক্ষ মাস';
+$_['text_month']			= 'Month';
+$_['text_year']				= 'Year';
+$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Recurring amounts are calculated by the frequency and cycles.</p><p>For example if you use a frequency of "week" and a cycle of "2", then the user will be billed every 2 weeks.</p><p>The duration is the number of times the user will make a payment, set this to 0 if you want payments until they are cancelled.</p>';
+$_['text_profile']			= 'Recurring Profile';
+$_['text_trial']			= 'Trial Profile';
 
 // Entry
-$_['entry_name']             = 'Product Name';
-$_['entry_description']      = 'বিবরণ';
-$_['entry_meta_title'] 	     = 'মেটা ট্যাগ টাইটেল';
-$_['entry_meta_keyword'] 	 = 'মেটা ট্যাগ কীওয়ার্ডসমূহ';
-$_['entry_meta_description'] = 'মেটা ট্যাগ- বিবরণ';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_model']            = 'Model';
-$_['entry_sku']              = 'SKU';
-$_['entry_upc']              = 'UPC';
-$_['entry_ean']              = 'EAN';
-$_['entry_jan']              = 'JAN';
-$_['entry_isbn']             = 'ISBN';
-$_['entry_mpn']              = 'MPN';
-$_['entry_location']         = 'Location';
-$_['entry_shipping']         = 'Requires Shipping';
-$_['entry_manufacturer']     = 'Manufacturer';
-$_['entry_store']            = 'ভাণ্ডার';
-$_['entry_date_available']   = 'Date Available';
-$_['entry_quantity']         = 'Quantity';
-$_['entry_minimum']          = 'Minimum Quantity';
-$_['entry_stock_status']     = 'Out Of Stock Status';
-$_['entry_price']            = 'Price';
-$_['entry_tax_class']        = 'Tax Class';
-$_['entry_points']           = 'Points';
-$_['entry_option_points']    = 'Points';
-$_['entry_subtract']         = 'Subtract Stock';
-$_['entry_weight_class']     = 'Weight Class';
-$_['entry_weight']           = 'Weight';
-$_['entry_dimension']        = 'Dimensions (L x W x H)';
-$_['entry_length_class']     = 'Length Class';
-$_['entry_length']           = 'Length';
-$_['entry_width']            = 'Width';
-$_['entry_height']           = 'Height';
-$_['entry_image']            = 'ছবি';
-$_['entry_additional_image'] = 'Additional Images';
-$_['entry_customer_group']   = 'Customer Group';
-$_['entry_date_start']       = 'Date Start';
-$_['entry_date_end']         = 'Date End';
-$_['entry_priority']         = 'Priority';
-$_['entry_attribute']        = 'Attribute';
-$_['entry_attribute_group']  = 'অ্যাট্রিবিউট গ্রুপ';
-$_['entry_text']             = 'Text';
-$_['entry_option']           = 'Option';
-$_['entry_option_value']     = 'বিকল্পের মূল্য';
-$_['entry_required']         = 'Required';
-$_['entry_status']           = 'অবস্থা';
-$_['entry_sort_order']       = 'সর্ট অর্ডার';
-$_['entry_category']         = 'শ্রেণীসমূহ';
-$_['entry_filter']           = 'ফিলটারসমূহ';
-$_['entry_download']         = 'ডাউনলোডসমূহ';
-$_['entry_related']          = 'Related Products';
-$_['entry_tag']          	 = 'Product Tags';
-$_['entry_reward']           = 'Reward Points';
-$_['entry_layout']           = 'লেআউট ওভাররাইড';
-$_['entry_recurring']        = 'Recurring Profile';
+$_['entry_name']		    = 'Name';
+$_['entry_price']			= 'Price';
+$_['entry_duration']		= 'Duration';
+$_['entry_cycle']			= 'Cycle';
+$_['entry_frequency']		= 'Frequency';
+$_['entry_trial_price']		= 'Trial price';
+$_['entry_trial_duration']	= 'Trial duration';
+$_['entry_trial_status']	= 'Trial status';
+$_['entry_trial_cycle']	    = 'Trial cycle';
+$_['entry_trial_frequency'] = 'Trial frequency';
+$_['entry_status']			= 'অবস্থা';
+$_['entry_sort_order']		= 'সর্ট অর্ডার';
 
-// Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_sku']               = 'Stock Keeping Unit';
-$_['help_upc']               = 'Universal Product Code';
-$_['help_ean']               = 'European Article Number';
-$_['help_jan']               = 'Japanese Article Number';
-$_['help_isbn']              = 'International Standard Book Number';
-$_['help_mpn']               = 'Manufacturer Part Number';
-$_['help_manufacturer']      = '(স্বয়ংক্রিয় সমাপ্তি)';
-$_['help_minimum']           = 'Force a minimum ordered amount';
-$_['help_stock_status']      = 'Status shown when a product is out of stock';
-$_['help_points']            = 'Number of points needed to buy this item. If you don\'t want this product to be purchased with points leave as 0.';
-$_['help_category']          = '(স্বয়ংক্রিয় সমাপ্তি)';
-$_['help_filter']            = '(স্বয়ংক্রিয় সমাপ্তি)';
-$_['help_download']          = '(স্বয়ংক্রিয় সমাপ্তি)';
-$_['help_related']           = '(স্বয়ংক্রিয় সমাপ্তি)';
-$_['help_tag']               = 'Comma separated';
+// Column
+$_['column_name']			= 'Name';
+$_['column_sort_order']	    = 'সর্ট অর্ডার';
+$_['column_action']         = 'অ্যাকশনঃ';
 
 // Error
-$_['error_warning']          = 'সতর্কীকরণ: অনুগ্রহ করে, ফর্মের ভুলভ্রান্তি, মনোযোগ সহকারে দেখে নিন I!';
-$_['error_permission']       = 'Warning: You do not have permission to modify products!';
-$_['error_name']             = 'Product Name must be greater than 3 and less than 255 characters!';
-$_['error_meta_title']       = 'মেটা টাইটেল -এ, অবশ্যই, ৩ -এর বেশি ও ২৫৫ -র কম চিহ্ন থাকবে I!';
-$_['error_model']            = 'Product Model must be greater than 1 and less than 64 characters!';
-$_['error_keyword']          = 'SEO URL already in use!';
+$_['error_warning']         = 'সতর্কীকরণ: অনুগ্রহ করে, ফর্মের ভুলভ্রান্তি, মনোযোগ সহকারে দেখে নিন I!';
+$_['error_permission']		= 'Warning: You do not have permission to modify recurring profiles!';
+$_['error_name']			= 'Profile Name must be greater than 3 and less than 255 characters!';
+$_['error_product']			= 'Warning: This recurring profile cannot be deleted as it is currently assigned to %s products!';
