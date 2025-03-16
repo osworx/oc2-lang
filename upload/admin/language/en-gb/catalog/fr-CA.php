@@ -1,27 +1,25 @@
 <?php
 // Heading
-$_['heading_title']          = 'Attributs';
+$_['heading_title']     = 'Groupes d\'attributs';
 
 // Text
-$_['text_success']           = 'Félicitation: Vous avez modifié un attribut!';
-$_['text_list']              = 'Liste des attributs';
-$_['text_add']               = 'Ajoutez un attribut';
-$_['text_edit']              = 'Modifiez un attribut';
+$_['text_success']      = 'Succès: Vous avec modifié les attributs de groupe!';
+$_['text_list']         = 'List des attributs de groupe';
+$_['text_add']          = 'Ajouter un attribut de groupe';
+$_['text_edit']         = 'Modifier un attribut de groupe';
 
 // Column
-$_['column_name']            = 'Nom de l\'attribut';
-$_['column_attribute_group'] = 'Groupe d\'attributs';
-$_['column_sort_order']      = 'Ordre de présentation';
-$_['column_action']          = 'Action';
+$_['column_name']       = 'Nom du groupe d\'attributs';
+$_['column_sort_order'] = 'Ordre de présentation';
+$_['column_action']     = 'Action';
 
 // Entry
-$_['entry_name']             = 'Nom de l\'attribut';
-$_['entry_attribute_group']  = 'Groupe d\'attributs';
-$_['entry_sort_order']       = 'Ordre de présentation';
+$_['entry_name']        = 'Nom du groupe d\'attributs';
+$_['entry_sort_order']  = 'Ordre de présentation';
 
 // Error
-$_['error_warning']          = 'Attention: Veuillez vérifier que le formulaire ne contient pas d\'erreur !';
-$_['error_permission']       = 'AVERTISSEMENT : Vous n\'êtes pas autorisé à modifier les attributs !';
-$_['error_attribute_group']  = 'Attribute Group Required!';
-$_['error_name']             = 'Nom de l\'attribut doit être entre 3 et 64 caractères !';
-$_['error_product']          = 'AVERTISSEMENT : Cet attribut ne peut être supprimé car il est actuellement affecté a certains produits %s!';
+$_['error_warning']     = 'Attention: Veuillez vérifier que le formulaire ne contient pas d\'erreur !';
+$_['error_permission']  = 'Avertissement : Vous n\'êtes pas autorisé à modifier les groupes d\'attributs!';
+$_['error_name']        = 'Le nom de groupe d\'attributs doit être entre 3 et 64 caractères!';
+$_['error_attribute']   = 'AVERTISSEMENT : Ce groupe d\'attributs ne peut être supprimé car il est actuellement affecté aux attributs de %s !';
+$_['error_product']     = 'AVERTISSEMENT : Ce groupe d\'attributs ne peut être supprimé car il est actuellement affecté aux produits %s !';
