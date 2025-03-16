@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'Perfís recorrentes';
+$_['heading_title']     = 'Revisións';
 
 // Text
-$_['text_success']          = 'Modificaronse os perfís recorrentes correctamente!';
-$_['text_list']             = 'Lista de perfís recorrentes';
-$_['text_add']              = 'Engadir perfil recorrente';
-$_['text_edit']             = 'Editar perfil recorrente';
-$_['text_day']				= 'Día';
-$_['text_week']				= 'Semana';
-$_['text_semi_month']		= 'Medio mes';
-$_['text_month']			= 'Mes';
-$_['text_year']				= 'Ano';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> As cantidades recorrentes son calculadas pola frecuencia e ciclos.</p><p>Por exemplo si usa a frecuencia de "semana" e o ciclo de "2", enton o usuario será facturado cada 2 semanas.</p><p>A duración é o número de veces que o usuario vai facer un pago, axustado a 0 se desexa pagos ata a súa anulación.</p>';
-$_['text_profile']			= 'Perfís recorrentes';
-$_['text_trial']			= 'Perfil de proba';
-
-// Entry
-$_['entry_name']		    = 'Nome';
-$_['entry_price']			= 'Prezo';
-$_['entry_duration']		= 'Duración';
-$_['entry_cycle']			= 'Ciclo';
-$_['entry_frequency']		= 'Frecuencia';
-$_['entry_trial_price']		= 'Precio de proba';
-$_['entry_trial_duration']	= 'Duración da proba';
-$_['entry_trial_status']	= 'Estado da proba';
-$_['entry_trial_cycle']	    = 'Ciclo da proba';
-$_['entry_trial_frequency'] = 'Frecuencia da proba';
-$_['entry_status']			= 'Estado';
-$_['entry_sort_order']		= 'Orde da clasificación';
+$_['text_success']      = 'Modificaronse as revisións correctamente!';
+$_['text_list']         = 'Lista de revisións';
+$_['text_add']          = 'Engadir revisión';
+$_['text_edit']         = 'Editar revisión';
 
 // Column
-$_['column_name']			= 'Nome';
-$_['column_sort_order']	    = 'Orde da clasificación';
-$_['column_action']         = 'Acción';
+$_['column_product']    = 'Produto';
+$_['column_author']     = 'Autor';
+$_['column_rating']     = 'Puntuación';
+$_['column_status']     = 'Estado';
+$_['column_date_added'] = 'Engadida o';
+$_['column_action']     = 'Acción';
+
+// Entry
+$_['entry_product']     = 'Produto';
+$_['entry_author']      = 'Autor';
+$_['entry_rating']      = 'Puntuación';
+$_['entry_status']      = 'Estado';
+$_['entry_text']        = 'Texto';
+$_['entry_date_added']  = 'Engadida o';
+
+// Help
+$_['help_product']      = '(Autocompletar)';
 
 // Error
-$_['error_warning']         = 'Aviso: Por favor, revise o formulario e busque os erros!';
-$_['error_permission']		= 'Aviso: Non ten os permisos necesarios para modificar os perfís recorrentes!';
-$_['error_name']			= 'O nome do perfil debe ser maior de 2 e menor de 255 caracteres!';
-$_['error_product']			= 'Aviso: Este perfil recorrente non pode ser eliminado xa que actualmente esta asignado a %s produtos!';
+$_['error_warning']     = 'Aviso: Por favor, revise o formulario e busque os erros!';
+$_['error_permission']  = 'Aviso: non ten permisos para modificar as revisións!';
+$_['error_product']     = 'Produto requirido!';
+$_['error_author']      = 'O autor debe ter entre 3 e 64 caracteres!';
+$_['error_text']        = 'O texto da revisión debe ter polo menos 1 caracter!';
+$_['error_rating']      = 'Valoración da revisión requirida!';
