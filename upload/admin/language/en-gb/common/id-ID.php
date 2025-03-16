@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'Administrasi';
 
 // Text
-$_['text_order']             = 'Pesanan';
-$_['text_processing_status'] = 'Memproses';
-$_['text_complete_status']   = 'Selesai';
-$_['text_customer']          = 'Pelanggan';
-$_['text_online']            = 'Pelanggan Online';
-$_['text_approval']          = 'Menunggu Disetujui';
-$_['text_product']           = 'Produk';
-$_['text_stock']             = 'Stok Habis';
-$_['text_review']            = 'Ulasan';
-$_['text_return']            = 'Pengembalian';
-$_['text_affiliate']         = 'Afiliasi';
-$_['text_store']             = 'Toko';
-$_['text_front']             = 'Depan Toko';
-$_['text_help']              = 'Bantuan';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'Forum Dukungan';
-$_['text_documentation']     = 'Dokumentasi';
-$_['text_logout']            = 'Log Keluar';
+$_['text_heading']   = 'Administrasi';
+$_['text_login']     = 'Silahkan masukkan rincian login anda.';
+$_['text_forgotten'] = 'Lupa Kata Sandi';
+
+// Entry
+$_['entry_username'] = 'Nama Pengguna';
+$_['entry_password'] = 'Kata Sandi';
+
+// Button
+$_['button_login']   = 'Log Masuk';
+
+// Error
+$_['error_login']    = 'Username dan/atau Kata Sandi tidak cocok.';
+$_['error_token']    = 'Sesi token salah, silahkan log masuk kembali.';
