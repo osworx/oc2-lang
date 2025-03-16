@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'Periodiski profili';
+$_['heading_title']     = 'Apraksti';
 
 // Text
-$_['text_success']          = 'Panākumi: Esat izmainījis periodiskā profili!';
-$_['text_list']             = 'Periodiska profila saraksts';
-$_['text_add']              = 'Periodiska profila pievienošana';
-$_['text_edit']             = 'Periodiska profila rediģēšanai';
-$_['text_day']				= 'Diena';
-$_['text_week']				= 'Nedēļa';
-$_['text_semi_month']		= 'Daļēji mēnesī';
-$_['text_month']			= 'Mēnesis';
-$_['text_year']				= 'Gads';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> periodisks summas tiek aprēķinātas, biežumu un cikli.</p><p>Piemēram, lietojot frekvences "nedēļas" un ciklu "% 2", tad lietotājam būs jāmaksā ik pēc 2 nedēļām.</p><p>Ilgums ir, cik reizes lietotājs būs veikt maksājumu, kopa ar 0, ja vēlaties maksājumiem, līdz brīdim, kad tie tiek atcelti.</p>';
-$_['text_profile']			= 'Periodiski profili';
-$_['text_trial']			= 'Izmēģinājuma profils';
-
-// Entry
-$_['entry_name']		    = 'Nosaukums';
-$_['entry_price']			= 'Cena';
-$_['entry_duration']		= 'Ilgums';
-$_['entry_cycle']			= 'Cikls';
-$_['entry_frequency']		= 'Frekvence';
-$_['entry_trial_price']		= 'Izmēģinājuma cena';
-$_['entry_trial_duration']	= 'Pārbaudes ilgums';
-$_['entry_trial_status']	= 'Pārbaudes statuss';
-$_['entry_trial_cycle']	    = 'Pārbaudes cikls';
-$_['entry_trial_frequency'] = 'Pārbaudes biežums';
-$_['entry_status']			= 'Statuss';
-$_['entry_sort_order']		= 'Kārtošanas secība';
+$_['text_success']      = 'Veiksmīga: Jūs esat modificējis atsauksmes!';
+$_['text_list']         = 'Pārskata sarakstā';
+$_['text_add']          = 'Pievienot atsauksmes';
+$_['text_edit']         = 'Rediģēt atsauksmes';
 
 // Column
-$_['column_name']			= 'Nosaukums';
-$_['column_sort_order']	    = 'Kārtošanas secība';
-$_['column_action']         = 'Darbība';
+$_['column_product']    = 'Produkts';
+$_['column_author']     = 'Autors';
+$_['column_rating']     = 'Vērtējums';
+$_['column_status']     = 'Statuss';
+$_['column_date_added'] = 'Pievienošanas datums';
+$_['column_action']     = 'Darbība';
+
+// Entry
+$_['entry_product']     = 'Produkts';
+$_['entry_author']      = 'Autors';
+$_['entry_rating']      = 'Vērtējums';
+$_['entry_status']      = 'Statuss';
+$_['entry_text']        = 'Teksts';
+$_['entry_date_added']  = 'Pievienošanas datums';
+
+// Help
+$_['help_product']      = '(Automātiskās pabeigšanas)';
 
 // Error
-$_['error_warning']         = 'Brīdinājums: Lūdzu pārbaudiet formu rūpīgi ,ir dažas kļūdas!';
-$_['error_permission']		= 'Brīdinājums: Jums nav tiesību modificēt periodisku profili!';
-$_['error_name']			= 'Profila nosaukumā ir jābūt lielākam par 3 līdz mazāk nekā 255 rakstzīmes!';
-$_['error_product']			= 'Brīdinājums: Šī periodiskā profila nevar dzēst, jo tā pašlaik ir piešķirts %s produktus!';
+$_['error_warning']     = 'Brīdinājums: Lūdzu pārbaudiet formu rūpīgi ,ir dažas kļūdas!';
+$_['error_permission']  = 'Brīdinājums: Jums nav tiesību modificēt atsauksmes!';
+$_['error_product']     = 'Produkts, kas nepieciešama!';
+$_['error_author']      = 'Autors ir jābūt no 3 līdz 64 rakstzīmēm!';
+$_['error_text']        = 'Pārskatīšanas tekstam ir jābūt vismaz 1 zīmi garam!';
+$_['error_rating']      = 'Pārskata vērtējumu, kas vajadzīgs!';
