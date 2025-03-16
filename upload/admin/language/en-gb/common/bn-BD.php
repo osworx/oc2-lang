@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administration';
+$_['heading_title']  = 'Reset your password';
 
 // Text
-$_['text_heading']   = 'Administration';
-$_['text_login']     = 'অনুগ্রহ করে আপনার ইমেইল লিখুন.';
-$_['text_forgotten'] = 'পাসওয়ার্ড ভুলে গেছেন';
+$_['text_password']  = 'আপনি ব্যবহার করতে চান নতুন গুপ্ত-সংকেত প্রবেশ করান।.';
+$_['text_success']   = 'আপনার পাসওয়ার্ড টি সফলভাবে আপডেট করা হয়েছে.';
 
 // Entry
-$_['entry_username'] = 'ইউজারনেম';
 $_['entry_password'] = 'Password';
-
-// Button
-$_['button_login']   = 'Login';
+$_['entry_confirm']  = 'নিশ্চিত করুন';
 
 // Error
-$_['error_login']    = 'No match for Username and/or Password.';
-$_['error_token']    = 'অকার্যকর টোকেন অধিবেশন। আবার লগ ইন অনুগ্রহ করে।.';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'Password and password confirmation do not match!';
