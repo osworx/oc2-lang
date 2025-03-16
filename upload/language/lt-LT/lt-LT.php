@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administravimas';
+$_['heading_title']  = 'Atstatyti slaptažodį';
 
 // Text
-$_['text_heading']   = 'Administravimas';
-$_['text_login']     = 'Įveskite savo prisijungimo duomenis.';
-$_['text_forgotten'] = 'Pamiršau slaptažodį';
+$_['text_password']  = 'Įveskite naują slaptažodį, kurį norėtumėte naudoti.';
+$_['text_success']   = 'Atlikta: Jūsų slaptažodis buvo sėkmingai atnaujintas.';
 
 // Entry
-$_['entry_username'] = 'Vartotojo vardas';
 $_['entry_password'] = 'Slaptažodis';
-
-// Button
-$_['button_login']   = 'Prisijungti';
+$_['entry_confirm']  = 'Patvirtinti';
 
 // Error
-$_['error_login']    = 'Nerastas toks vartotojo vardas ir/ar slaptažodis.';
-$_['error_token']    = 'Bloga sesija. Prisijunkite iš naujo.';
+$_['error_password'] = 'Slaptažodis turi būti nuo 4 iki 20 simbolių!';
+$_['error_confirm']  = 'Slaptažodis ir slaptažodžio pakartojimas nesutampa!';
