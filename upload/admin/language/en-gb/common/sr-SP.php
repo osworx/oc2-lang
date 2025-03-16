@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Заборавули сте лозинку?';
+// Heading
+$_['heading_title']          = '"OpenCart"';
 
 // Text
-$_['text_forgotten']  = 'Заборављена лозинка';
-$_['text_your_email'] = 'Ваша имејл адреса';
-$_['text_email']      = 'Унесите имејл адресу повезану са вашим налогом. Кликните на проследи да бисте добили везу за ресет.';
-$_['text_success']    = 'Имејл са везом за потврду је послат на вашу административну имејл адресу.';
-
-// Entry
-$_['entry_email']     = 'Имејл адреса';
-$_['entry_password']  = 'Нова лозинка';
-$_['entry_confirm']   = 'Потврди';
-
-// Error
-$_['error_email']     = 'Упозорење: Имејл адреса није пронађена међу нашим подацима, молимо покушајте поново!';
-$_['error_password']  = 'Дужина лозинке мора бити између 4 и 20 знакова!';
-$_['error_confirm']   = 'Лозинка и потврда лозинке се не слажу!';
+$_['text_order']             = 'Поруџбине';
+$_['text_processing_status'] = 'Обрађивање';
+$_['text_complete_status']   = 'Завршено';
+$_['text_customer']          = 'Корисници';
+$_['text_online']            = 'Корисници на мрежи';
+$_['text_approval']          = 'Чека одобрење';
+$_['text_product']           = 'Производи';
+$_['text_stock']             = 'Нема на стању';
+$_['text_review']            = 'Рецензије';
+$_['text_return']            = 'Повраћаји';
+$_['text_affiliate']         = 'Сарадници';
+$_['text_store']             = 'Продавнице';
+$_['text_front']             = 'Излог';
+$_['text_help']              = 'Помоћ';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Форум за подршку';
+$_['text_documentation']     = 'Документација';
+$_['text_logout']            = 'Одјава';
