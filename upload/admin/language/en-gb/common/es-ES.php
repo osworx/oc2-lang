@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administración';
+$_['heading_title']  = 'Restablece tu contraseña';
 
 // Text
-$_['text_heading']   = 'Administración';
-$_['text_login']     = 'Por favor ingrese sus datos de inicio de sesión.';
-$_['text_forgotten'] = 'Contraseña olvidada';
+$_['text_password']  = 'Introduzca la nueva contraseña que desea utilizar.';
+$_['text_success']   = 'Su contraseña ha sido actualizada satisfactoriamente.';
 
 // Entry
-$_['entry_username'] = 'Usuario';
 $_['entry_password'] = 'Contraseña';
-
-// Button
-$_['button_login']   = 'Acceder';
+$_['entry_confirm']  = 'Confirmar';
 
 // Error
-$_['error_login']    = 'El usuario y/o contraseña no coinciden.';
-$_['error_token']    = 'Sesión de token no válido. Por favor ingresa nuevamente.';
+$_['error_password'] = 'La Contraseña debe poseer entre 4 y 20 caracteres!';
+$_['error_confirm']  = 'La contraseña y su confirmación no coinciden!';
