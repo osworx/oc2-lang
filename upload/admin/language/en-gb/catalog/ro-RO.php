@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Opinii';
+$_['heading_title']          = 'Atribute';
 
 // Text
-$_['text_success']      = 'Felicitări: Ați modificat opiniile!';
-$_['text_list']         = 'Listă opinii';
-$_['text_add']          = 'Adaugă o opinie';
-$_['text_edit']         = 'Modifică o opinie';
+$_['text_success']           = 'Succes: Ai modificat atributele!';
+$_['text_list']              = 'Lista de atribute';
+$_['text_add']               = 'Adaugă atribut';
+$_['text_edit']              = 'Modifică atribut';
 
 // Column
-$_['column_product']    = 'Produs';
-$_['column_author']     = 'Autor';
-$_['column_rating']     = 'Evaluare';
-$_['column_status']     = 'Stare';
-$_['column_date_added'] = 'Data adăugării';
-$_['column_action']     = 'Acțiune';
+$_['column_name']            = 'Denumire atribut';
+$_['column_attribute_group'] = 'Grup atribut';
+$_['column_sort_order']      = 'Ordinea de sortare';
+$_['column_action']          = 'Acțiune';
 
 // Entry
-$_['entry_product']     = 'Produs';
-$_['entry_author']      = 'Autor';
-$_['entry_rating']      = 'Evaluare';
-$_['entry_status']      = 'Stare';
-$_['entry_text']        = 'Text';
-$_['entry_date_added']  = 'Data adăugării';
-
-// Help
-$_['help_product']      = '(Completare automată)';
+$_['entry_name']             = 'Denumire atribut';
+$_['entry_attribute_group']  = 'Grup atribut';
+$_['entry_sort_order']       = 'Ordinea de sortare';
 
 // Error
-$_['error_warning']     = 'Avertisment: Vă rugăm să verificaţi formularul pentru erori!';
-$_['error_permission']  = 'Avertisment: Nu aveți permisiunea de a modifica opiniile!';
-$_['error_product']     = 'Produs necesar!';
-$_['error_author']      = 'Autorul trebuie să fie între 3 caractere și 64 de caractere!';
-$_['error_text']        = 'Textul opiniei trebuie să fie de cel puțin un caracter!';
-$_['error_rating']      = 'Evaluare opinie necesară!';
+$_['error_warning']          = 'Avertisment: Vă rugăm să verificaţi formularul pentru erori!';
+$_['error_permission']       = 'Avertisment: Nu aveţi permisiunile necesare pentru a modifica atributele!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Denumirea atributului trebuie să fie aibă între 3 şi 64 de caractere!';
+$_['error_product']          = 'Avertisment: Acest atribut nu poate fi șters deoarece este asociat la %s produse!';
