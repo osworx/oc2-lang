@@ -1,27 +1,25 @@
 <?php
 // Heading
-$_['heading_title']          = 'Attribut';
+$_['heading_title']     = 'Attributgrupper';
 
 // Text
-$_['text_success']           = 'Klart: Du har ändrat attributen!';
-$_['text_list']              = 'Attributlista';
-$_['text_add']               = 'Lägg till Attribut';
-$_['text_edit']              = 'Redigera Attribut';
+$_['text_success']      = 'Klart: Du har modifierat attributgrupper!';
+$_['text_list']         = 'Attributgruppslista';
+$_['text_add']          = 'Lägg till attributgrupp';
+$_['text_edit']         = 'Redigera attributgrupp';
 
 // Column
-$_['column_name']            = 'Attributnamn';
-$_['column_attribute_group'] = 'Attributgrupp';
-$_['column_sort_order']      = 'Sorteringsordning';
-$_['column_action']          = 'Åtgärd';
+$_['column_name']       = 'Attributgruppens namn';
+$_['column_sort_order'] = 'Sorteringsordning';
+$_['column_action']     = 'Åtgärd';
 
 // Entry
-$_['entry_name']             = 'Attributnamn';
-$_['entry_attribute_group']  = 'Attributgrupp';
-$_['entry_sort_order']       = 'Sorteringsordning';
+$_['entry_name']        = 'Attributgruppens namn';
+$_['entry_sort_order']  = 'Sorteringsordning';
 
 // Error
-$_['error_warning']          = 'Varning: Kolla gärna formuläret noga vad det gäller fel!';
-$_['error_permission']       = 'Varning: Du har inte behörighet att redigera attribut!';
-$_['error_attribute_group']  = 'Attribute Group Required!';
-$_['error_name']             = 'Attributets Namn, måste vara mellan 3 och 64 tecken!';
-$_['error_product']          = 'Varning: Detta attribut kan inte raderas, det är tilldelat %s produkter!';
+$_['error_warning']     = 'Varning: Kolla gärna formuläret noga vad det gäller fel!';
+$_['error_permission']  = 'Varning: Du har inte behörighet att redigera attributgrupper!';
+$_['error_name']        = 'Attributgruppens namn, måste vara mellan 3 och 64 tecken långt!';
+$_['error_attribute']   = 'Varning: Denna attributgrupp kan inte raderas då den används av %s attribut!';
+$_['error_product']     = 'Varning: Denna attributgrupp kan inte raderas då den används av %s produkter!';
