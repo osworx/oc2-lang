@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administracija';
+$_['heading_title']  = 'Ponastavljanje gesla';
 
 // Text
-$_['text_heading']   = 'Administracija';
-$_['text_login']     = 'Prosimo, vpišite vaše prijavne podatke.';
-$_['text_forgotten'] = 'Pozabljeno geslo';
+$_['text_password']  = 'Vpišite novo geslo.';
+$_['text_success']   = 'USPEŠNO: Ste ponastavili geslo.';
 
 // Entry
-$_['entry_username'] = 'Uporabniško ime';
 $_['entry_password'] = 'Geslo';
-
-// Button
-$_['button_login']   = 'Prijava';
+$_['entry_confirm']  = 'Potrdite novo geslo';
 
 // Error
-$_['error_login']    = 'Neveljavno uporabniško ime in/ali geslo.';
-$_['error_token']    = 'Vaša seja je potekla, oz. je neveljavna ali nepopolna! Prosimo, ponovno se prijavite.';
+$_['error_password'] = 'Geslo mora vsebovati med 4 in 20 znakov!';
+$_['error_confirm']  = 'Vpisa v Novo geslo in Potrdite novo geslo nista enaka!';
