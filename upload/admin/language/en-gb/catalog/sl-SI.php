@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Mnenja in ocene';
+$_['heading_title']          = 'Lastnosti';
 
 // Text
-$_['text_success']      = 'USPEŠNO: Ste uredili mnenja in ocene!';
-$_['text_list']         = 'Seznam mnenj';
-$_['text_add']          = 'Dodajte mnenje';
-$_['text_edit']         = 'Uredite mnenje';
+$_['text_success']           = 'USPEŠNO: Ste uredili lastnosti!';
+$_['text_list']              = 'Seznam lastnosti';
+$_['text_add']               = 'Dodaj lastnost';
+$_['text_edit']              = 'Uredi lastnost';
 
 // Column
-$_['column_product']    = 'Izdelek';
-$_['column_author']     = 'Avtor';
-$_['column_rating']     = 'Ocena';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Dodano dne';
-$_['column_action']     = 'Dejanje';
+$_['column_name']            = 'Ime lastnosti';
+$_['column_attribute_group'] = 'Skupina lastnosti';
+$_['column_sort_order']      = 'Vrstni red';
+$_['column_action']          = 'Dejanje';
 
 // Entry
-$_['entry_product']     = 'Izdelek';
-$_['entry_author']      = 'Avtor';
-$_['entry_rating']      = 'Ocena';
-$_['entry_status']      = 'Status';
-$_['entry_text']        = 'Besedilo';
-$_['entry_date_added']  = 'Dodano dne';
-
-// Help
-$_['help_product']      = '(Samodokončanje)';
+$_['entry_name']             = 'Ime lastnosti';
+$_['entry_attribute_group']  = 'Skupina lastnosti';
+$_['entry_sort_order']       = 'Vrstni red';
 
 // Error
-$_['error_warning']     = 'POZOR: Prosimo, pazljivo preverite polja za morebitne napake!';
-$_['error_permission']  = 'POZOR: Nimate dovoljenja za urejanje mnenj!';
-$_['error_product']     = 'Izdelek je zahtevan!';
-$_['error_author']      = 'Avtorjevo ime mora imeti več kot 3 in manj kot 64 znakov!';
-$_['error_text']        = 'Besedilo mnenj mora imeti najmanj 1 znak!';
-$_['error_rating']      = 'Ocena izdelka je zahtevana!';
+$_['error_warning']          = 'POZOR: Prosimo, pazljivo preverite polja za morebitne napake!';
+$_['error_permission']       = 'POZOR: Nimate dovoljenja za urejanje lastnosti!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Ime lastnosti mora vsebovati med 3 in 64 znakov!';
+$_['error_product']          = 'POZOR: Te lastnosti ne morete izbrisati, ker je trenutno vezana na %s izdelke!';
