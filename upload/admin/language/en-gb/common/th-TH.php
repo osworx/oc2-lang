@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'การบริหาร';
+$_['heading_title']  = 'รีเซ็ตรหัสผ่านของคุณ';
 
 // Text
-$_['text_heading']   = 'การบริหาร';
-$_['text_login']     = 'กรุณาระบุรายละเอียดของคุณเพื่อเข้าสู่ระบบ';
-$_['text_forgotten'] = 'ลืมรหัสผ่าน';
+$_['text_password']  = 'ป้อนรหัสผ่านใหม่ที่คุณต้องการใช้';
+$_['text_success']   = 'สำเร็จ: รหัสผ่านของคุณได้รับการแก้ใขเรียบร้อยแล้ว.';
 
 // Entry
-$_['entry_username'] = 'ชื่อผู้ใช้';
 $_['entry_password'] = 'รหัสผ่าน';
-
-// Button
-$_['button_login']   = 'เข้าสู่ระบบ';
+$_['entry_confirm']  = 'ยืนยัน';
 
 // Error
-$_['error_login']    = 'ข้อมูลที่ระบุไม่ตรงกับชื่อผู้ใช้และ/หรือรหัสผ่าน ในฐานข้อมูล';
-$_['error_token']    = 'โทเค็นไม่ถูกต้อง กรุณาเข้าสู่ระบบอีกครั้ง';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'รหัสผ่านและรหัสยืนยันไม่ตรงกัน!';
