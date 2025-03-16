@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Reviews';
+$_['heading_title']          = 'অ্যাট্ট্রিবিউট সমূহ';
 
 // Text
-$_['text_success']      = 'Success: You have modified reviews!';
-$_['text_list']         = 'তালিকা পর্যালোচনা';
-$_['text_add']          = 'রিভিউ যুক্ত করুন';
-$_['text_edit']         = 'রিভিউ যুক্ত করুন';
+$_['text_success']           = 'সম্পন্নঃ আপনি অ্যাট্ট্রিবিউটটি মডিফাই করেছেন!';
+$_['text_list']              = 'অ্যাট্ট্রিবিউটের তালিকা';
+$_['text_add']               = 'অ্যাট্ট্রিবিউট যুক্ত করুন';
+$_['text_edit']              = 'অ্যাট্ট্রিবিউট সম্পাদন করুন';
 
 // Column
-$_['column_product']    = 'Product';
-$_['column_author']     = 'Author';
-$_['column_rating']     = 'Rating';
-$_['column_status']     = 'অবস্থা';
-$_['column_date_added'] = 'তারিখ যুক্ত হয়েছে';
-$_['column_action']     = 'অ্যাকশনঃ';
+$_['column_name']            = 'অ্যাট্রিবিউটের নাম';
+$_['column_attribute_group'] = 'অ্যাট্রিবিউট গ্রুপ';
+$_['column_sort_order']      = 'সর্ট অর্ডার';
+$_['column_action']          = 'অ্যাকশনঃ';
 
 // Entry
-$_['entry_product']     = 'Product';
-$_['entry_author']      = 'Author';
-$_['entry_rating']      = 'Rating';
-$_['entry_status']      = 'অবস্থা';
-$_['entry_text']        = 'Text';
-$_['entry_date_added']  = 'তারিখ যুক্ত হয়েছে';
-
-// Help
-$_['help_product']      = '(স্বয়ংক্রিয় সমাপ্তি)';
+$_['entry_name']             = 'অ্যাট্রিবিউটের নাম';
+$_['entry_attribute_group']  = 'অ্যাট্রিবিউট গ্রুপ';
+$_['entry_sort_order']       = 'সর্ট অর্ডার';
 
 // Error
-$_['error_warning']     = 'সতর্কীকরণ: অনুগ্রহ করে, ফর্মের ভুলভ্রান্তি, মনোযোগ সহকারে দেখে নিন I!';
-$_['error_permission']  = 'Warning: You do not have permission to modify reviews!';
-$_['error_product']     = 'Product required!';
-$_['error_author']      = 'Author must be between 3 and 64 characters!';
-$_['error_text']        = 'Review Text must be at least 1 character!';
-$_['error_rating']      = 'Review rating required!';
+$_['error_warning']          = 'সতর্কীকরণ: অনুগ্রহ করে, ফর্মের ভুলভ্রান্তি, মনোযোগ সহকারে দেখে নিন I!';
+$_['error_permission']       = 'সতর্কতা: আপনার অ্যাট্ট্রিবিউট পরিবর্তন করার অনুমতি নেই!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'অ্যাট্ট্রিবিউটের নাম অবশ্যই ৩ থেকে ৬৪ অক্ষরের মাঝে হতে হবে!';
+$_['error_product']          = 'সতর্কতাঃ এই অ্যাট্রিবিউটটি মুছা যাবে না, কারণ এটি বরতমানে %s ব্যবহার করছে!';
