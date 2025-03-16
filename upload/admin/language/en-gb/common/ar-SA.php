@@ -1,23 +1,19 @@
 <?php
-// Heading
-$_['heading_title']          = 'OpenCart';
+// header
+$_['heading_title']  = 'الادارة';
 
 // Text
-$_['text_order']             = 'الطلبات';
-$_['text_processing_status'] = 'Processing';
-$_['text_complete_status']   = 'اكتمل';
-$_['text_customer']          = 'العملاء';
-$_['text_online']            = 'العملاء المتواجدون الآن';
-$_['text_approval']          = 'بانتظار التأكيد';
-$_['text_product']           = 'المنتجات';
-$_['text_stock']             = 'غير متوفر حالياً';
-$_['text_review']            = 'المراجعات';
-$_['text_return']            = 'المُرتجعات';
-$_['text_affiliate']         = 'شركاء التسويق';
-$_['text_store']             = 'المتاجر';
-$_['text_front']             = 'واجهة المتجر';
-$_['text_help']              = 'المساعدة';
-$_['text_homepage']          = 'OpenCart Homepage';
-$_['text_support']           = 'منتدى الدعم الفني';
-$_['text_documentation']     = 'الوثائق';
-$_['text_logout']            = 'تسجيل الخروج';
+$_['text_heading']   = 'الادارة';
+$_['text_login']     = 'الرجاء إدخال تفاصيل تسجيل الدخول الخاصة بك.';
+$_['text_forgotten'] = 'كلمة المرور منسيّة';
+
+// Entry
+$_['entry_username'] = 'اسم المستخدم';
+$_['entry_password'] = 'كلمة المرور';
+
+// Button
+$_['button_login']   = 'تسجيل الدخول';
+
+// Error
+$_['error_login']    = 'لا تطابق بين اسم المستخدم و/أو كلمة المرور.';
+$_['error_token']    = 'انتهى زمن الجلسة , يرجى تسجيل الدخول مرة أخرى';
