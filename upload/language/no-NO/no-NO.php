@@ -1,35 +1,25 @@
 <?php
 // Heading
-$_['heading_title']     = 'Nedlastninger';
+$_['heading_title']     = 'Filtre';
 
 // Text
 $_['text_success']      = 'Endringer ble vellykket lagret.';
 $_['text_list']         = 'Liste';
 $_['text_add']          = 'Legg til';
 $_['text_edit']         = 'Endre';
-$_['text_upload']       = 'Filen ble lastet opp.';
 
 // Column
-$_['column_name']       = 'Navn';
-$_['column_date_added'] = 'Lagt til';
+$_['column_group']      = 'Gruppe';
+$_['column_sort_order'] = 'Sortering';
 $_['column_action']     = 'Valg';
 
 // Entry
-$_['entry_name']        = 'Navn';
-$_['entry_filename']    = 'Filnavn';
-$_['entry_mask']        = 'Maskering';
-
-// Help
-$_['help_filename']     = 'Du kan laste opp ved å klikke på \'Last opp\'-knappen, eller ved å bruke FTP for å laste opp til \'download\'-mappen, og deretter fylle inn detaljene nedenfor.';
-$_['help_mask']         = 'Det er anbefalt at filnavn og maskering er forskjellige, for å forhindre direkte nedlasting via lenke.';
+$_['entry_group']       = 'Gruppenavn';
+$_['entry_name']        = 'Filternavn';
+$_['entry_sort_order']  = 'Sortering';
 
 // Error
 $_['error_warning']     = 'Påse at alle påkrevde felter er fylt inn.';
 $_['error_permission']  = 'Du har ikke rettigheter til å utføre valgte handling.';
-$_['error_name']        = 'Navn må inneholde mellom 3 og 64 tegn.';
-$_['error_upload']      = 'Du må velg fil som skal lastes opp.';
-$_['error_filename']    = 'Filnavn må inneholde mellom 3 og 128 tegn.';
-$_['error_exists']      = 'Filen finnes ikke.';
-$_['error_mask']        = 'Maskering må inneholde mellom 3 og 128 tegn.';
-$_['error_filetype']    = 'Ugyldig filtype.';
-$_['error_product']     = 'Denne nedlastingen kan ikke slettes ettersom den er tilknyttet %s produkter.';
+$_['error_group']       = 'Navn må inneholde mellom 3 og 64 tegn.';
+$_['error_name']        = 'Filternavn må inneholde mellom 3 og 64 tegn.';
