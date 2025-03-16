@@ -1,45 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Informacije';
+$_['heading_title']     = 'Proizvođači';
 
 // Text
-$_['text_success']           = 'Uspeh: Vi ste izmenili informacije!';
-$_['text_list']              = 'Lista Informacija';
-$_['text_add']               = 'Dodaj Informaciju';
-$_['text_edit']              = 'Izmenite Informaciju';
-$_['text_default']           = 'Podrazumevano';
+$_['text_success']      = 'Uspeh: Vi ste izmenili proizvođače!';
+$_['text_list']         = 'Lista Proizvođača';
+$_['text_add']          = 'Dodaj Proizvođača';
+$_['text_edit']         = 'Izmeni Proizvođača';
+$_['text_default']      = 'Podrazumevano';
+$_['text_percent']      = 'Procenat';
+$_['text_amount']       = 'Fiksni Iznos';
 
 // Column
-$_['column_title']           = 'Naziv Informacije';
-$_['column_sort_order']	     = 'Sortiraj po';
-$_['column_action']          = 'Akcija';
+$_['column_name']       = 'Ime Proizvođača';
+$_['column_sort_order'] = 'Sortiraj po';
+$_['column_action']     = 'Akcija';
 
 // Entry
-$_['entry_title']            = 'Naziv Informacije';
-$_['entry_description']      = 'Opis';
-$_['entry_store']            = 'Prodavnice';
-$_['entry_meta_title'] 	     = 'Meta Oznaka Naslova';
-$_['entry_meta_keyword'] 	 = 'Meta Oznaka Ključne reči';
-$_['entry_meta_description'] = 'Meta Oznaka Opisa';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_bottom']           = 'Dole';
-$_['entry_status']           = 'Stanje';
-$_['entry_sort_order']       = 'Sortiraj po';
-$_['entry_layout']           = 'Zamena Rasporeda';
+$_['entry_name']        = 'Ime Proizvođača';
+$_['entry_store']       = 'Prodavnice';
+$_['entry_keyword']     = 'SEO URL';
+$_['entry_image']       = 'Slika';
+$_['entry_sort_order']  = 'Sortiraj po';
+$_['entry_type']        = 'Tip';
 
 // Help
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_bottom']            = 'Prikaži u podnožiju.';
+$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
 
 // Error
-$_['error_warning']          = 'Upozorenje: Molimo proverite formu zbog grešaka!';
-$_['error_permission']       = 'Upozorenje: Nemate dozvolu da izmenite informacije!';
-$_['error_title']            = 'Naziv Informacije mora biti između 3 i 64 karaktera!';
-$_['error_description']      = 'Opis mora biti više od 3 karaktera!';
-$_['error_meta_title']       = 'Meta Naziv mora biti veći od 3 a manji od 255 karaktera!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_account']          = 'Upozorenje: Ova stranica informacije ne može biti izbrisana jer je trenutno dodeljena kao uslovi korišćenja ove prodavnice!';
-$_['error_checkout']         = 'Upozorenje: Ova stranica informacije ne može biti izbrisana jer je trenutno dodeljena kao uslovi plaćanja ove prodavnice!';
-$_['error_affiliate']        = 'Upozorenje: Ova stranica informacije ne može biti izbrisana jer je trenutno dodeljena kao uslovi saradnje ove prodavnice!';
-$_['error_return']           = 'Upozorenje: Ova stranica informacije ne može biti izbrisana jer je trenutno dodeljena kao uslovi povraćaja ove prodavnice!';
-$_['error_store']            = 'Warning: This information page cannot be deleted as it is currently used by %s stores!';
+$_['error_warning']     = 'Upozorenje: Molimo proverite formu zbog grešaka!';
+$_['error_permission']  = 'Upozorenje: Nemate dozvolu da izmenite proizvođače!';
+$_['error_name']        = 'Ime Proizvođača mora biti između 2 i 64 karaktera!';
+$_['error_keyword']     = 'SEO URL already in use!';
+$_['error_product']     = 'Upozorenje: Ovaj proizvođač ne može biti izbrisan jer je trenutno dodeljen %s proizvodima!';
