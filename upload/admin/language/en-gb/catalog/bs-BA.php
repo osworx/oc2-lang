@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Recenzije';
+$_['heading_title']          = 'Atributi';
 
 // Text
-$_['text_success']      = 'Uspjeh: Izmjena recenzija!';
-$_['text_list']         = 'Pregled recenzija';
-$_['text_add']          = 'Dodaj recenziju';
-$_['text_edit']         = 'Uređivanje recenzije';
+$_['text_success']           = 'Uspjeh: Uspješno ste promjenili atribute!';
+$_['text_list']              = 'Popisa atributa';
+$_['text_add']               = 'Dodavanje atributa';
+$_['text_edit']              = 'Uredite atribut';
 
 // Column
-$_['column_product']    = 'Proizvod';
-$_['column_author']     = 'Autor';
-$_['column_rating']     = 'Rejting';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Datum dodavanja';
-$_['column_action']     = 'Akcija';
+$_['column_name']            = 'Naziv atributa';
+$_['column_attribute_group'] = 'Grupe Atributa';
+$_['column_sort_order']      = 'Redoslijed sortiranja';
+$_['column_action']          = 'Akcija';
 
 // Entry
-$_['entry_product']     = 'Proizvod';
-$_['entry_author']      = 'Autor';
-$_['entry_rating']      = 'Rejting';
-$_['entry_status']      = 'Status';
-$_['entry_text']        = 'Tekst';
-$_['entry_date_added']  = 'Datum dodavanja';
-
-// Help
-$_['help_product']      = '(Samodovršetak)';
+$_['entry_name']             = 'Naziv atributa';
+$_['entry_attribute_group']  = 'Grupe Atributa';
+$_['entry_sort_order']       = 'Redoslijed sortiranja';
 
 // Error
-$_['error_warning']     = 'Upozorenje: Provjerite obrazac pažljivo radi grešaka!';
-$_['error_permission']  = 'Upozorenje: Nemate dozvolu za mijenjanje recenzija!';
-$_['error_product']     = 'Proizvoda potrebno!';
-$_['error_author']      = 'Autor mora biti između 3 i 64 znakova!';
-$_['error_text']        = 'Tekst recenzije mora biti barem 1 znak!';
-$_['error_rating']      = 'Potreban rejting recenzije!';
+$_['error_warning']          = 'Upozorenje: Provjerite obrazac pažljivo radi grešaka!';
+$_['error_permission']       = 'Upozorenje: Nemate dozvolu za mijenjanje atributa!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Naziv atributa mora biti između 3 i 64 znakova!';
+$_['error_product']          = 'Upozorenje: Ovaj atribut se ne može izbrisati jer je trenutno dodijeljen %s proizvoda!';
