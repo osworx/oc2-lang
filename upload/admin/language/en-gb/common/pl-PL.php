@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'Zapomniałeś hasła?';
+// Heading
+$_['heading_title']          = 'OpenCart';
 
 // Text
-$_['text_forgotten']  = 'Zapomniane hasło';
-$_['text_your_email'] = 'Twój adres e-mail';
-$_['text_email']      = 'Wprowadź adres e-mail powiązany z Twoim kontem. Kliknij opcję Prześlij, aby otrzymać na skrzynkę e-mail link umożliwiający zresetowanie hasła.';
-$_['text_success']    = 'Mail z linkiem potwierdzającym został wysłany na adres email admina.';
-
-// Entry
-$_['entry_email']     = 'Adres e-mail';
-$_['entry_password']  = 'Nowe hasło';
-$_['entry_confirm']   = 'Potwierdź';
-
-// Error
-$_['error_email']     = 'Ostrzeżenie: Adres e-mail nie został odnaleziony, proszę spróbuj ponownie!';
-$_['error_password']  = 'Hasło musi zawierać od 4 do 20 znaków!';
-$_['error_confirm']   = 'Hasło i potwierdzenie hasła nie są identyczne!';
+$_['text_order']             = 'Zamówienia';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'Gotowe';
+$_['text_customer']          = 'Klienci';
+$_['text_online']            = 'Klienci online';
+$_['text_approval']          = 'Oczekujące na zatwierdzenie';
+$_['text_product']           = 'Produkty';
+$_['text_stock']             = 'Brak w magazynie';
+$_['text_review']            = 'Opinie';
+$_['text_return']            = 'Zwroty';
+$_['text_affiliate']         = 'Partnerzy';
+$_['text_store']             = 'Sklepy';
+$_['text_front']             = 'Witryna sklepu';
+$_['text_help']              = 'Pomoc';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'Forum Pomocy';
+$_['text_documentation']     = 'Dokumentacja';
+$_['text_logout']            = 'Wyloguj się';
