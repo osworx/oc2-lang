@@ -1,42 +1,36 @@
 <?php
 // Heading
-$_['heading_title']			= 'Recurring Profiles';
+$_['heading_title']     = 'Կարծիքներ';
 
 // Text
-$_['text_success']          = 'Հաջողությամբ recurring profiles-ը թարմացված են!';
-$_['text_list']             = 'Recurring Profile-ների ցուցակ';
-$_['text_add']              = 'Ավելացնել Recurring Profile';
-$_['text_edit']             = 'Խմբագրել Recurring Profile';
-$_['text_day']				= 'Օրեր';
-$_['text_week']				= 'Այս Շաբաթ';
-$_['text_semi_month']		= 'Ամսվա կես';
-$_['text_month']			= 'Ամիս';
-$_['text_year']				= 'Տարի';
-$_['text_recurring']	    = '<p><i class="fa fa-info-circle"></i> Recurring amounts are calculated by the frequency and cycles.</p><p>For example if you use a frequency of "week" and a cycle of "2", then the user will be billed every 2 weeks.</p><p>The duration is the number of times the user will make a payment, set this to 0 if you want payments until they are cancelled.</p>';
-$_['text_profile']			= 'Recurring Profile';
-$_['text_trial']			= 'Trial Profile';
-
-// Entry
-$_['entry_name']		    = 'Անուն';
-$_['entry_price']			= 'Գինը';
-$_['entry_duration']		= 'Տևողություն';
-$_['entry_cycle']			= 'Շրջան';
-$_['entry_frequency']		= 'Հաճախություն';
-$_['entry_trial_price']		= 'Trial price';
-$_['entry_trial_duration']	= 'Trial duration';
-$_['entry_trial_status']	= 'Trial status';
-$_['entry_trial_cycle']	    = 'Փորձաշրջան';
-$_['entry_trial_frequency'] = 'Trial frequency';
-$_['entry_status']			= 'Կարգավիճակ';
-$_['entry_sort_order']		= 'Դասավորման կարգ';
+$_['text_success']      = 'Կարծիքները հաջողությամբ թարմացված են!';
+$_['text_list']         = 'Կարծիքների ցուցակ';
+$_['text_add']          = 'Ավելացնել կարծիք';
+$_['text_edit']         = 'Խմբագրել կարծիք';
 
 // Column
-$_['column_name']			= 'Անուն';
-$_['column_sort_order']	    = 'Դասավորման կարգ';
-$_['column_action']         = 'Գործողություն';
+$_['column_product']    = 'Ապրանք';
+$_['column_author']     = 'Հեղինակ';
+$_['column_rating']     = 'Վարկանիշ';
+$_['column_status']     = 'Կարգավիճակ';
+$_['column_date_added'] = 'Ավելացնելու ամսաթիվը';
+$_['column_action']     = 'Գործողություն';
+
+// Entry
+$_['entry_product']     = 'Ապրանք';
+$_['entry_author']      = 'Հեղինակ';
+$_['entry_rating']      = 'Վարկանիշ';
+$_['entry_status']      = 'Կարգավիճակ';
+$_['entry_text']        = 'Տեքստը';
+$_['entry_date_added']  = 'Ավելացնելու ամսաթիվը';
+
+// Help
+$_['help_product']      = '(Ինքնալրացում)';
 
 // Error
-$_['error_warning']         = 'Զգուշացում. Խնդրում ենք ստուգել ձեւաթուղթը ուշադրությամբ, այն պետք է լինի առանց սխալների!';
-$_['error_permission']		= 'Զգուշացում. Ձեզ թուլատրված չէ փոփոխելու recurring profiles-ը!';
-$_['error_name']			= 'Պրոֆիլի անունը պետք է լինի 3-ից 255 նիշ!';
-$_['error_product']			= 'Զգուշացում։Այս recurring profile չի կարող ջնջվել, քանի որ արդեն վերագրված է %s ապրանքներին!';
+$_['error_warning']     = 'Զգուշացում. Խնդրում ենք ստուգել ձեւաթուղթը ուշադրությամբ, այն պետք է լինի առանց սխալների!';
+$_['error_permission']  = 'Զգուշացում. Դուք թույլտվություն չունեք փոփոխելու կարծիքները!';
+$_['error_product']     = 'Հարկավոր է ընտրել ապրանքը!';
+$_['error_author']      = 'Հեղինակի անունը պետք է ունենա 3-ից 64 նիշ!';
+$_['error_text']        = 'Կարծիքի մասին տեքստը պետք է ունենա առնվազն մեկ նիշ!';
+$_['error_rating']      = '\'Հարկավոր է նշել գնահատականը!';
