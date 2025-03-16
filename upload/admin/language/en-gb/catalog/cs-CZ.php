@@ -1,36 +1,27 @@
 <?php
 // Heading
-$_['heading_title']     = 'Recenze';
+$_['heading_title']          = 'Atributy';
 
 // Text
-$_['text_success']      = 'Úspěch: Změnili jste Recenze!';
-$_['text_list']         = 'Seznam Recenzí';
-$_['text_add']          = 'Přidat recenzi';
-$_['text_edit']         = 'Upravit Recenze';
+$_['text_success']           = 'Úspěch: Jste změnili atributy!';
+$_['text_list']              = 'Seznam atributů';
+$_['text_add']               = 'Přidat atribut';
+$_['text_edit']              = 'Upravit atribut';
 
 // Column
-$_['column_product']    = 'Produkt';
-$_['column_author']     = 'Author';
-$_['column_rating']     = 'Hodnocení';
-$_['column_status']     = 'Stav';
-$_['column_date_added'] = 'Datum přidání';
-$_['column_action']     = 'Akce';
+$_['column_name']            = 'Název atributu';
+$_['column_attribute_group'] = 'Skupina atributů';
+$_['column_sort_order']      = 'Řadit podle';
+$_['column_action']          = 'Akce';
 
 // Entry
-$_['entry_product']     = 'Produkt';
-$_['entry_author']      = 'Author';
-$_['entry_rating']      = 'Hodnocení';
-$_['entry_status']      = 'Stav';
-$_['entry_text']        = 'Text';
-$_['entry_date_added']  = 'Datum přidání';
-
-// Help
-$_['help_product']      = '(Funkce Automatické dokončování)';
+$_['entry_name']             = 'Název atributu';
+$_['entry_attribute_group']  = 'Skupina atributů';
+$_['entry_sort_order']       = 'Řadit podle';
 
 // Error
-$_['error_warning']     = 'Upozornění: Zkontrolujte formulář pečlivě pro chyby!';
-$_['error_permission']  = 'Upozornění: Nemáte oprávnění ke změně Recenze!';
-$_['error_product']     = 'Produkt je požadován!';
-$_['error_author']      = 'Autor musí být v rozmezí 3 až 64 znaků!';
-$_['error_text']        = 'Text Recenze musí být alespoň 1 znak!';
-$_['error_rating']      = 'Hodnocení recenze je vyžadováno!';
+$_['error_warning']          = 'Upozornění: Zkontrolujte formulář pečlivě pro chyby!';
+$_['error_permission']       = 'Upozornění: Nemáte oprávnění ke změně atributů!';
+$_['error_attribute_group']  = 'Attribute Group Required!';
+$_['error_name']             = 'Název atributu musí být v rozmezí 3 až 64 znaků!';
+$_['error_product']          = 'Varování: Tento atribut nemůže být odstraněn, protože je v současnosti přiřazen k %s produktů!';
