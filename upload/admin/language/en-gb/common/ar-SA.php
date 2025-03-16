@@ -1,4 +1,19 @@
 <?php
+// header
+$_['heading_title']   = 'هل نسيت كلمة المرور الخاصة بك؟';
+
 // Text
-$_['text_footer']  = '<a href="http://www.opencart.com">OpenCart</a> &copy; 2009-' . date('Y') . ' All Rights Reserved.';
-$_['text_version'] = 'النسخة %s';
+$_['text_forgotten']  = 'كلمة المرور منسيّة';
+$_['text_your_email'] = 'عنوان البريد الإلكتروني الخاص بك';
+$_['text_email']      = 'قم بإدخال عنوان البريد الإلكتروني المرتبط بحسابك. ثم انقر على زر الإدخال للحصول على رابط إعادة تعيين كلمة المرور عبر بريدك الإلكتروني.';
+$_['text_success']    = 'تم إرسال رابط التأكيد إلى البريد الإلكتروني الخاص بمالك المتجر.';
+
+// Entry
+$_['entry_email']     = 'عنوان البريد الإلكتروني';
+$_['entry_password']  = 'كلمة المرور الجديدة';
+$_['entry_confirm']   = 'تأكيد';
+
+// Error
+$_['error_email']     = 'تحذير: عنوان البريد الإلكتروني لم يتم إيجاده في سجلاتنا, الرجاء المحاولة مره اخرى!';
+$_['error_password']  = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']   = 'لا تتطابق كلمة المرور مع خانة تأكيد كلمة المرور!';
