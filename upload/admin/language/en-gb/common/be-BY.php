@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Адміністрацыя';
+$_['heading_title']  = 'Змяніць пароль';
 
 // Text
-$_['text_heading']   = 'Адміністрацыя';
-$_['text_login']     = 'Увядзі свае дадзеныя для ўваходу.';
-$_['text_forgotten'] = 'Забылі пароль';
+$_['text_password']  = 'Увядзіце новы пароль.';
+$_['text_success']   = 'Поспех: Ваш пароль быў паспяхова зменены.';
 
 // Entry
-$_['entry_username'] = 'Імя карыстальніка';
 $_['entry_password'] = 'Пароль';
-
-// Button
-$_['button_login']   = 'Уваход';
+$_['entry_confirm']  = 'Confirm';
 
 // Error
-$_['error_login']    = 'Няправільны пароль альбо імя карыстальніка.';
-$_['error_token']    = 'Сеанс скончаны, увайдзіце, калі ласка, зноў.';
+$_['error_password'] = 'Password must be between 4 and 20 characters!';
+$_['error_confirm']  = 'Password and password confirmation do not match!';
