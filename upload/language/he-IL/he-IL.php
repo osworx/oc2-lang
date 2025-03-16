@@ -1,36 +1,103 @@
 <?php
-// Heading
-$_['heading_title']     = 'ביקורות';
-
 // Text
-$_['text_success']      = 'הצלחה: שינית ביקורות!';
-$_['text_list']         = 'רשימת ביקורות';
-$_['text_add']          = 'הוסף ביקורת';
-$_['text_edit']         = 'ערוך ביקורת';
-
-// Column
-$_['column_product']    = 'מוצר';
-$_['column_author']     = 'מחבר';
-$_['column_rating']     = 'דירוג';
-$_['column_status']     = 'סטטוס';
-$_['column_date_added'] = 'תאריך שנוסף';
-$_['column_action']     = 'פעולה';
-
-// Entry
-$_['entry_product']     = 'מוצר';
-$_['entry_author']      = 'מחבר';
-$_['entry_rating']      = 'דירוג';
-$_['entry_status']      = 'סטטוס';
-$_['entry_text']        = 'טקסט';
-$_['entry_date_added']  = 'תאריך שנוסף';
-
-// Help
-$_['help_product']      = '(השלמה אוטומטית)';
-
-// Error
-$_['error_warning']     = 'אזהרה: אנא בדוק בקפידה אם יש שגיאות בטופס!';
-$_['error_permission']  = 'אזהרה: אין לך הרשאה לשינוי ביקורות!';
-$_['error_product']     = 'מוצר נדרש!';
-$_['error_author']      = 'מחבר חייב להיות בין 3 ל 64 תווים!';
-$_['error_text']        = 'טקסט ביקורת חייב להיות לפחות תו אחד!';
-$_['error_rating']      = 'דירוג ביקורת נדרש!';
+$_['text_affiliate']                 = 'שותפים';
+$_['text_api']                       = 'API';
+$_['text_attribute']                 = 'מאפיינים';
+$_['text_attribute_group']           = 'קבוצות מאפיינים';
+$_['text_backup']                    = 'גיבוי / שחזור';
+$_['text_banner']                    = 'באנרים';
+$_['text_catalog']                   = 'קטלוג';
+$_['text_category']                  = 'קטגוריות';
+$_['text_country']                   = 'ארצות';
+$_['text_coupon']                    = 'קופונים';
+$_['text_currency']                  = 'מטבעות';
+$_['text_customer']                  = 'לקוחות';
+$_['text_customer_group']            = 'קבוצת לקוחות';
+$_['text_custom_field']              = 'שדות מותאמים אישית';
+$_['text_dashboard']                 = 'לוח בקרה';
+$_['text_design']                    = 'עיצוב';
+$_['text_download']                  = 'הורדות';
+$_['text_log']                       = 'יומן שגיאות';
+$_['text_event']                     = 'Events';
+$_['text_extension']                 = 'הרחבות';
+$_['text_filter']                    = 'פילטרים';
+$_['text_geo_zone']                  = 'אזורי גיאו';
+$_['text_information']               = 'מידע';
+$_['text_installer']                 = 'מתקין הרחבות';
+$_['text_language']                  = 'שפות';
+$_['text_layout']                    = 'פריסות';
+$_['text_localisation']              = 'מיקומים';
+$_['text_location']                  = 'מיקום אחסון';
+$_['text_contact']                   = 'דוא"ל';
+$_['text_marketing']                 = 'שיווק';
+$_['text_menu']                      = 'Menu Manager';
+$_['text_modification']              = 'שינויים';
+$_['text_manufacturer']              = 'יצרנים';
+$_['text_option']                    = 'אפשרויות';
+$_['text_order']                     = 'הזמנות';
+$_['text_order_status']              = 'מצבי טיפול בהזמנה';
+$_['text_product']                   = 'מוצרים';
+$_['text_reports']                   = 'דוחו"ת';
+$_['text_report_sale']               = 'מכירות';
+$_['text_report_sale_order']         = 'הזמנות';
+$_['text_report_sale_tax']           = 'מע״מ';
+$_['text_report_sale_shipping']      = 'משלוחים';
+$_['text_report_sale_return']        = 'החזרות';
+$_['text_report_sale_coupon']        = 'קופונים';
+$_['text_report_product']            = 'מוצרים';
+$_['text_report_product_viewed']     = 'צפיות';
+$_['text_report_product_purchased']  = 'נרכשו';
+$_['text_report_customer']           = 'לקוחות';
+$_['text_report_customer_activity']  = 'פעילות הלקוח';
+$_['text_report_customer_search']    = 'Customer Searches';
+$_['text_report_customer_online']    = 'לקוחות מקוונים';
+$_['text_report_customer_order']     = 'הזמנות';
+$_['text_report_customer_reward']    = 'נקודות מצטברות';
+$_['text_report_customer_credit']    = 'אשראי';
+$_['text_report_marketing']          = 'שיווק';
+$_['text_report_affiliate']          = 'שותפים';
+$_['text_report_affiliate_activity'] = 'פעילות שותפים';
+$_['text_review']                    = 'ביקורות';
+$_['text_return']                    = 'החזרות';
+$_['text_return_action']             = 'פעולות החזרה';
+$_['text_return_reason']             = 'סיבות החזרה';
+$_['text_return_status']             = 'סטטוסי החזרות';
+$_['text_sale']                      = 'מכירות';
+$_['text_setting']                   = 'הגדרות';
+$_['text_store']                     = 'Extension Store';
+$_['text_stock_status']              = 'סטטוסי מלאי';
+$_['text_system']                    = 'מערכת';
+$_['text_tax']                       = 'מיסים';
+$_['text_tax_class']                 = 'שיעורי המס';
+$_['text_tax_rate']                  = 'שיעורי מס';
+$_['text_translation']               = 'Language Editor';
+$_['text_theme']                     = 'Theme Editor';
+$_['text_tools']                     = 'כלים';
+$_['text_upload']                    = 'העלאות';
+$_['text_user']                      = 'משתמשים';
+$_['text_users']                     = 'משתמשים';
+$_['text_user_group']                = 'קבוצות משתמשים';
+$_['text_voucher']                   = 'שוברי מתנה';
+$_['text_voucher_theme']             = 'ערכות שוברים';
+$_['text_weight_class']              = 'סוגי משקל';
+$_['text_length_class']              = 'סוגי אורך';
+$_['text_zone']                      = 'אזורים';
+$_['text_recurring']                 = 'פרופילי החזרות';
+$_['text_order_recurring']           = 'הזמנות חוזרות';
+$_['text_openbay_extension']         = 'OpenBay Pro';
+$_['text_openbay_dashboard']         = 'לוח בקרה';
+$_['text_openbay_orders']            = 'עדכון הזמנה בצובר';
+$_['text_openbay_items']             = 'נהל פריטים';
+$_['text_openbay_ebay']              = 'eBay';
+$_['text_openbay_amazon']            = 'אמזון (האיחוד האירופי)';
+$_['text_openbay_amazonus']          = 'אמזון (ארהב)';
+$_['text_openbay_etsy']            	 = 'Etsy';
+$_['text_openbay_settings']          = 'הגדרות';
+$_['text_openbay_links']             = 'קישורי פריט';
+$_['text_openbay_report_price']      = 'דו"ח תמחור';
+$_['text_openbay_order_import']      = 'ייבוא הזמנה';
+$_['text_paypal']                    = 'PayPal';
+$_['text_paypal_search']             = 'חיפוש';
+$_['text_complete_status']           = 'הזמנות הושלמו'; 
+$_['text_processing_status']         = 'הזמנות בתהליך'; 
+$_['text_other_status']              = 'סטטוסים אחרים'; 
