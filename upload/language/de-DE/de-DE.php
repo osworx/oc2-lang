@@ -1,36 +1,103 @@
 <?php
-// Heading
-$_['heading_title']     = 'Bewertungen';
-
 // Text
-$_['text_success']      = 'Datensatz erfolgreich bearbeitet';
-$_['text_list']         = 'Übersicht';
-$_['text_add']          = 'Neu';
-$_['text_edit']         = 'Bearbeiten';
-
-// Column
-$_['column_product']    = 'Produkt';
-$_['column_author']     = 'Autor';
-$_['column_rating']     = 'Bewertung';
-$_['column_status']     = 'Status';
-$_['column_date_added'] = 'Erstellt';
-$_['column_action']     = 'Aktion';
-
-// Entry
-$_['entry_product']     = 'Produkt';
-$_['entry_author']      = 'Autor';
-$_['entry_rating']      = 'Bewertung';
-$_['entry_status']      = 'Status';
-$_['entry_text']        = 'Text (einzeilig)';
-$_['entry_date_added']  = 'Erstellt';
-
-// Help
-$_['help_product']      = 'Begriff eintippen, System zeigt passende an';
-
-// Error
-$_['error_warning']     = 'Erforderliche Daten fehlen, bitte Felder überprüfen.';
-$_['error_permission']  = 'Keine Rechte für diese Aktion';
-$_['error_product']     = 'Produkt erforderlich!';
-$_['error_author']      = 'Autorenname muss zwischen 3 und max. 64 Zeichen lang sein!';
-$_['error_text']        = 'Text muss mindestens 1 Zeichen lang sein';
-$_['error_rating']      = 'Eine Bewertung ist zwingend erforderlich';
+$_['text_affiliate']                 = 'Partner';
+$_['text_api']                       = 'API';
+$_['text_attribute']                 = 'Eigenschaften';
+$_['text_attribute_group']           = 'Eigenschaftsgruppen';
+$_['text_backup']                    = 'Sichern / Wiederherst.';
+$_['text_banner']                    = 'Banner';
+$_['text_catalog']                   = 'Katalog';
+$_['text_category']                  = 'Kategorien';
+$_['text_country']                   = 'Länder';
+$_['text_coupon']                    = 'Gutscheine';
+$_['text_currency']                  = 'Währungen';
+$_['text_customer']                  = 'Kunden';
+$_['text_customer_group']            = 'Kundengruppen';
+$_['text_custom_field']              = 'Eigene Felder';
+$_['text_dashboard']                 = 'Übersicht';
+$_['text_design']                    = 'Design';
+$_['text_download']                  = 'Downloads';
+$_['text_log']                       = 'Berichte';
+$_['text_event']                     = 'Events';
+$_['text_extension']                 = 'Erweiterungen';
+$_['text_filter']                    = 'Filter';
+$_['text_geo_zone']                  = 'Geozonen';
+$_['text_information']               = 'Texte';
+$_['text_installer']                 = 'Installer';
+$_['text_language']                  = 'Sprachen';
+$_['text_layout']                    = 'Layout';
+$_['text_localisation']              = 'Lokale Einst.';
+$_['text_location']                  = 'Geschäftsadresse';
+$_['text_contact']                   = 'Email';
+$_['text_marketing']                 = 'Werbung';
+$_['text_menu']                      = 'Menu Manager';
+$_['text_modification']              = 'Anpassungen';
+$_['text_manufacturer']              = 'Hersteller';
+$_['text_option']                    = 'Optionen';
+$_['text_order']                     = 'Aufträge';
+$_['text_order_status']              = 'Auftragsstatusse';
+$_['text_product']                   = 'Produkte';
+$_['text_reports']                   = 'Auswertungen';
+$_['text_report_sale']               = 'Verkauf';
+$_['text_report_sale_order']         = 'Aufträge';
+$_['text_report_sale_tax']           = 'Steuern';
+$_['text_report_sale_shipping']      = 'Versand';
+$_['text_report_sale_return']        = 'Retouren';
+$_['text_report_sale_coupon']        = 'Gutscheine';
+$_['text_report_product']            = 'Produkte';
+$_['text_report_product_viewed']     = 'Angesehen';
+$_['text_report_product_purchased']  = 'Gekauft';
+$_['text_report_customer']           = 'Kunden';
+$_['text_report_customer_activity']  = 'Aktivität';
+$_['text_report_customer_search']    = 'Customer Searches';
+$_['text_report_customer_online']    = 'Kunden Online';
+$_['text_report_customer_order']     = 'Aufträge';
+$_['text_report_customer_reward']    = 'Bonuspunkte';
+$_['text_report_customer_credit']    = 'Guthaben';
+$_['text_report_marketing']          = 'Werbung';
+$_['text_report_affiliate']          = 'Partner';
+$_['text_report_affiliate_activity'] = 'Partner Aktivitäten';
+$_['text_review']                    = 'Bewertungen';
+$_['text_return']                    = 'Retouren';
+$_['text_return_action']             = 'Retouraktionen';
+$_['text_return_reason']             = 'Retourgründe';
+$_['text_return_status']             = 'Retourstatusse';
+$_['text_sale']                      = 'Verkauf';
+$_['text_setting']                   = 'Einstellungen';
+$_['text_store']                     = 'Extension Store';
+$_['text_stock_status']              = 'Lagerstandstexte';
+$_['text_system']                    = 'System';
+$_['text_tax']                       = 'Steuern';
+$_['text_tax_class']                 = 'Steuerklassen';
+$_['text_tax_rate']                  = 'Steuersätze';
+$_['text_translation']               = 'Language Editor';
+$_['text_theme']                     = 'Theme Editor';
+$_['text_tools']                     = 'Werkzeuge';
+$_['text_upload']                    = 'Uploads';
+$_['text_user']                      = 'Benutzer';
+$_['text_users']                     = 'Benutzer';
+$_['text_user_group']                = 'Benutzergruppen';
+$_['text_voucher']                   = 'Gutscheine';
+$_['text_voucher_theme']             = 'Gutscheinvorlagen';
+$_['text_weight_class']              = 'Gewichtseinheiten';
+$_['text_length_class']              = 'Längeneinheiten';
+$_['text_zone']                      = 'Länderzonen';
+$_['text_recurring']                 = 'Abozahlungen';
+$_['text_order_recurring']           = 'Daueraufträge';
+$_['text_openbay_extension']         = 'OpenBay Pro';
+$_['text_openbay_dashboard']         = 'Übersicht';
+$_['text_openbay_orders']            = 'OB Aufträge bearbeiten';
+$_['text_openbay_items']             = 'OB Einträge verwalten';
+$_['text_openbay_ebay']              = 'OB eBay';
+$_['text_openbay_amazon']            = 'OB Amazon (EU)';
+$_['text_openbay_amazonus']          = 'OB Amazon (US)';
+$_['text_openbay_etsy']            	 = 'Etsy';
+$_['text_openbay_settings']          = 'Einstellungen';
+$_['text_openbay_links']             = 'OB Links';
+$_['text_openbay_report_price']      = 'OB Preisübersicht';
+$_['text_openbay_order_import']      = 'OB Auftragsimport';
+$_['text_paypal']                    = 'PayPal';
+$_['text_paypal_search']             = 'Suche';
+$_['text_complete_status']           = 'Aufträge Abgeschlossen'; 
+$_['text_processing_status']         = 'Aufträge in Arbeit'; 
+$_['text_other_status']              = 'Andere Stati'; 
