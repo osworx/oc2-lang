@@ -1,25 +1,46 @@
 <?php
 // Heading
-$_['heading_title']     = 'Grupa atrybutów';
+$_['heading_title']          = 'Kategorie';
 
 // Text
-$_['text_success']      = 'Sukces: Grupy Atrybutów zostały zmienione!';
-$_['text_list']         = 'Lista grup atrybutów';
-$_['text_add']          = 'Dodaj atrybut grupy';
-$_['text_edit']         = 'Edytuj atrybut grupy';
+$_['text_success']           = 'Sukces: Kategorie zostały zmodyfikowane!';
+$_['text_list']              = 'Lista kategorii';
+$_['text_add']               = 'Dodaj kategorię';
+$_['text_edit']              = 'Edytuj kategorię';
+$_['text_default']           = 'Domyślnie';
 
 // Column
-$_['column_name']       = 'Nazwa atrybut grupy';
-$_['column_sort_order'] = 'Kolejność sortowania';
-$_['column_action']     = 'Akcja';
+$_['column_name']            = 'Nazwa kategorii';
+$_['column_sort_order']      = 'Kolejność sortowania';
+$_['column_action']          = 'Akcja';
 
 // Entry
-$_['entry_name']        = 'Nazwa atrybut grupy';
-$_['entry_sort_order']  = 'Kolejność sortowania';
+$_['entry_name']             = 'Nazwa kategorii';
+$_['entry_description']      = 'Opis';
+$_['entry_meta_title'] 	     = 'Meta Tag Tytuł';
+$_['entry_meta_keyword']     = 'Słowa kluczowe Tag meta';
+$_['entry_meta_description'] = 'Opis Tag meta';
+$_['entry_keyword']          = 'SEO URL';
+$_['entry_parent']           = 'Kategoria nadrzędna:';
+$_['entry_filter']           = 'Filtry';
+$_['entry_store']            = 'Sklepy';
+$_['entry_image']            = 'Zdjęcie';
+$_['entry_top']              = 'U góry';
+$_['entry_column']           = 'Kolumny';
+$_['entry_sort_order']       = 'Kolejność sortowania';
+$_['entry_status']           = 'Status';
+$_['entry_layout']           = 'Zastępowanie układu';
+
+// Help
+$_['help_filter']            = '(Autouzupełnianie)';
+$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['help_top']               = 'Wyświetla w górnym pasku menu . Działa tylko dla kategorii nadrzędnych.';
+$_['help_column']            = 'Liczba kolumn do wykorzystania w podkategoriach. Działa tylko dla najwyższych nadrzędnych kategorii.';
 
 // Error
-$_['error_warning']     = 'Uwaga: Sprawdź dokładnie formularz pod kątem błędów!';
-$_['error_permission']  = 'Ostrzeżenie: Nie masz uprawnień do modyfikowania atrybutów!';
-$_['error_name']        = 'Nazwa grupy atrybut musi być między 3 i 64 znaków!';
-$_['error_attribute']   = 'Ostrzeżenie: Ta grupa atrybutów nie może zostać usunięta, ponieważ jest aktualnie przypisana do %s atrybutów!';
-$_['error_product']     = 'Ostrzeżenie: Ta grupa atrybutów nie może zostać usunięta, ponieważ jest aktualnie przypisana do %s produktów!';
+$_['error_warning']          = 'Uwaga: Sprawdź dokładnie formularz pod kątem błędów!';
+$_['error_permission']       = 'Ostrzeżenie: Nie masz uprawnień do modyfikowania kategorii!';
+$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
+$_['error_meta_title']       = 'Nazwa kategorii musi zawierać od 3 do 255 znaków!';
+$_['error_keyword']          = 'SEO URL already in use!';
+$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
