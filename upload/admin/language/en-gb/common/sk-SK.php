@@ -1,19 +1,15 @@
 <?php
 // header
-$_['heading_title']  = 'Administrácia';
+$_['heading_title']  = 'Obnovenie vašeho hesla';
 
 // Text
-$_['text_heading']   = 'Administrácia';
-$_['text_login']     = 'Prosím zadajte svoje prihlasovacie údaje.';
-$_['text_forgotten'] = 'Zabudnuté heslo';
+$_['text_password']  = 'Zadajte nové heslo, ktoré chcete používať.';
+$_['text_success']   = 'Úspech: Vaše heslo bolo úspešne aktualizované.';
 
 // Entry
-$_['entry_username'] = 'Užívateľské Meno';
 $_['entry_password'] = 'Heslo';
-
-// Button
-$_['button_login']   = 'Prihlásiť sa';
+$_['entry_confirm']  = 'Potvrdiť';
 
 // Error
-$_['error_login']    = 'Žiadna zhoda s užívateľským menom a/alebo s heslom';
-$_['error_token']    = 'Neplatná relácia. Prosím prihláste sa znova.';
+$_['error_password'] = 'Heslo musí byť dlhšie ako 4 znaky a kratšie než 20 znakov!';
+$_['error_confirm']  = 'Heslo a potvrdenie hesla sa nezhodujú!';
