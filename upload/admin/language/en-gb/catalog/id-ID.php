@@ -1,46 +1,35 @@
 <?php
 // Heading
-$_['heading_title']          = 'Kategori';
+$_['heading_title']     = 'Unduhan';
 
 // Text
-$_['text_success']           = 'Sukses: Anda telah mengubah kategori!';
-$_['text_list']              = 'Daftar Kategori';
-$_['text_add']               = 'Tambahkan Kategori';
-$_['text_edit']              = 'Ubah Kategori';
-$_['text_default']           = 'Standar';
+$_['text_success']      = 'Sukses: Anda telah memodifikasi unduhan!';
+$_['text_list']         = 'Daftar Unduhan';
+$_['text_add']          = 'Tambahkan Unduhan';
+$_['text_edit']         = 'Mengubah Unduhan';
+$_['text_upload']       = 'File anda berhasil diupload!';
 
 // Column
-$_['column_name']            = 'Nama Kategori';
-$_['column_sort_order']      = 'Urutan';
-$_['column_action']          = 'Tindakan';
+$_['column_name']       = 'Nama Download';
+$_['column_date_added'] = 'Tanggal Ditambahkan';
+$_['column_action']     = 'Tindakan';
 
 // Entry
-$_['entry_name']             = 'Nama Kategori';
-$_['entry_description']      = 'Deskripsi';
-$_['entry_meta_title'] 	     = 'Judul Tag Meta';
-$_['entry_meta_keyword']     = 'Kata Kunci Tag Meta';
-$_['entry_meta_description'] = 'Deskripsi Tag Meta';
-$_['entry_keyword']          = 'SEO URL';
-$_['entry_parent']           = 'Induk';
-$_['entry_filter']           = 'Filter';
-$_['entry_store']            = 'Toko';
-$_['entry_image']            = 'Gambar';
-$_['entry_top']              = 'Atas';
-$_['entry_column']           = 'Kolom';
-$_['entry_sort_order']       = 'Urutan';
-$_['entry_status']           = 'Status';
-$_['entry_layout']           = 'Penimpaan Tata Letak';
+$_['entry_name']        = 'Nama Download';
+$_['entry_filename']    = 'Nama File';
+$_['entry_mask']        = 'Kasker';
 
 // Help
-$_['help_filter']            = '(Autocomplete)';
-$_['help_keyword']           = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
-$_['help_top']               = 'Tampilan di menu bar atas. Hanya bekerja untuk induk kategori.';
-$_['help_column']            = 'Jumlah kolom untuk menggunakan 3 kategori dibawah. Hanya bekerja untuk induk kategori.';
+$_['help_filename']     = 'Anda dapat meng-upload melalui tombol upload atau menggunakan FTP untuk meng-upload ke direktori download dan masukkan rincian di bawah ini.';
+$_['help_mask']         = 'Disarankan bahwa nama file dan topeng yang berbeda untuk menghentikan orang-orang yang mencoba untuk langsung link ke download Anda.';
 
 // Error
-$_['error_warning']          = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
-$_['error_permission']       = 'Peringatan: Anda tidak memiliki izin untuk mengubah kategori!';
-$_['error_name']             = 'Category Name must be between 2 and 255 characters!';
-$_['error_meta_title']       = 'Judul meta harus lebih besar dari 3 dan kurang dari 255 karakter!';
-$_['error_keyword']          = 'SEO URL already in use!';
-$_['error_parent']           = 'The parent category you have chosen is a child of the current one!';
+$_['error_warning']     = 'Peringatan: Mohon periksa formulir secara teliti untuk kesalahan!';
+$_['error_permission']  = 'Peringatan: Anda tidak memiliki izin untuk memodifikasi download!';
+$_['error_name']        = 'Download nama harus antara 3 dan 64 karakter!';
+$_['error_upload']      = 'Upload Diperlukan!';
+$_['error_filename']    = 'Namafile harus antara 3 dan 128 karakter!';
+$_['error_exists']      = 'File tidak ada!';
+$_['error_mask']        = 'Masker harus antara 3 dan 128 karakter!';
+$_['error_filetype']    = 'Jenis berkas tidak valid!';
+$_['error_product']     = 'Peringatan: Download ini tidak bisa dihapus karena saat ini ditetapkan untuk produk %s!';
