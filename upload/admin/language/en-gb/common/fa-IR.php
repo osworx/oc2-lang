@@ -1,19 +1,23 @@
 <?php
-// header
-$_['heading_title']   = 'گذارواژه خود را فراموش کرده‌اید؟';
+// Heading
+$_['heading_title']          = 'اپن‌کارت';
 
 // Text
-$_['text_forgotten']  = 'فراموشی گذرواژه';
-$_['text_your_email'] = 'نشانی رایانامه شما';
-$_['text_email']      = 'نشانی رایانامه مربوط به حساب‌کاربری‌تان را وارد نمایید. ارسال را برای دریافت ایمیل پیوند تنظیم مجدد گذرواژه کلیک نمایید.';
-$_['text_success']    = 'ایمیلی با پیوند تایید به نشانی رایانامه شما فرستاده شد.';
-
-// Entry
-$_['entry_email']     = 'نشانی رایانامه';
-$_['entry_password']  = 'گذرواژه تازه';
-$_['entry_confirm']   = 'تایید';
-
-// Error
-$_['error_email']     = 'هشدار: نشانی رایانامه در رکوردهای ما یافت نشد، لطفا دوباره سعی نمایید!';
-$_['error_password']  = 'رمز عبور باید بین 4 تا 20 کاراکتر باشد!';
-$_['error_confirm']   = 'گذرواژه و تایید گذرواژه تطبیق ندارند!';
+$_['text_order']             = 'سفارش‌‌‌‌‌‌ها';
+$_['text_processing_status'] = 'Processing';
+$_['text_complete_status']   = 'تکمیل';
+$_['text_customer']          = 'مشتری‌ها';
+$_['text_online']            = 'مشتری‌های برخط';
+$_['text_approval']          = 'در انتظار تایید';
+$_['text_product']           = 'کالاها';
+$_['text_stock']             = 'موجود نیست';
+$_['text_review']            = 'بررسی‌ها';
+$_['text_return']            = 'برگشتی‌ها';
+$_['text_affiliate']         = 'بازاریاب‌ها';
+$_['text_store']             = 'فروشگاه‌ها';
+$_['text_front']             = 'نمای فروشگاه';
+$_['text_help']              = 'راهنمایی';
+$_['text_homepage']          = 'OpenCart Homepage';
+$_['text_support']           = 'انجمن پشتیبانی';
+$_['text_documentation']     = 'مستندات';
+$_['text_logout']            = 'خروج';
