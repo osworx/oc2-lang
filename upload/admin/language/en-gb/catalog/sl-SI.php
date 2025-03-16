@@ -1,35 +1,40 @@
 <?php
 // Heading
-$_['heading_title']     = 'Proizvajalci';
+$_['heading_title']      = 'Možnosti';
 
 // Text
-$_['text_success']      = 'USPEŠNO: Ste uredili proizvajalce!';
-$_['text_list']         = 'Seznam proizvajalcev';
-$_['text_add']          = 'Dodaj proizvajalca';
-$_['text_edit']         = 'Uredi proizvajalca';
-$_['text_default']      = 'Privzeto';
-$_['text_percent']      = 'Procentualno';
-$_['text_amount']       = 'Fiksni znesek';
+$_['text_success']       = 'USPEŠNO: Ste uredili možnosti!';
+$_['text_list']          = 'Seznam možnosti';
+$_['text_add']           = 'Dodaj možnost';
+$_['text_edit']          = 'Uredi možnost';
+$_['text_choose']        = 'Izberite';
+$_['text_select']        = 'Izbrano';
+$_['text_radio']         = 'Radijski gumb';
+$_['text_checkbox']      = 'Potrdilno polje';
+$_['text_input']         = 'Vnos';
+$_['text_text']          = 'Besedilo';
+$_['text_textarea']      = 'Besedilno polje';
+$_['text_file']          = 'Datoteka';
+$_['text_date']          = 'Datum';
+$_['text_datetime']      = 'Datum &amp; Čas';
+$_['text_time']          = 'Čas';
 
 // Column
-$_['column_name']       = 'Ime proizvajalca';
-$_['column_sort_order'] = 'Vrstni red';
-$_['column_action']     = 'Dejanje';
+$_['column_name']        = 'Ime možnosti';
+$_['column_sort_order']  = 'Vrstni red';
+$_['column_action']      = 'Dejanje';
 
 // Entry
-$_['entry_name']        = 'Ime proizvajalca';
-$_['entry_store']       = 'Trgovina';
-$_['entry_keyword']     = 'SEO URL';
-$_['entry_image']       = 'Slika';
-$_['entry_sort_order']  = 'Vrstni red';
-$_['entry_type']        = 'Tip';
-
-// Help
-$_['help_keyword']      = 'Do not use spaces, instead replace spaces with - and make sure the SEO URL is globally unique.';
+$_['entry_name']         = 'Ime možnosti';
+$_['entry_type']         = 'Tip';
+$_['entry_option_value'] = 'Ime vrednosti možnosti';
+$_['entry_image']        = 'Slika';
+$_['entry_sort_order']   = 'Vrstni red';
 
 // Error
-$_['error_warning']     = 'POZOR: Prosimo, pazljivo preverite polja za morebitne napake!';
-$_['error_permission']  = 'POZOR: Nimate dovoljenja za urejanje proizvajalcev!';
-$_['error_name']        = 'Ime proizvajalca mora imeti več kot 3 in manj kot 64 znakov!';
-$_['error_keyword']     = 'SEO URL already in use!';
-$_['error_product']     = 'POZOR: Tega proizvajalca ne morete izbrisati, ker je vezana na %s izdelke!';
+$_['error_warning']      = 'POZOR: Prosimo, pazljivo preverite polja za morebitne napake!';
+$_['error_permission']   = 'POZOR: Nimate dovoljenja za urejanje možnosti!';
+$_['error_name']         = 'Ime možnosti mora vsebovati med 1 in 128 znakov!';
+$_['error_type']         = 'POZOR: Vrednost možnosti je zahtevana!';
+$_['error_option_value'] = 'Vrednost možnosti mora vsebovati med 1 in 128 znakov!';
+$_['error_product']      = 'POZOR: Te možnosti ne morete izbrisati, ker je vezana na %s izdelke!';
